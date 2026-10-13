@@ -1,0 +1,13 @@
+{
+  "training_artifacts": "outputs/comparison_validation_v1/inputs/training_artifacts.npz",
+  "original_selection": "outputs/comparison_validation_v1/selection.json",
+  "rank": 32,
+  "shared_inference": {"max_iter": 3000, "tolerance": 0.000001, "a_delta": 2.0, "b_delta": 20.0, "nu": 3.0},
+  "variants": {
+    "rbmf_original_frozen": {"changes": {}, "accepted_as_accuracy_improvement": false},
+    "rbmf_p0_factor_stop_v1": {"changes": {"convergence": "factors"}, "accepted_as_accuracy_improvement": false, "purpose": "complete-factor convergence diagnostic"},
+    "rbmf_p0_ard_b1_v1": {"changes": {"convergence": "factors", "b_gamma": 1.0}, "accepted_as_accuracy_improvement": false, "purpose": "single-prior sensitivity relative to factor_stop"}
+  },
+  "promoted_model": null,
+  "test_evaluation_authorized": false
+}

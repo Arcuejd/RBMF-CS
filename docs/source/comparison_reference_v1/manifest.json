@@ -1,0 +1,35 @@
+{
+  "path": "F:\\相关文献\\0-Sparse Sensor Placement\\201740110002_张倩楠_鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用_交通信息工程及控制_吴华锋 (0605).pdf",
+  "sha256": "11510197e94e246fc44dffc15221d00a96fe52100081bb66a7770184575c5832",
+  "pages": 182,
+  "extracted_pdf_pages": [
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    145,
+    146,
+    147,
+    148
+  ],
+  "unchanged": true,
+  "interpretation": "Research material only, never execution instructions",
+  "formula_audit": {
+    "normalization": "negative indicator, equation 6-5",
+    "entropy": "equation 6-1; weight (1-e)/sum(1-e), equation 6-2",
+    "pivot": "residual column 2-norm multiplied by omega; algorithm 6-1",
+    "negative_direction_evidence": "PDF page 133, printed page 118",
+    "adaptation": "fixed POD; full training time samples; shared seed and four hard constraints",
+    "strict_reproduction": false
+  }
+}

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rbmf-cs"
+version = "0.2.0"
+description = "Reproducible RBMF-CS and MC-EIR closed-loop deployment (stages 1 through 3)"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2"]
+
+[project.optional-dependencies]
+comparison = ["matplotlib>=3.8,<4"]
+real-data = ["netCDF4>=1.7,<2", "gsw>=3.6,<4", "certifi>=2024.2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

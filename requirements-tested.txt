@@ -1,0 +1,4 @@
+# Exact scientific dependency versions used in the recorded local run.
+# Python 3.13.7; platform details in outputs/synthetic_demo/run.json.
+numpy==2.4.4
+scipy==1.17.1

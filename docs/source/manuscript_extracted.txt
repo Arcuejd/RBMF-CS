@@ -1,0 +1,943 @@
+[0000] Robust Bayesian Multi-Fidelity Reconstruction and Constraint-Aware Effective-Information-Ratio Sensor Deployment for Polar Ocean Sensing
+[0001] Manuscript Draft / Paper Outline
+[0002] Target positioning: a methodology-oriented Q1 journal paper on probabilistic reconstruction and engineering-feasible sparse sensing deployment in polar marine environments.
+[0003] Note: Numerical results are intentionally not fabricated. The Results and Discussions section is written as a publication-ready experimental framework with explicit placeholders for values to be filled after experiments.
+[0005] Highlights
+[0006] A robust Bayesian multi-fidelity compressed sensing framework is developed for probabilistic reconstruction of polar ocean fields from sparse heterogeneous observations.
+[0007] Heavy-tailed likelihoods and hierarchical sparse priors jointly model non-Gaussian disturbances, outliers, fidelity mismatch, and posterior reconstruction uncertainty.
+[0008] An effective information ratio (EIR) integrates entropy gain, posterior uncertainty reduction, and redundancy suppression to quantify the value of adding a sensing node.
+[0009] Sea-ice concentration, node budget, energy budget, and communication connectivity are enforced as hard deployment constraints, while maintenance cost and failure risk are modeled as soft penalties.
+[0010] A reconstruction–deployment closed loop converts posterior uncertainty into actionable sensor-placement decisions and evaluates accuracy, calibration, robustness, and deployability jointly.
+[0011] Abstract
+[0012] Polar ocean sensing requires reliable reconstruction of large-scale environmental fields from a limited number of observations, yet practical deployments are simultaneously affected by heterogeneous data fidelity, non-Gaussian disturbances, sea-ice conditions, energy limitations, and communication requirements. Existing sparse sensor placement approaches mainly optimize deterministic reconstruction error, information content, or deployment cost, and therefore provide limited support for uncertainty-aware decision making under coupled engineering constraints. This study proposes a unified framework that couples robust Bayesian multi-fidelity compressed sensing (RBMF-CS) with multi-constrained effective-information-ratio (MC-EIR) sensor deployment. In the reconstruction layer, high- and low-fidelity data are linked through a probabilistic discrepancy model, while hierarchical sparse priors and a heavy-tailed observation model jointly infer latent sparse coefficients, fidelity bias, noise scale, and posterior state uncertainty. The resulting posterior mean provides the reconstructed ocean field, whereas the posterior variance supplies a spatial uncertainty map for deployment decisions. In the deployment layer, the marginal value of a candidate node is defined by an effective information gain that combines entropy gain, posterior uncertainty reduction, and information redundancy. Sea-ice concentration, the maximum number of nodes, total energy consumption, and communication connectivity are treated as hard feasibility constraints; maintenance cost and node failure risk are incorporated as soft penalties. The two layers form a closed reconstruction–deployment loop in which sensing locations are selected according to the amount of reliable new information obtained per unit system cost. A comprehensive evaluation protocol is designed to assess reconstruction accuracy, probabilistic calibration, robustness to distribution shift and abnormal observations, deployment feasibility, energy and communication cost, and ablation effects. The proposed formulation extends entropy-weighted sparse placement from deterministic information maximization to uncertainty-aware, multi-fidelity, engineering-feasible sensing optimization for polar marine monitoring.
+[0013] Keywords
+[0014] Polar ocean sensing; Bayesian compressed sensing; multi-fidelity data fusion; sparse sensor placement; uncertainty quantification; effective information ratio; sea-ice constraint; communication connectivity; energy-aware sensing
+[0015] 1. Introduction
+[0016] Large-scale monitoring of polar oceans is scientifically important but operationally difficult. Dense in-situ observation networks are expensive to deploy and maintain, and the feasible locations of sensing nodes vary with sea-ice conditions, accessibility, power availability, and communication infrastructure. Sparse sensing therefore offers an attractive alternative: a limited number of strategically selected measurements can be used to reconstruct a high-dimensional environmental field when the field possesses low-dimensional or sparse structure.
+[0017] The methodological basis of this study is the earlier entropy-weighted sparse deployment framework for marine sensing. That work used temporal entropy weighting for sample screening and an entropy-weighted QR pivoting strategy for spatial sensor selection, thereby coordinating information acquisition, reconstruction error, and deployment cost. It further introduced sea-ice concentration into Arctic sensor placement so that selected nodes tended to move toward lower-ice, more navigable regions. These results established the feasibility of combining data-driven spatial structure with environmental deployment constraints [1].
+[0018] However, two gaps remain if sparse polar sensing is considered as a system-level decision problem rather than an offline reconstruction problem. First, polar monitoring commonly relies on heterogeneous sources such as reanalysis or numerical-model products, remote sensing, and sparse high-quality observations. These sources differ in fidelity, resolution, bias, and noise characteristics. Deterministic reconstruction methods usually return a point estimate but do not quantify how strongly the estimate should be trusted at each location. Second, a high-information location is not necessarily deployable. A candidate sensor may violate sea-ice limits, exhaust the energy budget, or break communication connectivity even when its entropy or reconstruction benefit is large.
+[0019] A recent review of IoT sensor-network evaluation provides a useful system-level perspective: algorithmic performance should be distinguished from deployment feasibility, and evaluation should jointly consider resource budgets, communication overhead, environmental non-stationarity, and downstream operational consequences [2]. Although that review focuses on adversarial detection rather than ocean reconstruction, its evidence-oriented taxonomy and deployment-aware evaluation philosophy motivate the present formulation. In particular, the distinction between predictive uncertainty, reconstruction evidence, runtime context, and multi-strategy fusion provides a useful organizational lens for reviewing sparse marine sensing methods.
+[0020] Accordingly, this paper reframes sparse sensor placement as a coupled probabilistic reconstruction and deployment decision problem. The first objective is to infer a robust posterior distribution of the target ocean field from heterogeneous-fidelity data and sparse measurements. The second objective is to select a feasible sensor set that maximizes the reliable new information obtained per unit system cost. Posterior uncertainty from the reconstruction model is therefore not only an output metric; it becomes an explicit input to the next deployment decision.
+[0021] The main contributions of this work are summarized as follows:
+[0022] A robust Bayesian multi-fidelity compressed sensing model is formulated to jointly infer sparse latent coefficients, fidelity discrepancy, observation noise, and posterior uncertainty. Heavy-tailed likelihood modeling is introduced to reduce sensitivity to non-Gaussian noise and outliers.
+[0023] An effective information gain is defined by combining entropy gain, posterior uncertainty reduction, and redundancy suppression. On this basis, an effective information ratio quantifies the marginal value of a candidate sensor relative to its deployment and operational burden.
+[0024] A multi-constrained sensor placement formulation explicitly separates hard feasibility constraints from soft operational penalties. Sea-ice concentration, node number, energy, and communication connectivity define the feasible deployment domain; maintenance cost and failure risk influence preference within that domain.
+[0025] A closed reconstruction–deployment algorithm is designed so that posterior uncertainty is iteratively converted into sensing actions. The evaluation protocol jointly examines reconstruction accuracy, uncertainty calibration, robustness, deployment cost, connectivity, and constraint ablations rather than relying on a single offline error metric.
+[0026] The remainder of this paper is organized as follows. Section 2 reviews sparse sensor placement and reconstruction methods using an evidence-oriented six-family structure. Section 3 formulates the polar sensing problem and the multi-fidelity observation model. Section 4 presents the RBMF-CS reconstruction method. Section 5 develops the MC-EIR deployment formulation and constrained optimization algorithm. Section 6 describes the reconstruction–deployment closed loop and evaluation protocol. Section 7 reports and discusses the experimental results. Section 8 concludes the paper and outlines future work.
+[0027] 2. Related Work
+[0028] Rather than organizing the literature only by algorithm names, this section follows an evidence-oriented structure adapted from the six-family taxonomy in [2]. The categories are translated to the marine sensing problem and used to clarify what information each method exploits, what it contributes to deployment, and where its limitations arise.
+[0029] 2.1 Data- and Input-Consistency Methods
+[0030] These methods emphasize quality control before reconstruction, including denoising, physical-range checks, cross-source consistency, and abnormal-value suppression. Their main advantage is low computational cost and direct physical interpretability. However, fixed preprocessing may suppress meaningful extremes or fail when environmental regimes shift. In the proposed framework, this family motivates robust observation likelihoods rather than a rigid preprocessing-only solution.
+[0031] 2.2 Feature-Statistics and Subspace Methods
+[0032] POD/PCA, D-optimal design, QR pivoting, entropy weighting, and related subspace methods select sensors from dominant spatial modes or statistical structure. The previous entropy-weighted QR approach belongs primarily to this family and demonstrated that information content, reconstruction error, and deployment cost can be considered jointly [1]. These methods are efficient and interpretable, but most produce deterministic selections and do not directly quantify posterior state uncertainty.
+[0033] 2.3 Predictive-Uncertainty Methods
+[0034] Bayesian compressed sensing, sparse Bayesian learning, Gaussian-process models, and probabilistic state estimators quantify uncertainty rather than returning only a point reconstruction. This capability is essential when observations are sparse or heterogeneous. Nevertheless, standard Bayesian formulations may assume a single fidelity level and light-tailed Gaussian noise, which can be inadequate for polar observations containing source-dependent bias and abnormal disturbances.
+[0035] 2.4 Model-Reconstruction Methods
+[0036] Compressed sensing, low-rank reconstruction, autoencoders, and generative models recover high-dimensional fields from partial measurements. Their deployment value depends on whether reconstruction remains stable under sparse sampling, environmental shift, and data mismatch. Reconstruction accuracy alone is insufficient when the model cannot indicate where its estimates are unreliable.
+[0037] 2.5 Runtime-Context and Constraint-Aware Methods
+[0038] Context-aware deployment incorporates environmental and operational information that is external to the reconstruction model, such as sea-ice concentration, accessibility, energy state, communication range, or route constraints. The Arctic extension in [1] demonstrated the practical effect of sea-ice concentration on feasible sensor placement. The present work extends runtime context from a single environmental factor to a coupled feasible domain with ice, node-budget, energy, and connectivity constraints.
+[0039] 2.6 Multi-Strategy Fusion Methods
+[0040] Fusion methods combine complementary evidence sources rather than relying on a single score. For polar sensing, useful evidence includes entropy, reconstruction uncertainty, spatial redundancy, environmental feasibility, and system cost. The central hypothesis of this paper is that a candidate node should be selected only when it contributes reliable new information while remaining feasible under engineering constraints.
+[0041] 2.7 Research Gap and Positioning
+[0042] The literature therefore reveals a missing connection between probabilistic reconstruction and deployment optimization. Existing entropy- or QR-based placement methods identify informative locations but do not explicitly exploit posterior uncertainty from multi-fidelity reconstruction. Conversely, Bayesian reconstruction methods can quantify uncertainty but often stop at state estimation rather than converting uncertainty into constrained sensing actions. This paper addresses that gap by coupling RBMF-CS and MC-EIR in a single decision loop.
+[0043] 3. Problem Formulation and System Model
+[0044] 3.1 Polar Ocean Field and Sparse Observations
+[0045] Let x_H ∈ R^N denote the target high-fidelity ocean state over N candidate spatial locations. A low-dimensional representation is assumed:
+[0046] x_H = Ψ α,
+[0047] where Ψ ∈ R^(N×K) is a spatial basis and α ∈ R^K is a sparse or compressible coefficient vector. For a selected node set J, |J| = p, the sparse observation model is
+[0048] y_J = C_J x_H + ε = C_J Ψ α + ε,
+[0049] where C_J is the sampling matrix and ε represents observation error.
+[0050] 3.2 Multi-Fidelity Relationship
+[0051] Let x_L denote a lower-fidelity field with broader coverage but lower reliability. A parsimonious autoregressive discrepancy model is adopted as the baseline formulation:
+[0052] x_H = ρ x_L + δ,
+[0053] where ρ is a fidelity-coupling coefficient and δ is a discrepancy field. The formulation can be extended to multiple low-fidelity sources by replacing ρx_L with a weighted latent fusion term. The key requirement is that fidelity mismatch is inferred rather than treated as a fixed preprocessing correction.
+[0054] 3.3 Hard Feasibility Constraints
+[0055] A deployment set is considered feasible only if it satisfies four hard constraints:
+[0056] ζ_j ≤ I_c,  ∀ j ∈ J,
+[0057] |J| ≤ p_max,
+[0058] E(J) = Σ_(j∈J) [E_j^sense + E_j^proc + E_j^tx] ≤ E_max,
+[0059] G(J) is connected  (equivalently, λ_2(L_J) > 0 for an undirected communication graph).
+[0060] Here ζ_j is sea-ice concentration at candidate j, I_c is the admissible ice threshold, E_max is the energy budget, G(J) is the communication graph induced by the selected nodes, and λ_2(L_J) is the algebraic connectivity of its graph Laplacian.
+[0061] 3.4 Soft Operational Penalties
+[0062] Maintenance cost and failure risk do not necessarily make a deployment impossible, but they reduce its desirability. They are therefore modeled as soft penalties:
+[0063] P_soft(J) = λ_m C_maint(J) + λ_f R_fail(J).
+[0064] This hard/soft separation is intentional: violating an ice, energy, node-budget, or connectivity requirement produces an infeasible solution, whereas a high-maintenance or high-risk solution remains feasible but is penalized.
+[0065] 4. Robust Bayesian Multi-Fidelity Compressed Sensing
+[0066] 4.1 Problem Setting and Multi-Fidelity Representation
+[0067] Let
+[0068] x_{H}∈ℝ^{N}
+[0069] denote the target high-fidelity ocean field defined over N candidate sensing locations. We assume that the target field admits a low-dimensional representation
+[0070] x_{H}=Ψα,(4-1)
+[0071] where
+[0072] Ψ∈ℝ^{N× K},
+    
+α∈ℝ^{K},
+    
+K≪ N,
+[0073] are the spatial basis and the corresponding sparse latent coefficients, respectively.
+[0074] The spatial basis Ψ is learned from the training ensemble using POD/SVD or another low-rank representation and is fixed during online Bayesian reconstruction.
+[0075] For a current sensor set
+[0076] 𝒥={j_{1},…,j_{p}},
+[0077] let
+[0078] C_{𝒥}∈ℝ^{p× N}
+[0079] denote the corresponding sampling matrix. The sparse observations are
+[0080] y_{𝒥}
+=
+C_{𝒥}x_{H}+ε
+=
+H_{𝒥}α+ε,(4-2)
+[0081] where
+[0082] H_{𝒥}
+=
+C_{𝒥}Ψ
+∈ℝ^{p× K}.(4-3)
+[0083] Let
+[0084] x_{L}∈ℝ^{N}
+[0085] denote the low-fidelity field covering the same spatial domain. Following the autoregressive multi-fidelity relation,
+[0086] x_{H}
+=
+ρx_{L}+δ,(4-4)
+[0087] where ρ is a scalar fidelity-coupling coefficient and δ represents the discrepancy between the low- and high-fidelity fields.
+[0088] Rather than estimating an independent unrestricted discrepancy field, we define the discrepancy residual
+[0089] δ
+=
+Ψα-ρx_{L},(4-5)
+[0090] and introduce a Gaussian compatibility observation with residual model
+[0091] δ
+∼
+𝒩
+(
+0,
+τ_{δ}^{-1}I_{N}
+).(4-6)
+[0092] The corresponding Gaussian compatibility factor is
+[0093] f_{δ}(α,ρ,τ_{δ};x_{L})
+=
+𝒩(0;Ψα-ρx_{L},τ_{δ}^{-1}I_{N}).(4-7)
+[0094] Here τ_{δ} denotes the multi-fidelity discrepancy precision. A large τ_{δ} indicates strong consistency between the two fidelity levels, whereas a small value allows the high-fidelity reconstruction to deviate substantially from the low-fidelity field.
+[0095] The factor is interpreted as the likelihood of the auxiliary observation 0 = Ψα − ρx_L + e_{δ}, with Gaussian e_{δ}. It is not separately normalized as a prior density over α, since Ψ maps a K-dimensional coefficient space into an N-dimensional field space. Together with the proper ARD and hyperparameter priors, this augmented observation model defines the posterior and retains the conjugate updates below. Its isotropic grid-level discrepancy precision is tied to the chosen grid resolution.
+[0096] This formulation avoids independently estimating both α and a full free discrepancy field δ, thereby reducing identifiability ambiguity.
+[0097] 4.2 Hierarchical Sparse Prior
+[0098] To automatically identify the active spatial modes, an automatic relevance determination (ARD) prior is imposed on each latent coefficient:
+[0099] p(α_{k}|γ_{k})
+=
+𝒩
+(
+0,γ_{k}^{-1}
+),(4-8)
+[0100] with
+[0101] p(γ_{k})
+=
+Gamma
+(
+a_{γ},b_{γ}
+),(4-9)
+[0102] where the Gamma distribution is parameterized using shape and rate.
+[0103] Defining
+[0104] Γ
+=
+diag
+(
+γ_{1},…,γ_{K}
+),
+[0105] the conditional prior becomes
+[0106] p(α|γ)
+=
+𝒩
+(
+0,Γ^{-1}
+).(4-10)
+[0107] Large posterior values of γ_{k} strongly shrink the corresponding coefficient α_{k} toward zero, whereas small values preserve informative modes.
+[0108] 4.3 Robust Student-t Observation Model
+[0109] A Gaussian likelihood can be excessively sensitive to impulsive disturbances and abnormal observations. We therefore model the residual using a Student-t distribution.
+[0110] For computational convenience, the Student-t likelihood is expressed as a Gaussian scale mixture:
+[0111] y_{i}
+|
+α,τ,λ_{i}
+∼
+𝒩
+(
+h_{i}^{T}α,
+(τλ_{i})^{-1}
+),(4-11)
+[0112] where h_{i}^{T} is the i-th row of H_{𝒥}.
+[0113] The local precision variable satisfies
+[0114] λ_{i}
+∼
+Gamma
+(
+(ν)/(2),
+(ν)/(2)
+),(4-12)
+[0115] where ν denotes the Student-t degrees of freedom.
+[0116] Marginalizing λ_{i} gives
+[0117] y_{i}
+|
+α,τ
+∼
+Student-t
+(
+ν,
+h_{i}^{T}α,
+τ^{-1}
+).(4-13)
+[0118] The global observation precision is assigned the conjugate prior
+[0119] τ
+∼
+Gamma
+(
+a_{τ},b_{τ}
+).(4-14)
+[0120] Under this representation, an observation with an unusually large residual receives a small posterior value of λ_{i}, thereby reducing its effective contribution to posterior reconstruction.
+[0121] 4.4 Priors for Fidelity Coupling and Discrepancy Precision
+[0122] The fidelity coefficient is assigned a Gaussian prior,
+[0123] ρ
+∼
+𝒩
+(
+ρ_{0},
+κ_{ρ,0}^{-1}
+),(4-15)
+[0124] where ρ_{0} is typically initialized near one after high- and low-fidelity fields have been consistently standardized.
+[0125] The discrepancy precision is assigned the Gamma prior
+[0126] τ_{δ}
+∼
+Gamma
+(
+a_{δ},b_{δ}
+).(4-16)
+[0127] The unknown variables are therefore
+[0128] Θ
+=
+{
+α,
+γ,
+λ,
+ρ,
+τ_{δ},
+τ
+}.(4-17)
+[0129] 4.5 Joint Posterior Distribution
+[0130] Given the current measurements and the low-fidelity field, the posterior is
+[0131] p(
+Θ
+|
+y_{𝒥},
+x_{L}
+)
+∝
+p(y_{𝒥}
+|
+α,λ,τ)
+f_{δ}(α,ρ,τ_{δ};x_{L})
+p(α|γ)
+∏_{k=1}^{K}p(γ_{k})
+∏_{i=1}^{p}p(λ_{i})
+p(ρ)
+p(τ_{δ})
+p(τ).(4-18)
+[0132] Exact posterior inference is analytically intractable because of the interaction between the hierarchical sparsity variables, local robust weights, and the multi-fidelity coupling parameter.
+[0133] We therefore adopt a mean-field variational approximation:
+[0134] q(Θ)
+=
+q(α)
+q(γ)
+q(λ)
+q(ρ)
+q(τ_{δ})
+q(τ).(4-19)
+[0135] Each factor is obtained using coordinate-ascent variational inference,
+[0136] ln q^{*}(θ_{i})
+=
+𝔼_{q(Θ∖θ_{i})}
+[
+ln p(Θ,y_{𝒥}|x_{L})
+]
++const.(4-20)
+[0137] 4.6 Posterior Update of the Sparse Coefficients
+[0138] The variational posterior of α is Gaussian:
+[0139] q(α)
+=
+𝒩
+(
+μ_{α},
+Σ_{α}
+).(4-21)
+[0140] Define
+[0141] ̅(γ)_{k}
+=
+𝔼[γ_{k}],
+    
+̅(λ)_{i}
+=
+𝔼[λ_{i}],
+[0142] and
+[0143] ̅(Γ)
+=
+diag
+(
+̅(γ)_{1},…,̅(γ)_{K}
+),
+[0144] ̅(Λ)
+=
+diag
+(
+̅(λ)_{1},…,̅(λ)_{p}
+).
+[0145] Also define
+[0146] ̅(τ)
+=
+𝔼[τ],
+    
+̅(τ)_{δ}
+=
+𝔼[τ_{δ}],
+    
+̅(ρ)
+=
+𝔼[ρ].
+[0147] The posterior covariance is
+[0148] 
+Σ_{α}
+=
+[
+̅(Γ)
++
+̅(τ)_{δ}
+Ψ^{T}Ψ
++
+̅(τ)
+H_{𝒥}^{T}
+̅(Λ)
+H_{𝒥}
+]^{-1}
+(4-22)
+[0149] and the posterior mean is
+[0150] 
+μ_{α}
+=
+Σ_{α}
+[
+̅(τ)_{δ}
+Ψ^{T}
+(
+̅(ρ)x_{L}
+)
++
+̅(τ)
+H_{𝒥}^{T}
+̅(Λ)
+y_{𝒥}
+].
+(4-23)
+[0151] If a POD/SVD basis with orthonormal columns is used,
+[0152] Ψ^{T}Ψ=I_{K},
+[0153] and the first expression simplifies accordingly.
+[0154] Equation (4-22) reveals the three complementary sources of posterior precision: ARD sparsity, multi-fidelity consistency, and sparse high-fidelity observations.
+[0155] 4.7 ARD Hyperparameter Update
+[0156] For each k,
+[0157] q(γ_{k})
+=
+Gamma
+(
+a_{γ,k}^{*},
+b_{γ,k}^{*}
+),(4-24)
+[0158] where
+[0159] a_{γ,k}^{*}
+=
+a_{γ}+(1)/(2),(4-25)
+[0160] and
+[0161] b_{γ,k}^{*}
+=
+b_{γ}
++
+(1)/(2)
+𝔼[α_{k}^{2}].(4-26)
+[0162] Since
+[0163] 𝔼[α_{k}^{2}]
+=
+μ_{α,k}^{2}
++
+[Σ_{α}]_{kk},(4-27)
+[0164] the posterior mean precision is
+[0165] 
+̅(γ)_{k}
+=
+(
+a_{γ}+(1)/(2)
+)/(
+b_{γ}+
+(1)/(2)
+(
+μ_{α,k}^{2}
++
+[Σ_{α}]_{kk}
+)
+).
+(4-28)
+[0166] Modes unnecessary for explaining the observations and the multi-fidelity structure receive large precision values and are progressively suppressed.
+[0167] 4.8 Local Student-t Precision Update
+[0168] Define the expected residual energy
+[0169] ξ_{i}
+=
+𝔼
+[
+(
+y_{i}-h_{i}^{T}α
+)^{2}
+].(4-29)
+[0170] Under the Gaussian variational posterior,
+[0171] 
+ξ_{i}
+=
+(
+y_{i}-h_{i}^{T}μ_{α}
+)^{2}
++
+h_{i}^{T}
+Σ_{α}
+h_{i}.
+(4-30)
+[0172] The posterior of λ_{i} is
+[0173] q(λ_{i})
+=
+Gamma
+(
+a_{λ,i}^{*},
+b_{λ,i}^{*}
+),(4-31)
+[0174] with
+[0175] a_{λ,i}^{*}
+=
+(ν+1)/(2),(4-32)
+[0176] and
+[0177] b_{λ,i}^{*}
+=
+(
+ν+
+̅(τ) ξ_{i}
+)/(2).(4-33)
+[0178] Therefore,
+[0179] 
+̅(λ)_{i}
+=
+(ν+1)/(
+ν+
+̅(τ) ξ_{i}
+).
+(4-34)
+[0180] Equation (4-34) provides an explicit probabilistic robust-weighting mechanism. Large residuals reduce ̅(λ)_{i}, which in turn decreases the effective precision
+[0181] ̅(τ) ̅(λ)_{i}
+[0182] of abnormal observations.
+[0183] 4.9 Observation Precision Update
+[0184] The posterior of the global observation precision is
+[0185] q(τ)
+=
+Gamma
+(
+a_{τ}^{*},b_{τ}^{*}
+),(4-35)
+[0186] where
+[0187] a_{τ}^{*}
+=
+a_{τ}+(p)/(2),(4-36)
+[0188] and
+[0189] b_{τ}^{*}
+=
+b_{τ}
++
+(1)/(2)
+∑_{i=1}^{p}
+̅(λ)_{i}ξ_{i}.(4-37)
+[0190] Hence,
+[0191] 
+̅(τ)
+=
+(
+a_{τ}+(p)/(2)
+)/(
+b_{τ}+
+(1)/(2)
+∑_{i}
+̅(λ)_{i}ξ_{i}
+).
+(4-38)
+[0192] 4.10 Fidelity-Coupling Update
+[0193] The variational posterior of the scalar fidelity coefficient is Gaussian:
+[0194] q(ρ)
+=
+𝒩
+(
+μ_{ρ},
+σ_{ρ}^{2}
+).(4-39)
+[0195] The posterior precision is
+[0196] 
+(σ_{ρ}^{2})^{-1}
+=
+κ_{ρ,0}
++
+̅(τ)_{δ}
+x_{L}^{T}x_{L},
+(4-40)
+[0197] and
+[0198] 
+μ_{ρ}
+=
+σ_{ρ}^{2}
+[
+κ_{ρ,0}ρ_{0}
++
+̅(τ)_{δ}
+x_{L}^{T}
+Ψ
+μ_{α}
+].
+(4-41)
+[0199] Therefore,
+[0200] ̅(ρ)
+=
+μ_{ρ},(4-42)
+[0201] and
+[0202] 
+𝔼[ρ^{2}]
+=
+μ_{ρ}^{2}+σ_{ρ}^{2}.
+(4-43)
+[0203] If ρ is shared across multiple snapshots, both inner products are accumulated over snapshots, and the discrepancy shape and residual energy must likewise use the total number of compatibility observations. The single-snapshot model is used here.
+[0204] 4.11 Multi-Fidelity Discrepancy Precision Update
+[0205] Define the expected multi-fidelity discrepancy energy
+[0206] ξ_{δ}
+=
+𝔼
+[
+‖
+Ψα
+-
+ρx_{L}
+‖_{2}^{2}
+].(4-44)
+[0207] Using the mean-field approximation,
+[0208] 
+ξ_{δ}
+=tr
+(
+Ψ
+Σ_{α}
+Ψ^{T}
+)
++
+‖
+Ψ
+μ_{α}
+‖_{2}^{2}
+-
+2̅(ρ) 
+x_{L}^{T}
+Ψ
+μ_{α}
++
+𝔼[ρ^{2}]
+‖
+x_{L}
+‖_{2}^{2}.
+(4-45)
+[0209] An equivalent and often more interpretable form is
+[0210] 
+ξ_{δ}
+=
+tr
+(
+Ψ
+Σ_{α}
+Ψ^{T}
+)
++
+‖
+Ψμ_{α}
+-
+̅(ρ)x_{L}
+‖_{2}^{2}
++
+σ_{ρ}^{2}
+‖
+x_{L}
+‖_{2}^{2}.
+(4-46)
+[0211] The posterior of τ_{δ} is
+[0212] q(τ_{δ})
+=
+Gamma
+(
+a_{δ}^{*},b_{δ}^{*}
+),(4-47)
+[0213] where
+[0214] a_{δ}^{*}
+=
+a_{δ}+(N)/(2),(4-48)
+[0215] and
+[0216] b_{δ}^{*}
+=
+b_{δ}
++
+(1)/(2)ξ_{δ}.(4-49)
+[0217] Thus,
+[0218] 
+̅(τ)_{δ}
+=
+(
+a_{δ}+(N)/(2)
+)/(
+b_{δ}+(1)/(2)ξ_{δ}
+).
+(4-50)
+[0219] 4.12 Posterior Reconstruction and Spatial Uncertainty
+[0220] After convergence, the posterior mean of the high-fidelity field is
+[0221] 
+̂(x)_{H}
+=
+Ψμ_{α}.
+(4-51)
+[0222] The corresponding latent-field posterior covariance is
+[0223] 
+Σ_{x}
+=
+Ψ
+Σ_{α}
+Ψ^{T}.
+(4-52)
+[0224] The uncertainty assigned to candidate location i is therefore
+[0225] 
+U_{i}
+=
+[Σ_{x}]_{ii}.
+(4-53)
+[0226] The vector
+[0227] U
+=
+diag(Σ_{x})(4-54)
+[0228] defines the spatial posterior uncertainty map used by the deployment layer.
+[0229] These quantities define the reconstruction–deployment interface. The covariance is the mean-field approximation for the latent field conditional on the learned basis; it excludes future measurement noise, unmodeled basis truncation, and uncertainty in the training basis. Calibration is assessed using the evaluation protocol in Section 6.
+[0230] 4.13 Convergence and Numerical Implementation
+[0231] The variational objective is the evidence lower bound for the augmented model:
+[0232] L(q)=𝔼_{q}[log p(y_{𝒥},0,Θ|x_{L})]-𝔼_{q}[log q(Θ)].(4-55)
+[0233] The Gaussian coefficient factor follows by collecting the quadratic and linear terms in α in (4-20). The Gamma factors follow by collecting the log-precision and precision terms, and the Gaussian fidelity factor follows by collecting the quadratic terms in ρ. All Gamma distributions use shape–rate parameterization, with positive prior shapes and rates. The Student-t degrees of freedom ν > 0 is fixed before inference; τ⁻¹ in (4-13) denotes squared scale, not variance. For ν > 2, the conditional marginal noise variance is ν/[τ(ν − 2)].
+[0234] Coordinate updates continue until relative ELBO change is below ε_VB or the iteration limit is reached. When computing ELBO, use E[log z] = digamma(a_z*) − log b_z* for every Gamma factor. A relative change criterion applied to all factor parameters is an alternative when ELBO is unavailable and is reported as such. Missing observations are removed from y_J and H_J rather than set to zero. Proper priors regularize the model, but sufficiently informative observations and a nondegenerate low-fidelity field are still needed to identify fidelity coupling reliably.
+[0235] Use Cholesky solves for the coefficient mean and covariance rather than explicitly inverting the precision matrix. Cache Ψ^{T}Ψ and Ψ^{T}x_{L}. The full N × N field covariance need not be stored: its diagonal and trace can be evaluated from Ψ and Σ_{α}. Positive-definite numerical regularization, if needed, is recorded separately from probabilistic discrepancy and observation noise.
+[0236] Algorithm 1. RBMF-CS via Mean-Field Variational Bayes
+[0237] Input: x_L; fixed basis Ψ; selected sensor set J and observations y_J; positive hyperparameters a_γ, b_γ, a_τ, b_τ, a_δ, b_δ, ρ_0, κ_ρ,0; fixed ν; T_max and ε_VB.
+[0238] Output: μ_{α}, Σ_{α}, ̂(x)_{H}, Σ_{x}, U, all variational factors, and convergence diagnostics.
+[0239] 1: Construct H_J = C_J Ψ; initialize positive precision expectations, E[ρ] = ρ_0, and Var(ρ) > 0, or use a previous fit.
+[0240] 2: for t = 1, …, T_max do
+[0241] 3:     Form ̅(Γ) and ̅(Λ) from the current precision expectations.
+[0242] 4:     Update q(α) by the covariance and mean equations (4-22)–(4-23), using Cholesky solves.
+[0243] 5:     Compute E[α_k²] and update every q(γ_k) and E[γ_k] by (4-24)–(4-28).
+[0244] 6:     Compute ξ_i and update q(λ_i) and E[λ_i] by (4-29)–(4-34).
+[0245] 7:     Update q(τ) and E[τ] by (4-35)–(4-38) using the updated local precisions.
+[0246] 8:     Update q(ρ), E[ρ], and E[ρ²] by (4-39)–(4-43).
+[0247] 9:     Compute ξ_{δ} by (4-46); update q(τ_delta) and E[τ_delta] by (4-47)–(4-50).
+[0248] 10:    Evaluate the ELBO (4-55), or the declared relative change criterion for all factors.
+[0249] 11:    if the relative change is below ε_VB then break.
+[0250] 12: end for
+[0251] 13: Compute ̂(x)_{H}, Σ_{x}, and U by (4-51)–(4-54).
+[0252] 14: Return all posterior factors, reconstruction, uncertainty, and convergence diagnostics.
+[0253] 5. Multi-Constrained Effective-Information-Ratio Sensor Deployment
+[0254] The deployment layer combines historical spatial variability with current posterior uncertainty to select sensing locations sequentially. Hard constraints define the admissible search domain, whereas operational costs determine preferences within that domain. All statistics derived from the training ensemble are estimated without using held-out target observations.
+[0255] 5.1 Structural Entropy Gain
+[0256] Let X_c contain T centered training snapshots on the N-location grid, with T > 1. The empirical spatial covariance is
+[0257] K = (1)/(T-1)X_{c}X_{c}^{T}.(5-1)
+[0258] For the current selected set J, the unexplained structural variance at candidate j is
+[0259] s_{H}(j|𝒥)=K_{jj}-K_{j𝒥}(K_{𝒥𝒥}+ε_{K}I)^{-1}K_{𝒥j}.(5-2)
+[0260] Here ε_{K} > 0 stabilizes the covariance solve; for an empty selected set, s_H = K_jj. Small negative values caused by round-off are clipped to zero. A dimensionless structural entropy score is
+[0261] Δ H(j|𝒥)=(1)/(2)log(1+(s_{H}(j|𝒥))/(σ_{H}^{2})).(5-3)
+[0262] The reference variance σ_{H}^{2} > 0 is specified from training data or a measurement noise floor and remains fixed during a deployment run. This score is the Gaussian scalar information gain associated with the residual structural variance and reference noise. It is a training-covariance surrogate rather than the exact mutual information under the full Student-t posterior.
+[0263] 5.2 Expected Posterior Uncertainty Reduction
+[0264] The basis row for a prospective observation is
+[0265] h_{j}^{T}=Ψ_{j,:}.(5-4)
+[0266] Holding the current variational hyperparameters fixed, a Gaussian observation with planning variance r_j > 0 gives the rank-one covariance update
+[0267] Σ_{α}^{(j)}=Σ_{α}-(Σ_{α}h_{j}h_{j}^{T}Σ_{α})/(r_{j}+h_{j}^{T}Σ_{α}h_{j}).(5-5)
+[0268] For an unobserved candidate without additional reliability information, the default planning variance is
+[0269] r_{j}=̅(τ)^{-1}.(5-6)
+[0270] If a positive historical reliability weight ω_{j} is available, use
+[0271] r_{j}=(̅(τ) ω_{j})^{-1}.(5-7)
+[0272] These expressions use reciprocal effective precision as a Gaussian planning approximation; they are not the marginal Student-t noise variance. For variance matching when nu > 2 and a_{τ}^{*} > 1, an alternative is r_j = [nu/(nu-2)] b_{τ}^{*}/(a_{τ}^{*}-1), with an explicitly specified reliability adjustment. The chosen convention is fixed before comparison with baselines. No future residual or latent local precision is inferred before observing y_j.
+[0273] The current and prospective total field uncertainties are
+[0274] U_{tot}=tr(ΨΣ_{α}Ψ^{T}).(5-8)
+[0275] U_{tot}^{(j)}=tr(ΨΣ_{α}^{(j)}Ψ^{T}).(5-9)
+[0276] Their difference defines the marginal uncertainty reduction:
+[0277] Δ U(j|𝒥)=U_{tot}-U_{tot}^{(j)}.(5-10)
+[0278] Substituting (5-5) into (5-10) and using the cyclic trace identity gives
+[0279] Δ U(j|𝒥)=(h_{j}^{T}Σ_{α}Ψ^{T}ΨΣ_{α}h_{j})/(r_{j}+h_{j}^{T}Σ_{α}h_{j}).(5-11)
+[0280] Thus candidate evaluation does not require the future measurement value. For an orthonormal basis, the numerator reduces to h_{j}^{T}Σ_{α}^{2}h_{j}. Nonnegative reduction is guaranteed for the fixed-hyperparameter update with a positive semidefinite covariance. After actual measurement acquisition, full VB refitting can change the noise and discrepancy precisions, so monotonic reduction of the refitted covariance is not guaranteed.
+[0281] 5.3 Redundancy and Score Normalization
+[0282] To penalize duplicate historical spatial information, define the magnitude of pairwise correlation by
+[0283] c_{jℓ}=(|K_{jℓ}|)/(root[]((K_{jj}+ε_{R})(K_{ℓℓ}+ε_{R}))).(5-12)
+[0284] The positive regularizer ε_{R} has variance units. Correlations are clipped to [0,1] only for numerical round-off. Redundancy is the maximum correlation with any selected location:
+[0285] Red(j,𝒥)=max_{ℓ∈𝒥}c_{jℓ}.(5-13)
+[0286] For J empty, Red = 0. Absolute correlation treats both strongly correlated and strongly anticorrelated measurements as potentially redundant. Conditional entropy already discounts predictable structure; the additional redundancy coefficient controls any further preference for spatial diversity and is examined by ablation.
+[0287] Because entropy and variance reduction have different units, normalize their raw values over the current feasible set F(J):
+[0288] ̃(Δ H)_{j}=(Δ H_{j})/(max_{ℓ∈ℱ(𝒥)}Δ H_{ℓ}+ε_{H}).(5-14)
+[0289] ̃(Δ U)_{j}=(Δ U_{j})/(max_{ℓ∈ℱ(𝒥)}Δ U_{ℓ}+ε_{U}).(5-15)
+[0290] ̃(Red)_{j}=Red(j,𝒥).(5-16)
+[0291] The positive stabilizers ε_{H} and ε_{U} have the units of their respective raw scores. If all gains vanish, their normalized values are zero. Max scaling preserves zero gain and avoids artificial gains when every candidate has the same raw value. Normalization is recomputed at each iteration after feasibility filtering; both raw and normalized quantities are retained for sensitivity analysis. Iteration-wise normalized scores do not define a single stationary set function or directly comparable cumulative information units.
+[0292] 5.4 Effective Information and Soft Operational Penalties
+[0293] The unnormalized information combination is
+[0294] Δ I_{eff}^{raw}=Δ H+β_{raw}Δ U-η_{raw}Red.(5-17)
+[0295] Its weights must supply the required unit conversions. The deployment score used here is the dimensionless normalized combination
+[0296] Δ I_{eff}=̃(Δ H)+β̃(Δ U)-η̃(Red),  β,η≥0.(5-18)
+[0297] For candidate j, maintenance burden and failure risk enter as soft penalties:
+[0298] P_{soft,j}=λ_{m} C_{j}^{maint}+λ_{f} R_{j}^{fail}.(5-19)
+[0299] C_{j}^{eff}=C_{j}^{base}+P_{soft,j}+ε_{0}.(5-20)
+[0300] The costs are nonnegative and ε_{0} > 0 prevents a zero denominator. The weights λ_{m} and λ_{f} express maintenance and risk in the same cost units as the base deployment cost. In particular, a failure probability is converted to an expected burden rather than added to monetary cost without a conversion. The effective information ratio is
+[0301] EIR(j|𝒥)=(Δ I_{eff}(j|𝒥))/(C_{j}^{eff}).(5-21)
+[0302] A candidate can have negative effective information when redundancy dominates. Such candidates are not selected under a nonnegative stopping threshold. High cost or risk reduces preference among feasible nodes, whereas violation of any hard constraint excludes a node regardless of its score.
+[0303] 5.5 Hard Feasibility Constraints
+[0304] At each decision time, the selected sensing nodes must satisfy
+[0305] ζ_{ℓ}≤ I_{c}  ∀ℓ∈𝒥.(5-22)
+[0306] |𝒥|≤ p_{max}.(5-23)
+[0307] E(𝒥)=∑_{ℓ∈𝒥}(E_{ℓ}^{sense}+E_{ℓ}^{proc}+E_{ℓ}^{tx})≤ E_{max}.(5-24)
+[0308] The energy terms refer to a common specified mission horizon. If transmission energy depends on routes, E(J union {j}) is recomputed for the prospective topology, including changed costs for existing nodes. Current sea-ice values are checked for the whole prospective set. A change that makes an existing deployment infeasible requires operational reassessment before expansion.
+[0309] For an undirected communication graph with adjacency A_J and degree matrix D_J,
+[0310] L_{𝒥}=D_{𝒥}-A_{𝒥}.(5-25)
+[0311] G(𝒥) is connected ⇔ λ_{2}(L_{𝒥})>0.(5-26)
+[0312] The equivalence applies to graphs with at least two vertices; a singleton is connected by convention. In numerical use, a small positive tolerance replaces the strict spectral comparison, or connectivity is checked directly by graph traversal. Edges follow a declared communication model, such as an admissible link whenever distance is within a communication radius. When gateways or anchors are present, connectivity is evaluated on the graph augmented with those fixed vertices. Their energy and budget treatment is specified in advance, and sensing anchors count toward the sensor budget.
+[0313] The prospective feasible set is
+[0314] ℱ(𝒥)={j∈𝒱∖𝒥: 𝒥∪{j} satisfies (5-22)--(5-26)}.(5-27)
+[0315] Here V is the candidate grid. Hard constraints are enforced before scoring and never appear as finite penalties in the EIR denominator. A connected feasible seed is supplied; the algorithm does not silently add infeasible relay nodes.
+[0316] 5.6 Greedy Selection and Closed-Loop Updating
+[0317] At iteration t, the next location is
+[0318] j_{t}^{*}=argmax_{j∈ℱ(𝒥_{t})}EIR(j|𝒥_{t}).(5-28)
+[0319] Ties are resolved using a fixed deterministic rule. Selection terminates if the node budget is reached, the feasible set is empty, or the largest marginal EIR fails to exceed a prescribed nonnegative threshold ε_{EIR}. After selection,
+[0320] 𝒥_{t+1}=𝒥_{t}∪{j_{t}^{*}},  y_{𝒥_{t+1}}=[y_{𝒥_{t}}^{T},y_{j_{t}^{*}}]^{T}.(5-29)
+[0321] The new measurement is physically acquired or supplied by the declared observation model in a simulation. RBMF-CS is rerun on the expanded dataset using previous variational parameters as initialization. A new local precision is initialized for the added measurement, then all variational factors are updated. The graph, energy state, covariance, redundancy, feasible set, and normalization are recomputed before the next decision. The rank-one update serves candidate planning; it does not replace robust assimilation of the acquired measurement.
+[0322] For reporting, a cumulative ratio can be defined from raw component gains and their explicitly unit-adjusted weights:
+[0323] EIR_{global}=(∑_{t}Δ I_{eff,t}^{raw})/(∑_{t} C_{j_{t}^{*}}^{eff}).(5-30)
+[0324] This is a trajectory-level accounting metric, not a sum of marginal ratios or an exact joint mutual information. No approximation guarantee is claimed for greedy selection under coupled connectivity constraints, adaptive posterior refitting, and iteration-dependent normalization. A feasible intermediate node with low immediate score may be necessary to access a distant informative region, making the result dependent on the initial seed and stopping threshold.
+[0325] Algorithm 2. Multi-Constrained Effective-Information-Ratio Closed-Loop Sensor Deployment
+[0326] Input: basis Ψ; low-fidelity field x_L; training covariance K; feasible connected seed J_0 and its observations; candidate and gateway coordinates; ice, energy, communication, and cost models; budgets I_c, p_max, E_max; β, η, λ_m, λ_f; regularizers and stopping threshold ε_EIR; VB settings.
+[0327] Output: final feasible sensor set J; reconstructed field and covariance; posterior uncertainty; deployment trajectory and stopping reason.
+[0328] 1: Set J ← J_0; verify all hard constraints; compute E(J) and the communication graph.
+[0329] 2: Fit RBMF-CS using Algorithm 1 on the current observations.
+[0330] 3: while |J| < p_max do
+[0331] 4:     Refresh environmental and operational states; reassess feasibility of the existing deployment.
+[0332] 5:     Form F(J) by applying every hard constraint to each prospective set J ∪ {j}.
+[0333] 6:     if F(J) is empty then stop with reason “no feasible candidate”.
+[0334] 7:     for each j in F(J) do
+[0335] 8:         Compute ΔH by (5-1)–(5-3), ΔU by (5-4)–(5-11), and Red by (5-12)–(5-13).
+[0336] 9:     end for
+[0337] 10:    Normalize scores over F(J) by (5-14)–(5-16).
+[0338] 11:    Compute effective information, soft penalties, effective costs, and EIR by (5-18)–(5-21).
+[0339] 12:    Choose j* by (5-28) using the declared deterministic tie rule.
+[0340] 13:    if EIR(j* | J) ≤ ε_EIR then stop with reason “insufficient marginal value”.
+[0341] 14:    Acquire y_j*; append the node and observation according to (5-29).
+[0342] 15:    Update graph and mission energy; verify feasibility of the expanded deployment.
+[0343] 16:    Initialize the new local precision; warm-start Algorithm 1 and refit all VB factors.
+[0344] 17:    Update ̂(x)_{H}, Σ_{α}, Σ_{x}, and U from the refitted posterior.
+[0345] 18:    Record node, raw/normalized gains, EIR, cumulative energy, ice exposure, connectivity, uncertainty, and runtime.
+[0346] 19: end while
+[0347] 20: Return the final deployment, posterior reconstruction, trajectory, and stopping reason.
+[0348] For scalability, cache Ψ^{T}Ψ and covariance products and solve positive-definite systems using Cholesky factors. Feasibility filtering precedes the more expensive covariance scoring. Any additional candidate screening is documented as a computational approximation and evaluated against the complete feasible search.
+[0349] 6. Reconstruction–Deployment Closed Loop and Evaluation Protocol
+[0350] 6.1 Closed-Loop Workflow
+[0351] The proposed system alternates between probabilistic reconstruction and constrained deployment:
+[0352] Construct multi-fidelity training data and learn or initialize the spatial basis Ψ.
+[0353] Run RBMF-CS using the current sparse observations to obtain the posterior mean and uncertainty map.
+[0354] Compute entropy gain, expected uncertainty reduction, and redundancy for feasible candidate nodes.
+[0355] Filter candidates using sea-ice, node-budget, energy, and connectivity constraints.
+[0356] Rank feasible candidates by EIR after maintenance-cost and failure-risk penalties.
+[0357] Add the selected node, update observations and resource states, and repeat until termination.
+[0358] 6.2 Data Splitting and Generalization Tests
+[0359] Random train/test splitting alone can overestimate generalization when adjacent time windows or spatially correlated observations appear in both sets. The evaluation will therefore include temporal holdout, spatial holdout, and seasonal or regime-shift tests in addition to a conventional random split. This follows the deployment-aware evaluation principle that distribution shift should be tested explicitly rather than inferred from in-distribution accuracy [2].
+[0360] 6.3 Baselines
+[0361] Experiment family
+[0362] Methods
+[0363] Reconstruction
+[0364] LASSO/BPDN; OMP; conventional compressed sensing; sparse Bayesian learning/BCS; POD/low-rank reconstruction; deterministic multi-fidelity reconstruction; and the proposed RBMF-CS.
+[0365] Deployment
+[0366] Random placement; standard QR pivoting; entropy-only placement; entropy-weighted QR (QR-W); ice-constrained QR; Bayesian uncertainty sampling; and the proposed MC-EIR.
+[0367] Fusion ablations
+[0368] High-fidelity only; low-fidelity only; naive concatenation/weighted fusion; deterministic multi-fidelity; RBMF-CS.
+[0370] 6.4 Evaluation Metrics
+[0371] Evaluation layer
+[0372] Recommended metrics
+[0373] Reconstruction accuracy
+[0374] RMSE, NRMSE, MAE, R², spatial correlation; optional SSIM for gridded fields.
+[0375] Probabilistic calibration
+[0376] Negative log predictive density (NLPD/NLL), CRPS, 95% prediction-interval coverage probability (PICP), mean interval width, calibration error.
+[0377] Robustness
+[0378] Performance under Gaussian noise, heavy-tailed noise, impulsive outliers, missing observations, fidelity bias, temporal shift, spatial holdout, and seasonal shift.
+[0379] Deployment feasibility
+[0380] Feasible-solution rate, average sea-ice concentration, number of selected nodes, total energy, communication connectivity/algebraic connectivity.
+[0381] Operational burden
+[0382] Communication overhead, estimated maintenance cost, expected failure risk, runtime, and memory usage where available.
+[0383] Information efficiency
+[0384] Global EIR, information gain per node, uncertainty reduction per node, and marginal EIR curves.
+[0386] 6.5 Ablation and Sensitivity Analysis
+[0387] Analysis
+[0388] Variants
+[0389] Constraint ablation
+[0390] Full model; −Ice; −Energy; −Connectivity; −Maintenance; −Failure.
+[0391] Information ablation
+[0392] Full EIR; −Entropy gain; −Uncertainty reduction; −Redundancy.
+[0393] Reconstruction ablation
+[0394] Full RBMF-CS; −Multi-fidelity; −Robust likelihood; −Hierarchical sparse prior.
+[0395] Sensitivity
+[0396] β, η, λ_m, λ_f, ice threshold I_c, energy budget E_max, node budget p_max, communication radius, Student-t degrees of freedom ν.
+[0398] 7. Results and Discussions
+[0399] This section is drafted as the final reporting structure. Numerical values should be inserted only after the corresponding experiments are completed. The discussion should report both improvements and trade-offs; in particular, lower sea-ice exposure or stronger connectivity may legitimately increase reconstruction error, and this should be interpreted as a system-level trade-off rather than hidden.
+[0400] 7.1 Reconstruction Accuracy and Multi-Fidelity Benefit
+[0401] Table X should compare reconstruction methods under identical node sets and observation budgets. The central question is whether RBMF-CS improves reconstruction relative to single-fidelity BCS/SBL and deterministic multi-fidelity fusion. Report RMSE/NRMSE together with spatial correlation. A useful analysis is to stratify performance by node number p and by high-fidelity data availability.
+[0402] Draft result sentence template: “At p = [XX] nodes, RBMF-CS reduced NRMSE by [XX%] relative to BCS and by [XX%] relative to deterministic multi-fidelity reconstruction, while preserving a spatial correlation of [XX].”
+[0403] 7.2 Posterior Calibration and Uncertainty Quality
+[0404] The proposed method should be evaluated not only by point error but also by whether its uncertainty is statistically meaningful. Plot predicted uncertainty against empirical error, report 95% PICP and interval width, and compare calibration across normal and shifted conditions. A desirable result is not simply the narrowest interval; it is an interval that is both informative and correctly calibrated.
+[0405] 7.3 Robustness to Outliers, Missing Data, and Fidelity Mismatch
+[0406] Noise and corruption experiments should progressively increase the outlier ratio, heavy-tailed noise level, missing-data rate, and systematic bias between low- and high-fidelity sources. The heavy-tailed RBMF-CS likelihood is expected to degrade more gracefully than Gaussian BCS. If performance deteriorates sharply beyond a threshold, that threshold should be reported as an operational boundary rather than omitted.
+[0407] 7.4 Deployment Performance under Multiple Hard Constraints
+[0408] Compare the spatial distributions produced by Random, QR, QR-W, ice-constrained QR, uncertainty sampling, and MC-EIR. Maps should display selected nodes over sea-ice concentration and, where possible, communication links. Report the feasible-solution rate, average ice concentration, energy consumption, and connectivity. This section should explicitly demonstrate that a high-information unconstrained solution may be operationally invalid, whereas MC-EIR searches only within the feasible domain.
+[0409] 7.5 Effective Information Ratio and Information Efficiency
+[0410] Plot cumulative entropy gain, cumulative uncertainty reduction, redundancy, and global EIR against the number of deployed nodes. The key claim should be supported by showing that MC-EIR obtains more reliable new information per unit operational burden rather than merely maximizing raw entropy. If QR-W achieves slightly lower reconstruction error at some node budgets, discuss whether the difference is offset by better energy, ice, or connectivity performance.
+[0411] 7.6 Ablation Results
+[0412] The ablation study should identify which terms are responsible for each observed benefit. Removing uncertainty reduction should primarily affect poorly observed regions; removing redundancy should increase spatial clustering or duplicate information; removing the robust likelihood should increase sensitivity to abnormal measurements; and removing individual hard constraints should expose the corresponding feasibility violation. These hypotheses should be tested rather than assumed.
+[0413] 7.7 Generalization under Temporal, Spatial, and Seasonal Shift
+[0414] Report results separately for random split, temporal holdout, spatial holdout, and seasonal shift. A gap between random and structured holdout performance should be treated as evidence of distribution sensitivity. This evaluation is important because polar sensing networks operate across changing seasons and environmental regimes.
+[0415] 7.8 Computational Cost and Scalability
+[0416] Report training/inference time, per-iteration deployment time, memory consumption, and scaling with the number of candidate locations N and selected nodes p. Where exact Bayesian candidate evaluation is expensive, quantify the speed–accuracy trade-off of the proposed screening or incremental-update strategy.
+[0417] 7.9 Overall Discussion
+[0418] The expected contribution of the proposed framework is not that every metric is simultaneously optimized without trade-off. Rather, it changes the decision criterion from “select the most informative location” to “select the most valuable feasible location under uncertainty.” The posterior reconstruction layer supplies a principled estimate of where information is missing, while the deployment layer prevents the algorithm from recommending physically or operationally invalid locations. The resulting closed loop is therefore better aligned with real polar sensing than deterministic entropy maximization alone.
+[0419] Several limitations should be discussed in the final paper. First, the multi-fidelity discrepancy model may be too simple when source relationships are nonlinear or strongly non-stationary. Second, energy and maintenance models may initially be simulation-based rather than derived from long-term field deployments. Third, strict connectivity can make greedy selection sensitive to the initial anchor set. Fourth, posterior uncertainty depends on model specification and should not be interpreted as absolute physical truth. These limitations motivate nonlinear multi-fidelity priors, adaptive communication models, and field validation in future work.
+[0420] 8. Conclusions
+[0421] This paper formulates polar sparse sensing as a coupled probabilistic reconstruction and engineering-feasible deployment problem. A robust Bayesian multi-fidelity compressed sensing model is proposed to fuse heterogeneous-fidelity observations, suppress the influence of non-Gaussian disturbances, and provide both reconstructed fields and posterior uncertainty. Based on this uncertainty, an effective information ratio combines entropy gain, uncertainty reduction, and redundancy suppression to quantify the marginal value of candidate sensing locations. Sea-ice concentration, node budget, energy, and communication connectivity are treated as hard constraints, whereas maintenance cost and failure risk are incorporated as soft penalties. The resulting reconstruction–deployment loop extends previous entropy-weighted sparse placement from deterministic information maximization to uncertainty-aware, multi-fidelity, constraint-aware sensing optimization. The final experimental study will evaluate not only reconstruction error but also probabilistic calibration, robustness, generalization under environmental shift, energy and communication cost, feasibility, and ablation effects. Future work will investigate nonlinear multi-fidelity relationships, dynamic redeployment under time-varying sea ice, adaptive communication topology, and validation using field-operated polar sensing platforms.
+[0422] 9. Recommended Figure and Table Plan
+[0423] Item
+[0424] Planned content
+[0425] Figure 1
+[0426] Overall motivation: deterministic sparse placement versus uncertainty-aware multi-fidelity constrained placement.
+[0427] Figure 2
+[0428] RBMF-CS probabilistic graphical/model workflow: LF/HF data → latent sparse field → posterior mean and uncertainty.
+[0429] Figure 3
+[0430] Closed reconstruction–deployment loop.
+[0431] Figure 4
+[0432] MC-EIR candidate scoring and hard-constraint filtering.
+[0433] Figure 5
+[0434] Reconstruction maps and uncertainty maps for representative Arctic cases.
+[0435] Figure 6
+[0436] Robustness curves under outliers, missing data, and fidelity bias.
+[0437] Figure 7
+[0438] Deployment maps over sea-ice concentration with communication links.
+[0439] Figure 8
+[0440] Cumulative information gain, uncertainty reduction, energy, and global EIR versus node number.
+[0441] Figure 9
+[0442] Ablation and structured-holdout generalization results.
+[0443] Table 1
+[0444] Evidence-oriented related-work taxonomy and research gap.
+[0445] Table 2
+[0446] Symbols and system variables.
+[0447] Table 3
+[0448] Datasets, fidelity definitions, and preprocessing.
+[0449] Table 4
+[0450] Reconstruction baselines and parameter settings.
+[0451] Table 5
+[0452] Reconstruction accuracy and calibration.
+[0453] Table 6
+[0454] Deployment feasibility, energy, connectivity, and EIR.
+[0455] Table 7
+[0456] Ablation and sensitivity results.
+[0457] Table 8
+[0458] Runtime and scalability.
+[0460] References
+[0461] [1] Zhang, Q. Robust Entropy-Weight-Driven Sparse Deployment Optimization of Marine Sensing Nodes and Polar Applications. Doctoral dissertation, Shanghai Maritime University. Source manuscript provided by the user.
+[0462] [2] Xu, W.; Li, J. A Review of Adversarial Example Detection in IoT Sensor Networks: Methods, Evaluation, and Edge Deployment Constraints. Sensors 2026, 26, 5044. https://doi.org/10.3390/s26165044.
+[0463] [3] Additional literature on Bayesian compressed sensing, sparse Bayesian learning, multi-fidelity modeling, constrained submodular optimization, communication-aware sensor placement, and polar ocean observation should be added after a dedicated literature search. This draft intentionally does not invent bibliographic entries not contained in the supplied source materials.
+[0464] Appendix A. Compact Manuscript Outline
+[0465] Highlights
+[0466] Abstract
+[0467] Keywords
+[0468] 1. Introduction
+[0469] 2. Related Work: 2.1 Data/Input Consistency; 2.2 Feature Statistics/Subspace; 2.3 Predictive Uncertainty; 2.4 Reconstruction; 2.5 Runtime Context/Constraints; 2.6 Multi-Strategy Fusion; 2.7 Gap
+[0470] 3. Problem Formulation and System Model
+[0471] 4. Robust Bayesian Multi-Fidelity Compressed Sensing
+[0472] 5. Multi-Constrained Effective-Information-Ratio Sensor Deployment
+[0473] 6. Reconstruction–Deployment Closed Loop and Evaluation Protocol
+[0474] 7. Results and Discussions
+[0475] 8. Conclusions
+[0476] References
+[0477] Appendix B. Core Symbols
+[0478] Symbol
+[0479] Meaning
+[0480] x_H, x_L
+[0481] High- and low-fidelity ocean fields
+[0482] Ψ, α
+[0483] Spatial basis and sparse latent coefficients
+[0484] J, C_J
+[0485] Selected node set and sampling matrix
+[0486] U
+[0487] Posterior reconstruction uncertainty
+[0488] ζ_j, I_c
+[0489] Sea-ice concentration and admissible threshold
+[0490] E_max
+[0491] Total energy budget
+[0492] G(J), L_J
+[0493] Communication graph and graph Laplacian
+[0494] ΔI_eff
+[0495] Effective marginal information gain
+[0496] EIR
+[0497] Effective information ratio
+[0498] N, K, p, T
+[0499] Candidate locations, retained basis modes, current observations, and training snapshots
+[0500] H_J, h_j
+[0501] Sampled basis C_JΨ and transpose of the basis row at candidate j
+[0502] γ, Γ
+[0503] ARD coefficient precisions and their diagonal matrix
+[0504] λ, Λ
+[0505] Student-t local observation precisions and their diagonal matrix
+[0506] ν
+[0507] Fixed Student-t degrees of freedom
+[0508] ρ, μ_ρ, σ_ρ²
+[0509] Scalar fidelity coupling and its variational mean and variance
+[0510] τ
+[0511] Global observation precision; τ⁻¹ is the Student-t squared scale
+[0512] τ_delta (τ_δ)
+[0513] Isotropic multi-fidelity discrepancy precision
+[0514] a_z, b_z; a_z*, b_z*
+[0515] Prior and variational Gamma shapes and rates for a precision z
+[0516] ρ_0, κ_ρ,0
+[0517] Prior mean and precision of the fidelity coupling
+[0518] μ_alpha (μ_α), Σ_alpha (Σ_α)
+[0519] Variational coefficient mean and covariance
+[0520] Σ_x
+[0521] Latent-field posterior covariance ΨΣ_alphaΨ^T
+[0522] ξ_i, ξ_delta
+[0523] Expected observation residual energy and discrepancy residual energy
+[0524] q(Θ), L(q)
+[0525] Mean-field posterior approximation and evidence lower bound
+[0526] K, s_H, σ_H²
+[0527] Training covariance, conditional structural variance, and entropy reference variance
+[0528] ΔH
+[0529] Structural entropy gain conditional on the selected locations
+[0530] ΔU
+[0531] Expected reduction in total posterior field variance for candidate assimilation
+[0532] Red, c_jℓ
+[0533] Maximum absolute training correlation with selected nodes and pairwise correlation
+[0534] r_j, ω_j
+[0535] Planning observation variance and positive historical reliability weight
+[0536] U_tot
+[0537] Total posterior field uncertainty, tr(Σ_x)
+[0538] F(J), V
+[0539] Feasible candidates given J and the complete candidate grid
+[0540] β, η
+[0541] Normalized uncertainty-reduction weight and redundancy weight
+[0542] C_j^base, C_j^maint, R_j^fail
+[0543] Base deployment cost, maintenance burden, and failure-risk measure
+[0544] λ_m, λ_f
+[0545] Soft-penalty conversion weights; distinct from local precision λ_i
+[0546] C_j^eff, P_soft,j
+[0547] Effective candidate cost and soft operational penalty
+[0548] p_max, E_max
+[0549] Maximum sensing-node count and mission energy budget
+[0550] A_J, D_J, λ_2(L_J)
+[0551] Communication adjacency, degree matrix, and algebraic connectivity
+[0552] ε_K, ε_R, ε_H, ε_U, ε_0
+[0553] Covariance, correlation, score-normalization, and cost stabilizers
+[0554] ε_VB, ε_EIR
+[0555] VB convergence tolerance and marginal-EIR stopping threshold

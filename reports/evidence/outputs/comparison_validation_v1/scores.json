@@ -1,0 +1,2027 @@
+[
+  {
+    "method": "pod_ridge",
+    "index": 0,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": 0.47931122876673765,
+    "valid": true,
+    "seconds": 0.013254199999209959
+  },
+  {
+    "method": "pod_ridge",
+    "index": 1,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": 0.4217437435794953,
+    "valid": true,
+    "seconds": 0.01406719999795314
+  },
+  {
+    "method": "pod_ridge",
+    "index": 2,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": 0.39493163545119925,
+    "valid": true,
+    "seconds": 0.012780400000337977
+  },
+  {
+    "method": "pod_ridge",
+    "index": 3,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.4267224344628876,
+    "valid": true,
+    "seconds": 0.01316670000232989
+  },
+  {
+    "method": "pod_ridge",
+    "index": 4,
+    "parameters": {
+      "rank": 4,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.45243584988036756,
+    "valid": true,
+    "seconds": 0.015567700000246987
+  },
+  {
+    "method": "pod_ridge",
+    "index": 5,
+    "parameters": {
+      "rank": 4,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.4567856763714702,
+    "valid": true,
+    "seconds": 0.01582079999934649
+  },
+  {
+    "method": "pod_ridge",
+    "index": 6,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": 0.5288473345881899,
+    "valid": true,
+    "seconds": 0.015076299998327158
+  },
+  {
+    "method": "pod_ridge",
+    "index": 7,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": 0.44638547458427,
+    "valid": true,
+    "seconds": 0.013641500001540408
+  },
+  {
+    "method": "pod_ridge",
+    "index": 8,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": 0.3964096746834956,
+    "valid": true,
+    "seconds": 0.013808700001391117
+  },
+  {
+    "method": "pod_ridge",
+    "index": 9,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.4237150753318322,
+    "valid": true,
+    "seconds": 0.011656000002403744
+  },
+  {
+    "method": "pod_ridge",
+    "index": 10,
+    "parameters": {
+      "rank": 8,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.4516139228628584,
+    "valid": true,
+    "seconds": 0.011770400000386871
+  },
+  {
+    "method": "pod_ridge",
+    "index": 11,
+    "parameters": {
+      "rank": 8,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.45669209077942374,
+    "valid": true,
+    "seconds": 0.012348600001132581
+  },
+  {
+    "method": "pod_ridge",
+    "index": 12,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": 0.4792872821291528,
+    "valid": true,
+    "seconds": 0.01604560000123456
+  },
+  {
+    "method": "pod_ridge",
+    "index": 13,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": 0.40909726437291893,
+    "valid": true,
+    "seconds": 0.01635109999915585
+  },
+  {
+    "method": "pod_ridge",
+    "index": 14,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": 0.3910034547747002,
+    "valid": true,
+    "seconds": 0.013870100003259722
+  },
+  {
+    "method": "pod_ridge",
+    "index": 15,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.4198095767418099,
+    "valid": true,
+    "seconds": 0.016751200004364364
+  },
+  {
+    "method": "pod_ridge",
+    "index": 16,
+    "parameters": {
+      "rank": 16,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.4503752697679345,
+    "valid": true,
+    "seconds": 0.017636700002185535
+  },
+  {
+    "method": "pod_ridge",
+    "index": 17,
+    "parameters": {
+      "rank": 16,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.4565420556916897,
+    "valid": true,
+    "seconds": 0.012260499999683816
+  },
+  {
+    "method": "pod_ridge",
+    "index": 18,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": 0.42190329836953755,
+    "valid": true,
+    "seconds": 0.018001899996306747
+  },
+  {
+    "method": "pod_ridge",
+    "index": 19,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": 0.4177243242950414,
+    "valid": true,
+    "seconds": 0.015679999996791594
+  },
+  {
+    "method": "pod_ridge",
+    "index": 20,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": 0.41283025114236066,
+    "valid": true,
+    "seconds": 0.016921499998716172
+  },
+  {
+    "method": "pod_ridge",
+    "index": 21,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.4248901685819963,
+    "valid": true,
+    "seconds": 0.01817950000258861
+  },
+  {
+    "method": "pod_ridge",
+    "index": 22,
+    "parameters": {
+      "rank": 32,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.4498356271938779,
+    "valid": true,
+    "seconds": 0.014762999999220483
+  },
+  {
+    "method": "pod_ridge",
+    "index": 23,
+    "parameters": {
+      "rank": 32,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.45643918889576995,
+    "valid": true,
+    "seconds": 0.015130100000533275
+  },
+  {
+    "method": "pod_ridge",
+    "index": 24,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": 0.4404533084091187,
+    "valid": true,
+    "seconds": 0.022405399999115616
+  },
+  {
+    "method": "pod_ridge",
+    "index": 25,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": 0.44026787851977456,
+    "valid": true,
+    "seconds": 0.025115199998253956
+  },
+  {
+    "method": "pod_ridge",
+    "index": 26,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": 0.4395021323970293,
+    "valid": true,
+    "seconds": 0.027391600000555627
+  },
+  {
+    "method": "pod_ridge",
+    "index": 27,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.4413114911802664,
+    "valid": true,
+    "seconds": 0.02559760000440292
+  },
+  {
+    "method": "pod_ridge",
+    "index": 28,
+    "parameters": {
+      "rank": 70,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.4516040487158993,
+    "valid": true,
+    "seconds": 0.029366899994784035
+  },
+  {
+    "method": "pod_ridge",
+    "index": 29,
+    "parameters": {
+      "rank": 70,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.4565458768298235,
+    "valid": true,
+    "seconds": 0.03371819999301806
+  },
+  {
+    "method": "pod_lasso",
+    "index": 0,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": null,
+    "valid": false,
+    "seconds": 13.780555399993318
+  },
+  {
+    "method": "pod_lasso",
+    "index": 1,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": 0.48339479762376675,
+    "valid": true,
+    "seconds": 1.5836440999992192
+  },
+  {
+    "method": "pod_lasso",
+    "index": 2,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": 0.42032667279106806,
+    "valid": true,
+    "seconds": 0.28533929999684915
+  },
+  {
+    "method": "pod_lasso",
+    "index": 3,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.41280176579729955,
+    "valid": true,
+    "seconds": 0.09996189999947092
+  },
+  {
+    "method": "pod_lasso",
+    "index": 4,
+    "parameters": {
+      "rank": 4,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.45730434790905455,
+    "valid": true,
+    "seconds": 0.01823059999878751
+  },
+  {
+    "method": "pod_lasso",
+    "index": 5,
+    "parameters": {
+      "rank": 4,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.45730434790905455,
+    "valid": true,
+    "seconds": 0.021740099997259676
+  },
+  {
+    "method": "pod_lasso",
+    "index": 6,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": null,
+    "valid": false,
+    "seconds": 46.20546810000087
+  },
+  {
+    "method": "pod_lasso",
+    "index": 7,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": null,
+    "valid": false,
+    "seconds": 11.379669800000556
+  },
+  {
+    "method": "pod_lasso",
+    "index": 8,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": 0.4413151847441482,
+    "valid": true,
+    "seconds": 1.1304232999973465
+  },
+  {
+    "method": "pod_lasso",
+    "index": 9,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.4145525325276773,
+    "valid": true,
+    "seconds": 0.23472490000131074
+  },
+  {
+    "method": "pod_lasso",
+    "index": 10,
+    "parameters": {
+      "rank": 8,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.45730434790905455,
+    "valid": true,
+    "seconds": 0.02651530000002822
+  },
+  {
+    "method": "pod_lasso",
+    "index": 11,
+    "parameters": {
+      "rank": 8,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.45730434790905455,
+    "valid": true,
+    "seconds": 0.01933139999891864
+  },
+  {
+    "method": "pod_lasso",
+    "index": 12,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": null,
+    "valid": false,
+    "seconds": 132.38051510000514
+  },
+  {
+    "method": "pod_lasso",
+    "index": 13,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": null,
+    "valid": false,
+    "seconds": 30.401113399995666
+  },
+  {
+    "method": "pod_lasso",
+    "index": 14,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": 0.4209333399895044,
+    "valid": true,
+    "seconds": 5.18762749999587
+  },
+  {
+    "method": "pod_lasso",
+    "index": 15,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.40650206260000815,
+    "valid": true,
+    "seconds": 0.5096936999980244
+  },
+  {
+    "method": "pod_lasso",
+    "index": 16,
+    "parameters": {
+      "rank": 16,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.45730434790905455,
+    "valid": true,
+    "seconds": 0.034261000000697095
+  },
+  {
+    "method": "pod_lasso",
+    "index": 17,
+    "parameters": {
+      "rank": 16,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.45730434790905455,
+    "valid": true,
+    "seconds": 0.024389799997152295
+  },
+  {
+    "method": "pod_lasso",
+    "index": 18,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": null,
+    "valid": false,
+    "seconds": 241.5137765000036
+  },
+  {
+    "method": "pod_lasso",
+    "index": 19,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": null,
+    "valid": false,
+    "seconds": 86.37053519999608
+  },
+  {
+    "method": "pod_lasso",
+    "index": 20,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": null,
+    "valid": false,
+    "seconds": 21.58606979999604
+  },
+  {
+    "method": "pod_lasso",
+    "index": 21,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.4300311738718718,
+    "valid": true,
+    "seconds": 1.3765214000013657
+  },
+  {
+    "method": "pod_lasso",
+    "index": 22,
+    "parameters": {
+      "rank": 32,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.45730434790905455,
+    "valid": true,
+    "seconds": 0.036813599996094126
+  },
+  {
+    "method": "pod_lasso",
+    "index": 23,
+    "parameters": {
+      "rank": 32,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.45730434790905455,
+    "valid": true,
+    "seconds": 0.06238949999533361
+  },
+  {
+    "method": "pod_lasso",
+    "index": 24,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": null,
+    "valid": false,
+    "seconds": 517.2787815000047
+  },
+  {
+    "method": "pod_lasso",
+    "index": 25,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": null,
+    "valid": false,
+    "seconds": 276.60501680000016
+  },
+  {
+    "method": "pod_lasso",
+    "index": 26,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": 0.4723793489890125,
+    "valid": true,
+    "seconds": 41.66321800000151
+  },
+  {
+    "method": "pod_lasso",
+    "index": 27,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.4518611590091591,
+    "valid": true,
+    "seconds": 3.451633500000753
+  },
+  {
+    "method": "pod_lasso",
+    "index": 28,
+    "parameters": {
+      "rank": 70,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.45730434790905455,
+    "valid": true,
+    "seconds": 0.08646269999735523
+  },
+  {
+    "method": "pod_lasso",
+    "index": 29,
+    "parameters": {
+      "rank": 70,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.45730434790905455,
+    "valid": true,
+    "seconds": 0.08179769999696873
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 0,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": 0.8307815642446229,
+    "valid": true,
+    "seconds": 0.013249700001324527
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 1,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": 0.7427540798621736,
+    "valid": true,
+    "seconds": 0.012256499998329673
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 2,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": 0.6857564724383157,
+    "valid": true,
+    "seconds": 0.015558499995677266
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 3,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.7094675294304996,
+    "valid": true,
+    "seconds": 0.01680079999641748
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 4,
+    "parameters": {
+      "rank": 4,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.7417503921073373,
+    "valid": true,
+    "seconds": 0.016889000005903654
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 5,
+    "parameters": {
+      "rank": 4,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.7474166842795229,
+    "valid": true,
+    "seconds": 0.01078129999950761
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 6,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": 0.9084541241690484,
+    "valid": true,
+    "seconds": 0.014467199995124247
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 7,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": 0.7610568176444615,
+    "valid": true,
+    "seconds": 0.016947299998719245
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 8,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": 0.6979943186169917,
+    "valid": true,
+    "seconds": 0.01751479999802541
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 9,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.7116938996165376,
+    "valid": true,
+    "seconds": 0.01552090000041062
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 10,
+    "parameters": {
+      "rank": 8,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.7416621577579647,
+    "valid": true,
+    "seconds": 0.015974299996742047
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 11,
+    "parameters": {
+      "rank": 8,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.7473990748310883,
+    "valid": true,
+    "seconds": 0.012833600005251355
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 12,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": 0.8269851039439885,
+    "valid": true,
+    "seconds": 0.013092699999106117
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 13,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": 0.7679838956149955,
+    "valid": true,
+    "seconds": 0.017612399999052286
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 14,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": 0.7180569216448008,
+    "valid": true,
+    "seconds": 0.016146599999046884
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 15,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.7162324732114871,
+    "valid": true,
+    "seconds": 0.013840400002663955
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 16,
+    "parameters": {
+      "rank": 16,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.7416334412293987,
+    "valid": true,
+    "seconds": 0.020443100002012216
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 17,
+    "parameters": {
+      "rank": 16,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.7473729944754548,
+    "valid": true,
+    "seconds": 0.010775299997476395
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 18,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": 0.738701022662472,
+    "valid": true,
+    "seconds": 0.011934499998460524
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 19,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": 0.7336748637055206,
+    "valid": true,
+    "seconds": 0.015819899999769405
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 20,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": 0.7217150955813539,
+    "valid": true,
+    "seconds": 0.025531599996611476
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 21,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.7206602362716816,
+    "valid": true,
+    "seconds": 0.02035519999481039
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 22,
+    "parameters": {
+      "rank": 32,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.7411937877950577,
+    "valid": true,
+    "seconds": 0.011801399996329565
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 23,
+    "parameters": {
+      "rank": 32,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.7472849222619322,
+    "valid": true,
+    "seconds": 0.013484700000844896
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 24,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": 0.7327622571420966,
+    "valid": true,
+    "seconds": 0.015507500000239816
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 25,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": 0.7325371635260547,
+    "valid": true,
+    "seconds": 0.025518099995679222
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 26,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "score": 0.731290671186322,
+    "valid": true,
+    "seconds": 0.030469199999060947
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 27,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "score": 0.73149415809796,
+    "valid": true,
+    "seconds": 0.026363900004071184
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 28,
+    "parameters": {
+      "rank": 70,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.7420369518558952,
+    "valid": true,
+    "seconds": 0.02853109999705339
+  },
+  {
+    "method": "deterministic_mf",
+    "index": 29,
+    "parameters": {
+      "rank": 70,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    "score": 0.7472848386876679,
+    "valid": true,
+    "seconds": 0.028200200002174824
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 0,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.001,
+        "b_gamma": 0.001
+      }
+    },
+    "score": 0.4199206996343193,
+    "valid": true,
+    "seconds": 5.1891106999974
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 1,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.01,
+        "b_gamma": 0.01
+      }
+    },
+    "score": 0.4227105163654038,
+    "valid": true,
+    "seconds": 3.2499291999993147
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 2,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.1,
+        "b_gamma": 0.1
+      }
+    },
+    "score": 0.42163014599960313,
+    "valid": true,
+    "seconds": 1.7357896999965305
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 3,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.001,
+        "b_gamma": 0.001
+      }
+    },
+    "score": 0.46418783609555525,
+    "valid": true,
+    "seconds": 6.007921800002805
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 4,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.01,
+        "b_gamma": 0.01
+      }
+    },
+    "score": 0.45695694721450103,
+    "valid": true,
+    "seconds": 3.9219844000035664
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 5,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.1,
+        "b_gamma": 0.1
+      }
+    },
+    "score": 0.4332839485213207,
+    "valid": true,
+    "seconds": 2.085600099999283
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 6,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.001,
+        "b_gamma": 0.001
+      }
+    },
+    "score": 0.45721746511586175,
+    "valid": true,
+    "seconds": 6.454813899996225
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 7,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.01,
+        "b_gamma": 0.01
+      }
+    },
+    "score": 0.4502603178897715,
+    "valid": true,
+    "seconds": 4.879069500006153
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 8,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.1,
+        "b_gamma": 0.1
+      }
+    },
+    "score": 0.42984601863656535,
+    "valid": true,
+    "seconds": 3.2089781999966362
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 9,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.001,
+        "b_gamma": 0.001
+      }
+    },
+    "score": 0.49492631414174904,
+    "valid": true,
+    "seconds": 9.437856399999873
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 10,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.01,
+        "b_gamma": 0.01
+      }
+    },
+    "score": 0.4947079224162251,
+    "valid": true,
+    "seconds": 7.1746362000048975
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 11,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.1,
+        "b_gamma": 0.1
+      }
+    },
+    "score": 0.4968285797699277,
+    "valid": true,
+    "seconds": 4.522233000003325
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 12,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.001,
+        "b_gamma": 0.001
+      }
+    },
+    "score": 0.5089624147343663,
+    "valid": true,
+    "seconds": 17.809163400001125
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 13,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.01,
+        "b_gamma": 0.01
+      }
+    },
+    "score": 0.5014233121216815,
+    "valid": true,
+    "seconds": 10.309994000002916
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 14,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.1,
+        "b_gamma": 0.1
+      }
+    },
+    "score": 0.5093423404818205,
+    "valid": true,
+    "seconds": 5.988116499996977
+  },
+  {
+    "method": "rbmf",
+    "index": 0,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 3.0
+      }
+    },
+    "score": 0.45728771983568167,
+    "valid": true,
+    "seconds": 0.9675654000020586
+  },
+  {
+    "method": "rbmf",
+    "index": 1,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 4.0
+      }
+    },
+    "score": 0.4572876897885711,
+    "valid": true,
+    "seconds": 0.9360505000004196
+  },
+  {
+    "method": "rbmf",
+    "index": 2,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 8.0
+      }
+    },
+    "score": 0.45728786174975217,
+    "valid": true,
+    "seconds": 0.8955846000026213
+  },
+  {
+    "method": "rbmf",
+    "index": 3,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 3.0
+      }
+    },
+    "score": 0.4572320486685996,
+    "valid": true,
+    "seconds": 0.8695981999990181
+  },
+  {
+    "method": "rbmf",
+    "index": 4,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 4.0
+      }
+    },
+    "score": 0.45723246598997364,
+    "valid": true,
+    "seconds": 0.7398844999988796
+  },
+  {
+    "method": "rbmf",
+    "index": 5,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 8.0
+      }
+    },
+    "score": 0.4572330586319339,
+    "valid": true,
+    "seconds": 0.785923700001149
+  },
+  {
+    "method": "rbmf",
+    "index": 6,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 3.0
+      }
+    },
+    "score": 0.4570163462202373,
+    "valid": true,
+    "seconds": 0.8618916000050376
+  },
+  {
+    "method": "rbmf",
+    "index": 7,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 4.0
+      }
+    },
+    "score": 0.457018832193458,
+    "valid": true,
+    "seconds": 0.8378360999995493
+  },
+  {
+    "method": "rbmf",
+    "index": 8,
+    "parameters": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 8.0
+      }
+    },
+    "score": 0.4570230410011917,
+    "valid": true,
+    "seconds": 0.74936290000187
+  },
+  {
+    "method": "rbmf",
+    "index": 9,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 3.0
+      }
+    },
+    "score": 0.4572810078179467,
+    "valid": true,
+    "seconds": 1.066706300000078
+  },
+  {
+    "method": "rbmf",
+    "index": 10,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 4.0
+      }
+    },
+    "score": 0.45728118937772766,
+    "valid": true,
+    "seconds": 1.0246530000003986
+  },
+  {
+    "method": "rbmf",
+    "index": 11,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 8.0
+      }
+    },
+    "score": 0.4572814944243897,
+    "valid": true,
+    "seconds": 1.3843629000039073
+  },
+  {
+    "method": "rbmf",
+    "index": 12,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 3.0
+      }
+    },
+    "score": 0.45721152439739754,
+    "valid": true,
+    "seconds": 1.1530359000025783
+  },
+  {
+    "method": "rbmf",
+    "index": 13,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 4.0
+      }
+    },
+    "score": 0.4572125954030701,
+    "valid": true,
+    "seconds": 1.237526800003252
+  },
+  {
+    "method": "rbmf",
+    "index": 14,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 8.0
+      }
+    },
+    "score": 0.45721442554953834,
+    "valid": true,
+    "seconds": 1.3291960999995354
+  },
+  {
+    "method": "rbmf",
+    "index": 15,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 3.0
+      }
+    },
+    "score": 0.4569529456243288,
+    "valid": true,
+    "seconds": 1.2633529000013368
+  },
+  {
+    "method": "rbmf",
+    "index": 16,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 4.0
+      }
+    },
+    "score": 0.45695712672697203,
+    "valid": true,
+    "seconds": 0.8895326999991084
+  },
+  {
+    "method": "rbmf",
+    "index": 17,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 8.0
+      }
+    },
+    "score": 0.4569643939339214,
+    "valid": true,
+    "seconds": 1.0209058000036748
+  },
+  {
+    "method": "rbmf",
+    "index": 18,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 3.0
+      }
+    },
+    "score": 0.45726886829252583,
+    "valid": true,
+    "seconds": 1.858642899998813
+  },
+  {
+    "method": "rbmf",
+    "index": 19,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 4.0
+      }
+    },
+    "score": 0.4572689830212042,
+    "valid": true,
+    "seconds": 1.9592957999993814
+  },
+  {
+    "method": "rbmf",
+    "index": 20,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 8.0
+      }
+    },
+    "score": 0.45726939890131785,
+    "valid": true,
+    "seconds": 1.8471802999993088
+  },
+  {
+    "method": "rbmf",
+    "index": 21,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 3.0
+      }
+    },
+    "score": 0.4571804491184123,
+    "valid": true,
+    "seconds": 1.4608183999953326
+  },
+  {
+    "method": "rbmf",
+    "index": 22,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 4.0
+      }
+    },
+    "score": 0.4571815269331229,
+    "valid": true,
+    "seconds": 1.4014180999947712
+  },
+  {
+    "method": "rbmf",
+    "index": 23,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 8.0
+      }
+    },
+    "score": 0.45718308425873677,
+    "valid": true,
+    "seconds": 1.3520121000037761
+  },
+  {
+    "method": "rbmf",
+    "index": 24,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 3.0
+      }
+    },
+    "score": 0.4568615640646826,
+    "valid": true,
+    "seconds": 1.1787632999985362
+  },
+  {
+    "method": "rbmf",
+    "index": 25,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 4.0
+      }
+    },
+    "score": 0.45686539221939027,
+    "valid": true,
+    "seconds": 1.167721600002551
+  },
+  {
+    "method": "rbmf",
+    "index": 26,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 8.0
+      }
+    },
+    "score": 0.45687218900957743,
+    "valid": true,
+    "seconds": 1.2669104999949923
+  },
+  {
+    "method": "rbmf",
+    "index": 27,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 3.0
+      }
+    },
+    "score": 0.4572538272137893,
+    "valid": true,
+    "seconds": 2.974761999998009
+  },
+  {
+    "method": "rbmf",
+    "index": 28,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 4.0
+      }
+    },
+    "score": 0.4572541415551256,
+    "valid": true,
+    "seconds": 2.994321400001354
+  },
+  {
+    "method": "rbmf",
+    "index": 29,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 8.0
+      }
+    },
+    "score": 0.45725464807081084,
+    "valid": true,
+    "seconds": 3.03088860000571
+  },
+  {
+    "method": "rbmf",
+    "index": 30,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 3.0
+      }
+    },
+    "score": 0.45715511942317777,
+    "valid": true,
+    "seconds": 2.0524015000046347
+  },
+  {
+    "method": "rbmf",
+    "index": 31,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 4.0
+      }
+    },
+    "score": 0.4571564065200294,
+    "valid": true,
+    "seconds": 2.1391199999998207
+  },
+  {
+    "method": "rbmf",
+    "index": 32,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 8.0
+      }
+    },
+    "score": 0.4571583986700053,
+    "valid": true,
+    "seconds": 2.160293400003866
+  },
+  {
+    "method": "rbmf",
+    "index": 33,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 3.0
+      }
+    },
+    "score": 0.45678469097639,
+    "valid": true,
+    "seconds": 1.6281936000013957
+  },
+  {
+    "method": "rbmf",
+    "index": 34,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 4.0
+      }
+    },
+    "score": 0.45678916024412786,
+    "valid": true,
+    "seconds": 1.6808038000017405
+  },
+  {
+    "method": "rbmf",
+    "index": 35,
+    "parameters": {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 8.0
+      }
+    },
+    "score": 0.4567966201845553,
+    "valid": true,
+    "seconds": 1.6556407000025501
+  },
+  {
+    "method": "rbmf",
+    "index": 36,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 3.0
+      }
+    },
+    "score": 0.4572444888979917,
+    "valid": true,
+    "seconds": 6.9145253999959095
+  },
+  {
+    "method": "rbmf",
+    "index": 37,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 4.0
+      }
+    },
+    "score": 0.45724483859000625,
+    "valid": true,
+    "seconds": 6.988182500004768
+  },
+  {
+    "method": "rbmf",
+    "index": 38,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 8.0
+      }
+    },
+    "score": 0.4572452900050808,
+    "valid": true,
+    "seconds": 6.718746200000169
+  },
+  {
+    "method": "rbmf",
+    "index": 39,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 3.0
+      }
+    },
+    "score": 0.4571646931398997,
+    "valid": true,
+    "seconds": 4.547468000004301
+  },
+  {
+    "method": "rbmf",
+    "index": 40,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 4.0
+      }
+    },
+    "score": 0.45716609705664063,
+    "valid": true,
+    "seconds": 4.293434799998067
+  },
+  {
+    "method": "rbmf",
+    "index": 41,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 8.0
+      }
+    },
+    "score": 0.45716821869498453,
+    "valid": true,
+    "seconds": 4.153811199998017
+  },
+  {
+    "method": "rbmf",
+    "index": 42,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 3.0
+      }
+    },
+    "score": 0.4568366438922331,
+    "valid": true,
+    "seconds": 2.3589365999941947
+  },
+  {
+    "method": "rbmf",
+    "index": 43,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 4.0
+      }
+    },
+    "score": 0.45684096121259476,
+    "valid": true,
+    "seconds": 2.1066064999977243
+  },
+  {
+    "method": "rbmf",
+    "index": 44,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 8.0
+      }
+    },
+    "score": 0.45684691603639566,
+    "valid": true,
+    "seconds": 2.040041000000201
+  }
+]

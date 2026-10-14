@@ -1,0 +1,29 @@
+{
+  "status": "development_frozen_not_independent_test_authorized",
+  "primary": "pod_ridge",
+  "methods": {
+    "pod_ridge": {
+      "rank": 16,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    "pod_lasso": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    "gaussian_sbl_vb": {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.001,
+        "b_gamma": 0.001
+      }
+    }
+  },
+  "training_artifacts_sha256": "8dae69d36521deddcfc0b0d7bb95093ce09e58591599ddad5d29f9e6492a0a04",
+  "historical_selection_sha256": "e4c620080007533a26b40570761ba17df80cafadcd5d6fe6ddc7ed3187d1e6c6",
+  "test_gate": "rbmf_cs.p0_holdout_gate.require_qualified_release",
+  "next_work": "Complete paired independent data and version/QC audit; do not tune against sealed fields",
+  "rbmf_status": "archived research comparator; no further search in this round"
+}

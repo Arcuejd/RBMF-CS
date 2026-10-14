@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "phase": "full",
+  "source_sha256": "203f67a8f60b5536f52cd3a36db1720e7da3e59cedcd3c47470b663e4e5c92f3",
+  "point_rows_checked": 3600,
+  "inner_rows_checked": 9720,
+  "interval_rows_checked": 8640,
+  "paired_cases_checked": 1440,
+  "preservation": {
+    "original_model": "5e7173f7aca50511e4f1afff8a25150fea419eb9958008258b8b4781589c3168",
+    "training": "8dae69d36521deddcfc0b0d7bb95093ce09e58591599ddad5d29f9e6492a0a04",
+    "selection": "e4c620080007533a26b40570761ba17df80cafadcd5d6fe6ddc7ed3187d1e6c6",
+    "holdout_manifest": "da0c19d4d15c9532ab722d4b0df43c07b0c3f2c555375024a19557f89ca2cb5e",
+    "release_authorized": false
+  },
+  "errors": [],
+  "failure_count": 0
+}

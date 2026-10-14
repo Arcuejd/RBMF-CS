@@ -1,0 +1,332 @@
+{
+  "label": "synthetic closed-loop demo only; RBMF-CS + MC-EIR; stages 1 through 3",
+  "status": "completed",
+  "stop_reason": "no_feasible_candidate",
+  "utc_started": "2026-10-08T06:12:23.803092+00:00",
+  "selected": [
+    0,
+    1,
+    12,
+    13,
+    3,
+    5,
+    7,
+    31,
+    18
+  ],
+  "acquisitions": 9,
+  "posterior_fits": 6,
+  "all_fits_converged": true,
+  "final_feasibility": {
+    "feasible": true,
+    "reasons": [],
+    "selected": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      12,
+      13,
+      18,
+      31
+    ],
+    "sensor_count": 9,
+    "gateway_count": 1,
+    "connected": true,
+    "ice": {
+      "0": 0.3,
+      "1": 0.32817325568414296,
+      "3": 0.3755749574354258,
+      "5": 0.39898214418809325,
+      "7": 0.39096319953545183,
+      "12": 0.3333333333333333,
+      "13": 0.3615065890174763,
+      "18": 0.4323154775214266,
+      "31": 0.4576298662021185
+    },
+    "edges_km": [
+      [
+        "sensor:0",
+        "sensor:1",
+        10.0
+      ],
+      [
+        "sensor:0",
+        "sensor:12",
+        10.0
+      ],
+      [
+        "sensor:0",
+        "sensor:13",
+        14.142135623730951
+      ],
+      [
+        "sensor:0",
+        "gateway:0",
+        5.0
+      ],
+      [
+        "sensor:1",
+        "sensor:3",
+        20.0
+      ],
+      [
+        "sensor:1",
+        "sensor:12",
+        14.142135623730951
+      ],
+      [
+        "sensor:1",
+        "sensor:13",
+        10.0
+      ],
+      [
+        "sensor:1",
+        "gateway:0",
+        15.0
+      ],
+      [
+        "sensor:3",
+        "sensor:5",
+        20.0
+      ],
+      [
+        "sensor:5",
+        "sensor:7",
+        20.0
+      ],
+      [
+        "sensor:5",
+        "sensor:18",
+        14.142135623730951
+      ],
+      [
+        "sensor:7",
+        "sensor:18",
+        14.142135623730951
+      ],
+      [
+        "sensor:7",
+        "sensor:31",
+        20.0
+      ],
+      [
+        "sensor:12",
+        "sensor:13",
+        10.0
+      ],
+      [
+        "sensor:12",
+        "gateway:0",
+        11.180339887498949
+      ],
+      [
+        "sensor:13",
+        "gateway:0",
+        18.027756377319946
+      ],
+      [
+        "sensor:18",
+        "sensor:31",
+        14.142135623730951
+      ]
+    ],
+    "energy": {
+      "total_j": 247.10000000000002,
+      "sensor_total_j": 227.10000000000002,
+      "gateway_total_j": 20.0,
+      "per_sensor": {
+        "0": {
+          "sense_j": 7.2,
+          "process_j": 3.6,
+          "tx_j": 2.7,
+          "forwarded_and_own_packets": 12,
+          "total_j": 13.5
+        },
+        "1": {
+          "sense_j": 7.2,
+          "process_j": 3.6,
+          "tx_j": 30.6,
+          "forwarded_and_own_packets": 72,
+          "total_j": 41.400000000000006
+        },
+        "3": {
+          "sense_j": 7.2,
+          "process_j": 3.6,
+          "tx_j": 36.00000000000001,
+          "forwarded_and_own_packets": 60,
+          "total_j": 46.80000000000001
+        },
+        "5": {
+          "sense_j": 7.2,
+          "process_j": 3.6,
+          "tx_j": 28.800000000000004,
+          "forwarded_and_own_packets": 48,
+          "total_j": 39.60000000000001
+        },
+        "7": {
+          "sense_j": 7.2,
+          "process_j": 3.6,
+          "tx_j": 7.200000000000001,
+          "forwarded_and_own_packets": 12,
+          "total_j": 18.0
+        },
+        "12": {
+          "sense_j": 7.2,
+          "process_j": 3.6,
+          "tx_j": 3.900000000000001,
+          "forwarded_and_own_packets": 12,
+          "total_j": 14.700000000000001
+        },
+        "13": {
+          "sense_j": 7.2,
+          "process_j": 3.6,
+          "tx_j": 6.300000000000001,
+          "forwarded_and_own_packets": 12,
+          "total_j": 17.1
+        },
+        "18": {
+          "sense_j": 7.2,
+          "process_j": 3.6,
+          "tx_j": 9.600000000000001,
+          "forwarded_and_own_packets": 24,
+          "total_j": 20.400000000000002
+        },
+        "31": {
+          "sense_j": 7.2,
+          "process_j": 3.6,
+          "tx_j": 4.800000000000001,
+          "forwarded_and_own_packets": 12,
+          "total_j": 15.600000000000001
+        }
+      },
+      "routes": {
+        "0": [
+          "sensor:0",
+          "gateway:0"
+        ],
+        "1": [
+          "sensor:1",
+          "gateway:0"
+        ],
+        "3": [
+          "sensor:3",
+          "sensor:1",
+          "gateway:0"
+        ],
+        "5": [
+          "sensor:5",
+          "sensor:3",
+          "sensor:1",
+          "gateway:0"
+        ],
+        "7": [
+          "sensor:7",
+          "sensor:5",
+          "sensor:3",
+          "sensor:1",
+          "gateway:0"
+        ],
+        "12": [
+          "sensor:12",
+          "gateway:0"
+        ],
+        "13": [
+          "sensor:13",
+          "gateway:0"
+        ],
+        "18": [
+          "sensor:18",
+          "sensor:5",
+          "sensor:3",
+          "sensor:1",
+          "gateway:0"
+        ],
+        "31": [
+          "sensor:31",
+          "sensor:18",
+          "sensor:5",
+          "sensor:3",
+          "sensor:1",
+          "gateway:0"
+        ]
+      },
+      "mission_seconds": 3600.0,
+      "routing": "minimum_transmit_energy",
+      "sink_without_gateway": null
+    },
+    "gateway_counts_as_sensor": false,
+    "gateway_energy_included": true
+  },
+  "snapshots": [
+    {
+      "posterior": "posterior_000.npz",
+      "inference": "fit_000.json"
+    },
+    {
+      "posterior": "posterior_001.npz",
+      "inference": "fit_001.json"
+    },
+    {
+      "posterior": "posterior_002.npz",
+      "inference": "fit_002.json"
+    },
+    {
+      "posterior": "posterior_003.npz",
+      "inference": "fit_003.json"
+    },
+    {
+      "posterior": "posterior_004.npz",
+      "inference": "fit_004.json"
+    },
+    {
+      "posterior": "posterior_005.npz",
+      "inference": "fit_005.json"
+    }
+  ],
+  "runtime_seconds": 0.2207111999996414,
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "config_sha256": "593f67f51331946a3946f0b24f64f168602fb6477a9b3627536c9dfc7dbdac41",
+  "source_hashes": {
+    "src\\rbmf_cs\\__init__.py": "5358ebd12f71f1a600bd9d81ed6bf5da208d9056954926a3ba1e619555c7856a",
+    "src\\rbmf_cs\\basis.py": "38ee6a050377e877bb1ed8e28cfbe0d6b11404602d232353dde38dbc54a8db33",
+    "src\\rbmf_cs\\constraints.py": "bb3124130cbb3b8841495a9c4de1f2e5546f949bbfc2be867f7c6fba0fb82951",
+    "src\\rbmf_cs\\deployment.py": "6ba3e00fe66e66d7945120c4cba10030fb9bfc6b33ca65b161226346a42f5b51",
+    "src\\rbmf_cs\\model.py": "0a2f18eb9db38e61f027e0d33ba36f32c44f013811f14f78c05f1f0d1a892b9f",
+    "src\\rbmf_cs\\numerics.py": "4fe065c71ab974fdbd1344c828853f7af96558c5eb072099f0a331c6f01ee5f9",
+    "src\\rbmf_cs\\planning.py": "f597c1b0011b12cd0434d696f0a6b95e49a05a50b6760e15e345980976ae544c",
+    "src\\rbmf_cs\\synthetic.py": "27cb2c7d501a2e7225ded435cd78e82119379b98107b47684f9eccf7fc3b9ea2",
+    "scripts\\check_closed_loop_reproducibility.py": "02642623e0318f1c82082cea1686e828806349b0ffc46ec173c50d333317e7cf",
+    "scripts\\check_reproducibility.py": "baa3055f03d002f1aafde9df8b3992558b07ef8ab47a9c350b31704539639144",
+    "scripts\\extract_manuscript.py": "9b8eaaa7bbe2e4d4cfdc9a8c79b1faada7416b77d8eb7c64f8e4de419ca29a99",
+    "scripts\\run_closed_loop_demo.py": "2270331338a815c865e2e9df85092cb2ba993394566b0b4476a6a001b8a093bc",
+    "scripts\\run_synthetic_demo.py": "616d5c3eb4190cf62b8a5629544b4f9384d96cfd799d89e1f3d4571e97b7a7af",
+    "scripts\\run_tests.py": "d7abf5c3eb016419cc943f9e6ec0bb7dfdf44d0de732b5f1d64e5f3a0ab036f2",
+    "scripts\\validate_closed_loop_run.py": "6e75467ef642876ef8bc835785dd042fe857b11a5c144d69313eee498cf6490d",
+    "tests\\test_closed_loop_demo.py": "8e475f371086c4a4aa9f51ec6acf69e787530ce8d74c111a1939b72f319682df",
+    "tests\\test_constraints.py": "dc2be7fa4bc88e3300c47acd54a3d4ecc8f51ce1012188d964a47de0b403370a",
+    "tests\\test_demo.py": "614a8fc10633ac5ff6a3524f01f950be4e37ec8d684e1d23c4678f6f4bb309e8",
+    "tests\\test_deployment.py": "779d8f2cb59de688c02959e0dee1eaf0f1e87aeefcb3ffa57db9cf2e2fa0a40d",
+    "tests\\test_inference.py": "92484cd1df919f49efefdd9922ae2a136e2287b3948c9830ccd16877ec5decae",
+    "tests\\test_planning.py": "e562efae652bc32d8e3ccb5a2ff4982d9518574492e8ddecd46f25a11ab52370",
+    "tests\\test_training.py": "9960a8d3924a89ca3276fd33ff8e4e2ac23e836d499f77e1dc53b13af3d221f5"
+  },
+  "units": {
+    "distance": "km",
+    "mission_energy": "J",
+    "ice": "fraction",
+    "field": "synthetic arbitrary units",
+    "cost": "synthetic cost units",
+    "planning_variance": "model anomaly units squared"
+  },
+  "limitations": [
+    "synthetic software demonstration only",
+    "fixed-horizon forecast energy, no real mission telemetry",
+    "no receive/idle radio energy model",
+    "no baseline comparison or real-data conclusions"
+  ]
+}

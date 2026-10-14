@@ -1,0 +1,65 @@
+{
+  "parsed_itp_headers": 10454,
+  "parse_errors": [],
+  "excluded_nonprofile_members": [
+    {
+      "archive": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp54final.zip",
+      "member": "itp54micro.dat",
+      "reason": "not gridded temperature profile"
+    },
+    {
+      "archive": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp59final.zip",
+      "member": "itp59sami.dat",
+      "reason": "not gridded temperature profile"
+    },
+    {
+      "archive": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp66final.zip",
+      "member": "itp66micro.dat",
+      "reason": "not gridded temperature profile"
+    },
+    {
+      "archive": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp68final.zip",
+      "member": "itp68sami.dat",
+      "reason": "not gridded temperature profile"
+    },
+    {
+      "archive": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp69final.zip",
+      "member": "itp69sami.dat",
+      "reason": "not gridded temperature profile"
+    },
+    {
+      "archive": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp71final.zip",
+      "member": "itp71micro.dat",
+      "reason": "not gridded temperature profile"
+    },
+    {
+      "archive": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp72final.zip",
+      "member": "itp72sami.dat",
+      "reason": "not gridded temperature profile"
+    },
+    {
+      "archive": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp84final.zip",
+      "member": "itp84sami.dat",
+      "reason": "not gridded temperature profile"
+    },
+    {
+      "archive": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp85final.zip",
+      "member": "itp85sami.dat",
+      "reason": "not gridded temperature profile"
+    }
+  ],
+  "all_year_counts": {
+    "2011": 396,
+    "2012": 1343,
+    "2013": 2936,
+    "2014": 3182,
+    "2015": 2467,
+    "2016": 130
+  },
+  "candidate_year_counts": {
+    "2015": 2467,
+    "2016": 130
+  },
+  "candidate_current_region_profiles": 0,
+  "note": "headers only; 50m QC not established; no performance evaluation or assimilation independence claim"
+}

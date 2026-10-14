@@ -1,0 +1,8 @@
+{
+  "status": "blocked",
+  "reasons": [
+    "missing validation_lf_model",
+    "missing validation_ice_fraction",
+    "frozen validation selection and passed pilot verification required"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "deployments_checked": 12,
+  "posterior_fits_checked": 108,
+  "checks": [
+    "feasibility and budget",
+    "shared seeds and node-indexed observations",
+    "all saved posterior metrics independently recomputed",
+    "inference convergence",
+    "training excludes 2014",
+    "common unobserved evaluation domain"
+  ]
+}

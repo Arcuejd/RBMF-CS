@@ -1,0 +1,11 @@
+[
+  {
+    "index": 3,
+    "parameters": {
+      "beta": 0.25,
+      "eta": 0.2,
+      "entropy_reference_variance": 0.001
+    },
+    "score": 0.45692511721628437
+  }
+]

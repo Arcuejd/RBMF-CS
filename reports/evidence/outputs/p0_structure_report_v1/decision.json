@@ -1,0 +1,8 @@
+{
+  "joint_candidate_meets_three_thresholds_both_scenarios": false,
+  "further_rbmf_search_authorized_by_this_round": false,
+  "action": "stop_rbmf_search_and_freeze_strong_baselines",
+  "independent_test_released": false,
+  "primary_baseline": "pod_ridge",
+  "source": "2013 development only"
+}

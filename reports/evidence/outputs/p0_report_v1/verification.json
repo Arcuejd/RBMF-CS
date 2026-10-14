@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "recomputed_predictions": 3960,
+  "errors": [],
+  "nonconverged_rows": [
+    {
+      "date": 201308,
+      "budget": 4,
+      "method": "no_lf",
+      "rmse_c": 0.3174997635474255,
+      "mae_c": 0.24252130803299835,
+      "converged": false,
+      "iterations": 3000,
+      "seconds": 1.2511308000030112,
+      "vs_climatology_rms_c": 0.22581364723240188,
+      "added_observation_response_rms_c": "",
+      "scenario": "gaussian",
+      "seed": 1001
+    }
+  ],
+  "guard_rollout": [
+    {
+      "run": "clean_1001",
+      "io_guard_in_source_snapshot": false
+    },
+    {
+      "run": "clean_1002",
+      "io_guard_in_source_snapshot": false
+    },
+    {
+      "run": "clean_1003",
+      "io_guard_in_source_snapshot": true
+    },
+    {
+      "run": "gaussian_1001",
+      "io_guard_in_source_snapshot": true
+    },
+    {
+      "run": "gaussian_1002",
+      "io_guard_in_source_snapshot": true
+    },
+    {
+      "run": "gaussian_1003",
+      "io_guard_in_source_snapshot": true
+    }
+  ],
+  "training_hash_preserved": true
+}

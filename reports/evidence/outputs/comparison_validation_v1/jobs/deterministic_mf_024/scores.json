@@ -1,0 +1,14 @@
+[
+  {
+    "method": "deterministic_mf",
+    "index": 24,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    "score": 0.7327622571420966,
+    "valid": true,
+    "seconds": 0.015507500000239816
+  }
+]

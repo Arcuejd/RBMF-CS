@@ -6,8 +6,8 @@ build/
 dist/
 
 # Local experimental data, generated runs, and scratch files
-outputs/
-tmp/
+/outputs/
+/tmp/
 .vscode/
 
 # Credentials and local environment settings

@@ -1,0 +1,5 @@
+scenario,method,rmse_c
+clean,clbr,0.438290728043704
+clean,clbr_no_lf,0.4431301752965723
+gaussian,clbr,0.438290728043704
+gaussian,clbr_no_lf,0.4431301752965723

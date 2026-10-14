@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "feasibility_checks": 683,
+  "delta_u_checks": 69,
+  "max_delta_u_absolute_error": 1.0923336887791457e-16,
+  "max_energy_absolute_error_j": 5.684341886080802e-14,
+  "final_mission_energy_j": 247.10000000000002,
+  "posterior_fits": 6,
+  "stop_reason": "no_feasible_candidate"
+}

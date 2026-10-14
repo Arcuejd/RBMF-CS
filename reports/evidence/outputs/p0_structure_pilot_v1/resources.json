@@ -1,0 +1,9 @@
+{
+  "wall_seconds": 1.1032598000001599,
+  "fit_calls": 40,
+  "metric_rows": 44,
+  "peak_working_set_bytes": 63561728,
+  "output_bytes": 909856,
+  "failure_count": 0,
+  "single_thread": true
+}

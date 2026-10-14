@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "fixed_noise_initial_metadata_corrected": true,
+  "numeric_replay_max_difference": 0.0,
+  "seal_hashes_pass": true,
+  "test_release_authorized": false,
+  "replay_wall_seconds": 0.08642819999658968,
+  "replay_peak_working_set_bytes": 60645376,
+  "memory_scope": "one representative fixed-noise replay plus verification, not measured whole batch peak",
+  "tests": {
+    "command": ".venv/Scripts/python -m unittest discover -s tests -v",
+    "passed": 75
+  },
+  "note": "historical batch initial_factors.tau preceded fixed substitution; factor_trace[0] and every computed ELBO use constant. Final subclass fixes initial metadata only; exact replay verified."
+}

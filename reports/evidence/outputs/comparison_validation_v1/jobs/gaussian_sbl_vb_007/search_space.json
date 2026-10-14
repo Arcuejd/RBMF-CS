@@ -1,0 +1,987 @@
+{
+  "pod_ridge": [
+    {
+      "rank": 4,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 10.0,
+      "inference": {}
+    }
+  ],
+  "pod_lasso": [
+    {
+      "rank": 4,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 10.0,
+      "inference": {}
+    }
+  ],
+  "deterministic_mf": [
+    {
+      "rank": 4,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 4,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 8,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 16,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 32,
+      "regularization": 10.0,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 0.0001,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 0.01,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    {
+      "rank": 70,
+      "regularization": 10.0,
+      "inference": {}
+    }
+  ],
+  "gaussian_sbl_vb": [
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.001,
+        "b_gamma": 0.001
+      }
+    },
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.01,
+        "b_gamma": 0.01
+      }
+    },
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.1,
+        "b_gamma": 0.1
+      }
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.001,
+        "b_gamma": 0.001
+      }
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.01,
+        "b_gamma": 0.01
+      }
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.1,
+        "b_gamma": 0.1
+      }
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.001,
+        "b_gamma": 0.001
+      }
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.01,
+        "b_gamma": 0.01
+      }
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.1,
+        "b_gamma": 0.1
+      }
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.001,
+        "b_gamma": 0.001
+      }
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.01,
+        "b_gamma": 0.01
+      }
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.1,
+        "b_gamma": 0.1
+      }
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.001,
+        "b_gamma": 0.001
+      }
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.01,
+        "b_gamma": 0.01
+      }
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.1,
+        "b_gamma": 0.1
+      }
+    }
+  ],
+  "rbmf": [
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 8.0
+      }
+    },
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 8.0
+      }
+    },
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 4,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 8.0
+      }
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 8.0
+      }
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 8.0
+      }
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 8,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 8.0
+      }
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 8.0
+      }
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 8.0
+      }
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 8.0
+      }
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 8.0
+      }
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 8.0
+      }
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 32,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 8.0
+      }
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 0.2,
+        "nu": 8.0
+      }
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 8.0
+      }
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 3.0
+      }
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 4.0
+      }
+    },
+    {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 8.0
+      }
+    }
+  ]
+}

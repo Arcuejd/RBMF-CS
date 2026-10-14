@@ -1,0 +1,66 @@
+{
+  "status": "validation_selected",
+  "data_sha256": "25a2ea59db2a1c420f7b070d6f83058cc76823828722fd2838355c7e27be2ff8",
+  "validation_dates": [
+    201301,
+    201302,
+    201303,
+    201304,
+    201305,
+    201306,
+    201307,
+    201308,
+    201309,
+    201310,
+    201311,
+    201312
+  ],
+  "validation_seeds": [
+    1001,
+    1002,
+    1003
+  ],
+  "inference": {
+    "a_delta": 2.0,
+    "b_delta": 20.0,
+    "nu": 3.0
+  },
+  "planning": {
+    "beta": 0.25,
+    "eta": 0.0,
+    "entropy_reference_variance": 0.001
+  },
+  "comparison": {
+    "rank": 32,
+    "method_rank": {
+      "pod_ridge": 16,
+      "pod_lasso": 16,
+      "deterministic_mf": 4,
+      "gaussian_sbl_vb": 4,
+      "rbmf": 32
+    },
+    "regularization": {
+      "pod_ridge": 0.01,
+      "pod_lasso": 0.1,
+      "deterministic_mf": 0.01,
+      "gaussian_sbl_vb": 0.1,
+      "rbmf": 0.1
+    },
+    "method_inference": {
+      "pod_ridge": {},
+      "pod_lasso": {},
+      "deterministic_mf": {},
+      "gaussian_sbl_vb": {
+        "a_gamma": 0.001,
+        "b_gamma": 0.001
+      },
+      "rbmf": {
+        "a_delta": 2.0,
+        "b_delta": 20.0,
+        "nu": 3.0
+      }
+    }
+  },
+  "search_space_sha256": "18d5f3ce02ed19a19487aacb413ee4f4d3bd7116532c7895bb5c6c30481295b4",
+  "selection_rule": "all 12 months x 3 seeds x 3 budgets; failed candidate infinite; first index tie"
+}

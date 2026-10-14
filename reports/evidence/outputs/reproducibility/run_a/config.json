@@ -1,0 +1,58 @@
+{
+  "label": "synthetic demo only; stages 1 and 2; not MC-EIR deployment",
+  "synthetic": {
+    "seed": 20261008,
+    "nx": 12,
+    "ny": 10,
+    "n_train": 100,
+    "n_test": 8,
+    "latent_modes": 6,
+    "length_scale_km": 28.0,
+    "domain_x_km": 110.0,
+    "domain_y_km": 90.0,
+    "temporal_ar": 0.6,
+    "rho": 1.15,
+    "discrepancy_scale": 0.12,
+    "lf_bias_scale": 0.04
+  },
+  "preprocessing": {
+    "n_modes": 8,
+    "scale_floor": 1e-12
+  },
+  "inference": {
+    "a_gamma": 0.01,
+    "b_gamma": 0.01,
+    "a_tau": 0.01,
+    "b_tau": 0.01,
+    "a_delta": 2.0,
+    "b_delta": 2.0,
+    "rho0": 1.0,
+    "kappa_rho0": 1.0,
+    "nu": 4.0,
+    "initial_gamma": 1.0,
+    "initial_tau": 25.0,
+    "initial_tau_delta": 1.0,
+    "max_iter": 2000,
+    "min_iter": 3,
+    "tolerance": 1e-08,
+    "convergence": "elbo",
+    "jitter_relative": 1e-12,
+    "jitter_attempts": 6,
+    "max_full_covariance_size": 2000
+  },
+  "observation": {
+    "seed": 751,
+    "test_snapshot": 0,
+    "initial_count": 12,
+    "additional_count": 3,
+    "student_t_df": 4.0,
+    "noise_squared_scale": 0.0025,
+    "outlier_positions": [
+      2
+    ],
+    "outlier_offset": 1.5,
+    "missing_positions": [
+      4
+    ]
+  }
+}

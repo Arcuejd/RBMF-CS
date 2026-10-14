@@ -1,0 +1,12 @@
+{
+  "date": 201401,
+  "seed": 0,
+  "scenario": "clean",
+  "budget": 6,
+  "rule": "earliest month; minimum seed; largest planned budget",
+  "color_limits_c": [
+    -1.9474767446517944,
+    7.460016243159771
+  ],
+  "missing_panels": []
+}

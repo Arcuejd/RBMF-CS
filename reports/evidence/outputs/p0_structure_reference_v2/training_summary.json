@@ -1,0 +1,242 @@
+[
+  {
+    "fixture": "representable",
+    "family": "mf",
+    "init": "default",
+    "budget": 4,
+    "rmse_c": 0.8734058600310401,
+    "elbo": -243.7125781375049,
+    "converged": true,
+    "rho": 0.00035327021887226177
+  },
+  {
+    "fixture": "representable",
+    "family": "mf",
+    "init": "default",
+    "budget": 12,
+    "rmse_c": 0.8730427378351545,
+    "elbo": -261.50615139796173,
+    "converged": true,
+    "rho": 0.0007576368539855596
+  },
+  {
+    "fixture": "representable",
+    "family": "mf",
+    "init": "alternate",
+    "budget": 4,
+    "rmse_c": 0.018279206659133997,
+    "elbo": -279.3907030186482,
+    "converged": true,
+    "rho": 0.9883279592102586
+  },
+  {
+    "fixture": "representable",
+    "family": "mf",
+    "init": "alternate",
+    "budget": 12,
+    "rmse_c": 0.014323638827823545,
+    "elbo": -271.2626377759102,
+    "converged": true,
+    "rho": 0.9970399936709669
+  },
+  {
+    "fixture": "representable",
+    "family": "joint",
+    "init": "default",
+    "budget": 4,
+    "rmse_c": 0.873262880146503,
+    "elbo": -243.4702843773348,
+    "converged": true,
+    "rho": 0.0005163812879101668
+  },
+  {
+    "fixture": "representable",
+    "family": "joint",
+    "init": "default",
+    "budget": 12,
+    "rmse_c": 0.8725902269221322,
+    "elbo": -261.2613074563828,
+    "converged": true,
+    "rho": 0.0012737548150729924
+  },
+  {
+    "fixture": "representable",
+    "family": "joint",
+    "init": "alternate",
+    "budget": 4,
+    "rmse_c": 0.018746378731734185,
+    "elbo": -278.4482177529594,
+    "converged": true,
+    "rho": 0.9873541315159735
+  },
+  {
+    "fixture": "representable",
+    "family": "joint",
+    "init": "alternate",
+    "budget": 12,
+    "rmse_c": 0.01431148066833308,
+    "elbo": -270.8087350677445,
+    "converged": true,
+    "rho": 0.99695364774286
+  },
+  {
+    "fixture": "truncated",
+    "family": "mf",
+    "init": "default",
+    "budget": 4,
+    "rmse_c": 0.8857655861805479,
+    "elbo": -244.0799917780007,
+    "converged": true,
+    "rho": 0.0003274429894111995
+  },
+  {
+    "fixture": "truncated",
+    "family": "mf",
+    "init": "default",
+    "budget": 12,
+    "rmse_c": 0.88542743668976,
+    "elbo": -262.2932726325515,
+    "converged": true,
+    "rho": 0.0006997898375857822
+  },
+  {
+    "fixture": "truncated",
+    "family": "mf",
+    "init": "alternate",
+    "budget": 4,
+    "rmse_c": 0.8857655854705231,
+    "elbo": -244.07999177800647,
+    "converged": true,
+    "rho": 0.00032744379562831433
+  },
+  {
+    "fixture": "truncated",
+    "family": "mf",
+    "init": "alternate",
+    "budget": 12,
+    "rmse_c": 0.8854274431073721,
+    "elbo": -262.2932726325342,
+    "converged": true,
+    "rho": 0.0006997825575873681
+  },
+  {
+    "fixture": "truncated",
+    "family": "joint",
+    "init": "default",
+    "budget": 4,
+    "rmse_c": 0.885645695799568,
+    "elbo": -243.84491237540266,
+    "converged": true,
+    "rho": 0.0004633151451369205
+  },
+  {
+    "fixture": "truncated",
+    "family": "joint",
+    "init": "default",
+    "budget": 12,
+    "rmse_c": 0.8850478010911006,
+    "elbo": -262.0561624456588,
+    "converged": true,
+    "rho": 0.0011300376943092889
+  },
+  {
+    "fixture": "truncated",
+    "family": "joint",
+    "init": "alternate",
+    "budget": 4,
+    "rmse_c": 0.8856456957638056,
+    "elbo": -243.84491237540314,
+    "converged": true,
+    "rho": 0.00046331518568421486
+  },
+  {
+    "fixture": "truncated",
+    "family": "joint",
+    "init": "alternate",
+    "budget": 12,
+    "rmse_c": 0.8850478001173084,
+    "elbo": -262.05616244566215,
+    "converged": true,
+    "rho": 0.0011300387980736418
+  },
+  {
+    "fixture": "incompatible",
+    "family": "mf",
+    "init": "default",
+    "budget": 4,
+    "rmse_c": 0.8734797050706531,
+    "elbo": -243.71288476371782,
+    "converged": true,
+    "rho": 0.0001679135939682365
+  },
+  {
+    "fixture": "incompatible",
+    "family": "mf",
+    "init": "default",
+    "budget": 12,
+    "rmse_c": 0.873205081250657,
+    "elbo": -261.5075872220308,
+    "converged": true,
+    "rho": 0.0003462680633930924
+  },
+  {
+    "fixture": "incompatible",
+    "family": "mf",
+    "init": "alternate",
+    "budget": 4,
+    "rmse_c": 0.8734797055839648,
+    "elbo": -243.71288476369782,
+    "converged": true,
+    "rho": 0.00016791303735652686
+  },
+  {
+    "fixture": "incompatible",
+    "family": "mf",
+    "init": "alternate",
+    "budget": 12,
+    "rmse_c": 0.8732050832286765,
+    "elbo": -261.50758722201306,
+    "converged": true,
+    "rho": 0.0003462658274956997
+  },
+  {
+    "fixture": "incompatible",
+    "family": "joint",
+    "init": "default",
+    "budget": 4,
+    "rmse_c": 0.8734580925238321,
+    "elbo": -243.55673613377132,
+    "converged": true,
+    "rho": 0.000187922297342757
+  },
+  {
+    "fixture": "incompatible",
+    "family": "joint",
+    "init": "default",
+    "budget": 12,
+    "rmse_c": 0.8731278242946673,
+    "elbo": -261.3510455502482,
+    "converged": true,
+    "rho": 0.0004198338376353755
+  },
+  {
+    "fixture": "incompatible",
+    "family": "joint",
+    "init": "alternate",
+    "budget": 4,
+    "rmse_c": 0.8734580927941835,
+    "elbo": -243.55673613376212,
+    "converged": true,
+    "rho": 0.00018792203817537384
+  },
+  {
+    "fixture": "incompatible",
+    "family": "joint",
+    "init": "alternate",
+    "budget": 12,
+    "rmse_c": 0.8731278222719427,
+    "elbo": -261.3510455502661,
+    "converged": true,
+    "rho": 0.0004198358035101796
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "recomputed_predictions": 3960,
+  "metric_tolerance": 1e-12,
+  "paired_designs_checked": 360,
+  "selected_predictions_checked": 720,
+  "errors": [],
+  "elbo_decreases": [],
+  "training_unchanged": true,
+  "holdout_manifest_unchanged": true,
+  "holdout_release_authorized": false
+}

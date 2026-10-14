@@ -1,0 +1,25 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+V 
+ 
+identify key spatial pattern features . A greedy algorithm is designed to prioritize the 
+deployment of sensing nodes along regional boundaries ( such as major shipping lanes and 
+port peripheries), thereby optimizing deployment costs while maintaining monitoring efficacy . 
+Theoretical derivations and experimental validations show that th e algorithm maximizes 
+information acquisition while ensuring minimal error during iterations. 
+5. Special Scenario Applications in Polar Regions: To address the issue of node deployment 
+in the Arctic region being affected by special environmental factors, a sparse deployment 
+framework under ice condition constraints is established. Ice condition data is incorporated as 
+a constraint into the deployment optimization model. Experiments show that the node 
+deployment optimization strategy with ice condition constraints effectively enhances the 
+monitoring applicability in the Arctic region, thereby better serving intelligent navigation in polar 
+areas. 
+In summary, this thesis  systematically investigates robust sparse deployment, multi -
+physical-quantity collaborative deployment, and entropy -weighted deployment strategies. It 
+provides theoretical guidance and technical support for marine perception node deployment in 
+maritime surveillance and intelligent shipping, effectively enhancing ocean monitoring system 
+efficiency, reducing operational costs, and strengthening information acquisition capabilities. 
+ 
+ZHANG Qian-nan (Traffic information engineering & Control) 
+Directed by Professor WU Hua-feng 
+KEYWORDS: Ocean Sensing, sensor deployment, machine learning, data analysis, 
+compressed sensing 

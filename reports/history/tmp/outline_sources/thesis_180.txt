@@ -1,0 +1,17 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+165 
+ 
+太原理工大学学报, 2024, 55(6): 1083-1088. 
+[185] Sun R, Dou Y , Wang Y , et al. Research on the accurate fixed point algorithm for the 
+landing of the UA V on the Arctic buoy [C]//2020 3rd International Conference on 
+Unmanned Systems (ICUS), Harbin, China, 2020: 94-98.  
+[186] Wang Y , Chang X, Dou Y , et al. Automatic observation system of Polar Multi -
+parameter buoy based on Iridium remote Control [C]//2019 IEEE International 
+Conference on Unmanned Systems (ICUS), Beijing, China, 2019: 678-683.  
+[187] Lagunov A, Fedin D. Protection of Wireless Sensor Network and Container for 
+Communication in the Arctic[J]. International Journal of Recent Technology 
+Engineering (IJRTE), 2019, 8(3): 5589-5594. 
+[188] Copernicus Climate Change Service (C3S) (2020): Sea ice concentration daily 
+gridded data from 1978 to present derived from satellite observations[Z]. Copernicus 
+Climate Change Service (C3S) Climate Data Store (CDS).  
+ 

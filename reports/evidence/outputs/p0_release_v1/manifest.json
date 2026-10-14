@@ -1,0 +1,12 @@
+{
+  "source_sha256": "fdb1b891deea4f3f4c51f6d1e011c0ef1ccbb1641795be3b89f23a22ae86d7ee",
+  "protocols": {
+    "docs\\p0_holdout_protocol_v1.md": "41b00c509ed66adf6209281e235261399d1ca1031b35867043037d8b91046ced",
+    "docs\\p0_math_v1.md": "122208eb215305e169c46b4041081d8a3e316f4342bdb134aad6ed7a086e3600",
+    "docs\\p0_research_protocol_v1.md": "39637023b1700615332a36bb10db290afdb0056bd32a4ab6f1728f52e3bc4227",
+    "docs\\p0_validation_freeze_v1.md": "012771026be49b2ae4c2b5a56a9b472d8af005e64f3c1a924644c78796010121"
+  },
+  "original_model_sha256": "5e7173f7aca50511e4f1afff8a25150fea419eb9958008258b8b4781589c3168",
+  "training_sha256": "8dae69d36521deddcfc0b0d7bb95093ce09e58591599ddad5d29f9e6492a0a04",
+  "selection_sha256": "e4c620080007533a26b40570761ba17df80cafadcd5d6fe6ddc7ed3187d1e6c6"
+}

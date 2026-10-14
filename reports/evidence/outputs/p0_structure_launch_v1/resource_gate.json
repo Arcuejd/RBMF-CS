@@ -1,0 +1,15 @@
+{
+  "pilot": {
+    "wall_seconds": 1.1032598000001599,
+    "fit_calls": 40,
+    "metric_rows": 44,
+    "peak_working_set_bytes": 63561728,
+    "output_bytes": 909856,
+    "failure_count": 0,
+    "single_thread": true
+  },
+  "estimated_wall_seconds": 66.1955880000096,
+  "timeout_seconds": 300,
+  "estimated_output_bytes": 54591360,
+  "approved_scope": "one finite structural round within previous batch size"
+}

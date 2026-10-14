@@ -1,0 +1,16 @@
+{
+  "pilot_wall_seconds": 163.64435019999996,
+  "proposed_formal_seeds": 30,
+  "proposed_formal_dates": 4,
+  "proposed_budgets": [
+    4,
+    6,
+    8,
+    10,
+    12
+  ],
+  "rough_formal_seconds_lower": 9818.661011999997,
+  "rough_formal_seconds_upper": 39274.64404799999,
+  "status": "measured_selected_pilot",
+  "assumption": "same scenarios and concurrency; 1x to 4x pilot per-case work; no precision-based scale selection"
+}

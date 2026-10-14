@@ -1,0 +1,27 @@
+{
+  "protocol_sha256": "bfd586529d4b8fff5374452deeb1909ad5dff24e36ce1ead08cb214703efec57",
+  "config": {
+    "robust_likelihood": true,
+    "multifidelity": true,
+    "a_gamma": 0.01,
+    "b_gamma": 0.01,
+    "a_tau": 0.01,
+    "b_tau": 0.01,
+    "a_delta": 2.0,
+    "b_delta": 20.0,
+    "rho0": 1.0,
+    "kappa_rho0": 1.0,
+    "nu": 3.0,
+    "initial_gamma": 1.0,
+    "initial_tau": 25.0,
+    "initial_tau_delta": 1.0,
+    "max_iter": 3000,
+    "min_iter": 3,
+    "tolerance": 1e-06,
+    "convergence": "factors",
+    "jitter_relative": 1e-12,
+    "jitter_attempts": 6,
+    "max_full_covariance_size": 2000
+  },
+  "numerical_amendment_sha256": "5ab5fb24197b762ba450b653500b19b8dbdf01838e8dbb24ca081720fead4151"
+}

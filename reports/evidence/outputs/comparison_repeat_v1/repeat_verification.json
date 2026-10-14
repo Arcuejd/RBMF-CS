@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": 1388,
+  "recomputed_predictions": 58,
+  "repeated_arrays": 772,
+  "errors": [],
+  "warnings": [],
+  "root_config_sha256": "67ec49e7090fa7d89c08867ada23010adb6f78b5736cabbf656fd87fe8bd3af4",
+  "source_sha256": "5c322a4af79ccda5eba24cfaa160ef0d6e56d7b8c22b4a5a35f24c5e8a8978aa",
+  "scope": "artifact integrity; algorithm unit tests are separate",
+  "repeat": "D:\\project\\RBMF-CS\\outputs\\comparison_pilot_v1"
+}

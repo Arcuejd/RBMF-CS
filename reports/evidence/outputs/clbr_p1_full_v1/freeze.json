@@ -1,0 +1,216 @@
+{
+  "phase": "full",
+  "plan": {
+    "outer_folds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seeds": [
+      1001,
+      1002,
+      1003
+    ],
+    "budgets": [
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "scenarios": [
+      "clean",
+      "gaussian"
+    ]
+  },
+  "limits": {
+    "wall_limit_seconds": 300,
+    "disk_limit_mib": 500
+  },
+  "config": {
+    "model": "CLBR-Gaussian-v1",
+    "status": "preregistered_awaiting_user_runs",
+    "rank": 16,
+    "prior_variance_multipliers": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "ridge_grid": [
+      [
+        8,
+        0.001
+      ],
+      [
+        8,
+        0.01
+      ],
+      [
+        8,
+        0.1
+      ],
+      [
+        16,
+        0.001
+      ],
+      [
+        16,
+        0.01
+      ],
+      [
+        16,
+        0.1
+      ]
+    ],
+    "noise_std_bounds_c": [
+      0.001,
+      1.0
+    ],
+    "levels": [
+      0.5,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "outer_blocks": [
+      [
+        201301,
+        201302,
+        201303
+      ],
+      [
+        201304,
+        201305,
+        201306
+      ],
+      [
+        201307,
+        201308,
+        201309
+      ],
+      [
+        201310,
+        201311,
+        201312
+      ]
+    ],
+    "pilot": {
+      "outer_folds": [
+        0
+      ],
+      "seeds": [
+        1001
+      ],
+      "budgets": [
+        4,
+        12
+      ],
+      "scenarios": [
+        "clean",
+        "gaussian"
+      ],
+      "wall_limit_seconds": 300,
+      "disk_limit_mib": 250
+    },
+    "proposed_full": {
+      "outer_folds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "seeds": [
+        1001,
+        1002,
+        1003
+      ],
+      "budgets": [
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "scenarios": [
+        "clean",
+        "gaussian"
+      ]
+    },
+    "point_acceptance": {
+      "relative_rmse_gain_ridge": 0.05,
+      "months_better_ridge": 8,
+      "relative_rmse_gain_climatology": 0.05,
+      "months_better_climatology": 8,
+      "budget_4_to_12_gain": 0.02
+    },
+    "interval_acceptance": {
+      "user_confirmed": true,
+      "coverage_absolute_tolerance": 0.05,
+      "relative_wis_gain": 0.05,
+      "width90_max_ratio": 1.1,
+      "months_better_wis": 8
+    },
+    "full_batch_authorized": false,
+    "independent_test_authorized": false
+  },
+  "source_sha256": "203f67a8f60b5536f52cd3a36db1720e7da3e59cedcd3c47470b663e4e5c92f3",
+  "preservation": {
+    "original_model": "5e7173f7aca50511e4f1afff8a25150fea419eb9958008258b8b4781589c3168",
+    "training": "8dae69d36521deddcfc0b0d7bb95093ce09e58591599ddad5d29f9e6492a0a04",
+    "selection": "e4c620080007533a26b40570761ba17df80cafadcd5d6fe6ddc7ed3187d1e6c6",
+    "holdout_manifest": "da0c19d4d15c9532ab722d4b0df43c07b0c3f2c555375024a19557f89ca2cb5e",
+    "release_authorized": false
+  },
+  "approval": {
+    "user_confirmed": true,
+    "confirmation_date": "2026-10-13",
+    "authorization": "User explicitly accepted full 2013 scope and resource limits; user executes the batch.",
+    "source_sha256": "203f67a8f60b5536f52cd3a36db1720e7da3e59cedcd3c47470b663e4e5c92f3",
+    "plan": {
+      "outer_folds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "seeds": [
+        1001,
+        1002,
+        1003
+      ],
+      "budgets": [
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "scenarios": [
+        "clean",
+        "gaussian"
+      ]
+    },
+    "pilot_verification": "D:\\project\\RBMF-CS\\outputs\\clbr_p1_pilot_v2\\verification.json",
+    "pilot_verification_sha256": "3af080694ebfac5a63a8aa0aa6dc0bd64ca05fbadd7cc3456c3e911330ae0c48",
+    "tests": "D:\\project\\RBMF-CS\\outputs\\clbr_p1_tests_v2\\tests.json",
+    "tests_sha256": "25f19e823e555e61ddd5c79b8471122809af14e74fa3dd88dd5ba0dcb05895dc",
+    "limits": {
+      "wall_limit_seconds": 300,
+      "disk_limit_mib": 500
+    },
+    "resource_policy": "Single process, single numerical thread; checkpoint limits, not OS hard limits. Estimated peak memory 285 MiB, not enforced.",
+    "independent_test_authorized": false,
+    "preservation": {
+      "original_model": "5e7173f7aca50511e4f1afff8a25150fea419eb9958008258b8b4781589c3168",
+      "training": "8dae69d36521deddcfc0b0d7bb95093ce09e58591599ddad5d29f9e6492a0a04",
+      "selection": "e4c620080007533a26b40570761ba17df80cafadcd5d6fe6ddc7ed3187d1e6c6",
+      "holdout_manifest": "da0c19d4d15c9532ab722d4b0df43c07b0c3f2c555375024a19557f89ca2cb5e",
+      "release_authorized": false
+    }
+  },
+  "tests_sha256": "25f19e823e555e61ddd5c79b8471122809af14e74fa3dd88dd5ba0dcb05895dc",
+  "input_sha256": "25639a1a6145192a1e8965ba86b4144872fa921c6fafd9ae8c0850ae1e10957b",
+  "scale_c": 0.47136164192933816,
+  "paired_training_lf_available": false
+}

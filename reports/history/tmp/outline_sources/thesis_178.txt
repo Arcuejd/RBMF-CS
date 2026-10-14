@@ -1,0 +1,36 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+163 
+ 
+Selection[J]. IEEE Transactions on Neural Networks and Learning Systems, 2014, 
+25(6): 1083-1095. 
+[160] He R, Hu B, Yuan X, et al. Correntropy and Linear Representation[M]. Robust 
+recognition via information theoretic learning. SpringerBriefs in Computer Science; 
+Springer, Cham. 2014. 
+[161] IAPv4 IAP Temperature gridded 1month netcdf[Z]. Institute of Atmospheric Physics, 
+Chinese Academy of Sciences. 2024 
+[162] Cheng L, Jiang Z. Benefits of CMIP5 Multimodel Ensemble in Reconstructing 
+Historical Ocean Subsurface Temperature Variations[J]. Journal of Climate, 2016, 
+29(15): 5393-5416. 
+[163] Cheng L, Trenberth K E, Fasullo J T, et al. Improved estimates of ocean heat content 
+from 1960 to 2015[J]. Science Advances, 2017, 3. 
+[164] CZ16 v0 IAP Salinity gridded 1month netcdf[Z]. Institute of Atmospheric Physics, 
+Chinese Academy of Sciences. 2024 
+[165] Wu X, Cheng Q S. Fractal Autoencoders for Feature Selection[C]//AAAI Conference 
+on Artificial Intelligence, 2021, 35(12), 10370-10378.  
+[166] Li Y , Yang M, Zhang Z. A Survey of Multi-View Representation Learning[J]. IEEE 
+Transactions on Knowledge and Data Engineering, 2019, 31(10): 1863-1883. 
+[167] Lawry Aguila A, Chapman J, Altmann A. Multi -modal Variational Autoencoders for 
+Normative Modelling Across Multiple Imaging Modalities [C]//Medical Image 
+Computing and Computer Assisted Intervention – MICCAI 2023, Lecture Notes in 
+Computer Science, 2023, 14220: 425-434.  
+[168] Wang X, Peng D, Hu P, et al. Adversarial correlated autoencoder for unsupervised 
+multi-view representation learning[J]. Knowledge -Based Systems, 2019, 168: 109 -
+120. 
+[169] Doquet G, Sebag M. Agnostic Feature Selection [C]//Machine Learning and 
+Knowledge Discovery in Databases. ECML PKDD 2019. Lecture Notes in Computer 
+Science, 2020, 11906: 343–358.  
+[170] Suzuki M, Matsuo Y . A survey of multimodal deep generative models[J]. Advanced 
+Robotics, 2022, 36: 261 - 278. 
+[171] Foroozand H, Weijs S. Entropy Ensemble Filter: A Modified Bootstrap Aggregating 
+(Bagging) Procedure to Improve Efficiency in Ensemble Model Simulation[J]. 
+Entropy, 2017, 19(10): 520.  

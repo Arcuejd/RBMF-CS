@@ -1,0 +1,35 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+164 
+ 
+[172] Amiri V , Rezaei M, Sohrabi N. Groundwater quality assessment using entropy 
+weighted water quality index (EWQI) in Lenjanat, Iran[J]. Environmental Earth 
+Sciences, 2014, 72(9): 3479-3490. 
+[173] Han B, Liu H, Wang R. Urban ecological security assessment for cities in the 
+Beijing–Tianjin–Hebei metropolitan region based on fuzzy and entropy methods[J]. 
+Ecological Modelling, 2015, 318: 217-225. 
+[174] Zhao J, Ji G, Tian Y , et al. Environmental vulnerability assessment for mainland 
+China based on entropy method[J]. Ecological Indicators, 2018, 91: 410-422. 
+[175] Chen J, Bian W, Wan Z, et al. Identifying factors influencing total -loss marine 
+accidents in the world: Analysis and evaluation based on ship types and sea 
+regions[J]. Ocean Engineering, 2019, 191: 106495. 
+[176] Carl Eckart, Young G. The approximation of one matrix by another of lower rank[J]. 
+Psychometrika, 1936, 1: 211-218. 
+[177] Emily Clark, J. Nathan Kutz, Brunton S L. Sensor Selection With Cost Constraints 
+for Dynamically Relevant Bases[J]. IEEE Sensors Journal, 2020, 20(19): 11674 -
+11687. 
+[178] Panos Y . Papalambros, Wilde D J. Principles of optimal design: modeling and 
+computation[M]. Cambridge University Press, 2000. 
+[179] Clark E, Askham T, Brunton S L, et al. Greedy Sensor Placement With Cost 
+Constraints[J]. IEEE Sensors Journal, 2019, 19(7): 2642-2656. 
+[180] Krause A, Singh A, Guestrin C. Near -Optimal Sensor Placements in Gaussian 
+Processes: Theory, Efficient Algorithms and Empirical Studies[J]. Journal of 
+Machine Learning Research, 2008, 9(2): 235-284. 
+[181] Lee S -y, Lee I -b, Yeo U -h, et al. Optimal sensor placement for monitoring and 
+controlling greenhouse internal environments[J]. Biosystems Engineering, 2019, 188: 
+190-206. 
+[182] 程晓, 范双双, 郑雷等. 极地环境探测关键技术[J]. 中国科学院院刊, 2022, 37(7): 
+921-931. 
+[183] Landy J, Ehn J, Shields M, et al. Surface and melt pond evolution on landfast first -
+year sea ice in the Canadian Arctic Archipelago[J]. Journal of Geophysical Research: 
+Oceans, 2014, 119(5): 3054-3075. 
+[184] 左广宇, 窦银科, 吴顺杰等. 北极海冰融池垂向温度剖面观测系统研发与应用[J]. 

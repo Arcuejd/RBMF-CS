@@ -1,0 +1,4202 @@
+[
+  {
+    "file": "aoml/5903724/profiles/D5903724_072.nc",
+    "date": "20140101123602",
+    "latitude": "73.244",
+    "longitude": "1.694",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151049"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_073.nc",
+    "date": "20140108125343",
+    "latitude": "73.570",
+    "longitude": "2.163",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151049"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_074.nc",
+    "date": "20140115124049",
+    "latitude": "73.512",
+    "longitude": "1.968",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151050"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_075.nc",
+    "date": "20140122130520",
+    "latitude": "73.749",
+    "longitude": "1.946",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151050"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_076.nc",
+    "date": "20140129124213",
+    "latitude": "73.601",
+    "longitude": "2.191",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151050"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_085.nc",
+    "date": "20140402175318",
+    "latitude": "73.900",
+    "longitude": "2.904",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151053"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_086.nc",
+    "date": "20140409185713",
+    "latitude": "74.073",
+    "longitude": "3.065",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151053"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_087.nc",
+    "date": "20140416194101",
+    "latitude": "74.179",
+    "longitude": "3.091",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151053"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_088.nc",
+    "date": "20140423195654",
+    "latitude": "74.086",
+    "longitude": "3.316",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151053"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_089.nc",
+    "date": "20140430201602",
+    "latitude": "74.231",
+    "longitude": "4.039",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151054"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_098.nc",
+    "date": "20140702223017",
+    "latitude": "75.289",
+    "longitude": "4.587",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151056"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_099.nc",
+    "date": "20140709231336",
+    "latitude": "75.546",
+    "longitude": "5.095",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151056"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_100.nc",
+    "date": "20140716225202",
+    "latitude": "75.566",
+    "longitude": "5.441",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151056"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_101.nc",
+    "date": "20140723230538",
+    "latitude": "75.591",
+    "longitude": "5.394",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151057"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_102.nc",
+    "date": "20140731000642",
+    "latitude": "75.549",
+    "longitude": "5.369",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151057"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_111.nc",
+    "date": "20141002014945",
+    "latitude": "75.698",
+    "longitude": "1.822",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151059"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_112.nc",
+    "date": "20141009024550",
+    "latitude": "75.452",
+    "longitude": "1.612",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151100"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_113.nc",
+    "date": "20141016030426",
+    "latitude": "75.612",
+    "longitude": "1.625",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151100"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_114.nc",
+    "date": "20141023024813",
+    "latitude": "75.471",
+    "longitude": "1.296",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151100"
+  },
+  {
+    "file": "aoml/5903724/profiles/D5903724_115.nc",
+    "date": "20141030025855",
+    "latitude": "75.507",
+    "longitude": "0.374",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20191118151100"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_098.nc",
+    "date": "20140103213109",
+    "latitude": "74.683",
+    "longitude": "-10.473",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132014"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_099.nc",
+    "date": "20140109004733",
+    "latitude": "74.677",
+    "longitude": "-10.644",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132015"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_100.nc",
+    "date": "20140114081937",
+    "latitude": "74.563",
+    "longitude": "-9.933",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132015"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_101.nc",
+    "date": "20140119143621",
+    "latitude": "74.775",
+    "longitude": "-9.290",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132016"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_102.nc",
+    "date": "20140124191139",
+    "latitude": "74.896",
+    "longitude": "-10.531",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132016"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_103.nc",
+    "date": "20140129235510",
+    "latitude": "74.548",
+    "longitude": "-11.475",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132017"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_115.nc",
+    "date": "20140401190738",
+    "latitude": "73.934",
+    "longitude": "-12.383",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132023"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_116.nc",
+    "date": "20140406224220",
+    "latitude": "73.881",
+    "longitude": "-12.402",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132024"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_117.nc",
+    "date": "20140412015529",
+    "latitude": "73.827",
+    "longitude": "-12.420",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132024"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_118.nc",
+    "date": "20140417052852",
+    "latitude": "73.774",
+    "longitude": "-12.438",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132024"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_119.nc",
+    "date": "20140422090557",
+    "latitude": "73.721",
+    "longitude": "-12.457",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132025"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_120.nc",
+    "date": "20140427124408",
+    "latitude": "73.667",
+    "longitude": "-12.475",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132025"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_133.nc",
+    "date": "20140703121909",
+    "latitude": "73.012",
+    "longitude": "-13.019",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132032"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_134.nc",
+    "date": "20140708165742",
+    "latitude": "72.997",
+    "longitude": "-13.345",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132032"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_135.nc",
+    "date": "20140713230957",
+    "latitude": "72.864",
+    "longitude": "-12.751",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132033"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_136.nc",
+    "date": "20140719060744",
+    "latitude": "72.925",
+    "longitude": "-12.818",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132033"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_137.nc",
+    "date": "20140724201215",
+    "latitude": "72.986",
+    "longitude": "-13.497",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132034"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_138.nc",
+    "date": "20140730014951",
+    "latitude": "73.018",
+    "longitude": "-13.558",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132034"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_151.nc",
+    "date": "20141006053636",
+    "latitude": "72.763",
+    "longitude": "-13.631",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132041"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_152.nc",
+    "date": "20141011103135",
+    "latitude": "72.864",
+    "longitude": "-14.520",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132042"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_153.nc",
+    "date": "20141016153629",
+    "latitude": "73.168",
+    "longitude": "-14.514",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132042"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_154.nc",
+    "date": "20141021201724",
+    "latitude": "72.940",
+    "longitude": "-13.651",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132043"
+  },
+  {
+    "file": "aoml/5903887/profiles/D5903887_155.nc",
+    "date": "20141027013101",
+    "latitude": "72.696",
+    "longitude": "-12.305",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170413132043"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_083.nc",
+    "date": "20140402151811",
+    "latitude": "71.176",
+    "longitude": "13.652",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085103"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_084.nc",
+    "date": "20140406152312",
+    "latitude": "71.130",
+    "longitude": "14.245",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085104"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_085.nc",
+    "date": "20140410152648",
+    "latitude": "71.553",
+    "longitude": "13.894",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085105"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_086.nc",
+    "date": "20140414152449",
+    "latitude": "71.328",
+    "longitude": "14.273",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085105"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_087.nc",
+    "date": "20140418152250",
+    "latitude": "71.303",
+    "longitude": "13.355",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085106"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_088.nc",
+    "date": "20140422152133",
+    "latitude": "71.583",
+    "longitude": "13.253",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085107"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_089.nc",
+    "date": "20140426152304",
+    "latitude": "71.395",
+    "longitude": "13.521",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085107"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_090.nc",
+    "date": "20140430151735",
+    "latitude": "71.227",
+    "longitude": "13.889",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085112"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_106.nc",
+    "date": "20140703153201",
+    "latitude": "72.122",
+    "longitude": "13.982",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085143"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_107.nc",
+    "date": "20140707152426",
+    "latitude": "72.468",
+    "longitude": "13.656",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085146"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_108.nc",
+    "date": "20140711152557",
+    "latitude": "72.424",
+    "longitude": "13.572",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085148"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_109.nc",
+    "date": "20140715152646",
+    "latitude": "72.331",
+    "longitude": "13.437",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085150"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_110.nc",
+    "date": "20140719152611",
+    "latitude": "72.167",
+    "longitude": "13.179",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085152"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_111.nc",
+    "date": "20140723152618",
+    "latitude": "72.080",
+    "longitude": "13.447",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085154"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_112.nc",
+    "date": "20140727154355",
+    "latitude": "72.555",
+    "longitude": "13.786",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085156"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_113.nc",
+    "date": "20140731155226",
+    "latitude": "72.903",
+    "longitude": "13.613",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085158"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_129.nc",
+    "date": "20141003152659",
+    "latitude": "75.316",
+    "longitude": "12.875",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085229"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_130.nc",
+    "date": "20141007152624",
+    "latitude": "75.434",
+    "longitude": "12.698",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085231"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_131.nc",
+    "date": "20141011152219",
+    "latitude": "75.248",
+    "longitude": "13.009",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085233"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_132.nc",
+    "date": "20141015152432",
+    "latitude": "75.045",
+    "longitude": "13.067",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085235"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_133.nc",
+    "date": "20141019152850",
+    "latitude": "75.149",
+    "longitude": "12.904",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085236"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_134.nc",
+    "date": "20141023152939",
+    "latitude": "75.317",
+    "longitude": "12.877",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085238"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_135.nc",
+    "date": "20141027152204",
+    "latitude": "75.319",
+    "longitude": "12.626",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085240"
+  },
+  {
+    "file": "aoml/6900318/profiles/D6900318_136.nc",
+    "date": "20141031152541",
+    "latitude": "75.509",
+    "longitude": "12.077",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420085242"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_064.nc",
+    "date": "20140117052846",
+    "latitude": "70.108",
+    "longitude": "2.181",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153416"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_065.nc",
+    "date": "20140121053401",
+    "latitude": "70.259",
+    "longitude": "1.665",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153418"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_066.nc",
+    "date": "20140125053535",
+    "latitude": "70.253",
+    "longitude": "1.053",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153420"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_067.nc",
+    "date": "20140129053118",
+    "latitude": "70.278",
+    "longitude": "0.730",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153422"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_106.nc",
+    "date": "20140704053711",
+    "latitude": "70.561",
+    "longitude": "8.481",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153521"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_107.nc",
+    "date": "20140708054014",
+    "latitude": "70.867",
+    "longitude": "9.429",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153522"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_108.nc",
+    "date": "20140712054020",
+    "latitude": "71.084",
+    "longitude": "9.191",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153523"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_109.nc",
+    "date": "20140716053859",
+    "latitude": "71.344",
+    "longitude": "8.506",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153524"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_110.nc",
+    "date": "20140720054150",
+    "latitude": "71.504",
+    "longitude": "8.262",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153526"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_111.nc",
+    "date": "20140724053956",
+    "latitude": "71.642",
+    "longitude": "8.458",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153528"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_112.nc",
+    "date": "20140728054003",
+    "latitude": "71.615",
+    "longitude": "8.964",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153530"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_129.nc",
+    "date": "20141004054159",
+    "latitude": "72.029",
+    "longitude": "4.592",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153601"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_130.nc",
+    "date": "20141008053106",
+    "latitude": "71.872",
+    "longitude": "3.691",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153603"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_131.nc",
+    "date": "20141012054553",
+    "latitude": "71.856",
+    "longitude": "2.529",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153605"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_132.nc",
+    "date": "20141016053839",
+    "latitude": "71.855",
+    "longitude": "1.786",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153605"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_133.nc",
+    "date": "20141020053634",
+    "latitude": "71.720",
+    "longitude": "0.715",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153606"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_134.nc",
+    "date": "20141024053936",
+    "latitude": "71.718",
+    "longitude": "0.169",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153607"
+  },
+  {
+    "file": "aoml/6900319/profiles/D6900319_135.nc",
+    "date": "20141028054407",
+    "latitude": "71.768",
+    "longitude": "-0.252",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "AO",
+    "date_update": "20170420153609"
+  },
+  {
+    "file": "bodc/6901125/profiles/R6901125_058.nc",
+    "date": "20140105203756",
+    "latitude": "75.652",
+    "longitude": "-2.802",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170206005124"
+  },
+  {
+    "file": "bodc/6901125/profiles/R6901125_059.nc",
+    "date": "20140115231810",
+    "latitude": "75.266",
+    "longitude": "-2.273",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170206005139"
+  },
+  {
+    "file": "bodc/6901125/profiles/R6901125_060.nc",
+    "date": "20140125202850",
+    "latitude": "75.849",
+    "longitude": "-1.149",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170206005209"
+  },
+  {
+    "file": "bodc/6901125/profiles/R6901125_074.nc",
+    "date": "20140410231209",
+    "latitude": "74.727",
+    "longitude": "-4.735",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170206005356"
+  },
+  {
+    "file": "bodc/6901125/profiles/R6901125_091.nc",
+    "date": "20140704232137",
+    "latitude": "74.242",
+    "longitude": "-0.227",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170206005659"
+  },
+  {
+    "file": "bodc/6901125/profiles/R6901125_094.nc",
+    "date": "20140719204706",
+    "latitude": "74.199",
+    "longitude": "-0.952",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170206005727"
+  },
+  {
+    "file": "bodc/6901125/profiles/R6901125_112.nc",
+    "date": "20141017205642",
+    "latitude": "74.461",
+    "longitude": "3.454",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170206002424"
+  },
+  {
+    "file": "bodc/6901126/profiles/R6901126_058.nc",
+    "date": "20140104223253",
+    "latitude": "74.347",
+    "longitude": "-1.699",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20140105041617"
+  },
+  {
+    "file": "bodc/6901126/profiles/R6901126_059.nc",
+    "date": "20140114223734",
+    "latitude": "74.333",
+    "longitude": "-1.851",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20140115041656"
+  },
+  {
+    "file": "bodc/6901126/profiles/R6901126_060.nc",
+    "date": "20140124223209",
+    "latitude": "74.307",
+    "longitude": "-2.355",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20140125041606"
+  },
+  {
+    "file": "bodc/6901126/profiles/R6901126_073.nc",
+    "date": "20140404223029",
+    "latitude": "74.041",
+    "longitude": "-1.031",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20140408192232"
+  },
+  {
+    "file": "bodc/6901127/profiles/D6901127_057.nc",
+    "date": "20140110152459",
+    "latitude": "74.598",
+    "longitude": "-4.512",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807063952"
+  },
+  {
+    "file": "bodc/6901127/profiles/D6901127_058.nc",
+    "date": "20140120081855",
+    "latitude": "74.856",
+    "longitude": "-4.125",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807064014"
+  },
+  {
+    "file": "bodc/6901127/profiles/D6901127_059.nc",
+    "date": "20140130035113",
+    "latitude": "74.921",
+    "longitude": "-3.325",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807064036"
+  },
+  {
+    "file": "bodc/6901127/profiles/D6901127_066.nc",
+    "date": "20140408171146",
+    "latitude": "74.409",
+    "longitude": "-4.310",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807063757"
+  },
+  {
+    "file": "bodc/6901127/profiles/D6901127_067.nc",
+    "date": "20140418140748",
+    "latitude": "74.150",
+    "longitude": "-3.646",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807064143"
+  },
+  {
+    "file": "bodc/6901127/profiles/D6901127_068.nc",
+    "date": "20140428115823",
+    "latitude": "74.619",
+    "longitude": "-3.405",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807064206"
+  },
+  {
+    "file": "bodc/6901127/profiles/D6901127_075.nc",
+    "date": "20140706002331",
+    "latitude": "74.516",
+    "longitude": "-1.209",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807064755"
+  },
+  {
+    "file": "bodc/6901127/profiles/D6901127_076.nc",
+    "date": "20140715195053",
+    "latitude": "74.313",
+    "longitude": "-0.845",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807064817"
+  },
+  {
+    "file": "bodc/6901127/profiles/D6901127_077.nc",
+    "date": "20140725134551",
+    "latitude": "74.401",
+    "longitude": "-0.104",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807064838"
+  },
+  {
+    "file": "bodc/6901127/profiles/D6901127_084.nc",
+    "date": "20141002030038",
+    "latitude": "74.168",
+    "longitude": "1.516",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807065030"
+  },
+  {
+    "file": "bodc/6901127/profiles/D6901127_085.nc",
+    "date": "20141011225607",
+    "latitude": "74.269",
+    "longitude": "1.744",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807064553"
+  },
+  {
+    "file": "bodc/6901127/profiles/D6901127_086.nc",
+    "date": "20141021155055",
+    "latitude": "74.296",
+    "longitude": "2.665",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807065051"
+  },
+  {
+    "file": "bodc/6901127/profiles/D6901127_087.nc",
+    "date": "20141031120140",
+    "latitude": "74.424",
+    "longitude": "3.242",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807064611"
+  },
+  {
+    "file": "bodc/6901128/profiles/D6901128_055.nc",
+    "date": "20140101082109",
+    "latitude": "75.357",
+    "longitude": "2.407",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806032902"
+  },
+  {
+    "file": "bodc/6901128/profiles/D6901128_056.nc",
+    "date": "20140111040536",
+    "latitude": "75.222",
+    "longitude": "2.428",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806032720"
+  },
+  {
+    "file": "bodc/6901128/profiles/D6901128_057.nc",
+    "date": "20140120205343",
+    "latitude": "75.102",
+    "longitude": "1.704",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806032744"
+  },
+  {
+    "file": "bodc/6901128/profiles/D6901128_058.nc",
+    "date": "20140130164623",
+    "latitude": "75.329",
+    "longitude": "0.786",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806032512"
+  },
+  {
+    "file": "bodc/6901128/profiles/D6901128_065.nc",
+    "date": "20140409010407",
+    "latitude": "75.767",
+    "longitude": "-4.448",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806034836"
+  },
+  {
+    "file": "bodc/6901128/profiles/D6901128_066.nc",
+    "date": "20140418204947",
+    "latitude": "75.572",
+    "longitude": "-4.209",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806033352"
+  },
+  {
+    "file": "bodc/6901128/profiles/D6901128_067.nc",
+    "date": "20140428141405",
+    "latitude": "75.580",
+    "longitude": "-4.744",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806034900"
+  },
+  {
+    "file": "bodc/6901128/profiles/D6901128_074.nc",
+    "date": "20140706015559",
+    "latitude": "75.529",
+    "longitude": "0.320",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806034746"
+  },
+  {
+    "file": "bodc/6901128/profiles/D6901128_075.nc",
+    "date": "20140715212103",
+    "latitude": "75.836",
+    "longitude": "-0.592",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806033419"
+  },
+  {
+    "file": "bodc/6901128/profiles/D6901128_083.nc",
+    "date": "20141002142723",
+    "latitude": "75.671",
+    "longitude": "-2.220",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806033937"
+  },
+  {
+    "file": "bodc/6901128/profiles/D6901128_084.nc",
+    "date": "20141012074528",
+    "latitude": "75.890",
+    "longitude": "-1.980",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806034006"
+  },
+  {
+    "file": "bodc/6901128/profiles/D6901128_085.nc",
+    "date": "20141022032711",
+    "latitude": "75.845",
+    "longitude": "-2.943",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806034034"
+  },
+  {
+    "file": "bodc/6901128/profiles/D6901128_086.nc",
+    "date": "20141031204002",
+    "latitude": "75.648",
+    "longitude": "-4.030",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806034101"
+  },
+  {
+    "file": "bodc/6901129/profiles/D6901129_056.nc",
+    "date": "20140110150351",
+    "latitude": "75.348",
+    "longitude": "3.102",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210225032709"
+  },
+  {
+    "file": "bodc/6901129/profiles/D6901129_057.nc",
+    "date": "20140120080749",
+    "latitude": "75.215",
+    "longitude": "2.964",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210225033132"
+  },
+  {
+    "file": "bodc/6901129/profiles/D6901129_058.nc",
+    "date": "20140130040233",
+    "latitude": "75.052",
+    "longitude": "2.536",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210225032211"
+  },
+  {
+    "file": "bodc/6901129/profiles/D6901129_065.nc",
+    "date": "20140408132712",
+    "latitude": "76.315",
+    "longitude": "-2.606",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210225033507"
+  },
+  {
+    "file": "bodc/6901129/profiles/D6901129_066.nc",
+    "date": "20140418061345",
+    "latitude": "75.752",
+    "longitude": "-3.910",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210225033316"
+  },
+  {
+    "file": "bodc/6901129/profiles/D6901129_067.nc",
+    "date": "20140428000325",
+    "latitude": "76.135",
+    "longitude": "-3.384",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210225033208"
+  },
+  {
+    "file": "bodc/6901129/profiles/D6901129_074.nc",
+    "date": "20140706045433",
+    "latitude": "75.016",
+    "longitude": "-9.663",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210225033729"
+  },
+  {
+    "file": "bodc/6901129/profiles/D6901129_075.nc",
+    "date": "20140716020948",
+    "latitude": "74.913",
+    "longitude": "-10.386",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210225032358"
+  },
+  {
+    "file": "bodc/6901129/profiles/D6901129_076.nc",
+    "date": "20140725203440",
+    "latitude": "74.898",
+    "longitude": "-11.145",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210225032440"
+  },
+  {
+    "file": "bodc/6901129/profiles/D6901129_083.nc",
+    "date": "20141003062920",
+    "latitude": "73.999",
+    "longitude": "-14.562",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210225034924"
+  },
+  {
+    "file": "bodc/6901129/profiles/D6901129_084.nc",
+    "date": "20141013022345",
+    "latitude": "73.235",
+    "longitude": "-15.683",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210225034601"
+  },
+  {
+    "file": "bodc/6901129/profiles/D6901129_085.nc",
+    "date": "20141022220614",
+    "latitude": "72.646",
+    "longitude": "-15.842",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210225034708"
+  },
+  {
+    "file": "bodc/6901130/profiles/D6901130_055.nc",
+    "date": "20140102015924",
+    "latitude": "75.197",
+    "longitude": "-1.629",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807042136"
+  },
+  {
+    "file": "bodc/6901130/profiles/D6901130_056.nc",
+    "date": "20140111214843",
+    "latitude": "75.003",
+    "longitude": "-2.385",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807042201"
+  },
+  {
+    "file": "bodc/6901130/profiles/D6901130_057.nc",
+    "date": "20140121145220",
+    "latitude": "74.575",
+    "longitude": "-2.671",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807042230"
+  },
+  {
+    "file": "bodc/6901130/profiles/D6901130_058.nc",
+    "date": "20140131102339",
+    "latitude": "74.435",
+    "longitude": "-3.600",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807042255"
+  },
+  {
+    "file": "bodc/6901130/profiles/D6901130_065.nc",
+    "date": "20140410052640",
+    "latitude": "74.596",
+    "longitude": "-1.667",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807042828"
+  },
+  {
+    "file": "bodc/6901130/profiles/D6901130_066.nc",
+    "date": "20140420004259",
+    "latitude": "74.895",
+    "longitude": "-2.276",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807042621"
+  },
+  {
+    "file": "bodc/6901130/profiles/D6901130_067.nc",
+    "date": "20140429204617",
+    "latitude": "74.926",
+    "longitude": "-2.709",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807042645"
+  },
+  {
+    "file": "bodc/6901130/profiles/D6901130_074.nc",
+    "date": "20140707111137",
+    "latitude": "74.527",
+    "longitude": "-0.703",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807043039"
+  },
+  {
+    "file": "bodc/6901130/profiles/D6901130_075.nc",
+    "date": "20140717070630",
+    "latitude": "74.445",
+    "longitude": "-0.854",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807043107"
+  },
+  {
+    "file": "bodc/6901130/profiles/D6901130_076.nc",
+    "date": "20140727002520",
+    "latitude": "74.434",
+    "longitude": "-0.544",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807043230"
+  },
+  {
+    "file": "bodc/6901130/profiles/D6901130_083.nc",
+    "date": "20141003130358",
+    "latitude": "74.747",
+    "longitude": "1.198",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807043533"
+  },
+  {
+    "file": "bodc/6901130/profiles/D6901130_084.nc",
+    "date": "20141013100008",
+    "latitude": "74.855",
+    "longitude": "0.978",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807043558"
+  },
+  {
+    "file": "bodc/6901130/profiles/D6901130_085.nc",
+    "date": "20141023074338",
+    "latitude": "74.861",
+    "longitude": "0.781",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807042710"
+  },
+  {
+    "file": "bodc/6901131/profiles/D6901131_055.nc",
+    "date": "20140102060528",
+    "latitude": "75.889",
+    "longitude": "-2.582",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210901032557"
+  },
+  {
+    "file": "bodc/6901131/profiles/D6901131_056.nc",
+    "date": "20140111231700",
+    "latitude": "75.683",
+    "longitude": "-2.950",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210901032933"
+  },
+  {
+    "file": "bodc/6901131/profiles/D6901131_057.nc",
+    "date": "20140121191051",
+    "latitude": "75.502",
+    "longitude": "-4.084",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210901033352"
+  },
+  {
+    "file": "bodc/6901131/profiles/D6901131_058.nc",
+    "date": "20140131123909",
+    "latitude": "75.594",
+    "longitude": "-4.968",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210901033538"
+  },
+  {
+    "file": "bodc/6901131/profiles/D6901131_065.nc",
+    "date": "20140409233023",
+    "latitude": "75.207",
+    "longitude": "-3.158",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210901033041"
+  },
+  {
+    "file": "bodc/6901131/profiles/D6901131_066.nc",
+    "date": "20140419175351",
+    "latitude": "75.405",
+    "longitude": "-2.910",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210901032718"
+  },
+  {
+    "file": "bodc/6901131/profiles/D6901131_067.nc",
+    "date": "20140429132334",
+    "latitude": "75.315",
+    "longitude": "-2.726",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210901033222"
+  },
+  {
+    "file": "bodc/6901131/profiles/D6901131_074.nc",
+    "date": "20140707010807",
+    "latitude": "75.026",
+    "longitude": "-6.389",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210901033845"
+  },
+  {
+    "file": "bodc/6901131/profiles/D6901131_075.nc",
+    "date": "20140716182047",
+    "latitude": "75.145",
+    "longitude": "-5.606",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210901034550"
+  },
+  {
+    "file": "bodc/6901131/profiles/D6901131_076.nc",
+    "date": "20140726140022",
+    "latitude": "75.109",
+    "longitude": "-6.063",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210901035012"
+  },
+  {
+    "file": "bodc/6901131/profiles/D6901131_083.nc",
+    "date": "20141003004721",
+    "latitude": "74.633",
+    "longitude": "-8.806",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210901034947"
+  },
+  {
+    "file": "bodc/6901131/profiles/D6901131_084.nc",
+    "date": "20141012212208",
+    "latitude": "74.700",
+    "longitude": "-8.962",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210901034527"
+  },
+  {
+    "file": "bodc/6901131/profiles/D6901131_085.nc",
+    "date": "20141022143620",
+    "latitude": "74.396",
+    "longitude": "-8.716",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210901034246"
+  },
+  {
+    "file": "bodc/6901132/profiles/D6901132_055.nc",
+    "date": "20140101102836",
+    "latitude": "71.796",
+    "longitude": "-6.142",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807075015"
+  },
+  {
+    "file": "bodc/6901132/profiles/D6901132_056.nc",
+    "date": "20140111042849",
+    "latitude": "71.733",
+    "longitude": "-5.884",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807075036"
+  },
+  {
+    "file": "bodc/6901132/profiles/D6901132_057.nc",
+    "date": "20140121002507",
+    "latitude": "71.694",
+    "longitude": "-5.367",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807074652"
+  },
+  {
+    "file": "bodc/6901132/profiles/D6901132_058.nc",
+    "date": "20140130185327",
+    "latitude": "71.768",
+    "longitude": "-4.710",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807075057"
+  },
+  {
+    "file": "bodc/6901132/profiles/D6901132_065.nc",
+    "date": "20140409082242",
+    "latitude": "71.583",
+    "longitude": "-5.029",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807075219"
+  },
+  {
+    "file": "bodc/6901132/profiles/D6901132_066.nc",
+    "date": "20140419043655",
+    "latitude": "71.544",
+    "longitude": "-5.148",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807074735"
+  },
+  {
+    "file": "bodc/6901132/profiles/D6901132_067.nc",
+    "date": "20140428220242",
+    "latitude": "71.479",
+    "longitude": "-5.271",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807074757"
+  },
+  {
+    "file": "bodc/6901132/profiles/D6901132_074.nc",
+    "date": "20140706093144",
+    "latitude": "71.465",
+    "longitude": "-4.634",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807075322"
+  },
+  {
+    "file": "bodc/6901132/profiles/D6901132_075.nc",
+    "date": "20140716050624",
+    "latitude": "71.593",
+    "longitude": "-4.732",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807074905"
+  },
+  {
+    "file": "bodc/6901132/profiles/D6901132_076.nc",
+    "date": "20140725222939",
+    "latitude": "71.675",
+    "longitude": "-4.860",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807075651"
+  },
+  {
+    "file": "bodc/6901132/profiles/D6901132_083.nc",
+    "date": "20141002075109",
+    "latitude": "71.963",
+    "longitude": "-4.790",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807075837"
+  },
+  {
+    "file": "bodc/6901132/profiles/D6901132_084.nc",
+    "date": "20141012032334",
+    "latitude": "72.001",
+    "longitude": "-4.585",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807075858"
+  },
+  {
+    "file": "bodc/6901132/profiles/D6901132_085.nc",
+    "date": "20141021203357",
+    "latitude": "72.076",
+    "longitude": "-4.074",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807075922"
+  },
+  {
+    "file": "bodc/6901132/profiles/D6901132_086.nc",
+    "date": "20141031164802",
+    "latitude": "72.080",
+    "longitude": "-4.013",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210807075943"
+  },
+  {
+    "file": "bodc/6901137/profiles/D6901137_052.nc",
+    "date": "20140110134043",
+    "latitude": "70.092",
+    "longitude": "6.515",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210818050410"
+  },
+  {
+    "file": "bodc/6901137/profiles/D6901137_053.nc",
+    "date": "20140120070021",
+    "latitude": "70.911",
+    "longitude": "6.252",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210818051625"
+  },
+  {
+    "file": "bodc/6901137/profiles/D6901137_054.nc",
+    "date": "20140130041045",
+    "latitude": "71.296",
+    "longitude": "4.416",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210818050445"
+  },
+  {
+    "file": "bodc/6901137/profiles/D6901137_061.nc",
+    "date": "20140408164432",
+    "latitude": "72.073",
+    "longitude": "8.039",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210818051550"
+  },
+  {
+    "file": "bodc/6901137/profiles/D6901137_062.nc",
+    "date": "20140418120901",
+    "latitude": "72.523",
+    "longitude": "5.632",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210818050630"
+  },
+  {
+    "file": "bodc/6901137/profiles/D6901137_070.nc",
+    "date": "20140705184036",
+    "latitude": "71.159",
+    "longitude": "9.955",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210818045952"
+  },
+  {
+    "file": "bodc/6901137/profiles/D6901137_071.nc",
+    "date": "20140715114218",
+    "latitude": "71.368",
+    "longitude": "9.113",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210818051127"
+  },
+  {
+    "file": "bodc/6901137/profiles/D6901137_072.nc",
+    "date": "20140725071442",
+    "latitude": "71.701",
+    "longitude": "8.769",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210818051154"
+  },
+  {
+    "file": "bodc/6901137/profiles/D6901137_079.nc",
+    "date": "20141001142640",
+    "latitude": "71.006",
+    "longitude": "10.620",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210818052455"
+  },
+  {
+    "file": "bodc/6901137/profiles/D6901137_080.nc",
+    "date": "20141011102122",
+    "latitude": "71.054",
+    "longitude": "10.528",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210818052742"
+  },
+  {
+    "file": "bodc/6901137/profiles/D6901137_081.nc",
+    "date": "20141021041051",
+    "latitude": "71.256",
+    "longitude": "10.083",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210818052814"
+  },
+  {
+    "file": "bodc/6901137/profiles/D6901137_082.nc",
+    "date": "20141031003523",
+    "latitude": "71.589",
+    "longitude": "9.324",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210818051813"
+  },
+  {
+    "file": "bodc/6901137/profiles/R6901137_063.nc",
+    "date": "20140428051149",
+    "latitude": "71.985",
+    "longitude": "4.412",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170317134800"
+  },
+  {
+    "file": "bodc/6901139/profiles/R6901139_050.nc",
+    "date": "20140101230116",
+    "latitude": "72.594",
+    "longitude": "7.547",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170206061010"
+  },
+  {
+    "file": "bodc/6901139/profiles/R6901139_051.nc",
+    "date": "20140111203317",
+    "latitude": "72.125",
+    "longitude": "6.195",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170206061027"
+  },
+  {
+    "file": "bodc/6901139/profiles/R6901139_052.nc",
+    "date": "20140121231144",
+    "latitude": "71.869",
+    "longitude": "4.131",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170206061044"
+  },
+  {
+    "file": "bodc/6901139/profiles/R6901139_053.nc",
+    "date": "20140131205150",
+    "latitude": "71.684",
+    "longitude": "5.881",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170206061104"
+  },
+  {
+    "file": "bodc/6901139/profiles/R6901139_068.nc",
+    "date": "20140416231449",
+    "latitude": "70.545",
+    "longitude": "2.333",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170206061314"
+  },
+  {
+    "file": "bodc/6901139/profiles/R6901139_069.nc",
+    "date": "20140421205453",
+    "latitude": "70.589",
+    "longitude": "2.482",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170206061332"
+  },
+  {
+    "file": "bodc/6901139/profiles/R6901139_070.nc",
+    "date": "20140426231421",
+    "latitude": "70.498",
+    "longitude": "0.506",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20170206061404"
+  },
+  {
+    "file": "bodc/6901140/profiles/R6901140_050.nc",
+    "date": "20140101231412",
+    "latitude": "72.214",
+    "longitude": "9.559",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20140102041743"
+  },
+  {
+    "file": "bodc/6901140/profiles/R6901140_051.nc",
+    "date": "20140111203134",
+    "latitude": "73.471",
+    "longitude": "10.100",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20140112041730"
+  },
+  {
+    "file": "bodc/6901140/profiles/R6901140_052.nc",
+    "date": "20140121231348",
+    "latitude": "72.955",
+    "longitude": "10.585",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20140122041832"
+  },
+  {
+    "file": "bodc/6901140/profiles/R6901140_053.nc",
+    "date": "20140131204019",
+    "latitude": "73.164",
+    "longitude": "10.275",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20140201041605"
+  },
+  {
+    "file": "bodc/6901140/profiles/R6901140_069.nc",
+    "date": "20140421231243",
+    "latitude": "73.772",
+    "longitude": "11.666",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20140422041805"
+  },
+  {
+    "file": "bodc/6901140/profiles/R6901140_070.nc",
+    "date": "20140426204605",
+    "latitude": "73.807",
+    "longitude": "11.822",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20140427042434"
+  },
+  {
+    "file": "bodc/6901140/profiles/R6901140_086.nc",
+    "date": "20140715203646",
+    "latitude": "73.897",
+    "longitude": "9.164",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20140716040815"
+  },
+  {
+    "file": "bodc/6901140/profiles/R6901140_088.nc",
+    "date": "20140725221111",
+    "latitude": "73.653",
+    "longitude": "9.309",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20140726041903"
+  },
+  {
+    "file": "bodc/6901140/profiles/R6901140_102.nc",
+    "date": "20141003201346",
+    "latitude": "73.857",
+    "longitude": "6.998",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20141004041412"
+  },
+  {
+    "file": "bodc/6901141/profiles/D6901141_052.nc",
+    "date": "20140110173236",
+    "latitude": "70.631",
+    "longitude": "14.268",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806044437"
+  },
+  {
+    "file": "bodc/6901141/profiles/D6901141_053.nc",
+    "date": "20140120153640",
+    "latitude": "70.155",
+    "longitude": "14.461",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806044504"
+  },
+  {
+    "file": "bodc/6901141/profiles/D6901141_054.nc",
+    "date": "20140130091753",
+    "latitude": "70.254",
+    "longitude": "12.159",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806044531"
+  },
+  {
+    "file": "bodc/6901141/profiles/D6901141_061.nc",
+    "date": "20140409015904",
+    "latitude": "71.684",
+    "longitude": "8.866",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806044843"
+  },
+  {
+    "file": "bodc/6901141/profiles/D6901141_062.nc",
+    "date": "20140418193520",
+    "latitude": "72.260",
+    "longitude": "7.011",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806044909"
+  },
+  {
+    "file": "bodc/6901141/profiles/D6901141_063.nc",
+    "date": "20140428114118",
+    "latitude": "72.289",
+    "longitude": "4.460",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806044936"
+  },
+  {
+    "file": "bodc/6901141/profiles/D6901141_070.nc",
+    "date": "20140706000008",
+    "latitude": "71.323",
+    "longitude": "-0.359",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806045608"
+  },
+  {
+    "file": "bodc/6901141/profiles/D6901141_071.nc",
+    "date": "20140715192916",
+    "latitude": "71.553",
+    "longitude": "-0.467",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806050435"
+  },
+  {
+    "file": "bodc/6901141/profiles/D6901141_072.nc",
+    "date": "20140725150532",
+    "latitude": "71.557",
+    "longitude": "-0.606",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806050200"
+  },
+  {
+    "file": "bodc/6901141/profiles/D6901141_079.nc",
+    "date": "20141001222109",
+    "latitude": "72.113",
+    "longitude": "-0.672",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806045653"
+  },
+  {
+    "file": "bodc/6901141/profiles/D6901141_080.nc",
+    "date": "20141011183612",
+    "latitude": "72.208",
+    "longitude": "-0.599",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806045714"
+  },
+  {
+    "file": "bodc/6901141/profiles/D6901141_081.nc",
+    "date": "20141021182125",
+    "latitude": "72.090",
+    "longitude": "-0.708",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806050137"
+  },
+  {
+    "file": "bodc/6901141/profiles/D6901141_082.nc",
+    "date": "20141031121837",
+    "latitude": "72.130",
+    "longitude": "0.453",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "BO",
+    "date_update": "20210806045630"
+  },
+  {
+    "file": "bodc/6901159/profiles/R6901159_002.nc",
+    "date": "20140128111041",
+    "latitude": "70.061",
+    "longitude": "7.824",
+    "ocean": "A",
+    "profiler_type": "863",
+    "institution": "BO",
+    "date_update": "20220909214157"
+  },
+  {
+    "file": "bodc/6901159/profiles/R6901159_015.nc",
+    "date": "20140403091257",
+    "latitude": "71.077",
+    "longitude": "6.063",
+    "ocean": "A",
+    "profiler_type": "863",
+    "institution": "BO",
+    "date_update": "20220909215015"
+  },
+  {
+    "file": "bodc/6901159/profiles/R6901159_016.nc",
+    "date": "20140408085850",
+    "latitude": "71.421",
+    "longitude": "5.689",
+    "ocean": "A",
+    "profiler_type": "863",
+    "institution": "BO",
+    "date_update": "20220909214950"
+  },
+  {
+    "file": "bodc/6901159/profiles/R6901159_017.nc",
+    "date": "20140413092036",
+    "latitude": "71.706",
+    "longitude": "5.762",
+    "ocean": "A",
+    "profiler_type": "863",
+    "institution": "BO",
+    "date_update": "20220909215054"
+  },
+  {
+    "file": "bodc/6901159/profiles/R6901159_018.nc",
+    "date": "20140418091145",
+    "latitude": "71.626",
+    "longitude": "6.721",
+    "ocean": "A",
+    "profiler_type": "863",
+    "institution": "BO",
+    "date_update": "20220909215124"
+  },
+  {
+    "file": "bodc/6901159/profiles/R6901159_033.nc",
+    "date": "20140702092406",
+    "latitude": "70.061",
+    "longitude": "9.769",
+    "ocean": "A",
+    "profiler_type": "863",
+    "institution": "BO",
+    "date_update": "20220909215831"
+  },
+  {
+    "file": "coriolis/6900560/profiles/D6900560_132.nc",
+    "date": "20140114102604",
+    "latitude": "74.906",
+    "longitude": "14.349",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20181012154106"
+  },
+  {
+    "file": "coriolis/6900560/profiles/D6900560_133.nc",
+    "date": "20140129093501",
+    "latitude": "76.219",
+    "longitude": "13.573",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20181012154107"
+  },
+  {
+    "file": "coriolis/6900563/profiles/D6900563_144.nc",
+    "date": "20140726100756",
+    "latitude": "70.677",
+    "longitude": "11.620",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20181012144129"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_198.nc",
+    "date": "20140105234013",
+    "latitude": "72.777",
+    "longitude": "7.172",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144932"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_199.nc",
+    "date": "20140110234205",
+    "latitude": "72.726",
+    "longitude": "7.273",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144932"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_200.nc",
+    "date": "20140115234649",
+    "latitude": "72.859",
+    "longitude": "8.254",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144933"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_201.nc",
+    "date": "20140121234436",
+    "latitude": "72.864",
+    "longitude": "8.550",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144933"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_202.nc",
+    "date": "20140126234419",
+    "latitude": "72.927",
+    "longitude": "9.342",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144933"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_203.nc",
+    "date": "20140131234037",
+    "latitude": "72.654",
+    "longitude": "9.652",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144933"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_215.nc",
+    "date": "20140401234621",
+    "latitude": "71.450",
+    "longitude": "9.816",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144935"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_216.nc",
+    "date": "20140406234432",
+    "latitude": "71.575",
+    "longitude": "8.688",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144935"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_217.nc",
+    "date": "20140411234515",
+    "latitude": "71.678",
+    "longitude": "8.317",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144935"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_218.nc",
+    "date": "20140416234110",
+    "latitude": "72.018",
+    "longitude": "7.793",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144935"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_219.nc",
+    "date": "20140421233728",
+    "latitude": "72.497",
+    "longitude": "6.231",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144935"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_220.nc",
+    "date": "20140426234753",
+    "latitude": "72.305",
+    "longitude": "4.819",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144935"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_234.nc",
+    "date": "20140705234331",
+    "latitude": "72.740",
+    "longitude": "4.610",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144937"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_235.nc",
+    "date": "20140710234356",
+    "latitude": "72.725",
+    "longitude": "4.921",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144937"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_236.nc",
+    "date": "20140715234620",
+    "latitude": "72.753",
+    "longitude": "5.114",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144937"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_237.nc",
+    "date": "20140720235025",
+    "latitude": "72.801",
+    "longitude": "5.336",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144937"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_238.nc",
+    "date": "20140725234448",
+    "latitude": "72.873",
+    "longitude": "5.905",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144937"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_239.nc",
+    "date": "20140730234039",
+    "latitude": "72.748",
+    "longitude": "6.188",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144937"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_252.nc",
+    "date": "20141003234553",
+    "latitude": "73.090",
+    "longitude": "5.027",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144938"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_253.nc",
+    "date": "20141008234109",
+    "latitude": "73.160",
+    "longitude": "4.563",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144938"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_254.nc",
+    "date": "20141013235124",
+    "latitude": "73.322",
+    "longitude": "5.084",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144938"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_255.nc",
+    "date": "20141018233434",
+    "latitude": "73.638",
+    "longitude": "4.864",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144938"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_256.nc",
+    "date": "20141023234942",
+    "latitude": "73.704",
+    "longitude": "4.709",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144939"
+  },
+  {
+    "file": "coriolis/6900798/profiles/D6900798_257.nc",
+    "date": "20141028234347",
+    "latitude": "73.708",
+    "longitude": "4.893",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20211102144939"
+  },
+  {
+    "file": "coriolis/6900883/profiles/D6900883_059.nc",
+    "date": "20140106073933",
+    "latitude": "75.461",
+    "longitude": "9.508",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825132925"
+  },
+  {
+    "file": "coriolis/6900883/profiles/D6900883_060.nc",
+    "date": "20140116073757",
+    "latitude": "75.668",
+    "longitude": "10.899",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825132925"
+  },
+  {
+    "file": "coriolis/6900883/profiles/D6900883_061.nc",
+    "date": "20140126074729",
+    "latitude": "75.454",
+    "longitude": "11.152",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825132925"
+  },
+  {
+    "file": "coriolis/6900883/profiles/D6900883_068.nc",
+    "date": "20140406073834",
+    "latitude": "77.135",
+    "longitude": "9.037",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825132926"
+  },
+  {
+    "file": "coriolis/6900883/profiles/D6900883_069.nc",
+    "date": "20140416122203",
+    "latitude": "77.349",
+    "longitude": "8.496",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825132926"
+  },
+  {
+    "file": "coriolis/6900883/profiles/D6900883_070.nc",
+    "date": "20140426075222",
+    "latitude": "77.251",
+    "longitude": "8.927",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825132926"
+  },
+  {
+    "file": "coriolis/6900883/profiles/D6900883_077.nc",
+    "date": "20140705075121",
+    "latitude": "78.220",
+    "longitude": "2.188",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825132926"
+  },
+  {
+    "file": "coriolis/6900883/profiles/D6900883_078.nc",
+    "date": "20140715124233",
+    "latitude": "78.481",
+    "longitude": "1.199",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825132926"
+  },
+  {
+    "file": "coriolis/6900883/profiles/D6900883_079.nc",
+    "date": "20140725081357",
+    "latitude": "78.561",
+    "longitude": "1.544",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825132926"
+  },
+  {
+    "file": "coriolis/6900883/profiles/D6900883_086.nc",
+    "date": "20141003125427",
+    "latitude": "76.745",
+    "longitude": "-4.477",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825132927"
+  },
+  {
+    "file": "coriolis/6900883/profiles/D6900883_087.nc",
+    "date": "20141013082234",
+    "latitude": "76.428",
+    "longitude": "-5.820",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825132927"
+  },
+  {
+    "file": "coriolis/6900883/profiles/D6900883_088.nc",
+    "date": "20141023081202",
+    "latitude": "76.366",
+    "longitude": "-6.110",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825132927"
+  },
+  {
+    "file": "coriolis/6900884/profiles/D6900884_059.nc",
+    "date": "20140105134301",
+    "latitude": "74.528",
+    "longitude": "14.525",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825125947"
+  },
+  {
+    "file": "coriolis/6900884/profiles/D6900884_060.nc",
+    "date": "20140115180235",
+    "latitude": "74.707",
+    "longitude": "14.360",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825125947"
+  },
+  {
+    "file": "coriolis/6900884/profiles/D6900884_061.nc",
+    "date": "20140125181609",
+    "latitude": "74.949",
+    "longitude": "13.923",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825125947"
+  },
+  {
+    "file": "coriolis/6900884/profiles/D6900884_068.nc",
+    "date": "20140405173234",
+    "latitude": "74.550",
+    "longitude": "15.090",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825125948"
+  },
+  {
+    "file": "coriolis/6900884/profiles/D6900884_069.nc",
+    "date": "20140415175057",
+    "latitude": "73.794",
+    "longitude": "13.325",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825125948"
+  },
+  {
+    "file": "coriolis/6900884/profiles/D6900884_070.nc",
+    "date": "20140425180227",
+    "latitude": "73.612",
+    "longitude": "12.364",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825125948"
+  },
+  {
+    "file": "coriolis/6900884/profiles/D6900884_077.nc",
+    "date": "20140704181027",
+    "latitude": "74.309",
+    "longitude": "14.922",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825125948"
+  },
+  {
+    "file": "coriolis/6900884/profiles/D6900884_078.nc",
+    "date": "20140714175733",
+    "latitude": "74.883",
+    "longitude": "14.235",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825125948"
+  },
+  {
+    "file": "coriolis/6900884/profiles/D6900884_079.nc",
+    "date": "20140724180426",
+    "latitude": "74.980",
+    "longitude": "13.992",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825125948"
+  },
+  {
+    "file": "coriolis/6900884/profiles/D6900884_086.nc",
+    "date": "20141002182153",
+    "latitude": "73.976",
+    "longitude": "12.921",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825125949"
+  },
+  {
+    "file": "coriolis/6900884/profiles/D6900884_087.nc",
+    "date": "20141012134853",
+    "latitude": "73.819",
+    "longitude": "11.765",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825125949"
+  },
+  {
+    "file": "coriolis/6900884/profiles/D6900884_088.nc",
+    "date": "20141022135358",
+    "latitude": "73.716",
+    "longitude": "11.609",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220825125949"
+  },
+  {
+    "file": "coriolis/6901059/profiles/D6901059_090.nc",
+    "date": "20140110093129",
+    "latitude": "70.554",
+    "longitude": "0.747",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20240716090013"
+  },
+  {
+    "file": "coriolis/6901059/profiles/D6901059_091.nc",
+    "date": "20140120140322",
+    "latitude": "70.490",
+    "longitude": "-0.010",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20240716090013"
+  },
+  {
+    "file": "coriolis/6901059/profiles/D6901059_092.nc",
+    "date": "20140130085912",
+    "latitude": "70.193",
+    "longitude": "-1.281",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20240716090013"
+  },
+  {
+    "file": "coriolis/6901067/profiles/D6901067_089.nc",
+    "date": "20140102102800",
+    "latitude": "71.939",
+    "longitude": "4.359",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180108155627"
+  },
+  {
+    "file": "coriolis/6901080/profiles/D6901080_050.nc",
+    "date": "20140108084144",
+    "latitude": "70.204",
+    "longitude": "6.477",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180221090231"
+  },
+  {
+    "file": "coriolis/6901080/profiles/D6901080_051.nc",
+    "date": "20140118060842",
+    "latitude": "71.202",
+    "longitude": "4.693",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180221090233"
+  },
+  {
+    "file": "coriolis/6901080/profiles/D6901080_052.nc",
+    "date": "20140128084957",
+    "latitude": "71.766",
+    "longitude": "4.321",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180221090235"
+  },
+  {
+    "file": "coriolis/6901080/profiles/D6901080_070.nc",
+    "date": "20140727090150",
+    "latitude": "70.214",
+    "longitude": "4.455",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180221090312"
+  },
+  {
+    "file": "coriolis/6901081/profiles/D6901081_059.nc",
+    "date": "20140408015757",
+    "latitude": "70.804",
+    "longitude": "-1.942",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180221085725"
+  },
+  {
+    "file": "coriolis/6901081/profiles/D6901081_060.nc",
+    "date": "20140418014154",
+    "latitude": "70.721",
+    "longitude": "-2.605",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180221085726"
+  },
+  {
+    "file": "coriolis/6901081/profiles/D6901081_061.nc",
+    "date": "20140428020020",
+    "latitude": "70.393",
+    "longitude": "-3.725",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180221085727"
+  },
+  {
+    "file": "coriolis/6901081/profiles/D6901081_068.nc",
+    "date": "20140707013054",
+    "latitude": "70.160",
+    "longitude": "-4.427",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180221085734"
+  },
+  {
+    "file": "coriolis/6901081/profiles/D6901081_069.nc",
+    "date": "20140717020231",
+    "latitude": "70.208",
+    "longitude": "-5.184",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180221085736"
+  },
+  {
+    "file": "coriolis/6901226/profiles/D6901226_017.nc",
+    "date": "20140105174531",
+    "latitude": "70.557",
+    "longitude": "0.812",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728134300"
+  },
+  {
+    "file": "coriolis/6901226/profiles/D6901226_018.nc",
+    "date": "20140115175320",
+    "latitude": "70.504",
+    "longitude": "0.255",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728134302"
+  },
+  {
+    "file": "coriolis/6901226/profiles/D6901226_019.nc",
+    "date": "20140125150526",
+    "latitude": "70.501",
+    "longitude": "-0.880",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728134303"
+  },
+  {
+    "file": "coriolis/6901226/profiles/D6901226_035.nc",
+    "date": "20140704150214",
+    "latitude": "72.034",
+    "longitude": "4.689",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728134334"
+  },
+  {
+    "file": "coriolis/6901226/profiles/D6901226_036.nc",
+    "date": "20140714174733",
+    "latitude": "71.876",
+    "longitude": "6.641",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728134336"
+  },
+  {
+    "file": "coriolis/6901226/profiles/D6901226_037.nc",
+    "date": "20140724175357",
+    "latitude": "71.795",
+    "longitude": "7.380",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728134338"
+  },
+  {
+    "file": "coriolis/6901226/profiles/D6901226_044.nc",
+    "date": "20141002180018",
+    "latitude": "72.979",
+    "longitude": "6.078",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728134348"
+  },
+  {
+    "file": "coriolis/6901226/profiles/D6901226_045.nc",
+    "date": "20141012152254",
+    "latitude": "72.659",
+    "longitude": "4.910",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728134350"
+  },
+  {
+    "file": "coriolis/6901226/profiles/D6901226_046.nc",
+    "date": "20141022174343",
+    "latitude": "72.363",
+    "longitude": "4.531",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728134352"
+  },
+  {
+    "file": "coriolis/6901230/profiles/D6901230_026.nc",
+    "date": "20140406112919",
+    "latitude": "72.845",
+    "longitude": "8.587",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728144305"
+  },
+  {
+    "file": "coriolis/6901230/profiles/D6901230_027.nc",
+    "date": "20140416141341",
+    "latitude": "72.797",
+    "longitude": "9.681",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728144307"
+  },
+  {
+    "file": "coriolis/6901230/profiles/D6901230_028.nc",
+    "date": "20140426112635",
+    "latitude": "71.662",
+    "longitude": "10.466",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728144309"
+  },
+  {
+    "file": "coriolis/6901230/profiles/D6901230_035.nc",
+    "date": "20140705141435",
+    "latitude": "72.199",
+    "longitude": "9.623",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728144322"
+  },
+  {
+    "file": "coriolis/6901230/profiles/D6901230_036.nc",
+    "date": "20140715112724",
+    "latitude": "72.006",
+    "longitude": "10.298",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728144323"
+  },
+  {
+    "file": "coriolis/6901230/profiles/D6901230_037.nc",
+    "date": "20140725141231",
+    "latitude": "71.469",
+    "longitude": "10.052",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728144324"
+  },
+  {
+    "file": "coriolis/6901230/profiles/D6901230_044.nc",
+    "date": "20141003114802",
+    "latitude": "73.055",
+    "longitude": "7.554",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728144337"
+  },
+  {
+    "file": "coriolis/6901230/profiles/D6901230_045.nc",
+    "date": "20141013140600",
+    "latitude": "73.080",
+    "longitude": "7.207",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728144339"
+  },
+  {
+    "file": "coriolis/6901230/profiles/D6901230_046.nc",
+    "date": "20141023113503",
+    "latitude": "72.753",
+    "longitude": "7.011",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20170728144341"
+  },
+  {
+    "file": "coriolis/6901235/profiles/D6901235_003.nc",
+    "date": "20140703074107",
+    "latitude": "75.021",
+    "longitude": "0.504",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20171213171813"
+  },
+  {
+    "file": "coriolis/6901235/profiles/D6901235_004.nc",
+    "date": "20140713060519",
+    "latitude": "75.194",
+    "longitude": "-0.527",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20171213171815"
+  },
+  {
+    "file": "coriolis/6901235/profiles/D6901235_005.nc",
+    "date": "20140723074243",
+    "latitude": "75.752",
+    "longitude": "-0.541",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20171213171816"
+  },
+  {
+    "file": "coriolis/6901235/profiles/D6901235_012.nc",
+    "date": "20141001055618",
+    "latitude": "75.266",
+    "longitude": "-1.842",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20171213171825"
+  },
+  {
+    "file": "coriolis/6901235/profiles/D6901235_013.nc",
+    "date": "20141011074206",
+    "latitude": "75.432",
+    "longitude": "-2.249",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20171213171826"
+  },
+  {
+    "file": "coriolis/6901235/profiles/D6901235_014.nc",
+    "date": "20141021055547",
+    "latitude": "75.414",
+    "longitude": "-0.778",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20171213171827"
+  },
+  {
+    "file": "coriolis/6901235/profiles/D6901235_015.nc",
+    "date": "20141031074259",
+    "latitude": "75.697",
+    "longitude": "-1.879",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20171213171827"
+  },
+  {
+    "file": "coriolis/6901236/profiles/D6901236_003.nc",
+    "date": "20140703072229",
+    "latitude": "74.936",
+    "longitude": "0.281",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210722141442"
+  },
+  {
+    "file": "coriolis/6901236/profiles/D6901236_004.nc",
+    "date": "20140713052854",
+    "latitude": "74.959",
+    "longitude": "-0.330",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210722141442"
+  },
+  {
+    "file": "coriolis/6901236/profiles/D6901236_005.nc",
+    "date": "20140723072123",
+    "latitude": "75.082",
+    "longitude": "-0.159",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210722141443"
+  },
+  {
+    "file": "coriolis/6901236/profiles/D6901236_012.nc",
+    "date": "20141001072352",
+    "latitude": "75.464",
+    "longitude": "-1.154",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210722141447"
+  },
+  {
+    "file": "coriolis/6901236/profiles/D6901236_013.nc",
+    "date": "20141011052722",
+    "latitude": "75.312",
+    "longitude": "-1.957",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210722141448"
+  },
+  {
+    "file": "coriolis/6901236/profiles/D6901236_014.nc",
+    "date": "20141021054514",
+    "latitude": "75.099",
+    "longitude": "-0.961",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210722141448"
+  },
+  {
+    "file": "coriolis/6901236/profiles/D6901236_015.nc",
+    "date": "20141031072515",
+    "latitude": "75.366",
+    "longitude": "-1.020",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210722141449"
+  },
+  {
+    "file": "coriolis/6901903/profiles/D6901903_050.nc",
+    "date": "20140102213852",
+    "latitude": "74.365",
+    "longitude": "-2.447",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20190603231223"
+  },
+  {
+    "file": "coriolis/6901903/profiles/D6901903_051.nc",
+    "date": "20140112191349",
+    "latitude": "74.384",
+    "longitude": "-3.099",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20190603231223"
+  },
+  {
+    "file": "coriolis/6901903/profiles/D6901903_052.nc",
+    "date": "20140122213533",
+    "latitude": "74.220",
+    "longitude": "-4.764",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20190603231224"
+  },
+  {
+    "file": "coriolis/6901903/profiles/D6901903_059.nc",
+    "date": "20140402192434",
+    "latitude": "74.175",
+    "longitude": "-5.342",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20190603231227"
+  },
+  {
+    "file": "coriolis/6901903/profiles/D6901903_060.nc",
+    "date": "20140412213245",
+    "latitude": "74.398",
+    "longitude": "-5.970",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20190603231227"
+  },
+  {
+    "file": "coriolis/6901903/profiles/D6901903_061.nc",
+    "date": "20140422192815",
+    "latitude": "74.049",
+    "longitude": "-8.002",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20190603231228"
+  },
+  {
+    "file": "coriolis/6901905/profiles/D6901905_018.nc",
+    "date": "20140109155744",
+    "latitude": "74.240",
+    "longitude": "-3.182",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180116125924"
+  },
+  {
+    "file": "coriolis/6901905/profiles/D6901905_019.nc",
+    "date": "20140119141701",
+    "latitude": "74.185",
+    "longitude": "-4.251",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180116125926"
+  },
+  {
+    "file": "coriolis/6901905/profiles/D6901905_020.nc",
+    "date": "20140129155837",
+    "latitude": "74.139",
+    "longitude": "-4.778",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180116125928"
+  },
+  {
+    "file": "coriolis/6901905/profiles/D6901905_027.nc",
+    "date": "20140409141210",
+    "latitude": "73.761",
+    "longitude": "-4.575",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180116125933"
+  },
+  {
+    "file": "coriolis/6901905/profiles/D6901905_028.nc",
+    "date": "20140419160128",
+    "latitude": "73.783",
+    "longitude": "-4.928",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180116125935"
+  },
+  {
+    "file": "coriolis/6901905/profiles/D6901905_029.nc",
+    "date": "20140429141346",
+    "latitude": "73.690",
+    "longitude": "-4.581",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180116125936"
+  },
+  {
+    "file": "coriolis/6901905/profiles/D6901905_036.nc",
+    "date": "20140708160420",
+    "latitude": "73.674",
+    "longitude": "-3.556",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180116125943"
+  },
+  {
+    "file": "coriolis/6901905/profiles/D6901905_037.nc",
+    "date": "20140718142707",
+    "latitude": "73.756",
+    "longitude": "-2.603",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180116125945"
+  },
+  {
+    "file": "coriolis/6901905/profiles/D6901905_038.nc",
+    "date": "20140728155443",
+    "latitude": "73.762",
+    "longitude": "-2.101",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180116125946"
+  },
+  {
+    "file": "coriolis/6901905/profiles/D6901905_045.nc",
+    "date": "20141006143329",
+    "latitude": "73.236",
+    "longitude": "-0.193",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180116125959"
+  },
+  {
+    "file": "coriolis/6901905/profiles/D6901905_046.nc",
+    "date": "20141016160353",
+    "latitude": "73.449",
+    "longitude": "-0.229",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180116130000"
+  },
+  {
+    "file": "coriolis/6901905/profiles/D6901905_047.nc",
+    "date": "20141026144741",
+    "latitude": "73.320",
+    "longitude": "-0.773",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180116130000"
+  },
+  {
+    "file": "coriolis/6901906/profiles/D6901906_018.nc",
+    "date": "20140109231513",
+    "latitude": "74.017",
+    "longitude": "-11.647",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180108160632"
+  },
+  {
+    "file": "coriolis/6901906/profiles/D6901906_019.nc",
+    "date": "20140119213619",
+    "latitude": "73.770",
+    "longitude": "-10.984",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180108160632"
+  },
+  {
+    "file": "coriolis/6901906/profiles/D6901906_020.nc",
+    "date": "20140129231654",
+    "latitude": "73.510",
+    "longitude": "-10.968",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180108160633"
+  },
+  {
+    "file": "coriolis/6901908/profiles/D6901908_013.nc",
+    "date": "20141010023626",
+    "latitude": "71.391",
+    "longitude": "3.366",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180710164933"
+  },
+  {
+    "file": "coriolis/6901908/profiles/D6901908_014.nc",
+    "date": "20141020013949",
+    "latitude": "71.228",
+    "longitude": "3.800",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180710164935"
+  },
+  {
+    "file": "coriolis/6901908/profiles/D6901908_015.nc",
+    "date": "20141030023718",
+    "latitude": "70.819",
+    "longitude": "3.167",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180710164936"
+  },
+  {
+    "file": "coriolis/6901910/profiles/D6901910_009.nc",
+    "date": "20141003012818",
+    "latitude": "70.038",
+    "longitude": "-10.230",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210208074133"
+  },
+  {
+    "file": "coriolis/6901910/profiles/D6901910_010.nc",
+    "date": "20141013011350",
+    "latitude": "70.033",
+    "longitude": "-10.033",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210208074134"
+  },
+  {
+    "file": "coriolis/6901910/profiles/D6901910_011.nc",
+    "date": "20141023012657",
+    "latitude": "70.035",
+    "longitude": "-9.966",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210208074134"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_001.nc",
+    "date": "20140712063827",
+    "latitude": "76.464",
+    "longitude": "7.834",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140028"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_002.nc",
+    "date": "20140713064757",
+    "latitude": "76.444",
+    "longitude": "7.918",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140028"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_003.nc",
+    "date": "20140714064003",
+    "latitude": "76.436",
+    "longitude": "7.945",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140028"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_004.nc",
+    "date": "20140715063903",
+    "latitude": "76.449",
+    "longitude": "7.924",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140028"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_005.nc",
+    "date": "20140716064321",
+    "latitude": "76.485",
+    "longitude": "7.938",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140028"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_006.nc",
+    "date": "20140717063721",
+    "latitude": "76.521",
+    "longitude": "8.006",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140028"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_007.nc",
+    "date": "20140718100432",
+    "latitude": "76.541",
+    "longitude": "8.151",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140028"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_008.nc",
+    "date": "20140719105721",
+    "latitude": "76.561",
+    "longitude": "8.300",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140028"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_009.nc",
+    "date": "20140720063333",
+    "latitude": "76.573",
+    "longitude": "8.492",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140028"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_010.nc",
+    "date": "20140721063851",
+    "latitude": "76.613",
+    "longitude": "8.738",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140028"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_011.nc",
+    "date": "20140722063703",
+    "latitude": "76.679",
+    "longitude": "8.969",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140029"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_012.nc",
+    "date": "20140723063920",
+    "latitude": "76.763",
+    "longitude": "9.147",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140029"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_013.nc",
+    "date": "20140724064256",
+    "latitude": "76.847",
+    "longitude": "9.340",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140029"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_014.nc",
+    "date": "20140725063235",
+    "latitude": "76.899",
+    "longitude": "9.531",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140029"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_015.nc",
+    "date": "20140726064350",
+    "latitude": "76.936",
+    "longitude": "9.677",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140029"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_016.nc",
+    "date": "20140727064321",
+    "latitude": "76.969",
+    "longitude": "9.740",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140029"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_030.nc",
+    "date": "20141005050658",
+    "latitude": "78.263",
+    "longitude": "7.115",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140029"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_031.nc",
+    "date": "20141010050803",
+    "latitude": "77.985",
+    "longitude": "7.368",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140029"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_032.nc",
+    "date": "20141015050557",
+    "latitude": "78.296",
+    "longitude": "7.595",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140030"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_033.nc",
+    "date": "20141020050452",
+    "latitude": "78.389",
+    "longitude": "6.870",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140030"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_034.nc",
+    "date": "20141025051103",
+    "latitude": "78.079",
+    "longitude": "6.730",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140030"
+  },
+  {
+    "file": "coriolis/6902042/profiles/D6902042_035.nc",
+    "date": "20141030050734",
+    "latitude": "77.950",
+    "longitude": "6.842",
+    "ocean": "A",
+    "profiler_type": "860",
+    "institution": "IF",
+    "date_update": "20220824140030"
+  },
+  {
+    "file": "coriolis/6902544/profiles/D6902544_016.nc",
+    "date": "20140420041834",
+    "latitude": "70.357",
+    "longitude": "12.233",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180907144335"
+  },
+  {
+    "file": "coriolis/6902544/profiles/D6902544_024.nc",
+    "date": "20140710041100",
+    "latitude": "72.196",
+    "longitude": "7.667",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180907144335"
+  },
+  {
+    "file": "coriolis/6902544/profiles/D6902544_025.nc",
+    "date": "20140720023600",
+    "latitude": "71.921",
+    "longitude": "6.701",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180907144335"
+  },
+  {
+    "file": "coriolis/6902544/profiles/D6902544_026.nc",
+    "date": "20140730041059",
+    "latitude": "72.524",
+    "longitude": "7.594",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180907144335"
+  },
+  {
+    "file": "coriolis/6902544/profiles/D6902544_033.nc",
+    "date": "20141008023026",
+    "latitude": "73.491",
+    "longitude": "5.688",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180907144336"
+  },
+  {
+    "file": "coriolis/6902544/profiles/D6902544_034.nc",
+    "date": "20141018041551",
+    "latitude": "73.700",
+    "longitude": "5.412",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180907144336"
+  },
+  {
+    "file": "coriolis/6902545/profiles/D6902545_008.nc",
+    "date": "20140404040242",
+    "latitude": "71.500",
+    "longitude": "6.002",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210607163650"
+  },
+  {
+    "file": "coriolis/6902545/profiles/D6902545_009.nc",
+    "date": "20140414021836",
+    "latitude": "71.472",
+    "longitude": "6.778",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210607163650"
+  },
+  {
+    "file": "coriolis/6902545/profiles/D6902545_010.nc",
+    "date": "20140424033631",
+    "latitude": "71.256",
+    "longitude": "4.693",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210607163650"
+  },
+  {
+    "file": "coriolis/6902545/profiles/D6902545_017.nc",
+    "date": "20140703041010",
+    "latitude": "71.654",
+    "longitude": "-0.154",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210607163650"
+  },
+  {
+    "file": "coriolis/6902545/profiles/D6902545_018.nc",
+    "date": "20140713024335",
+    "latitude": "71.855",
+    "longitude": "1.118",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210607163651"
+  },
+  {
+    "file": "coriolis/6902545/profiles/D6902545_019.nc",
+    "date": "20140723041330",
+    "latitude": "71.733",
+    "longitude": "0.854",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210607163651"
+  },
+  {
+    "file": "coriolis/6902545/profiles/D6902545_026.nc",
+    "date": "20141001030310",
+    "latitude": "71.286",
+    "longitude": "6.275",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210607163651"
+  },
+  {
+    "file": "coriolis/6902545/profiles/D6902545_027.nc",
+    "date": "20141011041611",
+    "latitude": "71.384",
+    "longitude": "6.036",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210607163651"
+  },
+  {
+    "file": "coriolis/6902545/profiles/D6902545_028.nc",
+    "date": "20141021041652",
+    "latitude": "71.580",
+    "longitude": "6.600",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210607163651"
+  },
+  {
+    "file": "coriolis/6902545/profiles/D6902545_029.nc",
+    "date": "20141031022627",
+    "latitude": "71.644",
+    "longitude": "7.915",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20210607163652"
+  },
+  {
+    "file": "coriolis/6902547/profiles/D6902547_005.nc",
+    "date": "20140130112900",
+    "latitude": "70.307",
+    "longitude": "7.787",
+    "ocean": "A",
+    "profiler_type": "836",
+    "institution": "IF",
+    "date_update": "20230915071419"
+  },
+  {
+    "file": "coriolis/6902547/profiles/D6902547_021.nc",
+    "date": "20140420102900",
+    "latitude": "70.416",
+    "longitude": "10.990",
+    "ocean": "A",
+    "profiler_type": "836",
+    "institution": "IF",
+    "date_update": "20230915071424"
+  },
+  {
+    "file": "coriolis/6902547/profiles/D6902547_022.nc",
+    "date": "20140425103100",
+    "latitude": "70.467",
+    "longitude": "11.370",
+    "ocean": "A",
+    "profiler_type": "836",
+    "institution": "IF",
+    "date_update": "20230915071424"
+  },
+  {
+    "file": "coriolis/6902547/profiles/D6902547_023.nc",
+    "date": "20140430103900",
+    "latitude": "70.597",
+    "longitude": "11.734",
+    "ocean": "A",
+    "profiler_type": "836",
+    "institution": "IF",
+    "date_update": "20230915071424"
+  },
+  {
+    "file": "coriolis/6902547/profiles/D6902547_041.nc",
+    "date": "20140729104100",
+    "latitude": "70.228",
+    "longitude": "11.924",
+    "ocean": "A",
+    "profiler_type": "836",
+    "institution": "IF",
+    "date_update": "20230915071430"
+  },
+  {
+    "file": "coriolis/6902547/profiles/D6902547_054.nc",
+    "date": "20141005103300",
+    "latitude": "70.406",
+    "longitude": "9.523",
+    "ocean": "A",
+    "profiler_type": "836",
+    "institution": "IF",
+    "date_update": "20230915071435"
+  },
+  {
+    "file": "coriolis/6902547/profiles/D6902547_055.nc",
+    "date": "20141010102900",
+    "latitude": "70.353",
+    "longitude": "8.878",
+    "ocean": "A",
+    "profiler_type": "836",
+    "institution": "IF",
+    "date_update": "20230915071435"
+  },
+  {
+    "file": "coriolis/6902547/profiles/D6902547_055D.nc",
+    "date": "20141005131500",
+    "latitude": "70.404",
+    "longitude": "9.528",
+    "ocean": "A",
+    "profiler_type": "836",
+    "institution": "IF",
+    "date_update": "20230915071435"
+  },
+  {
+    "file": "coriolis/6902547/profiles/D6902547_056.nc",
+    "date": "20141015103900",
+    "latitude": "70.102",
+    "longitude": "8.470",
+    "ocean": "A",
+    "profiler_type": "836",
+    "institution": "IF",
+    "date_update": "20230915071436"
+  },
+  {
+    "file": "coriolis/6902547/profiles/D6902547_056D.nc",
+    "date": "20141010131700",
+    "latitude": "70.350",
+    "longitude": "8.866",
+    "ocean": "A",
+    "profiler_type": "836",
+    "institution": "IF",
+    "date_update": "20230915071435"
+  },
+  {
+    "file": "coriolis/6902547/profiles/D6902547_057D.nc",
+    "date": "20141015130800",
+    "latitude": "70.098",
+    "longitude": "8.465",
+    "ocean": "A",
+    "profiler_type": "836",
+    "institution": "IF",
+    "date_update": "20230915071436"
+  },
+  {
+    "file": "coriolis/6902549/profiles/D6902549_001.nc",
+    "date": "20140729144532",
+    "latitude": "72.563",
+    "longitude": "1.402",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180907164425"
+  },
+  {
+    "file": "coriolis/6902549/profiles/D6902549_008.nc",
+    "date": "20141006051749",
+    "latitude": "72.807",
+    "longitude": "3.386",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180907164426"
+  },
+  {
+    "file": "coriolis/6902549/profiles/D6902549_009.nc",
+    "date": "20141016013722",
+    "latitude": "73.176",
+    "longitude": "3.688",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180907164426"
+  },
+  {
+    "file": "coriolis/6902549/profiles/D6902549_010.nc",
+    "date": "20141025195114",
+    "latitude": "73.265",
+    "longitude": "4.668",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20180907164426"
+  },
+  {
+    "file": "coriolis/6902550/profiles/D6902550_007.nc",
+    "date": "20141002044456",
+    "latitude": "70.194",
+    "longitude": "5.890",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20200910124440"
+  },
+  {
+    "file": "coriolis/7900177/profiles/D7900177_251.nc",
+    "date": "20140705140528",
+    "latitude": "71.031",
+    "longitude": "8.916",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20200103151226"
+  },
+  {
+    "file": "coriolis/7900177/profiles/D7900177_252.nc",
+    "date": "20140715181804",
+    "latitude": "71.109",
+    "longitude": "7.938",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20200103151227"
+  },
+  {
+    "file": "coriolis/7900177/profiles/D7900177_253.nc",
+    "date": "20140725135323",
+    "latitude": "71.125",
+    "longitude": "9.404",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20200103151227"
+  },
+  {
+    "file": "coriolis/7900177/profiles/D7900177_261.nc",
+    "date": "20141013142100",
+    "latitude": "70.087",
+    "longitude": "10.069",
+    "ocean": "A",
+    "profiler_type": "846",
+    "institution": "IF",
+    "date_update": "20200103151230"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_010.nc",
+    "date": "20141001090000",
+    "latitude": "74.032",
+    "longitude": "-149.126",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155415"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_011.nc",
+    "date": "20141002080000",
+    "latitude": "74.037",
+    "longitude": "-149.121",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155419"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_012.nc",
+    "date": "20141003080000",
+    "latitude": "74.028",
+    "longitude": "-149.106",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155422"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_013.nc",
+    "date": "20141004090000",
+    "latitude": "74.006",
+    "longitude": "-149.157",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155425"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_014.nc",
+    "date": "20141005080000",
+    "latitude": "74.013",
+    "longitude": "-149.186",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155429"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_015.nc",
+    "date": "20141006090000",
+    "latitude": "74.002",
+    "longitude": "-149.070",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155433"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_016.nc",
+    "date": "20141008020000",
+    "latitude": "73.877",
+    "longitude": "-149.158",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155437"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_017.nc",
+    "date": "20141009130000",
+    "latitude": "73.492",
+    "longitude": "-149.589",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155440"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_018.nc",
+    "date": "20141010120000",
+    "latitude": "73.258",
+    "longitude": "-150.076",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155443"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_019.nc",
+    "date": "20141012000000",
+    "latitude": "72.971",
+    "longitude": "-151.177",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155444"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_020.nc",
+    "date": "20141013150000",
+    "latitude": "72.768",
+    "longitude": "-152.028",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155448"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_021.nc",
+    "date": "20141014210000",
+    "latitude": "72.770",
+    "longitude": "-153.594",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155449"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_022.nc",
+    "date": "20141015140000",
+    "latitude": "72.713",
+    "longitude": "-154.209",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155454"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_023.nc",
+    "date": "20141016140000",
+    "latitude": "72.777",
+    "longitude": "-155.136",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155454"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_024.nc",
+    "date": "20141017160000",
+    "latitude": "72.988",
+    "longitude": "-156.596",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155455"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_025.nc",
+    "date": "20141018120000",
+    "latitude": "72.992",
+    "longitude": "-157.761",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155455"
+  },
+  {
+    "file": "meds/4901770/profiles/R4901770_026.nc",
+    "date": "20141019120000",
+    "latitude": "73.183",
+    "longitude": "-159.767",
+    "ocean": "A",
+    "profiler_type": "843",
+    "institution": "ME",
+    "date_update": "20170918155456"
+  }
+]

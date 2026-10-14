@@ -1,0 +1,22 @@
+[
+  "history/outputs/comparison_formal_v1/figures/error_nodes_reconstruction.png",
+  "history/outputs/comparison_formal_v1/figures/spatial_common_scale.png",
+  "history/outputs/comparison_formal_v1/figures/error_nodes_deployment.png",
+  "history/outputs/comparison_formal_v1/figures/accuracy_cost.png",
+  "history/outputs/p0_structure_report_v1/budget_comparison.png",
+  "history/outputs/clbr_p1_report_v1/budget_rmse.png",
+  "history/outputs/clbr_p1_report_v1/coverage.png",
+  "history/outputs/clbr_p1_report_v1/interval_wis.png",
+  "history/outputs/comparison_formal_v1/figures/robustness_reconstruction.png",
+  "history/outputs/comparison_formal_v1/figures/robustness_deployment.png",
+  "history/outputs/comparison_formal_v1/figures/ablations.png",
+  "history/outputs/comparison_formal_v1/figures/calibration.png",
+  "history/outputs/comparison_formal_v1/figures/spatial_error_common_scale.png",
+  "history/outputs/p0_report_v1/budget_curves.png",
+  "history/outputs/p0_report_v1/monthly_curves.png",
+  "history/outputs/p0_structure_report_v1/monthly_comparison.png",
+  "history/outputs/clbr_p1_report_v1/monthly_rmse.png",
+  "history/outputs/clbr_p1_report_v1/coverage90_budget.png",
+  "history/outputs/clbr_p1_report_v1/coverage90_date.png",
+  "history/outputs/clbr_p1_report_v1/interval_width90.png"
+]

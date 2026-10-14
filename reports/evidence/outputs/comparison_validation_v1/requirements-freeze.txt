@@ -1,0 +1,19 @@
+certifi==2026.7.22
+cftime==1.6.6
+contourpy==1.4.0
+cycler==0.12.1
+fonttools==4.66.1
+gsw==3.6.23
+kiwisolver==1.5.1
+matplotlib==3.11.2
+netCDF4==1.7.4
+numpy==2.5.3
+packaging==26.3
+pillow==12.3.0
+pip==25.2
+pyparsing==3.3.3
+python-dateutil==2.9.0.post0
+# Editable install with no version control (rbmf-cs==0.1.0)
+-e d:\project\rbmf-cs
+scipy==1.18.1
+six==1.17.0

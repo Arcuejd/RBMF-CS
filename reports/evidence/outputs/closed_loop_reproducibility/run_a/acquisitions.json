@@ -1,0 +1,47 @@
+[
+  {
+    "position": 0,
+    "node": 0,
+    "value": 0.2038508366425545
+  },
+  {
+    "position": 1,
+    "node": 1,
+    "value": 0.320234276428416
+  },
+  {
+    "position": 2,
+    "node": 12,
+    "value": 0.29934489123712754
+  },
+  {
+    "position": 3,
+    "node": 13,
+    "value": 0.44000788510706923
+  },
+  {
+    "position": 4,
+    "node": 3,
+    "value": 0.545978918609992
+  },
+  {
+    "position": 5,
+    "node": 5,
+    "value": 0.21270453893743885
+  },
+  {
+    "position": 6,
+    "node": 7,
+    "value": 0.8111802716610599
+  },
+  {
+    "position": 7,
+    "node": 31,
+    "value": 0.20785562953697323
+  },
+  {
+    "position": 8,
+    "node": 18,
+    "value": null
+  }
+]

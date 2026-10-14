@@ -1,0 +1,298 @@
+[
+  {
+    "scenario": "clean",
+    "method": "clbr",
+    "budget": 4,
+    "count": 36,
+    "effective_dof_frozen": 3.999971123838162,
+    "noise_std_c": 0.001,
+    "observation_response_rms_c": 0.0776991276466184,
+    "added_response_rms_c": null,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 36
+    }
+  },
+  {
+    "scenario": "clean",
+    "method": "clbr",
+    "budget": 6,
+    "count": 36,
+    "effective_dof_frozen": 5.79507333688602,
+    "noise_std_c": 0.026563203897578366,
+    "observation_response_rms_c": 0.11755247479209203,
+    "added_response_rms_c": 0.0871620974238135,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 33,
+      "interior": 3
+    }
+  },
+  {
+    "scenario": "clean",
+    "method": "clbr",
+    "budget": 8,
+    "count": 36,
+    "effective_dof_frozen": 7.7104775101040035,
+    "noise_std_c": 0.028925712586602356,
+    "observation_response_rms_c": 0.1467704995629871,
+    "added_response_rms_c": 0.07950730200044889,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 33,
+      "interior": 3
+    }
+  },
+  {
+    "scenario": "clean",
+    "method": "clbr",
+    "budget": 10,
+    "count": 36,
+    "effective_dof_frozen": 9.599427013239552,
+    "noise_std_c": 0.03245934260464584,
+    "observation_response_rms_c": 0.1842284412740599,
+    "added_response_rms_c": 0.09368987922265035,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 33,
+      "interior": 3
+    }
+  },
+  {
+    "scenario": "clean",
+    "method": "clbr",
+    "budget": 12,
+    "count": 36,
+    "effective_dof_frozen": 11.481902416032304,
+    "noise_std_c": 0.03832289452451839,
+    "observation_response_rms_c": 0.19432572568061224,
+    "added_response_rms_c": 0.05968115360130978,
+    "plus_0p02C_response_rms_c": 0.0015905027648630435,
+    "noise_status_counts": {
+      "lower_bound": 30,
+      "interior": 6
+    }
+  },
+  {
+    "scenario": "clean",
+    "method": "clbr_no_lf",
+    "budget": 4,
+    "count": 36,
+    "effective_dof_frozen": 3.999971123838162,
+    "noise_std_c": 0.001,
+    "observation_response_rms_c": 0.08170511537807242,
+    "added_response_rms_c": null,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 36
+    }
+  },
+  {
+    "scenario": "clean",
+    "method": "clbr_no_lf",
+    "budget": 6,
+    "count": 36,
+    "effective_dof_frozen": 5.763125600205465,
+    "noise_std_c": 0.030409380637629477,
+    "observation_response_rms_c": 0.11753295220103148,
+    "added_response_rms_c": 0.08373339229814022,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 33,
+      "interior": 3
+    }
+  },
+  {
+    "scenario": "clean",
+    "method": "clbr_no_lf",
+    "budget": 8,
+    "count": 36,
+    "effective_dof_frozen": 7.646267570276858,
+    "noise_std_c": 0.03542441247753166,
+    "observation_response_rms_c": 0.15508475118497791,
+    "added_response_rms_c": 0.09450840717450017,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 33,
+      "interior": 3
+    }
+  },
+  {
+    "scenario": "clean",
+    "method": "clbr_no_lf",
+    "budget": 10,
+    "count": 36,
+    "effective_dof_frozen": 9.483151724746865,
+    "noise_std_c": 0.04364006953671509,
+    "observation_response_rms_c": 0.1893929689827323,
+    "added_response_rms_c": 0.10262254737841349,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 33,
+      "interior": 3
+    }
+  },
+  {
+    "scenario": "clean",
+    "method": "clbr_no_lf",
+    "budget": 12,
+    "count": 36,
+    "effective_dof_frozen": 11.237092273937947,
+    "noise_std_c": 0.05310860150400335,
+    "observation_response_rms_c": 0.19563970909428197,
+    "added_response_rms_c": 0.05509409622734998,
+    "plus_0p02C_response_rms_c": 0.0015560715022871,
+    "noise_status_counts": {
+      "lower_bound": 30,
+      "interior": 6
+    }
+  },
+  {
+    "scenario": "gaussian",
+    "method": "clbr",
+    "budget": 4,
+    "count": 36,
+    "effective_dof_frozen": 3.999971123838162,
+    "noise_std_c": 0.001,
+    "observation_response_rms_c": 0.0789095031777133,
+    "added_response_rms_c": null,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 36
+    }
+  },
+  {
+    "scenario": "gaussian",
+    "method": "clbr",
+    "budget": 6,
+    "count": 36,
+    "effective_dof_frozen": 5.783817446973868,
+    "noise_std_c": 0.027871146519657237,
+    "observation_response_rms_c": 0.11723517527089694,
+    "added_response_rms_c": 0.08638559692048306,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 33,
+      "interior": 3
+    }
+  },
+  {
+    "scenario": "gaussian",
+    "method": "clbr",
+    "budget": 8,
+    "count": 36,
+    "effective_dof_frozen": 7.697938542223568,
+    "noise_std_c": 0.03010100727055985,
+    "observation_response_rms_c": 0.14665576629569013,
+    "added_response_rms_c": 0.0805962155973336,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 33,
+      "interior": 3
+    }
+  },
+  {
+    "scenario": "gaussian",
+    "method": "clbr",
+    "budget": 10,
+    "count": 36,
+    "effective_dof_frozen": 9.58687938825441,
+    "noise_std_c": 0.03349316521951032,
+    "observation_response_rms_c": 0.18385651686513682,
+    "added_response_rms_c": 0.0935549195729038,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 33,
+      "interior": 3
+    }
+  },
+  {
+    "scenario": "gaussian",
+    "method": "clbr",
+    "budget": 12,
+    "count": 36,
+    "effective_dof_frozen": 11.442943535692377,
+    "noise_std_c": 0.04050703177147026,
+    "observation_response_rms_c": 0.19353208563576604,
+    "added_response_rms_c": 0.059976607723061875,
+    "plus_0p02C_response_rms_c": 0.001583521183417841,
+    "noise_status_counts": {
+      "lower_bound": 30,
+      "interior": 6
+    }
+  },
+  {
+    "scenario": "gaussian",
+    "method": "clbr_no_lf",
+    "budget": 4,
+    "count": 36,
+    "effective_dof_frozen": 3.999971123838162,
+    "noise_std_c": 0.001,
+    "observation_response_rms_c": 0.08274468208189233,
+    "added_response_rms_c": null,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 36
+    }
+  },
+  {
+    "scenario": "gaussian",
+    "method": "clbr_no_lf",
+    "budget": 6,
+    "count": 36,
+    "effective_dof_frozen": 5.755120297088697,
+    "noise_std_c": 0.03145145475145282,
+    "observation_response_rms_c": 0.1178951204255728,
+    "added_response_rms_c": 0.08377454646867138,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 33,
+      "interior": 3
+    }
+  },
+  {
+    "scenario": "gaussian",
+    "method": "clbr_no_lf",
+    "budget": 8,
+    "count": 36,
+    "effective_dof_frozen": 7.637820727022448,
+    "noise_std_c": 0.036390325014299646,
+    "observation_response_rms_c": 0.15541492435433976,
+    "added_response_rms_c": 0.09500667440662734,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 33,
+      "interior": 3
+    }
+  },
+  {
+    "scenario": "gaussian",
+    "method": "clbr_no_lf",
+    "budget": 10,
+    "count": 36,
+    "effective_dof_frozen": 9.462341323719373,
+    "noise_std_c": 0.04677800223111713,
+    "observation_response_rms_c": 0.18915647983782033,
+    "added_response_rms_c": 0.10208206833413375,
+    "plus_0p02C_response_rms_c": null,
+    "noise_status_counts": {
+      "lower_bound": 32,
+      "interior": 4
+    }
+  },
+  {
+    "scenario": "gaussian",
+    "method": "clbr_no_lf",
+    "budget": 12,
+    "count": 36,
+    "effective_dof_frozen": 11.207568012829224,
+    "noise_std_c": 0.05482620828614948,
+    "observation_response_rms_c": 0.1951756625589053,
+    "added_response_rms_c": 0.05495878257542997,
+    "plus_0p02C_response_rms_c": 0.001553162717591483,
+    "noise_status_counts": {
+      "lower_bound": 30,
+      "interior": 6
+    }
+  }
+]

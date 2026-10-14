@@ -1,0 +1,33 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+166 
+ 
+ 
+攻读博士期间公开发表学术论文及获奖 
+1 博士期间发表的学术论文 
+（1） Zhang, Q. ; Wu, H. *; Mei, X.; Han, D.; Marino, M.D.; Li, K. -C.*; Guo, S.  A 
+Sparse Sensor Placement Strategy based on Information Entropy and Data 
+Reconstruction for Ocean Monitoring. IEEE Internet Things J . 2023, 10, 19681 -
+19694.（SCI，JCR Q1，中科院一区 Top，IF：8.2）第六章相关  
+（2） Zhang, Q. ; Wu, H. *; Liang, L.; Mei, X.; Xian, J.; Zhang, Y .  A Robust Sparse 
+Sensor Placement Strategy Based on Indicators of Noise for Ocean Monitoring.  J. 
+Mar. Sci. Eng. 2024, 12, 1220.  （SCI，JCR Q1 ，中科院三区，IF：2.7）第三章
+相关  
+（3） Zhang, Q.; Wu, H.*; Liang, L.; Mei, X.; Xian, J.  Robust Sensor Selection based 
+on Maximum Correntropy Criterion for Ocean Data Reconstruction . Front. Mar. Sci. 
+2024, 11, 1467519.（SCI，JCR Q1，中科院二区 Top，IF：2.8）第四章相关  
+（4） Zhang, Q. ; Wu, H. *; Xian, J.; Mei, X. ; Zhang, Y .; Liang L . Sparse Sensor 
+Placement for Ocean Monitoring based on Entropy Weight Method. Asia Navigation 
+Conference 2021 . China. Tianjin. Oct. 20 th, 2021. Certificate Number: 
+ANC2021C9007. 第一、六章相关  
+（5） Pu, Z., Zhang, Q., Zhuang, Y., Lv, Y., Wang, Y.* A Device-Free Wi-Fi Sensing 
+Method for Pedestrian Monitoring Using Channel State Information. International 
+Conference on Transportation and Development 2020.  May 26 th, 2020 to May 29 th, 
+2020. pp: 207-220. doi:10.1061/9780784483138.019.  
+（6） Zhang, Y .; Wu, H.*; Xian, J.; Mei, X; Zhang , K.; Zhang, Q.; Wang, F. A Multi-
+head ProbSparse Self -attention Mechanism based High -Precision and High -
+Robustness Reconstruction Model for Missing Ocean Data . IEEE Sens. J. 2025, 25, 
+13374-13385.  
+（7） Xian, J. ; Wu, H.*; Mei, X. ; Zhang, Y .; Chen, X.; Zhang, Q. ; Liang, L . Novel 
+Energy-Efficient Opportunistic Routing Protocol for Marine Wireless Sensor 
+Networks Based on Compressed Sensing and Power Control. J. Ocean Univ. China. 
+2022, 21, 1504–1516. 

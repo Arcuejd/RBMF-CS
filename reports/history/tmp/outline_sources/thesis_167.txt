@@ -1,0 +1,34 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+152 
+ 
+Proceedings of the OCEANS 2019 - Marseille. Piscataway, NJ: IEEE, 2019: 1-7.  
+[25] 崔迪, 赵平. 无线大功率海上溢油跟踪浮标监测技术改进 [J]. 船海工程 , 2020, 
+49(2): 15-17. 
+[26] Wang W, Liu B, Peng Y , et al. Design of buoy network in port water area for 
+monitoring air pollution: A robust optimization approach[J]. Ocean & Coastal 
+Management, 2023, 244: 106816. 
+[27] Arbonè s D R, Ding B, Sergiienko N Y , et al. Fast and Effective Multi -objective 
+Optimisation of Submerged Wave Energy Converters [C]// Parallel Problem Solving 
+from Nature – PPSN XIV . Cham: Springer International Publishing, 2016 , 9921: 
+675-685.  
+[28] Srinivasan R, Rajendran V , Zacharia S, et al. Indigenized Indian Drifting Buoys with 
+INSAT Communication for Ocean Observations[J]. Ocean Engineering, 2017, 145: 
+263-267. 
+[29] Yuan S, Li Y , Bao F, et al. Marine environmental monitoring with unmanned vehicle 
+platforms: Present applications and future prospects[J]. Science of The Total 
+Environment, 2023, 858: 159741. 
+[30] 李博, 刘博文, 杨洪娟等. 海洋环境下无人机通信感知一体化波形设计[J]. 电子与
+信息学报, 2025, 47(3): 1-9. 
+[31] 贾薇, 王宁, 张富宇等. 基于多传感器融合 SLAM 的无人船靠泊技术[J]. 大连海
+事大学学报, 2023, 49(4): 65-75. 
+[32] 王宇扬, 计方, 鹿绍庆等. 基于多物理场的海洋智能无人装备探测研究现状[J]. 水
+下无人系统学报, 2024, 32(6): 1131-1140. 
+[33] 谢少荣, 刘坚坚, 张丹. 复杂海况无人艇集群控制技术研究现状与发展[J]. 水下无
+人系统学报, 2020, 28(6): 584-596. 
+[34] 周晶, 司玉林, 林渊等. 海底 AUV 关键技术综述[J]. 海洋学报, 2023, 45(10): 1-12. 
+[35] Zhu J, Lyu F. Powering Backbone Devices of Large -Scale Cabled Seafloor 
+Observatories by Current -to-V oltage DC-DC Converters [C]// Proceedings of 2018 
+OCEANS - MTS/IEEE Kobe Techno-Oceans (OTO). Piscataway, NJ: IEEE, 2018: 1-
+5.  
+[36] 吕枫, 周怀阳, 岳继光等. 缆系海底观测网电力系统结构与拓扑可靠性[J]. 同济大
+学学报（自然科学版）, 2014, 42(10): 1604-1610. 

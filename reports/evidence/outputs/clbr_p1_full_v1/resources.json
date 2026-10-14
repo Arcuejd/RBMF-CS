@@ -1,0 +1,9 @@
+{
+  "wall_seconds": 62.61731080000027,
+  "peak_working_set_bytes": 123117568,
+  "work_units": 11928,
+  "point_rows": 3600,
+  "interval_rows": 8640,
+  "output_bytes": 109634362,
+  "single_thread": true
+}

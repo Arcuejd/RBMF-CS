@@ -1,0 +1,9 @@
+{
+  "status": "bounded_study_complete_negative_acceptance",
+  "p1_3_passed": false,
+  "p1_4_passed": false,
+  "promoted_new_model": null,
+  "retained_primary": "POD-Ridge rank16 lambda0.01",
+  "additional_search": false,
+  "independent_test_release": false
+}

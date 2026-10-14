@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": 35953,
+  "recomputed_predictions": 19116,
+  "errors": [],
+  "selection_sha256": "e4c620080007533a26b40570761ba17df80cafadcd5d6fe6ddc7ed3187d1e6c6",
+  "test_truth_available": false
+}

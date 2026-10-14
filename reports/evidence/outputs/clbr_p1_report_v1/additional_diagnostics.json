@@ -1,0 +1,77 @@
+{
+  "coefficient_dof": [
+    {
+      "scenario": "clean",
+      "budget": "10",
+      "coefficient_dof": 5.366901515132985
+    },
+    {
+      "scenario": "clean",
+      "budget": "12",
+      "coefficient_dof": 6.386315154639097
+    },
+    {
+      "scenario": "clean",
+      "budget": "4",
+      "coefficient_dof": 1.733869162442856
+    },
+    {
+      "scenario": "clean",
+      "budget": "6",
+      "coefficient_dof": 2.892358742890037
+    },
+    {
+      "scenario": "clean",
+      "budget": "8",
+      "coefficient_dof": 4.157024671758976
+    },
+    {
+      "scenario": "gaussian",
+      "budget": "10",
+      "coefficient_dof": 5.3602738357034845
+    },
+    {
+      "scenario": "gaussian",
+      "budget": "12",
+      "coefficient_dof": 6.3691927806634885
+    },
+    {
+      "scenario": "gaussian",
+      "budget": "4",
+      "coefficient_dof": 1.733869162442856
+    },
+    {
+      "scenario": "gaussian",
+      "budget": "6",
+      "coefficient_dof": 2.8873115429443446
+    },
+    {
+      "scenario": "gaussian",
+      "budget": "8",
+      "coefficient_dof": 4.1508693860899255
+    }
+  ],
+  "max_point_gap_bayes_deterministic_c": 2.302592810298307e-15,
+  "no_observation": [
+    {
+      "scenario": "clean",
+      "method": "clbr",
+      "rmse_c": 0.438290728043704
+    },
+    {
+      "scenario": "clean",
+      "method": "clbr_no_lf",
+      "rmse_c": 0.4431301752965723
+    },
+    {
+      "scenario": "gaussian",
+      "method": "clbr",
+      "rmse_c": 0.438290728043704
+    },
+    {
+      "scenario": "gaussian",
+      "method": "clbr_no_lf",
+      "rmse_c": 0.4431301752965723
+    }
+  ]
+}

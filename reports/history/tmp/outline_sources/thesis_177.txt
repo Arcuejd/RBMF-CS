@@ -1,0 +1,36 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+162 
+ 
+decomposition[J]. Mathematical Programming Computation, 2015, 7: 39-70. 
+[148] Xu Y , Yin W. A globally convergent algorithm for nonconvex optimization based on 
+block coordinate update[J]. Journal of Scientific Computing, 2017, 72(2): 700-734. 
+[149] Callaham J L, Maeda K, Brunton S L. Robust flow reconstruction from limited 
+measurements via sparse representation[J]. Physical Review Fluids, 2019, 4(10): 
+103907. 
+[150] Xu Y . On higher-order singular value decomposition from incomplete data[J]. arXiv 
+preprint, 2014, arXiv:1411.4324 [math.NA].  
+[151] NOAA Optimum Interpolation (OI) SST V2[ DS]. 
+https://psl.noaa.gov/data/gridded/data.noaa.oisst.v2.html. Accessed Date: 1st March  
+2024. 
+[152] Cheng L, Trenberth K E, Gruber N, et al. Improved Estimates of Changes in Upper 
+Ocean Salinity and the Hydrological Cycle[J]. Journal of Climate, 2020, 33(23): 
+10357-10381. 
+[153] Zhu J, Cheng L. Benefits of CMIP5 Multimodel Ensemble in Reconstructing 
+Historical Ocean Subsurface Temperature Variations[J]. Journal of Climate, 2016, 
+29(15): 5393-5416. 
+[154] Cabral R, Torre F D l, Costeira J P, et al. Unifying Nuclear Norm and Bilinear 
+Factorization Approaches for Low -Rank Matrix Decomposition[C] //2013 IEEE 
+International Conference on Computer Vision, Sydney, NSW, Australia, 2013, pp. 
+2488-2495.  
+[155] Manohar K, Brunton B W, Kutz J N, et al. Data -Driven Sparse Sensor Placement for 
+Reconstruction: Demonstrating the Benefits of Exploiting Known Patterns[J]. IEEE 
+Control Systems Magazine, 2018, 38(3): 63-86. 
+[156] Zhou N, Xu Y , Cheng H, et al. Maximum Correntropy Criterion -Based Sparse 
+Subspace Learning for Unsupervised Feature Selection[J]. IEEE Transactions on 
+Circuits and Systems for Video Technology, 2019, 29(2): 404-417. 
+[157] Liu W, Pokharel P P, Principe J C. Correntropy: Properties and Applications in Non -
+Gaussian Signal Processing[J]. IEEE Transactions on Signal Processing, 2007, 
+55(11): 5286-5298. 
+[158] He Y , Wang F, Wang S, et al. Maximum correntropy adaptation approach for robust 
+compressive sensing reconstruction[J]. Information Sciences, 2019, 480: 381-402. 
+[159] Liu X, Wang L, Zhang J, et al. Global and Local Structure Preservation for Feature 

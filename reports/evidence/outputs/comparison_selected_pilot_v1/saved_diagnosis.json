@@ -1,0 +1,290 @@
+{
+  "sample_rule": "clean, minimum planned seed, every planned month",
+  "months": {
+    "201401": {
+      "methods": {
+        "random": {
+          "steps": [
+            {
+              "nodes": 4,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0016460027725657546,
+              "observation_effective_dof": 0.017076167915073097,
+              "lambda_min": 0.4461576057440137,
+              "lambda_max": 1.3286877790673761,
+              "posterior_participation_rank": 31.99973120158752
+            },
+            {
+              "nodes": 5,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0009444539196141999,
+              "observation_effective_dof": 0.009852393499526397,
+              "lambda_min": 0.5099700677721403,
+              "lambda_max": 1.3312222200622212,
+              "posterior_participation_rank": 31.999949803602426
+            },
+            {
+              "nodes": 6,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.000888656561253703,
+              "observation_effective_dof": 0.009281994401271915,
+              "lambda_min": 0.5901790816117037,
+              "lambda_max": 1.331674639812994,
+              "posterior_participation_rank": 31.999955431150838
+            },
+            {
+              "nodes": 7,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0011611550922179812,
+              "observation_effective_dof": 0.012125937859276091,
+              "lambda_min": 0.5588704339354794,
+              "lambda_max": 1.3315103616494963,
+              "posterior_participation_rank": 31.999939412231694
+            },
+            {
+              "nodes": 8,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0017094910124363677,
+              "observation_effective_dof": 0.01782418195049773,
+              "lambda_min": 0.49655862966560915,
+              "lambda_max": 1.3310798406141304,
+              "posterior_participation_rank": 31.99988076302265
+            },
+            {
+              "nodes": 9,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.00167403268980156,
+              "observation_effective_dof": 0.01747021900736618,
+              "lambda_min": 0.5485707555986035,
+              "lambda_max": 1.331432314757426,
+              "posterior_participation_rank": 31.999898183055983
+            },
+            {
+              "nodes": 10,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.001991496336400359,
+              "observation_effective_dof": 0.020781042984532965,
+              "lambda_min": 0.5295272799220039,
+              "lambda_max": 1.3312993673232334,
+              "posterior_participation_rank": 31.99987760123044
+            },
+            {
+              "nodes": 11,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.002614870603494554,
+              "observation_effective_dof": 0.02726830340713258,
+              "lambda_min": 0.47739838040781324,
+              "lambda_max": 1.3309284830275954,
+              "posterior_participation_rank": 31.99982334840572
+            },
+            {
+              "nodes": 12,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0035206278918591943,
+              "observation_effective_dof": 0.036671609044395495,
+              "lambda_min": 0.42995194337145465,
+              "lambda_max": 1.3305135472534932,
+              "posterior_participation_rank": 31.99971919745021
+            }
+          ],
+          "seed_to_final_prediction_rms_c": 0.0007742953940799844,
+          "stop_reason": "sensor_budget_reached",
+          "constraint_audit_artifact": "cases\\201401_clean_s000\\deployment\\random\\deployment.json.gz"
+        },
+        "maximin": {
+          "steps": [
+            {
+              "nodes": 4,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0016460027725657546,
+              "observation_effective_dof": 0.017076167915073097,
+              "lambda_min": 0.4461576057440137,
+              "lambda_max": 1.3286877790673761,
+              "posterior_participation_rank": 31.99973120158752
+            },
+            {
+              "nodes": 5,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0009070222312793555,
+              "observation_effective_dof": 0.009462347956343011,
+              "lambda_min": 0.4927955223533067,
+              "lambda_max": 1.3312655356835665,
+              "posterior_participation_rank": 31.999956004292656
+            },
+            {
+              "nodes": 6,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0015150151851839266,
+              "observation_effective_dof": 0.015781918855522967,
+              "lambda_min": 0.384597934728783,
+              "lambda_max": 1.3321275407160862,
+              "posterior_participation_rank": 31.999906736900343
+            },
+            {
+              "nodes": 7,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0015297618425474066,
+              "observation_effective_dof": 0.01595768860116296,
+              "lambda_min": 0.4453435876566691,
+              "lambda_max": 1.3323583279534068,
+              "posterior_participation_rank": 31.999922697034513
+            },
+            {
+              "nodes": 8,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0018454126877150967,
+              "observation_effective_dof": 0.01925308191825536,
+              "lambda_min": 0.4445197734895638,
+              "lambda_max": 1.3323634497777037,
+              "posterior_participation_rank": 31.99990980583016
+            },
+            {
+              "nodes": 9,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0020055923687046216,
+              "observation_effective_dof": 0.020929699276270246,
+              "lambda_min": 0.4483455039636484,
+              "lambda_max": 1.3323788700532209,
+              "posterior_participation_rank": 31.99989844199352
+            },
+            {
+              "nodes": 10,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0025907481269425107,
+              "observation_effective_dof": 0.02702359991721345,
+              "lambda_min": 0.39952116517566466,
+              "lambda_max": 1.332206285026097,
+              "posterior_participation_rank": 31.99985029295986
+            },
+            {
+              "nodes": 11,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0030370774983169493,
+              "observation_effective_dof": 0.031673995764907856,
+              "lambda_min": 0.3842821285634647,
+              "lambda_max": 1.3321332213662938,
+              "posterior_participation_rank": 31.999831774286953
+            },
+            {
+              "nodes": 12,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0031653054263168045,
+              "observation_effective_dof": 0.033014968121707566,
+              "lambda_min": 0.3863130262682893,
+              "lambda_max": 1.332148917670131,
+              "posterior_participation_rank": 31.999831695971515
+            }
+          ],
+          "seed_to_final_prediction_rms_c": 0.0007989953176142244,
+          "stop_reason": "sensor_budget_reached",
+          "constraint_audit_artifact": "cases\\201401_clean_s000\\deployment\\maximin\\deployment.json.gz"
+        },
+        "mc_eir": {
+          "steps": [
+            {
+              "nodes": 4,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0016460027725657546,
+              "observation_effective_dof": 0.017076167915073097,
+              "lambda_min": 0.4461576057440137,
+              "lambda_max": 1.3286877790673761,
+              "posterior_participation_rank": 31.99973120158752
+            },
+            {
+              "nodes": 5,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0011805197980818095,
+              "observation_effective_dof": 0.012309005876361145,
+              "lambda_min": 0.593414845044129,
+              "lambda_max": 1.3308750319518272,
+              "posterior_participation_rank": 31.999937283971004
+            },
+            {
+              "nodes": 6,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0013330310089724343,
+              "observation_effective_dof": 0.013913735282434406,
+              "lambda_min": 0.6566960225516886,
+              "lambda_max": 1.3312611922287771,
+              "posterior_participation_rank": 31.9999446045024
+            },
+            {
+              "nodes": 7,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0008497097941328957,
+              "observation_effective_dof": 0.008886010751759862,
+              "lambda_min": 0.29731681395663523,
+              "lambda_max": 1.3322524676149337,
+              "posterior_participation_rank": 31.999981148565524
+            },
+            {
+              "nodes": 8,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0005593057094197397,
+              "observation_effective_dof": 0.005854853288501835,
+              "lambda_min": 0.3495751376266751,
+              "lambda_max": 1.3327461691552247,
+              "posterior_participation_rank": 31.999992688882067
+            },
+            {
+              "nodes": 9,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0006198992628039798,
+              "observation_effective_dof": 0.006489670713902331,
+              "lambda_min": 0.3625335982317613,
+              "lambda_max": 1.3327722453788169,
+              "posterior_participation_rank": 31.999991940516693
+            },
+            {
+              "nodes": 10,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0007555529318295257,
+              "observation_effective_dof": 0.00790934178125975,
+              "lambda_min": 0.34985341017330146,
+              "lambda_max": 1.3327426452874094,
+              "posterior_participation_rank": 31.99998855705025
+            },
+            {
+              "nodes": 11,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.0009599479718635388,
+              "observation_effective_dof": 0.010046643682671552,
+              "lambda_min": 0.3455047955807527,
+              "lambda_max": 1.3327375195964744,
+              "posterior_participation_rank": 31.99998203128307
+            },
+            {
+              "nodes": 12,
+              "converged": true,
+              "observation_to_lf_precision_trace": 0.001276441988126578,
+              "observation_effective_dof": 0.01334796679734562,
+              "lambda_min": 0.32070717797560844,
+              "lambda_max": 1.3326802348176325,
+              "posterior_participation_rank": 31.999961462652735
+            }
+          ],
+          "seed_to_final_prediction_rms_c": 0.0006443210145484374,
+          "stop_reason": "sensor_budget_reached",
+          "constraint_audit_artifact": "cases\\201401_clean_s000\\deployment\\mc_eir\\deployment.json.gz"
+        }
+      },
+      "pairs": [
+        {
+          "a": "random",
+          "b": "maximin",
+          "jaccard": 0.2
+        },
+        {
+          "a": "random",
+          "b": "mc_eir",
+          "jaccard": 0.2
+        },
+        {
+          "a": "maximin",
+          "b": "mc_eir",
+          "jaccard": 0.2
+        }
+      ]
+    }
+  }
+}

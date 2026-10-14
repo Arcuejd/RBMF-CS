@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "stop_reason": "no_feasible_candidate",
+  "selected": [
+    0,
+    1,
+    12,
+    13,
+    3,
+    5,
+    7,
+    31,
+    18
+  ],
+  "posterior_fits": 6,
+  "all_fits_converged": true,
+  "runtime_seconds": 0.2207111999996414
+}

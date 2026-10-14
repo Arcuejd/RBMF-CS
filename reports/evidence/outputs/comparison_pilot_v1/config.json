@@ -1,0 +1,103 @@
+{
+  "label": "Real Arctic fields with simulated grid sensors; engineering parameters are scenarios",
+  "data_directory": "D:/Dataset/RBMF-CS_polar_sample/aligned_50m/atlantic",
+  "output_directory": "D:/project/RBMF-CS/outputs/polar_deployment",
+  "months": [
+    201401,
+    201404,
+    201407,
+    201410
+  ],
+  "methods": [
+    "mc_eir",
+    "random",
+    "space_filling"
+  ],
+  "seed": 20261011,
+  "seed_sensors": 4,
+  "gateway_latlon": [
+    75.0,
+    0.0
+  ],
+  "observation_noise_std_c": 0.02,
+  "inference": {
+    "max_iter": 3000,
+    "tolerance": 1e-06
+  },
+  "constraints": {
+    "coordinate_system": "latlon_degrees",
+    "ice_threshold": 0.6,
+    "max_sensors": 12,
+    "communication_radius_km": 250.0,
+    "energy_budget_j": 1000000.0,
+    "mission_seconds": 3600.0,
+    "sense_power_w": 0.002,
+    "process_power_w": 0.001,
+    "packets_per_sensor": 12,
+    "tx_electronics_j_per_packet": 0.2,
+    "tx_amplifier_j_per_packet_km2": 0.001,
+    "gateway_energy_j": 20.0
+  },
+  "planning": {
+    "beta": 1.0,
+    "eta": 0.2,
+    "eir_threshold": 0.0
+  },
+  "costs": {
+    "base": 1.0,
+    "maintenance_per_ice": 0.5,
+    "failure_per_ice": 0.1
+  },
+  "comparison": {
+    "budgets": [
+      4,
+      6
+    ],
+    "seeds": [
+      0,
+      1
+    ],
+    "dates": [
+      201401
+    ],
+    "scenarios": [
+      "clean",
+      "gaussian",
+      "student",
+      "outlier",
+      "missing",
+      "lf_bias",
+      "train_gaussian",
+      "train_student",
+      "train_outlier",
+      "train_missing"
+    ],
+    "deployment": [
+      "random",
+      "maximin",
+      "pod_qr",
+      "entropy_qr",
+      "conditional_entropy",
+      "posterior_variance",
+      "variance_reduction",
+      "mc_eir",
+      "no_entropy",
+      "no_uncertainty",
+      "no_redundancy",
+      "no_cost"
+    ],
+    "reconstruction": [
+      "lf_only",
+      "pod_ridge",
+      "pod_lasso",
+      "gaussian_sbl_vb",
+      "deterministic_mf",
+      "rbmf",
+      "no_robust",
+      "no_mf"
+    ],
+    "constraint_cost": true,
+    "task_timeout_seconds": 600,
+    "parameter_status": "inherited_untuned_pilot"
+  }
+}

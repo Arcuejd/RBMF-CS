@@ -1,0 +1,35 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+158 
+ 
+System Dimension in POD -Based Sparse Reconstruction of Fluid Flows[J]. Fluids, 
+2019, 4(2): 109.  
+[98] Taira K, Brunton S L, Dawson S T M, et al. Modal Analysis of Fluid Flows: An 
+Overview[J]. AIAA Journal, 2017, 55(12): 4013-4041. 
+[99] Krithika Manohar, Bingni W. Brunton, J. Nathan Kutz, et al. Data -Driven Sparse 
+Sensor Placement for Reconstruction: Demonstrating the Benefits of Exploiting 
+Known Patterns[J]. IEEE Control Systems, 2018, 38(3): 63-86. 
+[100] Sargsyan S, Brunton S L, Kutz J N. Nonlinear model reduction for dynamical 
+systems using sparse sensor locations from learned libraries[J]. Physical review E, 
+Statistical, nonlinear, and soft matter physics, 2015, 92(3): 033304. 
+[101] Li B, Liu H, Wang R. Data -driven sensor placement for efficient thermal field 
+reconstruction[J]. Science China Technological Sciences, 2021, 64(9): 1981-1994. 
+[102] Manohar K, Kutz J N, Brunton S L. Optimal Sensor and Actuator Selection Using 
+Balanced Model Reduction[J]. IEEE Transactions on Automatic Control, 2022, 67(4): 
+2108-2115. 
+[103] 张结, 许露真, 戴礼荣. 分布式麦克风网络中降噪低复杂度能量感知传感器选择
+（英文）[J]. 中国科学技术大学学报, 2023, 53(4): 15-25+71. 
+[104] Semaan R. Optimal sensor placement using machine learning[J]. Computers & 
+Fluids, 2017, 159: 167-176. 
+[105] Manohar K, Brunton S L, Kutz J N. Environment identification in flight using sparse 
+approximation of wing strain[J]. Journal of Fluids and Structures, 2017, 70: 162-180. 
+[106]王明华, 黄畅, 王彦等. 无线传感器网络节点重部署研究进展[J]. 计算机应用研究, 
+2023, 40(4): 978-986. 
+[107] Venkatesan R, Shamji V R, Latha G, et al. In situ ocean subsurface time -series 
+measurements from OMNI buoy network in the Bay of Bengal[J]. Current Science, 
+2013, 104(9): 1166-1177. 
+[108] Sandhya K G, Remya P G, Nair T M B, et al. On the co -existence of high -energy 
+low-frequency waves and locally -generated cyclone waves off the Indian east 
+coast[J]. Ocean Engineering, 2016, 111: 148-154. 
+[109] Zhang J-m, Li X-q. Key Technology of Offshore Small Buoy Deployment Based on 
+Bayesian Network [C]//Advanced Hybrid Information Processing . ADHIP 2021. 
+Lecture Notes of the Institute for Computer Sciences, Social Informatics and 

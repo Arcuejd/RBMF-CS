@@ -1,0 +1,255 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "download checksum oras_votemper.xml",
+      "passed": true
+    },
+    {
+      "name": "download checksum oras_vosaline.xml",
+      "passed": true
+    },
+    {
+      "name": "download checksum oras_masks.xml",
+      "passed": true
+    },
+    {
+      "name": "download checksum ice_monthly.html",
+      "passed": true
+    },
+    {
+      "name": "download checksum ice_ancillary.html",
+      "passed": true
+    },
+    {
+      "name": "download checksum oras_mask_correction.pdf",
+      "passed": true
+    },
+    {
+      "name": "download checksum votemper_ORAS5_1m_201305_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum votemper_ORAS5_1m_201303_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum votemper_ORAS5_1m_201306_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum votemper_ORAS5_1m_201301_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum votemper_ORAS5_1m_201304_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum votemper_ORAS5_1m_201302_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum votemper_ORAS5_1m_201308_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum votemper_ORAS5_1m_201309_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum votemper_ORAS5_1m_201312_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum votemper_ORAS5_1m_201310_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum votemper_ORAS5_1m_201311_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum votemper_ORAS5_1m_201307_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum vosaline_ORAS5_1m_201301_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum vosaline_ORAS5_1m_201302_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum vosaline_ORAS5_1m_201303_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum vosaline_ORAS5_1m_201304_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum vosaline_ORAS5_1m_201305_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum vosaline_ORAS5_1m_201306_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum vosaline_ORAS5_1m_201307_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum sic_psn25_201301_F17_v06r00.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum vosaline_ORAS5_1m_201308_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum sic_psn25_201302_F17_v06r00.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum sic_psn25_201303_F17_v06r00.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum sic_psn25_201304_F17_v06r00.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum vosaline_ORAS5_1m_201311_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum vosaline_ORAS5_1m_201309_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum vosaline_ORAS5_1m_201310_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum sic_psn25_201305_F17_v06r00.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum sic_psn25_201306_F17_v06r00.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum vosaline_ORAS5_1m_201312_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum sic_psn25_201309_F17_v06r00.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum sic_psn25_201308_F17_v06r00.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum sic_psn25_201307_F17_v06r00.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum sic_psn25_201310_F17_v06r00.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum sic_psn25_201311_F17_v06r00.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum sic_psn25_201312_F17_v06r00.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum G02202-ancillary-psn25-v06r00.nc",
+      "passed": true
+    },
+    {
+      "name": "download checksum tmask_r1x1.nc",
+      "passed": true
+    },
+    {
+      "name": "training byte-identical",
+      "passed": true
+    },
+    {
+      "name": "unchanged validation_dates",
+      "passed": true
+    },
+    {
+      "name": "unchanged coordinates_latlon",
+      "passed": true
+    },
+    {
+      "name": "unchanged original_grid_flat_ids",
+      "passed": true
+    },
+    {
+      "name": "unchanged valid_domain_mask",
+      "passed": true
+    },
+    {
+      "name": "unchanged validation_hf_insitu_c",
+      "passed": true
+    },
+    {
+      "name": "unchanged validation_hf_anomaly_c",
+      "passed": true
+    },
+    {
+      "name": "unchanged validation_hf_model",
+      "passed": true
+    },
+    {
+      "name": "all twelve validation months in order",
+      "passed": true
+    },
+    {
+      "name": "finite LF model",
+      "passed": true
+    },
+    {
+      "name": "fixed LF shape",
+      "passed": true
+    },
+    {
+      "name": "ice fraction units",
+      "passed": true
+    },
+    {
+      "name": "LF interpolation weights",
+      "passed": true
+    },
+    {
+      "name": "ice mapping distance",
+      "passed": true
+    },
+    {
+      "name": "LF physical reconstruction",
+      "passed": true
+    },
+    {
+      "name": "LF climatology equation",
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "D:\\Dataset\\RBMF-CS_polar_sample\\aligned_50m\\atlantic\\aligned_fields.npz": "568c864aa50f7a6d7034779e4fcad52dc9d4a4c0afebbb3a52cf241146c093d4",
+    "D:\\Dataset\\RBMF-CS_polar_sample\\aligned_50m\\atlantic\\training_artifacts.npz": "8dae69d36521deddcfc0b0d7bb95093ce09e58591599ddad5d29f9e6492a0a04",
+    "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\aligned_50m\\atlantic\\validation_fields.npz": "912b67f44b693e9adb48999e961307ea6c724dd0feb10887103b5345ec37a2cf",
+    "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\aligned_50m\\atlantic\\training_artifacts.npz": "8dae69d36521deddcfc0b0d7bb95093ce09e58591599ddad5d29f9e6492a0a04",
+    "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\audit_report.json": "4e8ded7d6a2ef701a824d24285f552d69d1f36fb73f3cc3007a265a2b26ded09",
+    "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\downloads.json": "aa535f3fb5dc5ecc9b1fcc93a8e2c19b5118996ef6946e8c9bf01462f602a6d3"
+  },
+  "policy": "only new validation keys added; existing arrays and original files unchanged",
+  "evaluation_status": "2014 exploratory; no unseen paired environment"
+}

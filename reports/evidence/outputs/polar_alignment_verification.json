@@ -1,0 +1,20 @@
+{
+  "atlantic": {
+    "train_shape": [
+      156,
+      346
+    ],
+    "pod_energy": 0.990205659923601,
+    "observations_checked": 300,
+    "all_checks_passed": true
+  },
+  "central_arctic": {
+    "train_shape": [
+      156,
+      3305
+    ],
+    "pod_energy": 0.9902884090750993,
+    "observations_checked": 539,
+    "all_checks_passed": true
+  }
+}

@@ -1,0 +1,33 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+150 
+ 
+参考文献 
+[1] 韩林生, 王祎. 全球海洋观测系统展望及对我国的启示 [J]. 地球科学进展, 2022, 
+37(11): 1157-1164. 
+[2] Fujii Y , Ré my E, Zuo H, et al. Observing System Evaluation Based on Ocean Data 
+Assimilation and Prediction Systems: On -Going Challenges and a Future Vision for 
+Designing and Supporting Ocean Observational Networks[J]. Frontiers in Marine 
+Science, 2019, 6: 417.  
+[3] 习近平. 高举中国特色社会主义伟大旗帜为全面建设社会主义现代化国家而团
+结奋斗——在中国共产党第二十次全国代表大会上的报告[J]. 创造, 2022, 30(11): 
+6-29. 
+[4] “中国工程科技发展战略研究”海洋领域课题组. 中国海洋工程科技 2035 发展
+战略研究 [J]. 中国工程科学, 2017, 19(1): 108-117. 
+[5] 吴立新, 陈朝晖, 林霄沛等. “透明海洋”立体观测网构建 [J]. 科学通报, 2020, 
+65(25): 2654-2661. 
+[6] 闫敬, 张诗杭, 关新平等. 水下无人系统跨域协同控制:研究进展与挑战[J]. 控制
+与决策, 2025, 40(1): 7-27. 
+[7] 赵聪蛟, 宋琍琍, 余骏等. 浙江海洋浮标监测数据质量控制体系设计[J]. 海洋开发
+与管理, 2022, 39(12): 29-36. 
+[8] 张涛. 基于多源时空数据的船舶行为分析及异常检测研究 [D]. 北京邮电大学 , 
+2021. 
+[9] Mu L, Zhao E, Wang Y , et al. Buoy Sensor Cyberattack Detection in Offshore 
+Petroleum Cyber -Physical Systems[J]. IEEE Transactions on Services Computing, 
+2020, 13(4): 653-662. 
+[10] Pä rt S, Kankaanpä ä  H, Bjö rkqvist J-V , et al. Oil Spill Detection Using Fluorometric 
+Sensors: Laboratory Validation and Implementation to a FerryBox and a Moored 
+SmartBuoy[J]. Frontiers in Marine Science, 2021, 8, 8136.  
+[11] Ng Y , Pereira J M, Garagic D, et al. Robust Marine Buoy Placement for Ship 
+Detection Using Dropout K -Means[C].//2020 IEEE International Conference on 
+Acoustics, Speech and Signal Processing (ICASSP) . Barcelona, Spain: IEEE, 2020: 
+3757-3761. 

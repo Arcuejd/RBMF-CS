@@ -1,0 +1,242 @@
+[
+  {
+    "date": 201301,
+    "rank": 4,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.35294580496364203
+  },
+  {
+    "date": 201301,
+    "rank": 16,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.3115102698212437
+  },
+  {
+    "date": 201301,
+    "rank": 32,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.18590183256406217
+  },
+  {
+    "date": 201301,
+    "rank": 70,
+    "offline_evaluation_projection_lower_bound_rmse_c": 8.510931975846375e-16
+  },
+  {
+    "date": 201302,
+    "rank": 4,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.35753115971611105
+  },
+  {
+    "date": 201302,
+    "rank": 16,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.26721877695413093
+  },
+  {
+    "date": 201302,
+    "rank": 32,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.2039970748316788
+  },
+  {
+    "date": 201302,
+    "rank": 70,
+    "offline_evaluation_projection_lower_bound_rmse_c": 6.248576019493606e-16
+  },
+  {
+    "date": 201303,
+    "rank": 4,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.4198387008587561
+  },
+  {
+    "date": 201303,
+    "rank": 16,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.2185809972122654
+  },
+  {
+    "date": 201303,
+    "rank": 32,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.15435242019978165
+  },
+  {
+    "date": 201303,
+    "rank": 70,
+    "offline_evaluation_projection_lower_bound_rmse_c": 9.392340156940313e-16
+  },
+  {
+    "date": 201304,
+    "rank": 4,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.3529759127317255
+  },
+  {
+    "date": 201304,
+    "rank": 16,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.22734637285692838
+  },
+  {
+    "date": 201304,
+    "rank": 32,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.1640776485751364
+  },
+  {
+    "date": 201304,
+    "rank": 70,
+    "offline_evaluation_projection_lower_bound_rmse_c": 8.642695808353663e-16
+  },
+  {
+    "date": 201305,
+    "rank": 4,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.2860263346128187
+  },
+  {
+    "date": 201305,
+    "rank": 16,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.18693569778906902
+  },
+  {
+    "date": 201305,
+    "rank": 32,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.1335102768205136
+  },
+  {
+    "date": 201305,
+    "rank": 70,
+    "offline_evaluation_projection_lower_bound_rmse_c": 9.268419248487544e-16
+  },
+  {
+    "date": 201306,
+    "rank": 4,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.3177079734335532
+  },
+  {
+    "date": 201306,
+    "rank": 16,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.2072685952457367
+  },
+  {
+    "date": 201306,
+    "rank": 32,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.16226880560806875
+  },
+  {
+    "date": 201306,
+    "rank": 70,
+    "offline_evaluation_projection_lower_bound_rmse_c": 8.853549313786388e-16
+  },
+  {
+    "date": 201307,
+    "rank": 4,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.3233892931733973
+  },
+  {
+    "date": 201307,
+    "rank": 16,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.21289365446918124
+  },
+  {
+    "date": 201307,
+    "rank": 32,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.14043750703947544
+  },
+  {
+    "date": 201307,
+    "rank": 70,
+    "offline_evaluation_projection_lower_bound_rmse_c": 8.027522555748794e-16
+  },
+  {
+    "date": 201308,
+    "rank": 4,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.28294938818768195
+  },
+  {
+    "date": 201308,
+    "rank": 16,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.19714801566764212
+  },
+  {
+    "date": 201308,
+    "rank": 32,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.12733416852970011
+  },
+  {
+    "date": 201308,
+    "rank": 70,
+    "offline_evaluation_projection_lower_bound_rmse_c": 5.918417606250784e-16
+  },
+  {
+    "date": 201309,
+    "rank": 4,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.3551730880414735
+  },
+  {
+    "date": 201309,
+    "rank": 16,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.23387146445894863
+  },
+  {
+    "date": 201309,
+    "rank": 32,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.1467462633224102
+  },
+  {
+    "date": 201309,
+    "rank": 70,
+    "offline_evaluation_projection_lower_bound_rmse_c": 6.803395463322235e-16
+  },
+  {
+    "date": 201310,
+    "rank": 4,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.459197501917384
+  },
+  {
+    "date": 201310,
+    "rank": 16,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.2904279175374344
+  },
+  {
+    "date": 201310,
+    "rank": 32,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.20206692453880232
+  },
+  {
+    "date": 201310,
+    "rank": 70,
+    "offline_evaluation_projection_lower_bound_rmse_c": 1.2041812558426237e-15
+  },
+  {
+    "date": 201311,
+    "rank": 4,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.3413435463573868
+  },
+  {
+    "date": 201311,
+    "rank": 16,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.20805937052979048
+  },
+  {
+    "date": 201311,
+    "rank": 32,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.14037099402637257
+  },
+  {
+    "date": 201311,
+    "rank": 70,
+    "offline_evaluation_projection_lower_bound_rmse_c": 1.0861296839155843e-15
+  },
+  {
+    "date": 201312,
+    "rank": 4,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.41215043183666294
+  },
+  {
+    "date": 201312,
+    "rank": 16,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.3155424252322723
+  },
+  {
+    "date": 201312,
+    "rank": 32,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.14251687299301538
+  },
+  {
+    "date": 201312,
+    "rank": 70,
+    "offline_evaluation_projection_lower_bound_rmse_c": 1.6177887988052248e-15
+  }
+]

@@ -1,0 +1,36 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+159 
+ 
+Telecommunications Engineering, Springer, Cham, 2022, 416: 357-376.  
+[110] National Oceanic and Atmospheric Administration National Data Buoy Center[Z].  
+https://tao.ndbc.noaa.gov/tao/data_download/search_map.shtml. Access Date: July 4, 
+2024. 
+[111] Sirjacobs D, Alvera-Azcá rate A, Barth A, et al. Cloud filling of ocean colour and sea 
+surface temperature remote sensing products over the Southern North Sea by the 
+Data Interpolating Empirical Orthogonal Functions methodology[J]. Journal of Sea 
+Research, 2011, 65(1): 114-130. 
+[112] Lawson R A, Graham D, Stalin S, et al. The next generation Easy -to-Deploy (ETD) 
+tsunami assessment buoy [C]//OCEANS'11 MTS/IEEE KONA, Waikoloa, HI, USA, 
+2011: 1-8.  
+[113] De Mey -Fré maux P, Ayoub N, Barth A, et al. Model -Observations Synergy in the 
+Coastal Ocean[J]. Frontiers in Marine Science. 2019, 6:436.  
+[114] King S, Kang W, Xu L. Observability for  Model-Observations Synergy  optimal 
+sensor locations in data assimilation[J]. International Journal of Dynamics and 
+Control, 2015, 3(4): 416-424. 
+[115] King S, Kang W, Xu L. Computational issues on observability and optimal sensor 
+locations[C]//2014 American Control Conference, Portland, OR, USA, 2014 : 4075-
+4080.  
+[116] Yildirim B, Chryssostomidis C, Karniadakis G E. Efficient sensor placement for 
+ocean measurements using low -dimensional concepts[J]. Ocean Modelling, 2009, 
+27(3): 160-173. 
+[117] Huo Y , Dong X, Beatty S. Cellular Communications in Ocean Waves for Maritime 
+Internet of Things[J]. IEEE Internet of Things Journal, 2020, 7(10): 9965-9979. 
+[118] Uilhoorn F E. An algorithm for finding optimal sensor placement and model 
+uncertainty in data assimilation applied to Riemann problems[J]. Applied 
+Mathematical Modelling, 2022, 103: 649-673. 
+[119] Yang X, Venturi D, Chen C, et al. EOF-based constrained sensor placement and field 
+reconstruction from noisy o cean measurements: Application to Nantucket Sound[J]. 
+Journal of Geophysical Research: Oceans, 2010, 115(C12). 
+[120] Ferrarin C, Bajo M, Umgiesser G. Model -driven optimization of coastal sea 
+observatories through data assimilation in a finite element hydrodynamic model 
+(SHYFEM v. 7_5_65)[J]. Geoscientific Model Development, 2021, 14(1): 645-659. 

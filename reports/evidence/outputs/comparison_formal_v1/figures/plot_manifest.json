@@ -1,0 +1,23 @@
+{
+  "source_run": "D:\\project\\RBMF-CS\\outputs\\comparison_formal_v1",
+  "plot_source_sha256": "843b71c4ce4d8a883b2f63bf831b9d281f48abe017f25d00e325a0eb78d58de2",
+  "statistics_source_sha256": "bf2999fed2d975eee43079261f13340b1ddcaff4a7d97ca71ec915eeb30e7937",
+  "source_manifest_sha256": "43ea5134034e48ecd1b65c3cb230294d8a4c388e567e877e63957e3b35f6f114",
+  "source_config_sha256": "a43132a2c14ec017905c5fee1f6f463b43ab9d696ba04f16c40eb5aa728cc592",
+  "figures": [
+    "ablations.svg",
+    "accuracy_cost.svg",
+    "calibration.svg",
+    "error_nodes_deployment.svg",
+    "error_nodes_reconstruction.svg",
+    "robustness_deployment.svg",
+    "robustness_reconstruction.svg",
+    "spatial_common_scale.svg",
+    "spatial_error_common_scale.svg"
+  ],
+  "smoothing": false,
+  "monotonicity_enforcement": false,
+  "statistics_scope": "conditional seed CI; environment inference unavailable",
+  "observed_records": 132000,
+  "failures": 0
+}

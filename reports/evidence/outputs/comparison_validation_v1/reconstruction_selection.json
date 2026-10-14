@@ -1,0 +1,34 @@
+{
+  "pod_ridge": {
+    "rank": 16,
+    "regularization": 0.01,
+    "inference": {}
+  },
+  "pod_lasso": {
+    "rank": 16,
+    "regularization": 0.1,
+    "inference": {}
+  },
+  "deterministic_mf": {
+    "rank": 4,
+    "regularization": 0.01,
+    "inference": {}
+  },
+  "gaussian_sbl_vb": {
+    "rank": 4,
+    "regularization": 0.1,
+    "inference": {
+      "a_gamma": 0.001,
+      "b_gamma": 0.001
+    }
+  },
+  "rbmf": {
+    "rank": 32,
+    "regularization": 0.1,
+    "inference": {
+      "a_delta": 2.0,
+      "b_delta": 20.0,
+      "nu": 3.0
+    }
+  }
+}

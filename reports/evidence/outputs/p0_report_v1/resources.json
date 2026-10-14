@@ -1,0 +1,6 @@
+{
+  "batch_wall_seconds": 300.64454589999514,
+  "batch_output_bytes": 355366985,
+  "offline_rank32_lower_bound_mean_c": 0.15863173242075143,
+  "failure_count": 1
+}

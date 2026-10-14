@@ -1,0 +1,14 @@
+[
+  {
+    "method": "pod_ridge",
+    "index": 4,
+    "parameters": {
+      "rank": 4,
+      "regularization": 1.0,
+      "inference": {}
+    },
+    "score": 0.45243584988036756,
+    "valid": true,
+    "seconds": 0.015567700000246987
+  }
+]

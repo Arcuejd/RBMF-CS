@@ -1,0 +1,245 @@
+[
+  {
+    "index": 0,
+    "parameters": {
+      "beta": 0.25,
+      "eta": 0.0,
+      "entropy_reference_variance": 0.001
+    },
+    "score": 0.4568898026939249
+  },
+  {
+    "index": 1,
+    "parameters": {
+      "beta": 0.25,
+      "eta": 0.0,
+      "entropy_reference_variance": 0.01
+    },
+    "score": 0.45690225335957063
+  },
+  {
+    "index": 2,
+    "parameters": {
+      "beta": 0.25,
+      "eta": 0.0,
+      "entropy_reference_variance": 0.1
+    },
+    "score": 0.4569239331088251
+  },
+  {
+    "index": 3,
+    "parameters": {
+      "beta": 0.25,
+      "eta": 0.2,
+      "entropy_reference_variance": 0.001
+    },
+    "score": 0.45692511721628437
+  },
+  {
+    "index": 4,
+    "parameters": {
+      "beta": 0.25,
+      "eta": 0.2,
+      "entropy_reference_variance": 0.01
+    },
+    "score": 0.4569079229788199
+  },
+  {
+    "index": 5,
+    "parameters": {
+      "beta": 0.25,
+      "eta": 0.2,
+      "entropy_reference_variance": 0.1
+    },
+    "score": 0.45690850830578555
+  },
+  {
+    "index": 6,
+    "parameters": {
+      "beta": 0.25,
+      "eta": 0.5,
+      "entropy_reference_variance": 0.001
+    },
+    "score": 0.4569233052362623
+  },
+  {
+    "index": 7,
+    "parameters": {
+      "beta": 0.25,
+      "eta": 0.5,
+      "entropy_reference_variance": 0.01
+    },
+    "score": 0.45692311170994615
+  },
+  {
+    "index": 8,
+    "parameters": {
+      "beta": 0.25,
+      "eta": 0.5,
+      "entropy_reference_variance": 0.1
+    },
+    "score": 0.45690472066177823
+  },
+  {
+    "index": 9,
+    "parameters": {
+      "beta": 1.0,
+      "eta": 0.0,
+      "entropy_reference_variance": 0.001
+    },
+    "score": 0.4569013773621827
+  },
+  {
+    "index": 10,
+    "parameters": {
+      "beta": 1.0,
+      "eta": 0.0,
+      "entropy_reference_variance": 0.01
+    },
+    "score": 0.45690094949909
+  },
+  {
+    "index": 11,
+    "parameters": {
+      "beta": 1.0,
+      "eta": 0.0,
+      "entropy_reference_variance": 0.1
+    },
+    "score": 0.45691584793209317
+  },
+  {
+    "index": 12,
+    "parameters": {
+      "beta": 1.0,
+      "eta": 0.2,
+      "entropy_reference_variance": 0.001
+    },
+    "score": 0.4569115085814039
+  },
+  {
+    "index": 13,
+    "parameters": {
+      "beta": 1.0,
+      "eta": 0.2,
+      "entropy_reference_variance": 0.01
+    },
+    "score": 0.45692176166865733
+  },
+  {
+    "index": 14,
+    "parameters": {
+      "beta": 1.0,
+      "eta": 0.2,
+      "entropy_reference_variance": 0.1
+    },
+    "score": 0.4569171967064278
+  },
+  {
+    "index": 15,
+    "parameters": {
+      "beta": 1.0,
+      "eta": 0.5,
+      "entropy_reference_variance": 0.001
+    },
+    "score": 0.4569319088472472
+  },
+  {
+    "index": 16,
+    "parameters": {
+      "beta": 1.0,
+      "eta": 0.5,
+      "entropy_reference_variance": 0.01
+    },
+    "score": 0.4569252797180396
+  },
+  {
+    "index": 17,
+    "parameters": {
+      "beta": 1.0,
+      "eta": 0.5,
+      "entropy_reference_variance": 0.1
+    },
+    "score": 0.4569191346415026
+  },
+  {
+    "index": 18,
+    "parameters": {
+      "beta": 4.0,
+      "eta": 0.0,
+      "entropy_reference_variance": 0.001
+    },
+    "score": 0.4569006512502302
+  },
+  {
+    "index": 19,
+    "parameters": {
+      "beta": 4.0,
+      "eta": 0.0,
+      "entropy_reference_variance": 0.01
+    },
+    "score": 0.4568994444831559
+  },
+  {
+    "index": 20,
+    "parameters": {
+      "beta": 4.0,
+      "eta": 0.0,
+      "entropy_reference_variance": 0.1
+    },
+    "score": 0.4569011386717544
+  },
+  {
+    "index": 21,
+    "parameters": {
+      "beta": 4.0,
+      "eta": 0.2,
+      "entropy_reference_variance": 0.001
+    },
+    "score": 0.45689862101294004
+  },
+  {
+    "index": 22,
+    "parameters": {
+      "beta": 4.0,
+      "eta": 0.2,
+      "entropy_reference_variance": 0.01
+    },
+    "score": 0.4569000409075078
+  },
+  {
+    "index": 23,
+    "parameters": {
+      "beta": 4.0,
+      "eta": 0.2,
+      "entropy_reference_variance": 0.1
+    },
+    "score": 0.45689803467841206
+  },
+  {
+    "index": 24,
+    "parameters": {
+      "beta": 4.0,
+      "eta": 0.5,
+      "entropy_reference_variance": 0.001
+    },
+    "score": 0.4569012547985021
+  },
+  {
+    "index": 25,
+    "parameters": {
+      "beta": 4.0,
+      "eta": 0.5,
+      "entropy_reference_variance": 0.01
+    },
+    "score": 0.4569009899509488
+  },
+  {
+    "index": 26,
+    "parameters": {
+      "beta": 4.0,
+      "eta": 0.5,
+      "entropy_reference_variance": 0.1
+    },
+    "score": 0.45689994015908647
+  }
+]

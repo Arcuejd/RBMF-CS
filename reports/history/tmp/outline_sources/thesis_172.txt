@@ -1,0 +1,35 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+157 
+ 
+approach[J]. Information Sciences, 2020, 516: 56-71. 
+[86] Ma K C, Liu L, Sukhatme G S. An information -driven and disturbance -aware 
+planning method for long -term ocean monitoring [C]//2016 IEEE/RSJ International 
+Conference on Intelligent Robots and Systems (IROS),  Daejeon, Korea (South), 
+2016: 2102-2108.  
+[87] Brierley A S, Gull S F, Wafy M H. A Bayesian maximum entropy reconstruction of 
+stock distribution and inference of stock density from line -transect acoustic -survey 
+data[J]. ICES Journal of Marine Science, 2003, 60(3): 446-452. 
+[88] Christodoulou S E, Gagatsis A, Xanthos S, et al. Entropy -Based Sensor Placement 
+Optimization for Waterloss Detection in Water Distribution Networks[J]. Water 
+Resources Management, 2013, 27(13): 4443-4468. 
+[89] Maherin I, Liang Q. Radar sensor network for target detection using Chernoff 
+information and relative entropy[J]. Physical Communication, 2014, 13: 244-252. 
+[90] Pei X, Yi T, Qu C, et al. Conditional information entropy based sensor placement 
+method considering separated model error and measurement noise[J]. Journal of 
+Sound and Vibration, 2019, 449: 389–404. 
+[91] 刘功亮, 康文静. 基于压缩感知的水下稀疏传感网信息获取技术 [J]. 仪器仪表学
+报, 2014, 35(2): 253-260. 
+[92] Steven L. Brunton, Jonathan H. Tu, Ido Bright, et al. Compressive sensing and low -
+rank libraries for classification of bifurcation regimes in nonlinear dynamical 
+systems[J]. SIAM Journal on Applied Dynamical Systems, 2014, 13(4): 1716-1732. 
+[93] Brunton B W, Brunton S L, Proctor J L, et al. Sparse Sensor Placement Optimization 
+for Classification[J]. SIAM Journal on Applied Mathematics, 2016, 76(5): 2099-2122. 
+[94] Zhao X, Du L, Peng X, et al. Research on refined reconstruction method of airfoil 
+pressure based on compressed sensing[J]. Theoretical and Applied Mechanics Letters, 
+2021, 11(2): 100223. 
+[95] Xie X, Zhou Q, Hou D, et al. Compressed sensing based optimal sensor placement 
+for leak localization in water distribution networks[J]. Journal of Hydroinformatics, 
+2017, 20(6): 1286-1295. 
+[96] 刘歌, 芮国胜, 田文飚等. 序贯压缩感知下的海洋监测数据在线重构方法[J]. 西安
+电子科技大学学报, 2022, 49(1): 173-180. 
+[97] Jayaraman B, Al Mamun S M A, Lu C. Interplay of Sensor Quantity, Placement and 

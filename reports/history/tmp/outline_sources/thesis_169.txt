@@ -1,0 +1,34 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+154 
+ 
+Mathematics and Computing . Advances in Intelligent Systems and Computing, 
+Springer, Singapore, 2022, 1412:427-437.  
+[50] 梅骁峻. 海洋传感网目标节点定位关键技术研究[D]. 上海海事大学, 2021. 
+[51] 张媛媛. 未知发射功率的海洋传感网鲁棒性定位机制研究 [D]. 上海海事大学 , 
+2023. 
+[52] 张杰, 杜金华, 刘立等. 水下通信网络中基于公钥加密体制的安全数据传输方法
+[J]. 小型微型计算机系统, 2023, 44(8): 1805-1811. 
+[53] Cai S, Zhu Y , Wang T, et al. Data Collection in Underwater Sensor Networks based 
+on Mobile Edge Computing[J]. IEEE Access, 2019, 7: 65357-65367. 
+[54] 张彭辉, 杜建平, 吴帅等. 海洋环境大数据系统建设研究进展[J]. 海洋开发与管理, 
+2021, 38(11): 104-112. 
+[55] Khan S, Ullah I, Ali F, et al. Deep learning -based marine big data fusion for ocean 
+environment monitoring: Towards shape optimization and salient objects detection[J]. 
+Frontiers in Marine Science, 2023, 9: 1094915.  
+[56] Zhang Y , Shen F, Sun X, et al. Marine big data -driven ensemble learning for 
+estimating global phytoplankton group composition over two decades (1997 –
+2020)[J]. Remote Sensing of Environment, 2023, 294: 113596. 
+[57] 聂婕, 左子杰, 黄磊等. 面向海洋的多模态智能计算：挑战、进展和展望[J]. 中国
+图象图形学报, 2022, 27(09): 2589-2610. 
+[58] 张雪薇, 韩震, 周玮辰等. 智慧海洋技术研究综述[J]. 遥感信息, 2020, 35(4): 1-7. 
+[59] Chen G, Yang J, Huang B, et al. Toward digital twin of the ocean: from digitalization 
+to cloning[J]. Intelligent Marine Technology and Systems, 2023, 1(1): 3. 
+[60] 俞永强, 安博, 刘海龙等. FGOALS 高分辨率气候模式系统模式研制与应用综述
+[J]. 大气科学, 2024, 48(1): 200-217. 
+[61] Fukumori I, Wang O, Fenty I, et al. ECCO Central Production Version 4 Release 4[Z]. 
+https://www.ecco-group.org/products-ECCO-V4r4.htm. 2024 
+[62] Zhao M, Ponte R M, Wang O, et al. Using Drifter Velocity Measurements to Assess 
+and Constrain Coarse -Resolution Ocean Models[J]. Journal of Atmospheric and 
+Oceanic Technology, 2021, 38(4): 909-919. 
+[63] Federico I, Pinardi N, Coppini G, et al. Coastal ocean forecasting with an 
+unstructured grid model in the southern Adriatic and northern Ionian seas[J]. Natural 

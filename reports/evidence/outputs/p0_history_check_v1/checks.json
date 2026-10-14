@@ -1,0 +1,109 @@
+{
+  "rule": "saved clean minimum seed, all four historical months; no fitting/selection",
+  "rows": [
+    {
+      "date": 201401,
+      "budget": 4,
+      "method": "original",
+      "rmse_c": 0.7486774171529058
+    },
+    {
+      "date": 201401,
+      "budget": 4,
+      "method": "climatology",
+      "rmse_c": 0.7487976108188277
+    },
+    {
+      "date": 201401,
+      "budget": 12,
+      "method": "original",
+      "rmse_c": 0.7482982026953792
+    },
+    {
+      "date": 201401,
+      "budget": 12,
+      "method": "climatology",
+      "rmse_c": 0.7487976108188277
+    },
+    {
+      "date": 201404,
+      "budget": 4,
+      "method": "original",
+      "rmse_c": 0.44575064690133903
+    },
+    {
+      "date": 201404,
+      "budget": 4,
+      "method": "climatology",
+      "rmse_c": 0.4459948720699716
+    },
+    {
+      "date": 201404,
+      "budget": 12,
+      "method": "original",
+      "rmse_c": 0.44558393512895755
+    },
+    {
+      "date": 201404,
+      "budget": 12,
+      "method": "climatology",
+      "rmse_c": 0.4459948720699716
+    },
+    {
+      "date": 201407,
+      "budget": 4,
+      "method": "original",
+      "rmse_c": 0.4562464196728343
+    },
+    {
+      "date": 201407,
+      "budget": 4,
+      "method": "climatology",
+      "rmse_c": 0.4565013154000922
+    },
+    {
+      "date": 201407,
+      "budget": 12,
+      "method": "original",
+      "rmse_c": 0.45573959979776246
+    },
+    {
+      "date": 201407,
+      "budget": 12,
+      "method": "climatology",
+      "rmse_c": 0.4565013154000922
+    },
+    {
+      "date": 201410,
+      "budget": 4,
+      "method": "original",
+      "rmse_c": 0.46555649271945054
+    },
+    {
+      "date": 201410,
+      "budget": 4,
+      "method": "climatology",
+      "rmse_c": 0.46566089428104573
+    },
+    {
+      "date": 201410,
+      "budget": 12,
+      "method": "original",
+      "rmse_c": 0.46521130833760393
+    },
+    {
+      "date": 201410,
+      "budget": 12,
+      "method": "climatology",
+      "rmse_c": 0.46566089428104573
+    }
+  ],
+  "means": {
+    "original_4": 0.5290577441116324,
+    "original_12": 0.5287082614899258,
+    "climatology_4": 0.5292386731424843,
+    "climatology_12": 0.5292386731424843
+  },
+  "original_model_sha256": "5e7173f7aca50511e4f1afff8a25150fea419eb9958008258b8b4781589c3168",
+  "frozen_model_sha256": "5e7173f7aca50511e4f1afff8a25150fea419eb9958008258b8b4781589c3168"
+}

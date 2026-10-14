@@ -1,0 +1,151 @@
+Failed to find real location of D:\python\python.exe
+201301 4 finished
+201301 6 finished
+201301 8 finished
+201301 10 finished
+201301 12 finished
+201302 4 finished
+201302 6 finished
+201302 8 finished
+201302 10 finished
+201302 12 finished
+201303 4 finished
+201303 6 finished
+201303 8 finished
+201303 10 finished
+201303 12 finished
+201304 4 finished
+201304 6 finished
+201304 8 finished
+201304 10 finished
+201304 12 finished
+201305 4 finished
+201305 6 finished
+201305 8 finished
+201305 10 finished
+201305 12 finished
+201306 4 finished
+201306 6 finished
+201306 8 finished
+201306 10 finished
+201306 12 finished
+201307 4 finished
+201307 6 finished
+201307 8 finished
+201307 10 finished
+201307 12 finished
+201308 4 finished
+201308 6 finished
+201308 8 finished
+201308 10 finished
+201308 12 finished
+201309 4 finished
+201309 6 finished
+201309 8 finished
+201309 10 finished
+201309 12 finished
+201310 4 finished
+201310 6 finished
+201310 8 finished
+201310 10 finished
+201310 12 finished
+201311 4 finished
+201311 6 finished
+201311 8 finished
+201311 10 finished
+201311 12 finished
+201312 4 finished
+201312 6 finished
+201312 8 finished
+201312 10 finished
+201312 12 finished
+[
+  {
+    "method": "climatology",
+    "rmse_c": 0.45730434790905444,
+    "mae_c": 0.34506503458491056,
+    "convergence_rate": 1.0,
+    "seconds": 0.0014040000241948292,
+    "fits": 60
+  },
+  {
+    "method": "no_observation",
+    "rmse_c": 0.45728934745118577,
+    "mae_c": 0.34505342984737486,
+    "convergence_rate": 1.0,
+    "seconds": 0.0007052999790175818,
+    "fits": 60
+  },
+  {
+    "method": "original",
+    "rmse_c": 0.4567834038925652,
+    "mae_c": 0.34459093699855525,
+    "convergence_rate": 1.0,
+    "seconds": 0.5561966999521246,
+    "fits": 60
+  },
+  {
+    "method": "factor_stop",
+    "rmse_c": 0.45678883885361726,
+    "mae_c": 0.34459532015984673,
+    "convergence_rate": 1.0,
+    "seconds": 0.8226972999982536,
+    "fits": 60
+  },
+  {
+    "method": "init_high_tau",
+    "rmse_c": 0.456788839427867,
+    "mae_c": 0.3445953206949858,
+    "convergence_rate": 1.0,
+    "seconds": 0.8606876000048942,
+    "fits": 60
+  },
+  {
+    "method": "ard_b1",
+    "rmse_c": 0.4545961962796837,
+    "mae_c": 0.3427181507141684,
+    "convergence_rate": 1.0,
+    "seconds": 1.5816962999597308,
+    "fits": 60
+  },
+  {
+    "method": "no_lf",
+    "rmse_c": 0.5044458027781639,
+    "mae_c": 0.38730166373262276,
+    "convergence_rate": 1.0,
+    "seconds": 10.974868099991,
+    "fits": 60
+  },
+  {
+    "method": "known_noise_conditional",
+    "rmse_c": 0.44892098442699774,
+    "mae_c": 0.3372076572896992,
+    "convergence_rate": 1.0,
+    "seconds": 2.8808197999824188,
+    "fits": 60
+  },
+  {
+    "method": "pod_ridge",
+    "rmse_c": 0.38814218459243993,
+    "mae_c": 0.28544363711044946,
+    "convergence_rate": 1.0,
+    "seconds": 0.01419009997334797,
+    "fits": 60
+  },
+  {
+    "method": "pod_lasso",
+    "rmse_c": 0.40281968771517274,
+    "mae_c": 0.2990995109083449,
+    "convergence_rate": 1.0,
+    "seconds": 0.17349550000653835,
+    "fits": 60
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "rmse_c": 0.41330321294808575,
+    "mae_c": 0.3111387444156815,
+    "convergence_rate": 1.0,
+    "seconds": 1.6694607000681572,
+    "fits": 60
+  }
+]

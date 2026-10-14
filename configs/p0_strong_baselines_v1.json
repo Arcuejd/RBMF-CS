@@ -1,0 +1,28 @@
+{
+  "status": "frozen_development_baselines",
+  "frozen_date": "2026-10-13",
+  "primary_method": "pod_ridge",
+  "methods": {
+    "pod_ridge": {"rank": 16, "regularization": 0.01},
+    "pod_lasso": {"rank": 16, "regularization": 0.1, "max_iter": 10000, "kkt_tolerance": 1e-8},
+    "gaussian_sbl_vb": {
+      "rank": 4,
+      "inference": {
+        "robust_likelihood": false, "multifidelity": false,
+        "a_gamma": 0.001, "b_gamma": 0.001, "a_tau": 0.01, "b_tau": 0.01,
+        "initial_gamma": 1.0, "initial_tau": 25.0,
+        "max_iter": 3000, "min_iter": 3, "tolerance": 1e-6, "convergence": "elbo"
+      }
+    }
+  },
+  "training_artifacts": "outputs/comparison_validation_v1/inputs/training_artifacts.npz",
+  "training_artifacts_sha256": "8dae69d36521deddcfc0b0d7bb95093ce09e58591599ddad5d29f9e6492a0a04",
+  "parameter_source": "outputs/comparison_validation_v1/selection.json",
+  "parameter_source_sha256": "e4c620080007533a26b40570761ba17df80cafadcd5d6fe6ddc7ed3187d1e6c6",
+  "domain": "unchanged 346 nodes; original grid ids modulo 5 equal 0 for evaluation",
+  "budget": [4, 6, 8, 10, 12],
+  "node_design": "existing constrained Maximin, shared across methods",
+  "rbmf_role": "archived comparator; no additional search authorized in this round",
+  "independent_test_evaluation_authorized": false,
+  "independent_test_gate": "rbmf_cs.p0_holdout_gate.require_qualified_release"
+}

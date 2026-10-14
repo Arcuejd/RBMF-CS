@@ -1,0 +1,35 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+151 
+ 
+[12] 朱洪海, 祁国梁, 刘茂科等. 船载海水温度观测研究[J]. 海洋科学, 2021, 45(5): 87-
+95. 
+[13] 周彤, 余定峰, 郑攀峰等. 低温海水环境船舶典型材料电化学特性研究[J]. 水下无
+人系统学报, 2023, 31(4): 552-558. 
+[14] 刘敬一, 过武宏, 崔宝龙 等. 海洋环境适应性保障技术研究进展 [J]. 海洋通报 , 
+2023, 42(4): 456-468. 
+[15] Pequito S, Kar S, Aguiar A P. Optimal cost actuator/sensor placement for large scale 
+linear time -invariant systems: A structured systems approach[C] .//2013 European 
+Control Conference (ECC), Zurich, Switzerland, 2013: 815-820. 
+[16] Tang B, Guo F, Cao B, et al. Cost -Aware Deployment of Microservices for IoT 
+Applications in Mobile Edge Computing Environment[J]. IEEE Transactions on 
+Network and Service Management, 2023, 20(3): 3119-3134. 
+[17] Santini S & Colesanti U. Adaptive random sensor selection for field reconstruction in 
+wireless sensor networks[ C].//Proceedings of the Sixth International Workshop on 
+Data Management for Sensor Networks. Lyon, France : Association for Computing 
+Machinery. 2009: 1-2. 
+[18] Zhou J, Deng H, Zhao Z, et al. Sensor Placement Optimization of Visual Sensor 
+Networks for Target Tracking Based on Multi -Objective Constraints[J] . Applied 
+Sciences, 2024, 14(5):1722.  
+[19] 许张柳, 吴伦宇, 焦阳等. 高频地波雷达在海洋学中的应用综述 [J]. 海洋预报 , 
+2023, 40(4): 122-129. 
+[20] 何友, 姚力波. 天基海洋目标信息感知与融合技术研究[J]. 武汉大学学报(信息科
+学版), 2017, 42(11): 1530-1536. 
+[21] 潘琦, 刘丽东, 马静武等. 卫星遥感监测人类活动所致海洋环境污染研究进展 [J]. 
+海洋通报, 2022, 41(6): 722-736. 
+[22] Meng F, Zhao G, Zhang G, et al. Visual Detection and Association Tracking of Dim 
+Small Ship Targets from Optical Image Sequences of Geostationary Satellite Using 
+Multispectral Radiation Characteristics[J]. Remote Sensing, 2023, 15(8): 2069.  
+[23] Reggiannini M, Salerno E, Bacciu C, et al. Remote Sensing for Maritime Traffic 
+Understanding[J]. Remote Sensing, 2024, 16(3): 557.  
+[24] Iqbal K, Zhang M, Piao S, et al. Gradual but Persistent Quest for the Ocean 
+Observation by Employing Multifarious Sensing Gadgets: A Preview [C]// 

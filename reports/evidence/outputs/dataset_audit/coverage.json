@@ -1,0 +1,3854 @@
+{
+  "depths_checked_m": [
+    1.0,
+    10.0,
+    50.0,
+    100.0
+  ],
+  "train_period_for_audit": "2000-01 through 2019-12",
+  "products": {
+    "salinity": {
+      "variable": "salinity",
+      "count": 316,
+      "first": 200001,
+      "last": 202604,
+      "missing_months": [],
+      "duplicate_months": 0,
+      "train_months_before_2020": 240,
+      "regions": {
+        "global": {
+          "1": {
+            "grid_cells": 64800,
+            "min_valid_per_month": 42554,
+            "max_valid_per_month": 42567,
+            "common_train_nodes": 42540,
+            "common_all_nodes": 42540,
+            "train_matrix_shape": [
+              240,
+              42540
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              1.237579584121704,
+              44.84310531616211
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 64800,
+            "min_valid_per_month": 42242,
+            "max_valid_per_month": 42253,
+            "common_train_nodes": 42227,
+            "common_all_nodes": 42227,
+            "train_matrix_shape": [
+              240,
+              42227
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              11.318984031677246,
+              43.76849365234375
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 64800,
+            "min_valid_per_month": 40811,
+            "max_valid_per_month": 40815,
+            "common_train_nodes": 40811,
+            "common_all_nodes": 40811,
+            "train_matrix_shape": [
+              240,
+              40811
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              24.577838897705078,
+              41.8990364074707
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 64800,
+            "min_valid_per_month": 39938,
+            "max_valid_per_month": 39945,
+            "common_train_nodes": 39925,
+            "common_all_nodes": 39925,
+            "train_matrix_shape": [
+              240,
+              39925
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              30.45725440979004,
+              40.68375015258789
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "north_ge60": {
+          "1": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 6778,
+            "max_valid_per_month": 6783,
+            "common_train_nodes": 6774,
+            "common_all_nodes": 6774,
+            "train_matrix_shape": [
+              240,
+              6774
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              3.155148983001709,
+              44.84310531616211
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 6651,
+            "max_valid_per_month": 6658,
+            "common_train_nodes": 6645,
+            "common_all_nodes": 6645,
+            "train_matrix_shape": [
+              240,
+              6645
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              11.318984031677246,
+              43.76849365234375
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 6009,
+            "max_valid_per_month": 6009,
+            "common_train_nodes": 6009,
+            "common_all_nodes": 6009,
+            "train_matrix_shape": [
+              240,
+              6009
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              24.577838897705078,
+              38.47467803955078
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 5650,
+            "max_valid_per_month": 5656,
+            "common_train_nodes": 5644,
+            "common_all_nodes": 5644,
+            "train_matrix_shape": [
+              240,
+              5644
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              30.45725440979004,
+              35.85816192626953
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "north_ge66_5": {
+          "1": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 6246,
+            "max_valid_per_month": 6251,
+            "common_train_nodes": 6242,
+            "common_all_nodes": 6242,
+            "train_matrix_shape": [
+              240,
+              6242
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              3.155148983001709,
+              44.84310531616211
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 6135,
+            "max_valid_per_month": 6142,
+            "common_train_nodes": 6129,
+            "common_all_nodes": 6129,
+            "train_matrix_shape": [
+              240,
+              6129
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              11.318984031677246,
+              43.76849365234375
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 5564,
+            "max_valid_per_month": 5564,
+            "common_train_nodes": 5564,
+            "common_all_nodes": 5564,
+            "train_matrix_shape": [
+              240,
+              5564
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              24.577838897705078,
+              38.47467803955078
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 5260,
+            "max_valid_per_month": 5265,
+            "common_train_nodes": 5254,
+            "common_all_nodes": 5254,
+            "train_matrix_shape": [
+              240,
+              5254
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              30.45725440979004,
+              35.85816192626953
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "north_ge70": {
+          "1": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 5886,
+            "max_valid_per_month": 5890,
+            "common_train_nodes": 5882,
+            "common_all_nodes": 5882,
+            "train_matrix_shape": [
+              240,
+              5882
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              3.155148983001709,
+              44.84310531616211
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 5792,
+            "max_valid_per_month": 5799,
+            "common_train_nodes": 5786,
+            "common_all_nodes": 5786,
+            "train_matrix_shape": [
+              240,
+              5786
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              11.318984031677246,
+              43.76849365234375
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 5298,
+            "max_valid_per_month": 5298,
+            "common_train_nodes": 5298,
+            "common_all_nodes": 5298,
+            "train_matrix_shape": [
+              240,
+              5298
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              24.577838897705078,
+              38.47467803955078
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 5035,
+            "max_valid_per_month": 5040,
+            "common_train_nodes": 5029,
+            "common_all_nodes": 5029,
+            "train_matrix_shape": [
+              240,
+              5029
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              30.45725440979004,
+              35.85816192626953
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "north_ge80": {
+          "1": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3399,
+            "max_valid_per_month": 3399,
+            "common_train_nodes": 3399,
+            "common_all_nodes": 3399,
+            "train_matrix_shape": [
+              240,
+              3399
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              23.6176815032959,
+              38.44565963745117
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3394,
+            "max_valid_per_month": 3394,
+            "common_train_nodes": 3394,
+            "common_all_nodes": 3394,
+            "train_matrix_shape": [
+              240,
+              3394
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              20.658227920532227,
+              38.5949821472168
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3360,
+            "max_valid_per_month": 3360,
+            "common_train_nodes": 3360,
+            "common_all_nodes": 3360,
+            "train_matrix_shape": [
+              240,
+              3360
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              27.13417625427246,
+              36.483951568603516
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3325,
+            "max_valid_per_month": 3329,
+            "common_train_nodes": 3325,
+            "common_all_nodes": 3325,
+            "train_matrix_shape": [
+              240,
+              3325
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              31.756450653076172,
+              35.85816192626953
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "south_le60": {
+          "1": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 4292,
+            "max_valid_per_month": 4292,
+            "common_train_nodes": 4292,
+            "common_all_nodes": 4292,
+            "train_matrix_shape": [
+              240,
+              4292
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              28.792659759521484,
+              36.49681091308594
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 4268,
+            "max_valid_per_month": 4268,
+            "common_train_nodes": 4268,
+            "common_all_nodes": 4268,
+            "train_matrix_shape": [
+              240,
+              4268
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              29.994579315185547,
+              35.70092010498047
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 4176,
+            "max_valid_per_month": 4176,
+            "common_train_nodes": 4176,
+            "common_all_nodes": 4176,
+            "train_matrix_shape": [
+              240,
+              4176
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              29.144655227661133,
+              37.12370300292969
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 4159,
+            "max_valid_per_month": 4160,
+            "common_train_nodes": 4159,
+            "common_all_nodes": 4159,
+            "train_matrix_shape": [
+              240,
+              4159
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              31.44235610961914,
+              35.552982330322266
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "south_le66_5": {
+          "1": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 2139,
+            "max_valid_per_month": 2139,
+            "common_train_nodes": 2139,
+            "common_all_nodes": 2139,
+            "train_matrix_shape": [
+              240,
+              2139
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              28.792659759521484,
+              36.49681091308594
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 2117,
+            "max_valid_per_month": 2117,
+            "common_train_nodes": 2117,
+            "common_all_nodes": 2117,
+            "train_matrix_shape": [
+              240,
+              2117
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              29.994579315185547,
+              35.70092010498047
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 2030,
+            "max_valid_per_month": 2030,
+            "common_train_nodes": 2030,
+            "common_all_nodes": 2030,
+            "train_matrix_shape": [
+              240,
+              2030
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              29.144655227661133,
+              37.12370300292969
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 2015,
+            "max_valid_per_month": 2016,
+            "common_train_nodes": 2015,
+            "common_all_nodes": 2015,
+            "train_matrix_shape": [
+              240,
+              2015
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              31.44235610961914,
+              35.552982330322266
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "south_le70": {
+          "1": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 1043,
+            "max_valid_per_month": 1043,
+            "common_train_nodes": 1043,
+            "common_all_nodes": 1043,
+            "train_matrix_shape": [
+              240,
+              1043
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              30.08601951599121,
+              36.49681091308594
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 1028,
+            "max_valid_per_month": 1028,
+            "common_train_nodes": 1028,
+            "common_all_nodes": 1028,
+            "train_matrix_shape": [
+              240,
+              1028
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              32.821842193603516,
+              35.6532096862793
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 967,
+            "max_valid_per_month": 967,
+            "common_train_nodes": 967,
+            "common_all_nodes": 967,
+            "train_matrix_shape": [
+              240,
+              967
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              29.144655227661133,
+              37.12370300292969
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 955,
+            "max_valid_per_month": 955,
+            "common_train_nodes": 955,
+            "common_all_nodes": 955,
+            "train_matrix_shape": [
+              240,
+              955
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              33.66739273071289,
+              35.552982330322266
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "south_60_70": {
+          "1": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3249,
+            "max_valid_per_month": 3249,
+            "common_train_nodes": 3249,
+            "common_all_nodes": 3249,
+            "train_matrix_shape": [
+              240,
+              3249
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              28.792659759521484,
+              36.340457916259766
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3240,
+            "max_valid_per_month": 3240,
+            "common_train_nodes": 3240,
+            "common_all_nodes": 3240,
+            "train_matrix_shape": [
+              240,
+              3240
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              29.994579315185547,
+              35.70092010498047
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3209,
+            "max_valid_per_month": 3209,
+            "common_train_nodes": 3209,
+            "common_all_nodes": 3209,
+            "train_matrix_shape": [
+              240,
+              3209
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              32.114227294921875,
+              36.96266174316406
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3204,
+            "max_valid_per_month": 3205,
+            "common_train_nodes": 3204,
+            "common_all_nodes": 3204,
+            "train_matrix_shape": [
+              240,
+              3204
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              31.44235610961914,
+              35.200740814208984
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        }
+      },
+      "valid_by_latitude": {
+        "1": [
+          {
+            "latitude": -89.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -88.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -87.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -86.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -85.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -84.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -83.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -82.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -81.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -80.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -79.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -78.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -77.5,
+            "common_all_nodes": 66,
+            "common_train_nodes": 66
+          },
+          {
+            "latitude": -76.5,
+            "common_all_nodes": 85,
+            "common_train_nodes": 85
+          },
+          {
+            "latitude": -75.5,
+            "common_all_nodes": 99,
+            "common_train_nodes": 99
+          },
+          {
+            "latitude": -74.5,
+            "common_all_nodes": 110,
+            "common_train_nodes": 110
+          },
+          {
+            "latitude": -73.5,
+            "common_all_nodes": 146,
+            "common_train_nodes": 146
+          },
+          {
+            "latitude": -72.5,
+            "common_all_nodes": 166,
+            "common_train_nodes": 166
+          },
+          {
+            "latitude": -71.5,
+            "common_all_nodes": 169,
+            "common_train_nodes": 169
+          },
+          {
+            "latitude": -70.5,
+            "common_all_nodes": 202,
+            "common_train_nodes": 202
+          },
+          {
+            "latitude": -69.5,
+            "common_all_nodes": 234,
+            "common_train_nodes": 234
+          },
+          {
+            "latitude": -68.5,
+            "common_all_nodes": 255,
+            "common_train_nodes": 255
+          },
+          {
+            "latitude": -67.5,
+            "common_all_nodes": 280,
+            "common_train_nodes": 280
+          },
+          {
+            "latitude": -66.5,
+            "common_all_nodes": 327,
+            "common_train_nodes": 327
+          },
+          {
+            "latitude": -65.5,
+            "common_all_nodes": 356,
+            "common_train_nodes": 356
+          },
+          {
+            "latitude": -64.5,
+            "common_all_nodes": 358,
+            "common_train_nodes": 358
+          },
+          {
+            "latitude": -63.5,
+            "common_all_nodes": 359,
+            "common_train_nodes": 359
+          },
+          {
+            "latitude": -62.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": -61.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": -60.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 60.5,
+            "common_all_nodes": 109,
+            "common_train_nodes": 109
+          },
+          {
+            "latitude": 61.5,
+            "common_all_nodes": 97,
+            "common_train_nodes": 97
+          },
+          {
+            "latitude": 62.5,
+            "common_all_nodes": 92,
+            "common_train_nodes": 92
+          },
+          {
+            "latitude": 63.5,
+            "common_all_nodes": 86,
+            "common_train_nodes": 86
+          },
+          {
+            "latitude": 64.5,
+            "common_all_nodes": 83,
+            "common_train_nodes": 83
+          },
+          {
+            "latitude": 65.5,
+            "common_all_nodes": 65,
+            "common_train_nodes": 65
+          },
+          {
+            "latitude": 66.5,
+            "common_all_nodes": 71,
+            "common_train_nodes": 71
+          },
+          {
+            "latitude": 67.5,
+            "common_all_nodes": 76,
+            "common_train_nodes": 76
+          },
+          {
+            "latitude": 68.5,
+            "common_all_nodes": 89,
+            "common_train_nodes": 89
+          },
+          {
+            "latitude": 69.5,
+            "common_all_nodes": 124,
+            "common_train_nodes": 124
+          },
+          {
+            "latitude": 70.5,
+            "common_all_nodes": 181,
+            "common_train_nodes": 181
+          },
+          {
+            "latitude": 71.5,
+            "common_all_nodes": 199,
+            "common_train_nodes": 199
+          },
+          {
+            "latitude": 72.5,
+            "common_all_nodes": 215,
+            "common_train_nodes": 215
+          },
+          {
+            "latitude": 73.5,
+            "common_all_nodes": 233,
+            "common_train_nodes": 233
+          },
+          {
+            "latitude": 74.5,
+            "common_all_nodes": 282,
+            "common_train_nodes": 282
+          },
+          {
+            "latitude": 75.5,
+            "common_all_nodes": 262,
+            "common_train_nodes": 262
+          },
+          {
+            "latitude": 76.5,
+            "common_all_nodes": 275,
+            "common_train_nodes": 275
+          },
+          {
+            "latitude": 77.5,
+            "common_all_nodes": 291,
+            "common_train_nodes": 291
+          },
+          {
+            "latitude": 78.5,
+            "common_all_nodes": 270,
+            "common_train_nodes": 270
+          },
+          {
+            "latitude": 79.5,
+            "common_all_nodes": 275,
+            "common_train_nodes": 275
+          },
+          {
+            "latitude": 80.5,
+            "common_all_nodes": 283,
+            "common_train_nodes": 283
+          },
+          {
+            "latitude": 81.5,
+            "common_all_nodes": 289,
+            "common_train_nodes": 289
+          },
+          {
+            "latitude": 82.5,
+            "common_all_nodes": 315,
+            "common_train_nodes": 315
+          },
+          {
+            "latitude": 83.5,
+            "common_all_nodes": 352,
+            "common_train_nodes": 352
+          },
+          {
+            "latitude": 84.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 85.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 86.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 87.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 88.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 89.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          }
+        ],
+        "10": [
+          {
+            "latitude": -89.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -88.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -87.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -86.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -85.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -84.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -83.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -82.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -81.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -80.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -79.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -78.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -77.5,
+            "common_all_nodes": 64,
+            "common_train_nodes": 64
+          },
+          {
+            "latitude": -76.5,
+            "common_all_nodes": 82,
+            "common_train_nodes": 82
+          },
+          {
+            "latitude": -75.5,
+            "common_all_nodes": 98,
+            "common_train_nodes": 98
+          },
+          {
+            "latitude": -74.5,
+            "common_all_nodes": 108,
+            "common_train_nodes": 108
+          },
+          {
+            "latitude": -73.5,
+            "common_all_nodes": 144,
+            "common_train_nodes": 144
+          },
+          {
+            "latitude": -72.5,
+            "common_all_nodes": 165,
+            "common_train_nodes": 165
+          },
+          {
+            "latitude": -71.5,
+            "common_all_nodes": 167,
+            "common_train_nodes": 167
+          },
+          {
+            "latitude": -70.5,
+            "common_all_nodes": 200,
+            "common_train_nodes": 200
+          },
+          {
+            "latitude": -69.5,
+            "common_all_nodes": 232,
+            "common_train_nodes": 232
+          },
+          {
+            "latitude": -68.5,
+            "common_all_nodes": 254,
+            "common_train_nodes": 254
+          },
+          {
+            "latitude": -67.5,
+            "common_all_nodes": 277,
+            "common_train_nodes": 277
+          },
+          {
+            "latitude": -66.5,
+            "common_all_nodes": 326,
+            "common_train_nodes": 326
+          },
+          {
+            "latitude": -65.5,
+            "common_all_nodes": 356,
+            "common_train_nodes": 356
+          },
+          {
+            "latitude": -64.5,
+            "common_all_nodes": 357,
+            "common_train_nodes": 357
+          },
+          {
+            "latitude": -63.5,
+            "common_all_nodes": 359,
+            "common_train_nodes": 359
+          },
+          {
+            "latitude": -62.5,
+            "common_all_nodes": 359,
+            "common_train_nodes": 359
+          },
+          {
+            "latitude": -61.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": -60.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 60.5,
+            "common_all_nodes": 108,
+            "common_train_nodes": 108
+          },
+          {
+            "latitude": 61.5,
+            "common_all_nodes": 97,
+            "common_train_nodes": 97
+          },
+          {
+            "latitude": 62.5,
+            "common_all_nodes": 90,
+            "common_train_nodes": 90
+          },
+          {
+            "latitude": 63.5,
+            "common_all_nodes": 82,
+            "common_train_nodes": 82
+          },
+          {
+            "latitude": 64.5,
+            "common_all_nodes": 80,
+            "common_train_nodes": 80
+          },
+          {
+            "latitude": 65.5,
+            "common_all_nodes": 59,
+            "common_train_nodes": 59
+          },
+          {
+            "latitude": 66.5,
+            "common_all_nodes": 65,
+            "common_train_nodes": 65
+          },
+          {
+            "latitude": 67.5,
+            "common_all_nodes": 75,
+            "common_train_nodes": 75
+          },
+          {
+            "latitude": 68.5,
+            "common_all_nodes": 84,
+            "common_train_nodes": 84
+          },
+          {
+            "latitude": 69.5,
+            "common_all_nodes": 119,
+            "common_train_nodes": 119
+          },
+          {
+            "latitude": 70.5,
+            "common_all_nodes": 173,
+            "common_train_nodes": 173
+          },
+          {
+            "latitude": 71.5,
+            "common_all_nodes": 191,
+            "common_train_nodes": 191
+          },
+          {
+            "latitude": 72.5,
+            "common_all_nodes": 206,
+            "common_train_nodes": 206
+          },
+          {
+            "latitude": 73.5,
+            "common_all_nodes": 221,
+            "common_train_nodes": 221
+          },
+          {
+            "latitude": 74.5,
+            "common_all_nodes": 266,
+            "common_train_nodes": 266
+          },
+          {
+            "latitude": 75.5,
+            "common_all_nodes": 249,
+            "common_train_nodes": 249
+          },
+          {
+            "latitude": 76.5,
+            "common_all_nodes": 267,
+            "common_train_nodes": 267
+          },
+          {
+            "latitude": 77.5,
+            "common_all_nodes": 283,
+            "common_train_nodes": 283
+          },
+          {
+            "latitude": 78.5,
+            "common_all_nodes": 265,
+            "common_train_nodes": 265
+          },
+          {
+            "latitude": 79.5,
+            "common_all_nodes": 271,
+            "common_train_nodes": 271
+          },
+          {
+            "latitude": 80.5,
+            "common_all_nodes": 279,
+            "common_train_nodes": 279
+          },
+          {
+            "latitude": 81.5,
+            "common_all_nodes": 289,
+            "common_train_nodes": 289
+          },
+          {
+            "latitude": 82.5,
+            "common_all_nodes": 314,
+            "common_train_nodes": 314
+          },
+          {
+            "latitude": 83.5,
+            "common_all_nodes": 352,
+            "common_train_nodes": 352
+          },
+          {
+            "latitude": 84.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 85.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 86.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 87.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 88.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 89.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          }
+        ],
+        "50": [
+          {
+            "latitude": -89.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -88.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -87.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -86.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -85.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -84.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -83.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -82.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -81.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -80.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -79.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -78.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -77.5,
+            "common_all_nodes": 63,
+            "common_train_nodes": 63
+          },
+          {
+            "latitude": -76.5,
+            "common_all_nodes": 81,
+            "common_train_nodes": 81
+          },
+          {
+            "latitude": -75.5,
+            "common_all_nodes": 94,
+            "common_train_nodes": 94
+          },
+          {
+            "latitude": -74.5,
+            "common_all_nodes": 105,
+            "common_train_nodes": 105
+          },
+          {
+            "latitude": -73.5,
+            "common_all_nodes": 127,
+            "common_train_nodes": 127
+          },
+          {
+            "latitude": -72.5,
+            "common_all_nodes": 151,
+            "common_train_nodes": 151
+          },
+          {
+            "latitude": -71.5,
+            "common_all_nodes": 162,
+            "common_train_nodes": 162
+          },
+          {
+            "latitude": -70.5,
+            "common_all_nodes": 184,
+            "common_train_nodes": 184
+          },
+          {
+            "latitude": -69.5,
+            "common_all_nodes": 223,
+            "common_train_nodes": 223
+          },
+          {
+            "latitude": -68.5,
+            "common_all_nodes": 252,
+            "common_train_nodes": 252
+          },
+          {
+            "latitude": -67.5,
+            "common_all_nodes": 269,
+            "common_train_nodes": 269
+          },
+          {
+            "latitude": -66.5,
+            "common_all_nodes": 319,
+            "common_train_nodes": 319
+          },
+          {
+            "latitude": -65.5,
+            "common_all_nodes": 354,
+            "common_train_nodes": 354
+          },
+          {
+            "latitude": -64.5,
+            "common_all_nodes": 355,
+            "common_train_nodes": 355
+          },
+          {
+            "latitude": -63.5,
+            "common_all_nodes": 359,
+            "common_train_nodes": 359
+          },
+          {
+            "latitude": -62.5,
+            "common_all_nodes": 358,
+            "common_train_nodes": 358
+          },
+          {
+            "latitude": -61.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": -60.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 60.5,
+            "common_all_nodes": 95,
+            "common_train_nodes": 95
+          },
+          {
+            "latitude": 61.5,
+            "common_all_nodes": 85,
+            "common_train_nodes": 85
+          },
+          {
+            "latitude": 62.5,
+            "common_all_nodes": 80,
+            "common_train_nodes": 80
+          },
+          {
+            "latitude": 63.5,
+            "common_all_nodes": 71,
+            "common_train_nodes": 71
+          },
+          {
+            "latitude": 64.5,
+            "common_all_nodes": 61,
+            "common_train_nodes": 61
+          },
+          {
+            "latitude": 65.5,
+            "common_all_nodes": 53,
+            "common_train_nodes": 53
+          },
+          {
+            "latitude": 66.5,
+            "common_all_nodes": 53,
+            "common_train_nodes": 53
+          },
+          {
+            "latitude": 67.5,
+            "common_all_nodes": 55,
+            "common_train_nodes": 55
+          },
+          {
+            "latitude": 68.5,
+            "common_all_nodes": 70,
+            "common_train_nodes": 70
+          },
+          {
+            "latitude": 69.5,
+            "common_all_nodes": 88,
+            "common_train_nodes": 88
+          },
+          {
+            "latitude": 70.5,
+            "common_all_nodes": 117,
+            "common_train_nodes": 117
+          },
+          {
+            "latitude": 71.5,
+            "common_all_nodes": 138,
+            "common_train_nodes": 138
+          },
+          {
+            "latitude": 72.5,
+            "common_all_nodes": 152,
+            "common_train_nodes": 152
+          },
+          {
+            "latitude": 73.5,
+            "common_all_nodes": 165,
+            "common_train_nodes": 165
+          },
+          {
+            "latitude": 74.5,
+            "common_all_nodes": 203,
+            "common_train_nodes": 203
+          },
+          {
+            "latitude": 75.5,
+            "common_all_nodes": 197,
+            "common_train_nodes": 197
+          },
+          {
+            "latitude": 76.5,
+            "common_all_nodes": 202,
+            "common_train_nodes": 202
+          },
+          {
+            "latitude": 77.5,
+            "common_all_nodes": 242,
+            "common_train_nodes": 242
+          },
+          {
+            "latitude": 78.5,
+            "common_all_nodes": 259,
+            "common_train_nodes": 259
+          },
+          {
+            "latitude": 79.5,
+            "common_all_nodes": 263,
+            "common_train_nodes": 263
+          },
+          {
+            "latitude": 80.5,
+            "common_all_nodes": 260,
+            "common_train_nodes": 260
+          },
+          {
+            "latitude": 81.5,
+            "common_all_nodes": 280,
+            "common_train_nodes": 280
+          },
+          {
+            "latitude": 82.5,
+            "common_all_nodes": 310,
+            "common_train_nodes": 310
+          },
+          {
+            "latitude": 83.5,
+            "common_all_nodes": 350,
+            "common_train_nodes": 350
+          },
+          {
+            "latitude": 84.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 85.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 86.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 87.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 88.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 89.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          }
+        ],
+        "100": [
+          {
+            "latitude": -89.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -88.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -87.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -86.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -85.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -84.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -83.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -82.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -81.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -80.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -79.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -78.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -77.5,
+            "common_all_nodes": 62,
+            "common_train_nodes": 62
+          },
+          {
+            "latitude": -76.5,
+            "common_all_nodes": 80,
+            "common_train_nodes": 80
+          },
+          {
+            "latitude": -75.5,
+            "common_all_nodes": 92,
+            "common_train_nodes": 92
+          },
+          {
+            "latitude": -74.5,
+            "common_all_nodes": 103,
+            "common_train_nodes": 103
+          },
+          {
+            "latitude": -73.5,
+            "common_all_nodes": 125,
+            "common_train_nodes": 125
+          },
+          {
+            "latitude": -72.5,
+            "common_all_nodes": 151,
+            "common_train_nodes": 151
+          },
+          {
+            "latitude": -71.5,
+            "common_all_nodes": 161,
+            "common_train_nodes": 161
+          },
+          {
+            "latitude": -70.5,
+            "common_all_nodes": 181,
+            "common_train_nodes": 181
+          },
+          {
+            "latitude": -69.5,
+            "common_all_nodes": 223,
+            "common_train_nodes": 223
+          },
+          {
+            "latitude": -68.5,
+            "common_all_nodes": 252,
+            "common_train_nodes": 252
+          },
+          {
+            "latitude": -67.5,
+            "common_all_nodes": 269,
+            "common_train_nodes": 269
+          },
+          {
+            "latitude": -66.5,
+            "common_all_nodes": 316,
+            "common_train_nodes": 316
+          },
+          {
+            "latitude": -65.5,
+            "common_all_nodes": 353,
+            "common_train_nodes": 353
+          },
+          {
+            "latitude": -64.5,
+            "common_all_nodes": 355,
+            "common_train_nodes": 355
+          },
+          {
+            "latitude": -63.5,
+            "common_all_nodes": 358,
+            "common_train_nodes": 358
+          },
+          {
+            "latitude": -62.5,
+            "common_all_nodes": 358,
+            "common_train_nodes": 358
+          },
+          {
+            "latitude": -61.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": -60.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 60.5,
+            "common_all_nodes": 84,
+            "common_train_nodes": 84
+          },
+          {
+            "latitude": 61.5,
+            "common_all_nodes": 76,
+            "common_train_nodes": 76
+          },
+          {
+            "latitude": 62.5,
+            "common_all_nodes": 67,
+            "common_train_nodes": 67
+          },
+          {
+            "latitude": 63.5,
+            "common_all_nodes": 62,
+            "common_train_nodes": 62
+          },
+          {
+            "latitude": 64.5,
+            "common_all_nodes": 54,
+            "common_train_nodes": 54
+          },
+          {
+            "latitude": 65.5,
+            "common_all_nodes": 47,
+            "common_train_nodes": 47
+          },
+          {
+            "latitude": 66.5,
+            "common_all_nodes": 52,
+            "common_train_nodes": 52
+          },
+          {
+            "latitude": 67.5,
+            "common_all_nodes": 54,
+            "common_train_nodes": 54
+          },
+          {
+            "latitude": 68.5,
+            "common_all_nodes": 53,
+            "common_train_nodes": 53
+          },
+          {
+            "latitude": 69.5,
+            "common_all_nodes": 66,
+            "common_train_nodes": 66
+          },
+          {
+            "latitude": 70.5,
+            "common_all_nodes": 96,
+            "common_train_nodes": 96
+          },
+          {
+            "latitude": 71.5,
+            "common_all_nodes": 121,
+            "common_train_nodes": 121
+          },
+          {
+            "latitude": 72.5,
+            "common_all_nodes": 131,
+            "common_train_nodes": 131
+          },
+          {
+            "latitude": 73.5,
+            "common_all_nodes": 145,
+            "common_train_nodes": 145
+          },
+          {
+            "latitude": 74.5,
+            "common_all_nodes": 188,
+            "common_train_nodes": 188
+          },
+          {
+            "latitude": 75.5,
+            "common_all_nodes": 175,
+            "common_train_nodes": 175
+          },
+          {
+            "latitude": 76.5,
+            "common_all_nodes": 170,
+            "common_train_nodes": 170
+          },
+          {
+            "latitude": 77.5,
+            "common_all_nodes": 199,
+            "common_train_nodes": 199
+          },
+          {
+            "latitude": 78.5,
+            "common_all_nodes": 221,
+            "common_train_nodes": 221
+          },
+          {
+            "latitude": 79.5,
+            "common_all_nodes": 258,
+            "common_train_nodes": 258
+          },
+          {
+            "latitude": 80.5,
+            "common_all_nodes": 241,
+            "common_train_nodes": 241
+          },
+          {
+            "latitude": 81.5,
+            "common_all_nodes": 270,
+            "common_train_nodes": 270
+          },
+          {
+            "latitude": 82.5,
+            "common_all_nodes": 308,
+            "common_train_nodes": 308
+          },
+          {
+            "latitude": 83.5,
+            "common_all_nodes": 346,
+            "common_train_nodes": 346
+          },
+          {
+            "latitude": 84.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 85.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 86.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 87.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 88.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 89.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          }
+        ]
+      }
+    },
+    "temperature_anomaly": {
+      "variable": "temp",
+      "count": 316,
+      "first": 200001,
+      "last": 202604,
+      "missing_months": [],
+      "duplicate_months": 0,
+      "train_months_before_2020": 240,
+      "regions": {
+        "global": {
+          "1": {
+            "grid_cells": 64800,
+            "min_valid_per_month": 42932,
+            "max_valid_per_month": 42932,
+            "common_train_nodes": 42932,
+            "common_all_nodes": 42932,
+            "train_matrix_shape": [
+              240,
+              42932
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -7.675270080566406,
+              9.627412796020508
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 64800,
+            "min_valid_per_month": 42503,
+            "max_valid_per_month": 42503,
+            "common_train_nodes": 42503,
+            "common_all_nodes": 42503,
+            "train_matrix_shape": [
+              240,
+              42503
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -6.168519973754883,
+              9.0145902633667
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 64800,
+            "min_valid_per_month": 40931,
+            "max_valid_per_month": 40931,
+            "common_train_nodes": 40931,
+            "common_all_nodes": 40931,
+            "train_matrix_shape": [
+              240,
+              40931
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -8.31700611114502,
+              8.177995681762695
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 64800,
+            "min_valid_per_month": 39991,
+            "max_valid_per_month": 39991,
+            "common_train_nodes": 39991,
+            "common_all_nodes": 39991,
+            "train_matrix_shape": [
+              240,
+              39991
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -7.932106018066406,
+              8.817353248596191
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "north_ge60": {
+          "1": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 7021,
+            "max_valid_per_month": 7021,
+            "common_train_nodes": 7021,
+            "common_all_nodes": 7021,
+            "train_matrix_shape": [
+              240,
+              7021
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -5.331170082092285,
+              9.627412796020508
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 6855,
+            "max_valid_per_month": 6855,
+            "common_train_nodes": 6855,
+            "common_all_nodes": 6855,
+            "train_matrix_shape": [
+              240,
+              6855
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -4.707159996032715,
+              9.0145902633667
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 6141,
+            "max_valid_per_month": 6141,
+            "common_train_nodes": 6141,
+            "common_all_nodes": 6141,
+            "train_matrix_shape": [
+              240,
+              6141
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -2.9826900959014893,
+              4.427236557006836
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 5751,
+            "max_valid_per_month": 5751,
+            "common_train_nodes": 5751,
+            "common_all_nodes": 5751,
+            "train_matrix_shape": [
+              240,
+              5751
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -2.2126998901367188,
+              3.1282799243927
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "north_ge66_5": {
+          "1": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 6381,
+            "max_valid_per_month": 6381,
+            "common_train_nodes": 6381,
+            "common_all_nodes": 6381,
+            "train_matrix_shape": [
+              240,
+              6381
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -5.331170082092285,
+              9.627412796020508
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 6248,
+            "max_valid_per_month": 6248,
+            "common_train_nodes": 6248,
+            "common_all_nodes": 6248,
+            "train_matrix_shape": [
+              240,
+              6248
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -4.707159996032715,
+              9.0145902633667
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 5630,
+            "max_valid_per_month": 5630,
+            "common_train_nodes": 5630,
+            "common_all_nodes": 5630,
+            "train_matrix_shape": [
+              240,
+              5630
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -2.9826900959014893,
+              4.427236557006836
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 5312,
+            "max_valid_per_month": 5312,
+            "common_train_nodes": 5312,
+            "common_all_nodes": 5312,
+            "train_matrix_shape": [
+              240,
+              5312
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -2.2126998901367188,
+              3.1282799243927
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "north_ge70": {
+          "1": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 5954,
+            "max_valid_per_month": 5954,
+            "common_train_nodes": 5954,
+            "common_all_nodes": 5954,
+            "train_matrix_shape": [
+              240,
+              5954
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -5.331170082092285,
+              8.951583862304688
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 5858,
+            "max_valid_per_month": 5858,
+            "common_train_nodes": 5858,
+            "common_all_nodes": 5858,
+            "train_matrix_shape": [
+              240,
+              5858
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -4.707159996032715,
+              9.0145902633667
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 5348,
+            "max_valid_per_month": 5348,
+            "common_train_nodes": 5348,
+            "common_all_nodes": 5348,
+            "train_matrix_shape": [
+              240,
+              5348
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -2.9826900959014893,
+              4.427236557006836
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 5081,
+            "max_valid_per_month": 5081,
+            "common_train_nodes": 5081,
+            "common_all_nodes": 5081,
+            "train_matrix_shape": [
+              240,
+              5081
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -2.2126998901367188,
+              3.1282799243927
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "north_ge80": {
+          "1": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3399,
+            "max_valid_per_month": 3399,
+            "common_train_nodes": 3399,
+            "common_all_nodes": 3399,
+            "train_matrix_shape": [
+              240,
+              3399
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -2.6647133827209473,
+              4.193216800689697
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3394,
+            "max_valid_per_month": 3394,
+            "common_train_nodes": 3394,
+            "common_all_nodes": 3394,
+            "train_matrix_shape": [
+              240,
+              3394
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -4.031360149383545,
+              4.292993068695068
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3360,
+            "max_valid_per_month": 3360,
+            "common_train_nodes": 3360,
+            "common_all_nodes": 3360,
+            "train_matrix_shape": [
+              240,
+              3360
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -2.365476608276367,
+              2.8925933837890625
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3329,
+            "max_valid_per_month": 3329,
+            "common_train_nodes": 3329,
+            "common_all_nodes": 3329,
+            "train_matrix_shape": [
+              240,
+              3329
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -1.808026671409607,
+              2.7378833293914795
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "south_le60": {
+          "1": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 4291,
+            "max_valid_per_month": 4291,
+            "common_train_nodes": 4291,
+            "common_all_nodes": 4291,
+            "train_matrix_shape": [
+              240,
+              4291
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -3.17871356010437,
+              4.7524333000183105
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 4267,
+            "max_valid_per_month": 4267,
+            "common_train_nodes": 4267,
+            "common_all_nodes": 4267,
+            "train_matrix_shape": [
+              240,
+              4267
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -2.437333345413208,
+              3.5643835067749023
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 4176,
+            "max_valid_per_month": 4176,
+            "common_train_nodes": 4176,
+            "common_all_nodes": 4176,
+            "train_matrix_shape": [
+              240,
+              4176
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -2.2107434272766113,
+              2.6083600521087646
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 10800,
+            "min_valid_per_month": 4160,
+            "max_valid_per_month": 4160,
+            "common_train_nodes": 4160,
+            "common_all_nodes": 4160,
+            "train_matrix_shape": [
+              240,
+              4160
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -1.648300051689148,
+              2.3868367671966553
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "south_le66_5": {
+          "1": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 2138,
+            "max_valid_per_month": 2138,
+            "common_train_nodes": 2138,
+            "common_all_nodes": 2138,
+            "train_matrix_shape": [
+              240,
+              2138
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -3.17871356010437,
+              3.902559995651245
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 2116,
+            "max_valid_per_month": 2116,
+            "common_train_nodes": 2116,
+            "common_all_nodes": 2116,
+            "train_matrix_shape": [
+              240,
+              2116
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -2.1957967281341553,
+              3.0336365699768066
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 2030,
+            "max_valid_per_month": 2030,
+            "common_train_nodes": 2030,
+            "common_all_nodes": 2030,
+            "train_matrix_shape": [
+              240,
+              2030
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -1.5762200355529785,
+              2.6083600521087646
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 8640,
+            "min_valid_per_month": 2016,
+            "max_valid_per_month": 2016,
+            "common_train_nodes": 2016,
+            "common_all_nodes": 2016,
+            "train_matrix_shape": [
+              240,
+              2016
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -1.0623400211334229,
+              2.3868367671966553
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "south_le70": {
+          "1": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 1043,
+            "max_valid_per_month": 1043,
+            "common_train_nodes": 1043,
+            "common_all_nodes": 1043,
+            "train_matrix_shape": [
+              240,
+              1043
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -2.9677531719207764,
+              3.2828433513641357
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 1028,
+            "max_valid_per_month": 1028,
+            "common_train_nodes": 1028,
+            "common_all_nodes": 1028,
+            "train_matrix_shape": [
+              240,
+              1028
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -1.649530053138733,
+              2.3426198959350586
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 967,
+            "max_valid_per_month": 967,
+            "common_train_nodes": 967,
+            "common_all_nodes": 967,
+            "train_matrix_shape": [
+              240,
+              967
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -1.5762200355529785,
+              2.6083600521087646
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 7200,
+            "min_valid_per_month": 955,
+            "max_valid_per_month": 955,
+            "common_train_nodes": 955,
+            "common_all_nodes": 955,
+            "train_matrix_shape": [
+              240,
+              955
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -0.9993900656700134,
+              2.3868367671966553
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        },
+        "south_60_70": {
+          "1": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3248,
+            "max_valid_per_month": 3248,
+            "common_train_nodes": 3248,
+            "common_all_nodes": 3248,
+            "train_matrix_shape": [
+              240,
+              3248
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -3.17871356010437,
+              4.7524333000183105
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "10": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3239,
+            "max_valid_per_month": 3239,
+            "common_train_nodes": 3239,
+            "common_all_nodes": 3239,
+            "train_matrix_shape": [
+              240,
+              3239
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -2.437333345413208,
+              3.5643835067749023
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "50": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3209,
+            "max_valid_per_month": 3209,
+            "common_train_nodes": 3209,
+            "common_all_nodes": 3209,
+            "train_matrix_shape": [
+              240,
+              3209
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -2.2107434272766113,
+              2.5293166637420654
+            ],
+            "months_with_zero_valid_cells": []
+          },
+          "100": {
+            "grid_cells": 3600,
+            "min_valid_per_month": 3205,
+            "max_valid_per_month": 3205,
+            "common_train_nodes": 3205,
+            "common_all_nodes": 3205,
+            "train_matrix_shape": [
+              240,
+              3205
+            ],
+            "test_missing_on_train_domain": 0,
+            "constant_train_nodes": 0,
+            "range_on_common_all": [
+              -1.648300051689148,
+              1.9559600353240967
+            ],
+            "months_with_zero_valid_cells": []
+          }
+        }
+      },
+      "valid_by_latitude": {
+        "1": [
+          {
+            "latitude": -89.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -88.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -87.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -86.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -85.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -84.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -83.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -82.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -81.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -80.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -79.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -78.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -77.5,
+            "common_all_nodes": 66,
+            "common_train_nodes": 66
+          },
+          {
+            "latitude": -76.5,
+            "common_all_nodes": 85,
+            "common_train_nodes": 85
+          },
+          {
+            "latitude": -75.5,
+            "common_all_nodes": 99,
+            "common_train_nodes": 99
+          },
+          {
+            "latitude": -74.5,
+            "common_all_nodes": 110,
+            "common_train_nodes": 110
+          },
+          {
+            "latitude": -73.5,
+            "common_all_nodes": 146,
+            "common_train_nodes": 146
+          },
+          {
+            "latitude": -72.5,
+            "common_all_nodes": 166,
+            "common_train_nodes": 166
+          },
+          {
+            "latitude": -71.5,
+            "common_all_nodes": 169,
+            "common_train_nodes": 169
+          },
+          {
+            "latitude": -70.5,
+            "common_all_nodes": 202,
+            "common_train_nodes": 202
+          },
+          {
+            "latitude": -69.5,
+            "common_all_nodes": 234,
+            "common_train_nodes": 234
+          },
+          {
+            "latitude": -68.5,
+            "common_all_nodes": 254,
+            "common_train_nodes": 254
+          },
+          {
+            "latitude": -67.5,
+            "common_all_nodes": 280,
+            "common_train_nodes": 280
+          },
+          {
+            "latitude": -66.5,
+            "common_all_nodes": 327,
+            "common_train_nodes": 327
+          },
+          {
+            "latitude": -65.5,
+            "common_all_nodes": 356,
+            "common_train_nodes": 356
+          },
+          {
+            "latitude": -64.5,
+            "common_all_nodes": 358,
+            "common_train_nodes": 358
+          },
+          {
+            "latitude": -63.5,
+            "common_all_nodes": 359,
+            "common_train_nodes": 359
+          },
+          {
+            "latitude": -62.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": -61.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": -60.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 60.5,
+            "common_all_nodes": 130,
+            "common_train_nodes": 130
+          },
+          {
+            "latitude": 61.5,
+            "common_all_nodes": 117,
+            "common_train_nodes": 117
+          },
+          {
+            "latitude": 62.5,
+            "common_all_nodes": 110,
+            "common_train_nodes": 110
+          },
+          {
+            "latitude": 63.5,
+            "common_all_nodes": 104,
+            "common_train_nodes": 104
+          },
+          {
+            "latitude": 64.5,
+            "common_all_nodes": 94,
+            "common_train_nodes": 94
+          },
+          {
+            "latitude": 65.5,
+            "common_all_nodes": 85,
+            "common_train_nodes": 85
+          },
+          {
+            "latitude": 66.5,
+            "common_all_nodes": 84,
+            "common_train_nodes": 84
+          },
+          {
+            "latitude": 67.5,
+            "common_all_nodes": 87,
+            "common_train_nodes": 87
+          },
+          {
+            "latitude": 68.5,
+            "common_all_nodes": 114,
+            "common_train_nodes": 114
+          },
+          {
+            "latitude": 69.5,
+            "common_all_nodes": 142,
+            "common_train_nodes": 142
+          },
+          {
+            "latitude": 70.5,
+            "common_all_nodes": 197,
+            "common_train_nodes": 197
+          },
+          {
+            "latitude": 71.5,
+            "common_all_nodes": 213,
+            "common_train_nodes": 213
+          },
+          {
+            "latitude": 72.5,
+            "common_all_nodes": 230,
+            "common_train_nodes": 230
+          },
+          {
+            "latitude": 73.5,
+            "common_all_nodes": 252,
+            "common_train_nodes": 252
+          },
+          {
+            "latitude": 74.5,
+            "common_all_nodes": 288,
+            "common_train_nodes": 288
+          },
+          {
+            "latitude": 75.5,
+            "common_all_nodes": 262,
+            "common_train_nodes": 262
+          },
+          {
+            "latitude": 76.5,
+            "common_all_nodes": 276,
+            "common_train_nodes": 276
+          },
+          {
+            "latitude": 77.5,
+            "common_all_nodes": 292,
+            "common_train_nodes": 292
+          },
+          {
+            "latitude": 78.5,
+            "common_all_nodes": 270,
+            "common_train_nodes": 270
+          },
+          {
+            "latitude": 79.5,
+            "common_all_nodes": 275,
+            "common_train_nodes": 275
+          },
+          {
+            "latitude": 80.5,
+            "common_all_nodes": 283,
+            "common_train_nodes": 283
+          },
+          {
+            "latitude": 81.5,
+            "common_all_nodes": 289,
+            "common_train_nodes": 289
+          },
+          {
+            "latitude": 82.5,
+            "common_all_nodes": 315,
+            "common_train_nodes": 315
+          },
+          {
+            "latitude": 83.5,
+            "common_all_nodes": 352,
+            "common_train_nodes": 352
+          },
+          {
+            "latitude": 84.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 85.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 86.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 87.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 88.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 89.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          }
+        ],
+        "10": [
+          {
+            "latitude": -89.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -88.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -87.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -86.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -85.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -84.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -83.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -82.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -81.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -80.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -79.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -78.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -77.5,
+            "common_all_nodes": 64,
+            "common_train_nodes": 64
+          },
+          {
+            "latitude": -76.5,
+            "common_all_nodes": 82,
+            "common_train_nodes": 82
+          },
+          {
+            "latitude": -75.5,
+            "common_all_nodes": 98,
+            "common_train_nodes": 98
+          },
+          {
+            "latitude": -74.5,
+            "common_all_nodes": 108,
+            "common_train_nodes": 108
+          },
+          {
+            "latitude": -73.5,
+            "common_all_nodes": 144,
+            "common_train_nodes": 144
+          },
+          {
+            "latitude": -72.5,
+            "common_all_nodes": 165,
+            "common_train_nodes": 165
+          },
+          {
+            "latitude": -71.5,
+            "common_all_nodes": 167,
+            "common_train_nodes": 167
+          },
+          {
+            "latitude": -70.5,
+            "common_all_nodes": 200,
+            "common_train_nodes": 200
+          },
+          {
+            "latitude": -69.5,
+            "common_all_nodes": 232,
+            "common_train_nodes": 232
+          },
+          {
+            "latitude": -68.5,
+            "common_all_nodes": 253,
+            "common_train_nodes": 253
+          },
+          {
+            "latitude": -67.5,
+            "common_all_nodes": 277,
+            "common_train_nodes": 277
+          },
+          {
+            "latitude": -66.5,
+            "common_all_nodes": 326,
+            "common_train_nodes": 326
+          },
+          {
+            "latitude": -65.5,
+            "common_all_nodes": 356,
+            "common_train_nodes": 356
+          },
+          {
+            "latitude": -64.5,
+            "common_all_nodes": 357,
+            "common_train_nodes": 357
+          },
+          {
+            "latitude": -63.5,
+            "common_all_nodes": 359,
+            "common_train_nodes": 359
+          },
+          {
+            "latitude": -62.5,
+            "common_all_nodes": 359,
+            "common_train_nodes": 359
+          },
+          {
+            "latitude": -61.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": -60.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 60.5,
+            "common_all_nodes": 127,
+            "common_train_nodes": 127
+          },
+          {
+            "latitude": 61.5,
+            "common_all_nodes": 116,
+            "common_train_nodes": 116
+          },
+          {
+            "latitude": 62.5,
+            "common_all_nodes": 108,
+            "common_train_nodes": 108
+          },
+          {
+            "latitude": 63.5,
+            "common_all_nodes": 95,
+            "common_train_nodes": 95
+          },
+          {
+            "latitude": 64.5,
+            "common_all_nodes": 86,
+            "common_train_nodes": 86
+          },
+          {
+            "latitude": 65.5,
+            "common_all_nodes": 75,
+            "common_train_nodes": 75
+          },
+          {
+            "latitude": 66.5,
+            "common_all_nodes": 72,
+            "common_train_nodes": 72
+          },
+          {
+            "latitude": 67.5,
+            "common_all_nodes": 84,
+            "common_train_nodes": 84
+          },
+          {
+            "latitude": 68.5,
+            "common_all_nodes": 103,
+            "common_train_nodes": 103
+          },
+          {
+            "latitude": 69.5,
+            "common_all_nodes": 131,
+            "common_train_nodes": 131
+          },
+          {
+            "latitude": 70.5,
+            "common_all_nodes": 185,
+            "common_train_nodes": 185
+          },
+          {
+            "latitude": 71.5,
+            "common_all_nodes": 202,
+            "common_train_nodes": 202
+          },
+          {
+            "latitude": 72.5,
+            "common_all_nodes": 221,
+            "common_train_nodes": 221
+          },
+          {
+            "latitude": 73.5,
+            "common_all_nodes": 240,
+            "common_train_nodes": 240
+          },
+          {
+            "latitude": 74.5,
+            "common_all_nodes": 272,
+            "common_train_nodes": 272
+          },
+          {
+            "latitude": 75.5,
+            "common_all_nodes": 250,
+            "common_train_nodes": 250
+          },
+          {
+            "latitude": 76.5,
+            "common_all_nodes": 269,
+            "common_train_nodes": 269
+          },
+          {
+            "latitude": 77.5,
+            "common_all_nodes": 286,
+            "common_train_nodes": 286
+          },
+          {
+            "latitude": 78.5,
+            "common_all_nodes": 268,
+            "common_train_nodes": 268
+          },
+          {
+            "latitude": 79.5,
+            "common_all_nodes": 271,
+            "common_train_nodes": 271
+          },
+          {
+            "latitude": 80.5,
+            "common_all_nodes": 279,
+            "common_train_nodes": 279
+          },
+          {
+            "latitude": 81.5,
+            "common_all_nodes": 289,
+            "common_train_nodes": 289
+          },
+          {
+            "latitude": 82.5,
+            "common_all_nodes": 314,
+            "common_train_nodes": 314
+          },
+          {
+            "latitude": 83.5,
+            "common_all_nodes": 352,
+            "common_train_nodes": 352
+          },
+          {
+            "latitude": 84.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 85.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 86.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 87.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 88.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 89.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          }
+        ],
+        "50": [
+          {
+            "latitude": -89.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -88.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -87.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -86.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -85.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -84.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -83.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -82.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -81.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -80.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -79.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -78.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -77.5,
+            "common_all_nodes": 63,
+            "common_train_nodes": 63
+          },
+          {
+            "latitude": -76.5,
+            "common_all_nodes": 81,
+            "common_train_nodes": 81
+          },
+          {
+            "latitude": -75.5,
+            "common_all_nodes": 94,
+            "common_train_nodes": 94
+          },
+          {
+            "latitude": -74.5,
+            "common_all_nodes": 105,
+            "common_train_nodes": 105
+          },
+          {
+            "latitude": -73.5,
+            "common_all_nodes": 127,
+            "common_train_nodes": 127
+          },
+          {
+            "latitude": -72.5,
+            "common_all_nodes": 151,
+            "common_train_nodes": 151
+          },
+          {
+            "latitude": -71.5,
+            "common_all_nodes": 162,
+            "common_train_nodes": 162
+          },
+          {
+            "latitude": -70.5,
+            "common_all_nodes": 184,
+            "common_train_nodes": 184
+          },
+          {
+            "latitude": -69.5,
+            "common_all_nodes": 223,
+            "common_train_nodes": 223
+          },
+          {
+            "latitude": -68.5,
+            "common_all_nodes": 252,
+            "common_train_nodes": 252
+          },
+          {
+            "latitude": -67.5,
+            "common_all_nodes": 269,
+            "common_train_nodes": 269
+          },
+          {
+            "latitude": -66.5,
+            "common_all_nodes": 319,
+            "common_train_nodes": 319
+          },
+          {
+            "latitude": -65.5,
+            "common_all_nodes": 354,
+            "common_train_nodes": 354
+          },
+          {
+            "latitude": -64.5,
+            "common_all_nodes": 355,
+            "common_train_nodes": 355
+          },
+          {
+            "latitude": -63.5,
+            "common_all_nodes": 359,
+            "common_train_nodes": 359
+          },
+          {
+            "latitude": -62.5,
+            "common_all_nodes": 358,
+            "common_train_nodes": 358
+          },
+          {
+            "latitude": -61.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": -60.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 60.5,
+            "common_all_nodes": 111,
+            "common_train_nodes": 111
+          },
+          {
+            "latitude": 61.5,
+            "common_all_nodes": 102,
+            "common_train_nodes": 102
+          },
+          {
+            "latitude": 62.5,
+            "common_all_nodes": 95,
+            "common_train_nodes": 95
+          },
+          {
+            "latitude": 63.5,
+            "common_all_nodes": 78,
+            "common_train_nodes": 78
+          },
+          {
+            "latitude": 64.5,
+            "common_all_nodes": 63,
+            "common_train_nodes": 63
+          },
+          {
+            "latitude": 65.5,
+            "common_all_nodes": 62,
+            "common_train_nodes": 62
+          },
+          {
+            "latitude": 66.5,
+            "common_all_nodes": 58,
+            "common_train_nodes": 58
+          },
+          {
+            "latitude": 67.5,
+            "common_all_nodes": 59,
+            "common_train_nodes": 59
+          },
+          {
+            "latitude": 68.5,
+            "common_all_nodes": 73,
+            "common_train_nodes": 73
+          },
+          {
+            "latitude": 69.5,
+            "common_all_nodes": 92,
+            "common_train_nodes": 92
+          },
+          {
+            "latitude": 70.5,
+            "common_all_nodes": 126,
+            "common_train_nodes": 126
+          },
+          {
+            "latitude": 71.5,
+            "common_all_nodes": 147,
+            "common_train_nodes": 147
+          },
+          {
+            "latitude": 72.5,
+            "common_all_nodes": 162,
+            "common_train_nodes": 162
+          },
+          {
+            "latitude": 73.5,
+            "common_all_nodes": 182,
+            "common_train_nodes": 182
+          },
+          {
+            "latitude": 74.5,
+            "common_all_nodes": 208,
+            "common_train_nodes": 208
+          },
+          {
+            "latitude": 75.5,
+            "common_all_nodes": 197,
+            "common_train_nodes": 197
+          },
+          {
+            "latitude": 76.5,
+            "common_all_nodes": 202,
+            "common_train_nodes": 202
+          },
+          {
+            "latitude": 77.5,
+            "common_all_nodes": 242,
+            "common_train_nodes": 242
+          },
+          {
+            "latitude": 78.5,
+            "common_all_nodes": 259,
+            "common_train_nodes": 259
+          },
+          {
+            "latitude": 79.5,
+            "common_all_nodes": 263,
+            "common_train_nodes": 263
+          },
+          {
+            "latitude": 80.5,
+            "common_all_nodes": 260,
+            "common_train_nodes": 260
+          },
+          {
+            "latitude": 81.5,
+            "common_all_nodes": 280,
+            "common_train_nodes": 280
+          },
+          {
+            "latitude": 82.5,
+            "common_all_nodes": 310,
+            "common_train_nodes": 310
+          },
+          {
+            "latitude": 83.5,
+            "common_all_nodes": 350,
+            "common_train_nodes": 350
+          },
+          {
+            "latitude": 84.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 85.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 86.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 87.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 88.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 89.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          }
+        ],
+        "100": [
+          {
+            "latitude": -89.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -88.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -87.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -86.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -85.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -84.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -83.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -82.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -81.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -80.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -79.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -78.5,
+            "common_all_nodes": 0,
+            "common_train_nodes": 0
+          },
+          {
+            "latitude": -77.5,
+            "common_all_nodes": 62,
+            "common_train_nodes": 62
+          },
+          {
+            "latitude": -76.5,
+            "common_all_nodes": 80,
+            "common_train_nodes": 80
+          },
+          {
+            "latitude": -75.5,
+            "common_all_nodes": 92,
+            "common_train_nodes": 92
+          },
+          {
+            "latitude": -74.5,
+            "common_all_nodes": 103,
+            "common_train_nodes": 103
+          },
+          {
+            "latitude": -73.5,
+            "common_all_nodes": 125,
+            "common_train_nodes": 125
+          },
+          {
+            "latitude": -72.5,
+            "common_all_nodes": 151,
+            "common_train_nodes": 151
+          },
+          {
+            "latitude": -71.5,
+            "common_all_nodes": 161,
+            "common_train_nodes": 161
+          },
+          {
+            "latitude": -70.5,
+            "common_all_nodes": 181,
+            "common_train_nodes": 181
+          },
+          {
+            "latitude": -69.5,
+            "common_all_nodes": 223,
+            "common_train_nodes": 223
+          },
+          {
+            "latitude": -68.5,
+            "common_all_nodes": 252,
+            "common_train_nodes": 252
+          },
+          {
+            "latitude": -67.5,
+            "common_all_nodes": 269,
+            "common_train_nodes": 269
+          },
+          {
+            "latitude": -66.5,
+            "common_all_nodes": 317,
+            "common_train_nodes": 317
+          },
+          {
+            "latitude": -65.5,
+            "common_all_nodes": 353,
+            "common_train_nodes": 353
+          },
+          {
+            "latitude": -64.5,
+            "common_all_nodes": 355,
+            "common_train_nodes": 355
+          },
+          {
+            "latitude": -63.5,
+            "common_all_nodes": 358,
+            "common_train_nodes": 358
+          },
+          {
+            "latitude": -62.5,
+            "common_all_nodes": 358,
+            "common_train_nodes": 358
+          },
+          {
+            "latitude": -61.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": -60.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 60.5,
+            "common_all_nodes": 96,
+            "common_train_nodes": 96
+          },
+          {
+            "latitude": 61.5,
+            "common_all_nodes": 88,
+            "common_train_nodes": 88
+          },
+          {
+            "latitude": 62.5,
+            "common_all_nodes": 79,
+            "common_train_nodes": 79
+          },
+          {
+            "latitude": 63.5,
+            "common_all_nodes": 66,
+            "common_train_nodes": 66
+          },
+          {
+            "latitude": 64.5,
+            "common_all_nodes": 58,
+            "common_train_nodes": 58
+          },
+          {
+            "latitude": 65.5,
+            "common_all_nodes": 52,
+            "common_train_nodes": 52
+          },
+          {
+            "latitude": 66.5,
+            "common_all_nodes": 52,
+            "common_train_nodes": 52
+          },
+          {
+            "latitude": 67.5,
+            "common_all_nodes": 57,
+            "common_train_nodes": 57
+          },
+          {
+            "latitude": 68.5,
+            "common_all_nodes": 54,
+            "common_train_nodes": 54
+          },
+          {
+            "latitude": 69.5,
+            "common_all_nodes": 68,
+            "common_train_nodes": 68
+          },
+          {
+            "latitude": 70.5,
+            "common_all_nodes": 104,
+            "common_train_nodes": 104
+          },
+          {
+            "latitude": 71.5,
+            "common_all_nodes": 128,
+            "common_train_nodes": 128
+          },
+          {
+            "latitude": 72.5,
+            "common_all_nodes": 137,
+            "common_train_nodes": 137
+          },
+          {
+            "latitude": 73.5,
+            "common_all_nodes": 161,
+            "common_train_nodes": 161
+          },
+          {
+            "latitude": 74.5,
+            "common_all_nodes": 193,
+            "common_train_nodes": 193
+          },
+          {
+            "latitude": 75.5,
+            "common_all_nodes": 174,
+            "common_train_nodes": 174
+          },
+          {
+            "latitude": 76.5,
+            "common_all_nodes": 170,
+            "common_train_nodes": 170
+          },
+          {
+            "latitude": 77.5,
+            "common_all_nodes": 204,
+            "common_train_nodes": 204
+          },
+          {
+            "latitude": 78.5,
+            "common_all_nodes": 223,
+            "common_train_nodes": 223
+          },
+          {
+            "latitude": 79.5,
+            "common_all_nodes": 258,
+            "common_train_nodes": 258
+          },
+          {
+            "latitude": 80.5,
+            "common_all_nodes": 245,
+            "common_train_nodes": 245
+          },
+          {
+            "latitude": 81.5,
+            "common_all_nodes": 270,
+            "common_train_nodes": 270
+          },
+          {
+            "latitude": 82.5,
+            "common_all_nodes": 308,
+            "common_train_nodes": 308
+          },
+          {
+            "latitude": 83.5,
+            "common_all_nodes": 346,
+            "common_train_nodes": 346
+          },
+          {
+            "latitude": 84.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 85.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 86.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 87.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 88.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          },
+          {
+            "latitude": 89.5,
+            "common_all_nodes": 360,
+            "common_train_nodes": 360
+          }
+        ]
+      }
+    }
+  },
+  "merged_checks": {
+    "salinity": {
+      "checked_months": 120,
+      "mismatched_months": [],
+      "grid_equal": true
+    },
+    "temperature_anomaly": {
+      "checked_months": 120,
+      "mismatched_months": [],
+      "grid_equal": true
+    }
+  },
+  "cross_variable_common_nodes": {
+    "global": {
+      "1": 42539,
+      "10": 42154,
+      "50": 40718,
+      "100": 39838
+    },
+    "north_ge60": {
+      "1": 6774,
+      "10": 6632,
+      "50": 6001,
+      "100": 5641
+    },
+    "north_ge66_5": {
+      "1": 6242,
+      "10": 6126,
+      "50": 5562,
+      "100": 5252
+    },
+    "north_ge70": {
+      "1": 5882,
+      "10": 5786,
+      "50": 5298,
+      "100": 5027
+    },
+    "north_ge80": {
+      "1": 3399,
+      "10": 3394,
+      "50": 3360,
+      "100": 3325
+    },
+    "south_le60": {
+      "1": 4291,
+      "10": 4267,
+      "50": 4176,
+      "100": 4159
+    },
+    "south_le66_5": {
+      "1": 2138,
+      "10": 2116,
+      "50": 2030,
+      "100": 2015
+    },
+    "south_le70": {
+      "1": 1043,
+      "10": 1028,
+      "50": 967,
+      "100": 955
+    },
+    "south_60_70": {
+      "1": 3248,
+      "10": 3239,
+      "50": 3209,
+      "100": 3204
+    }
+  },
+  "product_dates_equal": true
+}

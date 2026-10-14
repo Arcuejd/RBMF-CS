@@ -1,0 +1,32 @@
+[
+  {
+    "name": "clean_1001",
+    "exit_code": 0,
+    "seconds": 50.290056800004095
+  },
+  {
+    "name": "clean_1002",
+    "exit_code": 0,
+    "seconds": 50.479128899998614
+  },
+  {
+    "name": "clean_1003",
+    "exit_code": 0,
+    "seconds": 50.70680430000357
+  },
+  {
+    "name": "gaussian_1001",
+    "exit_code": 0,
+    "seconds": 51.14294559999689
+  },
+  {
+    "name": "gaussian_1002",
+    "exit_code": 0,
+    "seconds": 48.840401100002055
+  },
+  {
+    "name": "gaussian_1003",
+    "exit_code": 0,
+    "seconds": 49.180850500000815
+  }
+]

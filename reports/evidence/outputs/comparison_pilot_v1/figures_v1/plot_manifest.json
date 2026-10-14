@@ -1,0 +1,20 @@
+{
+  "source_run": "D:\\project\\RBMF-CS\\outputs\\comparison_pilot_v1",
+  "source_manifest_sha256": "4729c002c8aca43ba0103d9c0f560203b89efadb57981327f0a712462c4956db",
+  "source_config_sha256": "7023febc375da2cdeea4b745691022d4921ea11a15b3457d7585330e58754ece",
+  "figures": [
+    "ablations.svg",
+    "accuracy_cost.svg",
+    "calibration.svg",
+    "error_nodes_deployment.svg",
+    "error_nodes_reconstruction.svg",
+    "robustness_deployment.svg",
+    "robustness_reconstruction.svg",
+    "spatial_common_scale.svg"
+  ],
+  "smoothing": false,
+  "monotonicity_enforcement": false,
+  "statistics_scope": "conditional seed CI; environment inference unavailable",
+  "observed_records": 880,
+  "failures": 0
+}

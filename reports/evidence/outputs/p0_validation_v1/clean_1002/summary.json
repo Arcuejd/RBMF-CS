@@ -1,0 +1,90 @@
+[
+  {
+    "method": "climatology",
+    "rmse_c": 0.45730434790905444,
+    "mae_c": 0.34506503458491056,
+    "convergence_rate": 1.0,
+    "seconds": 0.0015764999843668193,
+    "fits": 60
+  },
+  {
+    "method": "no_observation",
+    "rmse_c": 0.45728934745118577,
+    "mae_c": 0.34505342984737486,
+    "convergence_rate": 1.0,
+    "seconds": 0.0006629999770666473,
+    "fits": 60
+  },
+  {
+    "method": "original",
+    "rmse_c": 0.45678151156778846,
+    "mae_c": 0.3445889934402767,
+    "convergence_rate": 1.0,
+    "seconds": 0.5579494999692542,
+    "fits": 60
+  },
+  {
+    "method": "factor_stop",
+    "rmse_c": 0.4567869854615943,
+    "mae_c": 0.34459342863142717,
+    "convergence_rate": 1.0,
+    "seconds": 0.8245932000136236,
+    "fits": 60
+  },
+  {
+    "method": "init_high_tau",
+    "rmse_c": 0.45678698590387273,
+    "mae_c": 0.34459342905569085,
+    "convergence_rate": 1.0,
+    "seconds": 0.8443117999922833,
+    "fits": 60
+  },
+  {
+    "method": "ard_b1",
+    "rmse_c": 0.45459094230149816,
+    "mae_c": 0.3427084647438365,
+    "convergence_rate": 1.0,
+    "seconds": 1.5919144999643322,
+    "fits": 60
+  },
+  {
+    "method": "no_lf",
+    "rmse_c": 0.4945811439937361,
+    "mae_c": 0.37678431478769203,
+    "convergence_rate": 1.0,
+    "seconds": 12.265639699988242,
+    "fits": 60
+  },
+  {
+    "method": "noise_floor_conditional",
+    "rmse_c": 0.4469886477023571,
+    "mae_c": 0.33543373949813465,
+    "convergence_rate": 1.0,
+    "seconds": 2.2782916000287514,
+    "fits": 60
+  },
+  {
+    "method": "pod_ridge",
+    "rmse_c": 0.3887601399722349,
+    "mae_c": 0.28599936122531383,
+    "convergence_rate": 1.0,
+    "seconds": 0.013711199986573774,
+    "fits": 60
+  },
+  {
+    "method": "pod_lasso",
+    "rmse_c": 0.4034047291773354,
+    "mae_c": 0.30000446493461286,
+    "convergence_rate": 1.0,
+    "seconds": 0.1684382999810623,
+    "fits": 60
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "rmse_c": 0.4150478529293561,
+    "mae_c": 0.312393089694561,
+    "convergence_rate": 1.0,
+    "seconds": 1.7426851999989594,
+    "fits": 60
+  }
+]

@@ -1,0 +1,40 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+IV 
+ 
+locations as noise indicators, and incorporating a sparsity regularization term for node quantity 
+and a noise weight entropy term into the subspace learning objective function, a robust sparse 
+deployment model is established. Then, a Robust Sparse Sensing Node Deployment based 
+on Indicator of Noise  (RSSPIN) algorithm is proposed, which significantly reduces the 
+interference of noise on node deployment strategies through alternating iterative optimization 
+of the selection matrix and noise weight matrix. Theoretical and experimental results 
+demonstrate that the algorithm exhibits strong robustness and data reconstruction accuracy. 
+2. Deployment Optimization under Non -Gaussian Noise: To address the sensitivity of 
+existing sparse node deployment to non -Gaussian noise when using  Frobenius norm to 
+evaluate reconstruction error, a robust deployment optimization method based on the 
+Maximum Correntropy Criterion (MCC) is proposed. Based on the aforementioned robust 
+sparse deployment model, MCC is used to evaluate reconstruction error, and the local 
+geometric features of the data are integrated to establish a robust sparse deployment 
+optimization model based on MCC. Subsequently, a Robust Sensing Node Selection based on 
+MCC (MCC_RSS) algorithm is proposed, which minimizes the impact of noise through 
+iterative solving of the selection matrix and noise weight matrix. Experiments conducted on 
+different ocean datasets show that th e algorithm further enhances the robustness of sparse 
+node deployment strategies in the presence of outliers and non-Gaussian noise. 
+3. Multi -Physical Quantities Node Sparse Deployment Optimization: For applications 
+requiring multi -physical quantities data, a multi -physical quantities node sparse deployment 
+optimization strategy based on a fractal autoencoder is proposed. A multi -physical quantities 
+deployment model is established through the autoencoder architecture, using the average 
+weight vector of location features to associate the latent variables of different physical 
+quantities, achieving joint location feature selection. The proposed Multi -physical quantities 
+Fractal Autoencoder (MFAE) has an innovative structure: each physical quantity's autoencoder 
+includes a weight update layer and a feature selection layer based on average weights, while 
+the decoder independently completes the nonlinear mapping from low -dimensional data to full 
+state. The initialization method of the feature selection layer, combining average entropy 
+weight distribution and noise distribution, effectively enhances the stability of the feature 
+selection process. Experimental results show that MFAE significantly reduces the average 
+reconstruction error of multi-physical data, achieving efficient joint feature extraction. 
+4. Entropy -Weight Driven Deployment for Information -Cost Trade -off: To alleviate the 
+contradiction between acquiring high -density information and low deployment costs in ocean 
+sensing systems, an entropy -weight-driven node deployment optimization strategy  based on 
+compressed sensing theory  is proposed. In the t emporal dimension, training samples are 
+screened through entropy weights to improve training efficiency without losing accuracy; in the 
+spatial dimension, entropy-weighted QR decomposition column pivoting is employed to 

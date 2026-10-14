@@ -1,0 +1,35 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+155 
+ 
+Hazards and Earth System Sciences, 2017, 17(1): 45-59. 
+[64] Joshi S, Boyd S. Sensor Selection via Convex Optimization[J]. IEEE Transactions on 
+Signal Processing, 2009, 57(2): 451-462. 
+[65] Altenbach F, Corroy S, Bö cherer G, et al. Strategies for distributed sensor selection 
+using convex optimization  [C]//2012 IEEE Global Communications Conference 
+(GLOBECOM), Anaheim, CA, USA, 2012: 2367-2372. 
+[66] 王巍, 彭力, 赵继军等. 基于旋翼无人机近地面空间应急物联网节点动态协同部
+署[J]. 自动化学报, 2021, 47(8): 2002-2015. 
+[67] Caselton W F, Zidek J V . Optimal monitoring network designs[J]. Statistics & 
+Probability Letters, 1984, 2(4): 223-227. 
+[68] Lin X, Chowdhury A, Wang X, et al. Approximate computational approaches for 
+Bayesian sensor placement in high dimensions[J]. Information Fusion, 2019, 46: 
+193-205. 
+[69] Dö hler M, Kwan K, Bernal D. Optimal Sensor Placement with a Statistical Criterion 
+for Subspace-Based Damage Detection [C]//Topics in Dynamics of Civil Structures,  
+Conference Proceedings of the Society for Experimental Mechanics Series. Springer, 
+New York, NY . 2013, 4: 219-229.  
+[70] Liangou T, Katsoudas A, Silionis N, et al. Statistical Pattern Recognition for Optimal 
+Sensor Placement in Damage Detection Applications [C]//European Workshop on 
+Structural Health Monitoring . EWSHM 2022. Lecture Notes in Civil Engineering, 
+Springer, Cham. 2023, 254: 217-226. 
+[71] Chen Mark J, Sivakumar K, Banyay Gregory A, et al. Bayesian Optimal Sensor 
+Placement for Damage Detection in Frequency -Domain Dynamics[J]. Journal of 
+Engineering Mechanics, 2022, 148(12): 04022078. 
+[72] Sandhu A I, Dia B M, Dorn O, et al. Bayesian Experimental Design for Efficient 
+Sensor Placement in Two -Dimensional Electromagnetic Imaging[J]. IEEE Access, 
+2023, 11: 65649-65662. 
+[73] Lau S, Eichardt R, Rienzo L D, et al. Tabu Search Optimization of Magnetic Sensor 
+Systems for Magnetocardiography[J]. IEEE Transactions on Magnetics, 2008, 44(6): 
+1442-1445. 
+[74] 王鸿鹏, 王前, 张晓阳等. 基于 3D-Tabu 禁忌搜索的广域环境 MESH 网络节点部
+署优化算法研究 [J]. 传感技术学报, 2021, 34(2): 261-267. 

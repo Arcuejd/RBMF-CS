@@ -1,0 +1,35 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+160 
+ 
+[121] Haines K. Ocean Data Assimilation[M]//Lahoz W, Khattatov B, Menard R. Data 
+Assimilation: Making Sense of Observations. Berlin, Heidelberg; Springer Berlin 
+Heidelberg. 2010: 517-547. 
+[122] 罗强. 南海水体观测网络空间布局优化研究 [D]. 自然资源部第一海洋研究所 , 
+2024. 
+[123] Meza J, Catalá n P A, Tsushima H. A Multiple-Parameter Methodology for Placement 
+of Tsunami Sensor Networks[J]. Pure and Applied Geophysics, 2019, 177(3): 1451 -
+1470. 
+[124] Kalinić H, Ćatipović L, Matić F. Optimal Sensor Placement Using Learning Models
+— A Mediterranean Case Study[J]. Remote Sensing, 2022, 14(13) : 2989. DOI: 
+10.3390/rs14132989. 
+[125] Williams J P, Zahn O, Kutz J N. Data -driven sensor placement with shallow decoder 
+networks[J/OL]. arXiv: 2202.05330v1 [math.DS].  
+[126] Erichson N B, Mathelin L, Yao Z, et al. Shallow neural networks for fluid flow 
+reconstruction with limited sensors[J]. Proceedings of the Royal Society A: 
+Mathematical, Physical and Engineering Sciences, 2020, 476(2238). 
+[127] 吕靖, 黄川, 艾云飞. 考虑雷达覆盖需求的 VTS 雷达站选址[J]. 大连海事大学学
+报, 2021, 47(4): 115-121. 
+[128] 赵秦一, 黄丹阳, 姜道连. 声影区影响下的水声传感器网络部署优化算法研究 [J]. 
+天津理工大学学报, 2023, 39(4): 19-25. 
+[129] 付雷, 王骥. 基于改进蜣螂优化算法的海洋牧场三维 UWSN 覆盖方法[J]. 中山大
+学学报(自然科学版), 2024, 63(2): 115-122. 
+[130] Padula S L  & Kincaid R K. Optimization Strategies for Sensor and Actuator 
+Placement[R]. NASA Langley Technical Report Server, 1999. 
+[131] Khezri S, Faez K, Osmani A. Modified Discrete Binary PSO Based Sensor 
+Placement in WSN Networks[C] //2010 International Conference on Computational 
+Intelligence and Communication Networks, Bhopal, India, 2010: 200-204.  
+[132] Cai D, He X, Han J. Spectral Regression for Efficient Regularized Subspace 
+Learning[C]//2007 IEEE 11th International Conference on Computer Vision, Rio de 
+Janeiro, Brazil, 2007: 1-8.  
+[133] Lipovetsky S. PCA and SVD with nonnegative loadings[J]. Pattern Recognition, 
+2009, 42(1): 68-76. 

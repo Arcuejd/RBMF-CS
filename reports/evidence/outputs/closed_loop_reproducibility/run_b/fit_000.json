@@ -1,0 +1,633 @@
+{
+  "factors": {
+    "gamma": {
+      "shape": [
+        0.51,
+        0.51,
+        0.51,
+        0.51,
+        0.51,
+        0.51,
+        0.51,
+        0.51
+      ],
+      "rate": [
+        0.018885895592504705,
+        0.01932274457719139,
+        0.018926045914265065,
+        0.018857662593376713,
+        0.0190731394888062,
+        0.019147621287002658,
+        0.01926476916918942,
+        0.01887637090702667
+      ],
+      "mean": [
+        27.00427933120657,
+        26.393766059610655,
+        26.946991585579923,
+        27.04470914540198,
+        26.739174235018467,
+        26.635162266666843,
+        26.473195475171046,
+        27.017905216630073
+      ]
+    },
+    "lambda": {
+      "shape": [
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ],
+      "rate": [
+        2.1866271834247395,
+        2.476992255303152,
+        2.4149278784560666,
+        2.916032500531358
+      ],
+      "mean": [
+        1.1433133270045832,
+        1.009288581604399,
+        1.0352276034008612,
+        0.8573292648639722
+      ]
+    },
+    "tau": {
+      "shape": 2.01,
+      "rate": 0.20033298448716585,
+      "mean": 10.033295341480667
+    },
+    "tau_delta": {
+      "shape": 62.0,
+      "rate": 2.0884836411757615,
+      "mean": 29.686610312683907
+    },
+    "rho": {
+      "mean": 0.00999574800269181,
+      "variance": 0.001649067410039615,
+      "second_moment": 0.0017489823881729324
+    }
+  },
+  "diagnostics": {
+    "converged": true,
+    "stop_reason": "tolerance",
+    "criterion": "elbo",
+    "iterations": 68,
+    "fit_count": 1,
+    "warm_start": false,
+    "new_observations": 4,
+    "n_observations": 4,
+    "missing_removed_total": 0,
+    "initial_factors": {
+      "gamma": {
+        "shape": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rate": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "mean": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "lambda": {
+        "shape": [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "rate": [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "mean": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "tau": {
+        "shape": 0.01,
+        "rate": 0.0004,
+        "mean": 25.0
+      },
+      "tau_delta": {
+        "shape": 2.0,
+        "rate": 2.0,
+        "mean": 1.0
+      },
+      "rho": {
+        "mean": 1.0,
+        "variance": 1.0,
+        "second_moment": 2.0
+      }
+    },
+    "initial_elbo": -733.0944403728693,
+    "history": [
+      {
+        "iteration": 1,
+        "elbo": -40.4336885677805,
+        "relative_elbo_change": 0.944845184547826,
+        "relative_factor_change": 30.0,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 2,
+        "elbo": -6.620117173260848,
+        "relative_elbo_change": 0.8362722420893336,
+        "relative_factor_change": 0.46974877721381875,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 3,
+        "elbo": -4.700865507422936,
+        "relative_elbo_change": 0.2899120386554356,
+        "relative_factor_change": 0.1093635180235595,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 4,
+        "elbo": -4.550934005440696,
+        "relative_elbo_change": 0.031894446191980994,
+        "relative_factor_change": 0.03203203922794323,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 5,
+        "elbo": -4.516685549378908,
+        "relative_elbo_change": 0.007525588378307144,
+        "relative_factor_change": 0.018181887182547662,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 6,
+        "elbo": -4.500189929374927,
+        "relative_elbo_change": 0.0036521515220933934,
+        "relative_factor_change": 0.01605508110983953,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 7,
+        "elbo": -4.486215291725202,
+        "relative_elbo_change": 0.0031053439674858883,
+        "relative_factor_change": 0.01614755615491311,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 8,
+        "elbo": -4.472024796242187,
+        "relative_elbo_change": 0.003163132966264248,
+        "relative_factor_change": 0.016520598850438287,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 9,
+        "elbo": -4.457081735372493,
+        "relative_elbo_change": 0.0033414530443235547,
+        "relative_factor_change": 0.01704981671754919,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 10,
+        "elbo": -4.441234298208044,
+        "relative_elbo_change": 0.003555563506650625,
+        "relative_factor_change": 0.017669101354115948,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 11,
+        "elbo": -4.42439649596651,
+        "relative_elbo_change": 0.0037912438549632835,
+        "relative_factor_change": 0.018349026213085796,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 12,
+        "elbo": -4.406490945651269,
+        "relative_elbo_change": 0.004047003999656171,
+        "relative_factor_change": 0.019072626058343367,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 13,
+        "elbo": -4.387437516926045,
+        "relative_elbo_change": 0.004323945960680443,
+        "relative_factor_change": 0.019468947333183384,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 14,
+        "elbo": -4.367150352014644,
+        "relative_elbo_change": 0.004623921100445736,
+        "relative_factor_change": 0.019872404065641613,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 15,
+        "elbo": -4.345536549884762,
+        "relative_elbo_change": 0.004949177469905776,
+        "relative_factor_change": 0.020281447531140695,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 16,
+        "elbo": -4.322495198420775,
+        "relative_elbo_change": 0.005302302995149798,
+        "relative_factor_change": 0.020695150578354915,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 17,
+        "elbo": -4.297916443580535,
+        "relative_elbo_change": 0.005686242254061944,
+        "relative_factor_change": 0.0211127980077207,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 18,
+        "elbo": -4.2716804970867095,
+        "relative_elbo_change": 0.006104340751670947,
+        "relative_factor_change": 0.0215337114755757,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 19,
+        "elbo": -4.243656537451915,
+        "relative_elbo_change": 0.006560406297687114,
+        "relative_factor_change": 0.021957171228311867,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 20,
+        "elbo": -4.213701473798508,
+        "relative_elbo_change": 0.007058786070230054,
+        "relative_factor_change": 0.022382376938773207,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 21,
+        "elbo": -4.181658544653229,
+        "relative_elbo_change": 0.007604461147646015,
+        "relative_factor_change": 0.022808423580925608,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 22,
+        "elbo": -4.147355721781999,
+        "relative_elbo_change": 0.008203162095836478,
+        "relative_factor_change": 0.02323428226820501,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 23,
+        "elbo": -4.110603884329537,
+        "relative_elbo_change": 0.00886151078371223,
+        "relative_factor_change": 0.02365878173039182,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 24,
+        "elbo": -4.07119472160174,
+        "relative_elbo_change": 0.009587195418666438,
+        "relative_factor_change": 0.02408058843039529,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 25,
+        "elbo": -4.028898313645858,
+        "relative_elbo_change": 0.010389188149478137,
+        "relative_factor_change": 0.02449818422983685,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 26,
+        "elbo": -3.98346032685737,
+        "relative_elbo_change": 0.011278017773392124,
+        "relative_factor_change": 0.024909840825342533,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 27,
+        "elbo": -3.9345987463538137,
+        "relative_elbo_change": 0.012266114507058298,
+        "relative_factor_change": 0.025313590229404714,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 28,
+        "elbo": -3.8820000466675553,
+        "relative_elbo_change": 0.013368249998809038,
+        "relative_factor_change": 0.025707190487782805,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 29,
+        "elbo": -3.8253146758904126,
+        "relative_elbo_change": 0.014602104609917083,
+        "relative_factor_change": 0.026088085647058334,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 30,
+        "elbo": -3.7641516937558936,
+        "relative_elbo_change": 0.015989006739761134,
+        "relative_factor_change": 0.026453358703302343,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 31,
+        "elbo": -3.69807235877873,
+        "relative_elbo_change": 0.01755490754710504,
+        "relative_factor_change": 0.026799675836348347,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 32,
+        "elbo": -3.626582400538676,
+        "relative_elbo_change": 0.01933168183427955,
+        "relative_factor_change": 0.02712321959187325,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 33,
+        "elbo": -3.5491226373949996,
+        "relative_elbo_change": 0.021358886849550392,
+        "relative_factor_change": 0.02818260639021919,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 34,
+        "elbo": -3.465057504933636,
+        "relative_elbo_change": 0.023686172908092572,
+        "relative_factor_change": 0.029317849099171456,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 35,
+        "elbo": -3.373660946443506,
+        "relative_elbo_change": 0.02637663541225433,
+        "relative_factor_change": 0.030521219022522583,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 36,
+        "elbo": -3.2740989906605433,
+        "relative_elbo_change": 0.029511547652089996,
+        "relative_factor_change": 0.031799141511680507,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 37,
+        "elbo": -3.1654082264149332,
+        "relative_elbo_change": 0.03319715272985131,
+        "relative_factor_change": 0.03315887727049893,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 38,
+        "elbo": -3.0464693349152974,
+        "relative_elbo_change": 0.03757458216829848,
+        "relative_factor_change": 0.03460858778917708,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 39,
+        "elbo": -2.9159749856749464,
+        "relative_elbo_change": 0.04283461768177593,
+        "relative_factor_change": 0.036157331932530234,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 40,
+        "elbo": -2.7723920179088606,
+        "relative_elbo_change": 0.049240123276589554,
+        "relative_factor_change": 0.03781490850754943,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 41,
+        "elbo": -2.6139195017234895,
+        "relative_elbo_change": 0.057160933649240034,
+        "relative_factor_change": 0.039591383034407124,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 42,
+        "elbo": -2.4384482292100063,
+        "relative_elbo_change": 0.06712956248185385,
+        "relative_factor_change": 0.04149599523016512,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 43,
+        "elbo": -2.243535955595934,
+        "relative_elbo_change": 0.07993291441632074,
+        "relative_factor_change": 0.043534881501849365,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 44,
+        "elbo": -2.02643138476402,
+        "relative_elbo_change": 0.09676892865942335,
+        "relative_factor_change": 0.045706563149345514,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 45,
+        "elbo": -1.784218157780825,
+        "relative_elbo_change": 0.11952698167049013,
+        "relative_factor_change": 0.047993271466478804,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 46,
+        "elbo": -1.5142241435699515,
+        "relative_elbo_change": 0.15132343151730202,
+        "relative_factor_change": 0.050344643112787746,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 47,
+        "elbo": -1.214969206667543,
+        "relative_elbo_change": 0.19762922033252073,
+        "relative_factor_change": 0.05264789225132982,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 48,
+        "elbo": -0.8880893644581263,
+        "relative_elbo_change": 0.26904372589490844,
+        "relative_factor_change": 0.0546757847577804,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 49,
+        "elbo": -0.541683600207473,
+        "relative_elbo_change": 0.3464057642506533,
+        "relative_factor_change": 0.05600482860395828,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 50,
+        "elbo": -0.19468055741753254,
+        "relative_elbo_change": 0.34700304278994043,
+        "relative_factor_change": 0.05591767402262876,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 51,
+        "elbo": 0.12117928918901422,
+        "relative_elbo_change": 0.31585984660654676,
+        "relative_factor_change": 0.053388383419793406,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 52,
+        "elbo": 0.36940280111135104,
+        "relative_elbo_change": 0.24822351192233683,
+        "relative_factor_change": 0.04742605058412172,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 53,
+        "elbo": 0.5296842498124428,
+        "relative_elbo_change": 0.16028144870109173,
+        "relative_factor_change": 0.03804091603333863,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 54,
+        "elbo": 0.6127731351688119,
+        "relative_elbo_change": 0.08308888535636916,
+        "relative_factor_change": 0.027105353835737964,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 55,
+        "elbo": 0.6480573548875488,
+        "relative_elbo_change": 0.03528421971873685,
+        "relative_factor_change": 0.017369733314030092,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 56,
+        "elbo": 0.6609952446022436,
+        "relative_elbo_change": 0.012937889714694784,
+        "relative_factor_change": 0.01035177285749219,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 57,
+        "elbo": 0.6653287266452885,
+        "relative_elbo_change": 0.004333482043044956,
+        "relative_factor_change": 0.005925243317552564,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 58,
+        "elbo": 0.6667097507746012,
+        "relative_elbo_change": 0.0013810241293126246,
+        "relative_factor_change": 0.0033232220958305386,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 59,
+        "elbo": 0.6671385229700553,
+        "relative_elbo_change": 0.00042877219545411904,
+        "relative_factor_change": 0.0018449855546269975,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 60,
+        "elbo": 0.667269832212344,
+        "relative_elbo_change": 0.0001313092422887685,
+        "relative_factor_change": 0.0010189478238194112,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 61,
+        "elbo": 0.6673097508126413,
+        "relative_elbo_change": 3.9918600297284e-05,
+        "relative_factor_change": 0.0005611839489171704,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 62,
+        "elbo": 0.6673218378424237,
+        "relative_elbo_change": 1.2087029782392733e-05,
+        "relative_factor_change": 0.0003086077934417557,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 63,
+        "elbo": 0.6673254896710521,
+        "relative_elbo_change": 3.651828628381537e-06,
+        "relative_factor_change": 0.00016957137490319907,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 64,
+        "elbo": 0.6673265916560842,
+        "relative_elbo_change": 1.1019850321147828e-06,
+        "relative_factor_change": 9.313280544006458e-05,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 65,
+        "elbo": 0.6673269239720829,
+        "relative_elbo_change": 3.3231599871896833e-07,
+        "relative_factor_change": 5.113817366029713e-05,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 66,
+        "elbo": 0.6673270241489528,
+        "relative_elbo_change": 1.0017686991048436e-07,
+        "relative_factor_change": 2.8075562137783172e-05,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 67,
+        "elbo": 0.6673270543412455,
+        "relative_elbo_change": 3.0192292665987e-08,
+        "relative_factor_change": 1.541271154972476e-05,
+        "precision_jitter": 0.0
+      },
+      {
+        "iteration": 68,
+        "elbo": 0.667327063439831,
+        "relative_elbo_change": 9.098585440625584e-09,
+        "relative_factor_change": 8.46080441311084e-06,
+        "precision_jitter": 0.0
+      }
+    ],
+    "elbo_decreases": 0,
+    "max_precision_jitter": 0.0,
+    "runtime_seconds": 0.02636229999916395
+  }
+}

@@ -1,0 +1,3207 @@
+{
+  "sample_months": [
+    "201401",
+    "201404",
+    "201407",
+    "201410"
+  ],
+  "source_root": "D:\\Dataset\\RBMF-CS_polar_sample",
+  "depth_bracket_max_gap_m": {
+    "1": 2.0,
+    "10": 5.0,
+    "50": 10.0,
+    "100": 10.0
+  },
+  "pressure_to_depth": "TEOS-10 gsw.z_from_p, zero sea surface height",
+  "coverage": {
+    "Argo": {
+      "north70": {
+        "201401": {
+          "profiles": 92,
+          "platforms": 28,
+          "days": 27,
+          "one_degree_cells": 43,
+          "depth_bracket_profiles": {
+            "1": 6,
+            "10": 71,
+            "50": 82,
+            "100": 76
+          },
+          "depth_bracket_platforms": {
+            "1": 4,
+            "10": 25,
+            "50": 27,
+            "100": 26
+          },
+          "strict_argo_depth_profiles": {
+            "1": 5,
+            "10": 63,
+            "50": 68,
+            "100": 64
+          },
+          "min_depth_m": 0.0,
+          "max_depth_m": 1971.8202725376143,
+          "latitude_range": [
+            70.0614,
+            76.219
+          ],
+          "longitude_range": [
+            -11.646999999999991,
+            14.524744999999996
+          ]
+        },
+        "201404": {
+          "profiles": 85,
+          "platforms": 26,
+          "days": 29,
+          "one_degree_cells": 45,
+          "depth_bracket_profiles": {
+            "1": 9,
+            "10": 69,
+            "50": 83,
+            "100": 77
+          },
+          "depth_bracket_platforms": {
+            "1": 3,
+            "10": 24,
+            "50": 26,
+            "100": 26
+          },
+          "strict_argo_depth_profiles": {
+            "1": 5,
+            "10": 57,
+            "50": 71,
+            "100": 67
+          },
+          "min_depth_m": 1.1795971401135043e-08,
+          "max_depth_m": 1971.881814626438,
+          "latitude_range": [
+            70.357,
+            77.3486656
+          ],
+          "longitude_range": [
+            -12.474999999999994,
+            15.089927999999986
+          ]
+        },
+        "201407": {
+          "profiles": 112,
+          "platforms": 32,
+          "days": 30,
+          "one_degree_cells": 48,
+          "depth_bracket_profiles": {
+            "1": 5,
+            "10": 83,
+            "50": 95,
+            "100": 92
+          },
+          "depth_bracket_platforms": {
+            "1": 3,
+            "10": 28,
+            "50": 30,
+            "100": 30
+          },
+          "strict_argo_depth_profiles": {
+            "1": 4,
+            "10": 77,
+            "50": 89,
+            "100": 87
+          },
+          "min_depth_m": 0.09896143550031315,
+          "max_depth_m": 1971.7087528839995,
+          "latitude_range": [
+            70.0605,
+            78.5605312
+          ],
+          "longitude_range": [
+            -13.557999999999993,
+            14.921726400000011
+          ]
+        },
+        "201410": {
+          "profiles": 131,
+          "platforms": 32,
+          "days": 30,
+          "one_degree_cells": 69,
+          "depth_bracket_profiles": {
+            "1": 2,
+            "10": 101,
+            "50": 109,
+            "100": 107
+          },
+          "depth_bracket_platforms": {
+            "1": 2,
+            "10": 30,
+            "50": 31,
+            "100": 31
+          },
+          "strict_argo_depth_profiles": {
+            "1": 2,
+            "10": 90,
+            "50": 98,
+            "100": 94
+          },
+          "min_depth_m": 0.19789579384177514,
+          "max_depth_m": 1971.9191870559641,
+          "latitude_range": [
+            70.033,
+            78.3889
+          ],
+          "longitude_range": [
+            -159.7674560546875,
+            13.067000000000007
+          ]
+        }
+      },
+      "original_window_70_80N_20_60E": {
+        "201401": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201404": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201407": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201410": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        }
+      },
+      "atlantic_70_80N_20W_20E": {
+        "201401": {
+          "profiles": 92,
+          "platforms": 28,
+          "days": 27,
+          "one_degree_cells": 43,
+          "depth_bracket_profiles": {
+            "1": 6,
+            "10": 71,
+            "50": 82,
+            "100": 76
+          },
+          "depth_bracket_platforms": {
+            "1": 4,
+            "10": 25,
+            "50": 27,
+            "100": 26
+          },
+          "strict_argo_depth_profiles": {
+            "1": 5,
+            "10": 63,
+            "50": 68,
+            "100": 64
+          },
+          "min_depth_m": 0.0,
+          "max_depth_m": 1971.8202725376143,
+          "latitude_range": [
+            70.0614,
+            76.219
+          ],
+          "longitude_range": [
+            -11.646999999999991,
+            14.524744999999996
+          ]
+        },
+        "201404": {
+          "profiles": 85,
+          "platforms": 26,
+          "days": 29,
+          "one_degree_cells": 45,
+          "depth_bracket_profiles": {
+            "1": 9,
+            "10": 69,
+            "50": 83,
+            "100": 77
+          },
+          "depth_bracket_platforms": {
+            "1": 3,
+            "10": 24,
+            "50": 26,
+            "100": 26
+          },
+          "strict_argo_depth_profiles": {
+            "1": 5,
+            "10": 57,
+            "50": 71,
+            "100": 67
+          },
+          "min_depth_m": 1.1795971401135043e-08,
+          "max_depth_m": 1971.881814626438,
+          "latitude_range": [
+            70.357,
+            77.3486656
+          ],
+          "longitude_range": [
+            -12.474999999999994,
+            15.089927999999986
+          ]
+        },
+        "201407": {
+          "profiles": 112,
+          "platforms": 32,
+          "days": 30,
+          "one_degree_cells": 48,
+          "depth_bracket_profiles": {
+            "1": 5,
+            "10": 83,
+            "50": 95,
+            "100": 92
+          },
+          "depth_bracket_platforms": {
+            "1": 3,
+            "10": 28,
+            "50": 30,
+            "100": 30
+          },
+          "strict_argo_depth_profiles": {
+            "1": 4,
+            "10": 77,
+            "50": 89,
+            "100": 87
+          },
+          "min_depth_m": 0.09896143550031315,
+          "max_depth_m": 1971.7087528839995,
+          "latitude_range": [
+            70.0605,
+            78.5605312
+          ],
+          "longitude_range": [
+            -13.557999999999993,
+            14.921726400000011
+          ]
+        },
+        "201410": {
+          "profiles": 114,
+          "platforms": 31,
+          "days": 29,
+          "one_degree_cells": 58,
+          "depth_bracket_profiles": {
+            "1": 2,
+            "10": 92,
+            "50": 100,
+            "100": 96
+          },
+          "depth_bracket_platforms": {
+            "1": 2,
+            "10": 29,
+            "50": 30,
+            "100": 30
+          },
+          "strict_argo_depth_profiles": {
+            "1": 2,
+            "10": 90,
+            "50": 98,
+            "100": 94
+          },
+          "min_depth_m": 0.19789579384177514,
+          "max_depth_m": 1971.9191870559641,
+          "latitude_range": [
+            70.033,
+            78.3889
+          ],
+          "longitude_range": [
+            -15.842000000000013,
+            13.067000000000007
+          ]
+        }
+      },
+      "canadian_sector_70N_170W_100W": {
+        "201401": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201404": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201407": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201410": {
+          "profiles": 17,
+          "platforms": 1,
+          "days": 17,
+          "one_degree_cells": 11,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 9,
+            "50": 9,
+            "100": 11
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 1,
+            "50": 1,
+            "100": 1
+          },
+          "strict_argo_depth_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "min_depth_m": 4.6513518463418695,
+          "max_depth_m": 606.3169377570232,
+          "latitude_range": [
+            72.71279907226562,
+            74.03669738769531
+          ],
+          "longitude_range": [
+            -159.7674560546875,
+            -149.0702362060547
+          ]
+        }
+      },
+      "central_north80": {
+        "201401": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201404": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201407": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201410": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        }
+      }
+    },
+    "ITP_Level3": {
+      "north70": {
+        "201401": {
+          "profiles": 144,
+          "platforms": 3,
+          "days": 31,
+          "one_degree_cells": 27,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 91,
+            "50": 136,
+            "100": 138
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 3,
+            "50": 3,
+            "100": 3
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": 5.342321531039785,
+          "max_depth_m": 765.62166697011,
+          "latitude_range": [
+            74.6212,
+            84.0308
+          ],
+          "longitude_range": [
+            -164.0975,
+            114.3091
+          ]
+        },
+        "201404": {
+          "profiles": 257,
+          "platforms": 3,
+          "days": 30,
+          "one_degree_cells": 84,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 208,
+            "50": 248,
+            "100": 248
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 3,
+            "50": 3,
+            "100": 3
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": 4.946351294199486,
+          "max_depth_m": 759.1369193196878,
+          "latitude_range": [
+            75.3767,
+            89.8682
+          ],
+          "longitude_range": [
+            -162.4958,
+            176.815
+          ]
+        },
+        "201407": {
+          "profiles": 176,
+          "platforms": 2,
+          "days": 31,
+          "one_degree_cells": 20,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 153,
+            "50": 176,
+            "100": 176
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 2,
+            "50": 2,
+            "100": 2
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": 5.045264185972397,
+          "max_depth_m": 758.1823522937161,
+          "latitude_range": [
+            84.6467,
+            86.7242
+          ],
+          "longitude_range": [
+            -1.193000000000012,
+            55.59479999999999
+          ]
+        },
+        "201410": {
+          "profiles": 453,
+          "platforms": 7,
+          "days": 31,
+          "one_degree_cells": 51,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 363,
+            "50": 430,
+            "100": 435
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 7,
+            "50": 7,
+            "100": 7
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": 4.8479857662623544,
+          "max_depth_m": 780.2741757350228,
+          "latitude_range": [
+            75.4491,
+            82.8224
+          ],
+          "longitude_range": [
+            -154.6046,
+            7.3256000000000085
+          ]
+        }
+      },
+      "original_window_70_80N_20_60E": {
+        "201401": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201404": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201407": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201410": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        }
+      },
+      "atlantic_70_80N_20W_20E": {
+        "201401": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201404": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201407": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201410": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        }
+      },
+      "canadian_sector_70N_170W_100W": {
+        "201401": {
+          "profiles": 82,
+          "platforms": 2,
+          "days": 21,
+          "one_degree_cells": 18,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 60,
+            "50": 74,
+            "100": 76
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 2,
+            "50": 2,
+            "100": 2
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": 7.125064225991481,
+          "max_depth_m": 765.62166697011,
+          "latitude_range": [
+            74.6212,
+            75.5647
+          ],
+          "longitude_range": [
+            -164.0975,
+            -149.8567
+          ]
+        },
+        "201404": {
+          "profiles": 119,
+          "platforms": 1,
+          "days": 30,
+          "one_degree_cells": 6,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 102,
+            "50": 110,
+            "100": 110
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 1,
+            "50": 1,
+            "100": 1
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": 6.432252096490671,
+          "max_depth_m": 754.7436169175509,
+          "latitude_range": [
+            75.3767,
+            76.4865
+          ],
+          "longitude_range": [
+            -162.4958,
+            -159.1733
+          ]
+        },
+        "201407": {
+          "profiles": 0,
+          "platforms": 0,
+          "days": 0,
+          "one_degree_cells": 0,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 0,
+            "50": 0,
+            "100": 0
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": null,
+          "max_depth_m": null,
+          "latitude_range": null,
+          "longitude_range": null
+        },
+        "201410": {
+          "profiles": 334,
+          "platforms": 6,
+          "days": 31,
+          "one_degree_cells": 40,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 268,
+            "50": 333,
+            "100": 334
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 6,
+            "50": 6,
+            "100": 6
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": 4.8479857662623544,
+          "max_depth_m": 780.2741757350228,
+          "latitude_range": [
+            75.4491,
+            81.7101
+          ],
+          "longitude_range": [
+            -154.6046,
+            -139.8613
+          ]
+        }
+      },
+      "central_north80": {
+        "201401": {
+          "profiles": 62,
+          "platforms": 1,
+          "days": 31,
+          "one_degree_cells": 9,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 31,
+            "50": 62,
+            "100": 62
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 1,
+            "50": 1,
+            "100": 1
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": 5.342321531039785,
+          "max_depth_m": 760.5696971404313,
+          "latitude_range": [
+            83.3441,
+            84.0308
+          ],
+          "longitude_range": [
+            107.28390000000002,
+            114.3091
+          ]
+        },
+        "201404": {
+          "profiles": 138,
+          "platforms": 2,
+          "days": 30,
+          "one_degree_cells": 78,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 106,
+            "50": 138,
+            "100": 138
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 2,
+            "50": 2,
+            "100": 2
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": 4.946351294199486,
+          "max_depth_m": 759.1369193196878,
+          "latitude_range": [
+            86.2927,
+            89.8682
+          ],
+          "longitude_range": [
+            -1.543200000000013,
+            176.815
+          ]
+        },
+        "201407": {
+          "profiles": 176,
+          "platforms": 2,
+          "days": 31,
+          "one_degree_cells": 20,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 153,
+            "50": 176,
+            "100": 176
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 2,
+            "50": 2,
+            "100": 2
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": 5.045264185972397,
+          "max_depth_m": 758.1823522937161,
+          "latitude_range": [
+            84.6467,
+            86.7242
+          ],
+          "longitude_range": [
+            -1.193000000000012,
+            55.59479999999999
+          ]
+        },
+        "201410": {
+          "profiles": 269,
+          "platforms": 4,
+          "days": 31,
+          "one_degree_cells": 22,
+          "depth_bracket_profiles": {
+            "1": 0,
+            "10": 229,
+            "50": 246,
+            "100": 251
+          },
+          "depth_bracket_platforms": {
+            "1": 0,
+            "10": 4,
+            "50": 4,
+            "100": 4
+          },
+          "strict_argo_depth_profiles": null,
+          "min_depth_m": 4.8479857662623544,
+          "max_depth_m": 780.095783820256,
+          "latitude_range": [
+            80.0077,
+            82.8224
+          ],
+          "longitude_range": [
+            -154.4741,
+            7.3256000000000085
+          ]
+        }
+      }
+    }
+  },
+  "errors": [],
+  "fields": [
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\tmask2D_r1x1.nc",
+      "dimensions": {
+        "lon": 360,
+        "lat": 180,
+        "z": 1,
+        "time": 1
+      },
+      "variables": {
+        "lon": {
+          "shape": [
+            360
+          ],
+          "units": "degrees_east"
+        },
+        "lat": {
+          "shape": [
+            180
+          ],
+          "units": "degrees_north"
+        },
+        "time": {
+          "shape": [
+            1
+          ],
+          "units": "day as %Y%m%d.%f"
+        },
+        "tmask": {
+          "shape": [
+            1,
+            1,
+            180,
+            360
+          ],
+          "units": ""
+        }
+      },
+      "undecoded_time": {
+        "units": "day as %Y%m%d.%f",
+        "values": [
+          0.0
+        ]
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\tmask_r1x1.nc",
+      "dimensions": {
+        "lon": 360,
+        "lat": 180,
+        "z": 75,
+        "time": 1
+      },
+      "variables": {
+        "lon": {
+          "shape": [
+            360
+          ],
+          "units": "degrees_east"
+        },
+        "lat": {
+          "shape": [
+            180
+          ],
+          "units": "degrees_north"
+        },
+        "time": {
+          "shape": [
+            1
+          ],
+          "units": "day as %Y%m%d.%f"
+        },
+        "tmask": {
+          "shape": [
+            1,
+            75,
+            180,
+            360
+          ],
+          "units": ""
+        }
+      },
+      "undecoded_time": {
+        "units": "day as %Y%m%d.%f",
+        "values": [
+          0.0
+        ]
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\umask2D_r1x1.nc",
+      "dimensions": {
+        "lon": 360,
+        "lat": 180,
+        "z": 1,
+        "time": 1
+      },
+      "variables": {
+        "lon": {
+          "shape": [
+            360
+          ],
+          "units": "degrees_east"
+        },
+        "lat": {
+          "shape": [
+            180
+          ],
+          "units": "degrees_north"
+        },
+        "time": {
+          "shape": [
+            1
+          ],
+          "units": "day as %Y%m%d.%f"
+        },
+        "umask": {
+          "shape": [
+            1,
+            1,
+            180,
+            360
+          ],
+          "units": ""
+        }
+      },
+      "undecoded_time": {
+        "units": "day as %Y%m%d.%f",
+        "values": [
+          0.0
+        ]
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\umask_r1x1.nc",
+      "dimensions": {
+        "lon": 360,
+        "lat": 180,
+        "z": 75,
+        "time": 1
+      },
+      "variables": {
+        "lon": {
+          "shape": [
+            360
+          ],
+          "units": "degrees_east"
+        },
+        "lat": {
+          "shape": [
+            180
+          ],
+          "units": "degrees_north"
+        },
+        "time": {
+          "shape": [
+            1
+          ],
+          "units": "day as %Y%m%d.%f"
+        },
+        "umask": {
+          "shape": [
+            1,
+            75,
+            180,
+            360
+          ],
+          "units": ""
+        }
+      },
+      "undecoded_time": {
+        "units": "day as %Y%m%d.%f",
+        "values": [
+          0.0
+        ]
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\vmask2D_r1x1.nc",
+      "dimensions": {
+        "lon": 360,
+        "lat": 180,
+        "z": 1,
+        "time": 1
+      },
+      "variables": {
+        "lon": {
+          "shape": [
+            360
+          ],
+          "units": "degrees_east"
+        },
+        "lat": {
+          "shape": [
+            180
+          ],
+          "units": "degrees_north"
+        },
+        "time": {
+          "shape": [
+            1
+          ],
+          "units": "day as %Y%m%d.%f"
+        },
+        "vmask": {
+          "shape": [
+            1,
+            1,
+            180,
+            360
+          ],
+          "units": ""
+        }
+      },
+      "undecoded_time": {
+        "units": "day as %Y%m%d.%f",
+        "values": [
+          0.0
+        ]
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\vmask_r1x1.nc",
+      "dimensions": {
+        "lon": 360,
+        "lat": 180,
+        "z": 75,
+        "time": 1
+      },
+      "variables": {
+        "lon": {
+          "shape": [
+            360
+          ],
+          "units": "degrees_east"
+        },
+        "lat": {
+          "shape": [
+            180
+          ],
+          "units": "degrees_north"
+        },
+        "time": {
+          "shape": [
+            1
+          ],
+          "units": "day as %Y%m%d.%f"
+        },
+        "vmask": {
+          "shape": [
+            1,
+            75,
+            180,
+            360
+          ],
+          "units": ""
+        }
+      },
+      "undecoded_time": {
+        "units": "day as %Y%m%d.%f",
+        "values": [
+          0.0
+        ]
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\vosaline_ORAS5_1m_201401_r1x1.nc",
+      "dimensions": {
+        "deptht": 75,
+        "lat": 180,
+        "lon": 360,
+        "time_counter": 1
+      },
+      "variables": {
+        "deptht": {
+          "shape": [
+            75
+          ],
+          "units": "m"
+        },
+        "lat": {
+          "shape": [
+            180
+          ],
+          "units": "degrees_north"
+        },
+        "lon": {
+          "shape": [
+            360
+          ],
+          "units": "degrees_east"
+        },
+        "time_counter": {
+          "shape": [
+            1
+          ],
+          "units": "seconds since 2014-01-16 00:00:00 UTC"
+        },
+        "vosaline": {
+          "shape": [
+            1,
+            75,
+            180,
+            360
+          ],
+          "units": "PSU"
+        }
+      },
+      "decoded_time": [
+        "2014-01-16 00:00:00"
+      ],
+      "depth_m": [
+        0.5057600140571594,
+        1.5558552742004395,
+        2.6676816940307617,
+        3.8562798500061035,
+        5.140361309051514,
+        6.543033599853516,
+        8.09251880645752,
+        9.822750091552734,
+        11.773679733276367,
+        13.99103832244873,
+        16.52532196044922,
+        19.42980194091797,
+        22.75761604309082,
+        26.558300018310547,
+        30.874561309814453,
+        35.740203857421875,
+        41.180023193359375,
+        47.21189498901367,
+        53.85063552856445,
+        61.11283874511719,
+        69.02168273925781,
+        77.61116027832031,
+        86.92942810058594,
+        97.04131317138672,
+        108.03028106689453,
+        120.0,
+        133.07582092285156,
+        147.40625,
+        163.16445922851562,
+        180.5499267578125,
+        199.7899627685547,
+        221.14117431640625,
+        244.890625,
+        271.35638427734375,
+        300.88751220703125,
+        333.8628234863281,
+        370.6884765625,
+        411.7938537597656,
+        457.6256103515625,
+        508.639892578125,
+        565.2922973632812,
+        628.0260009765625,
+        697.2586669921875,
+        773.3682861328125,
+        856.678955078125,
+        947.4478759765625,
+        1045.854248046875,
+        1151.9912109375,
+        1265.8614501953125,
+        1387.376953125,
+        1516.3636474609375,
+        1652.5684814453125,
+        1795.6707763671875,
+        1945.2955322265625,
+        2101.026611328125,
+        2262.421630859375,
+        2429.025146484375,
+        2600.38037109375,
+        2776.039306640625,
+        2955.5703125,
+        3138.56494140625,
+        3324.640869140625,
+        3513.445556640625,
+        3704.65673828125,
+        3897.98193359375,
+        4093.15869140625,
+        4289.95263671875,
+        4488.15478515625,
+        4687.5810546875,
+        4888.06982421875,
+        5089.478515625,
+        5291.68310546875,
+        5494.5751953125,
+        5698.060546875,
+        5902.0576171875
+      ],
+      "mask_applied": "tmask_r1x1.nc:tmask",
+      "vosaline": {
+        "valid_values": 2484952,
+        "min": 4.120054721832275,
+        "max": 40.42905044555664
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\vosaline_ORAS5_1m_201404_r1x1.nc",
+      "dimensions": {
+        "deptht": 75,
+        "lat": 180,
+        "lon": 360,
+        "time_counter": 1
+      },
+      "variables": {
+        "deptht": {
+          "shape": [
+            75
+          ],
+          "units": "m"
+        },
+        "lat": {
+          "shape": [
+            180
+          ],
+          "units": "degrees_north"
+        },
+        "lon": {
+          "shape": [
+            360
+          ],
+          "units": "degrees_east"
+        },
+        "time_counter": {
+          "shape": [
+            1
+          ],
+          "units": "seconds since 2014-04-16 00:00:00 UTC"
+        },
+        "vosaline": {
+          "shape": [
+            1,
+            75,
+            180,
+            360
+          ],
+          "units": "PSU"
+        }
+      },
+      "decoded_time": [
+        "2014-04-16 00:00:00"
+      ],
+      "depth_m": [
+        0.5057600140571594,
+        1.5558552742004395,
+        2.6676816940307617,
+        3.8562798500061035,
+        5.140361309051514,
+        6.543033599853516,
+        8.09251880645752,
+        9.822750091552734,
+        11.773679733276367,
+        13.99103832244873,
+        16.52532196044922,
+        19.42980194091797,
+        22.75761604309082,
+        26.558300018310547,
+        30.874561309814453,
+        35.740203857421875,
+        41.180023193359375,
+        47.21189498901367,
+        53.85063552856445,
+        61.11283874511719,
+        69.02168273925781,
+        77.61116027832031,
+        86.92942810058594,
+        97.04131317138672,
+        108.03028106689453,
+        120.0,
+        133.07582092285156,
+        147.40625,
+        163.16445922851562,
+        180.5499267578125,
+        199.7899627685547,
+        221.14117431640625,
+        244.890625,
+        271.35638427734375,
+        300.88751220703125,
+        333.8628234863281,
+        370.6884765625,
+        411.7938537597656,
+        457.6256103515625,
+        508.639892578125,
+        565.2922973632812,
+        628.0260009765625,
+        697.2586669921875,
+        773.3682861328125,
+        856.678955078125,
+        947.4478759765625,
+        1045.854248046875,
+        1151.9912109375,
+        1265.8614501953125,
+        1387.376953125,
+        1516.3636474609375,
+        1652.5684814453125,
+        1795.6707763671875,
+        1945.2955322265625,
+        2101.026611328125,
+        2262.421630859375,
+        2429.025146484375,
+        2600.38037109375,
+        2776.039306640625,
+        2955.5703125,
+        3138.56494140625,
+        3324.640869140625,
+        3513.445556640625,
+        3704.65673828125,
+        3897.98193359375,
+        4093.15869140625,
+        4289.95263671875,
+        4488.15478515625,
+        4687.5810546875,
+        4888.06982421875,
+        5089.478515625,
+        5291.68310546875,
+        5494.5751953125,
+        5698.060546875,
+        5902.0576171875
+      ],
+      "mask_applied": "tmask_r1x1.nc:tmask",
+      "vosaline": {
+        "valid_values": 2484952,
+        "min": 3.00675106048584,
+        "max": 40.42755126953125
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\vosaline_ORAS5_1m_201407_r1x1.nc",
+      "dimensions": {
+        "deptht": 75,
+        "lat": 180,
+        "lon": 360,
+        "time_counter": 1
+      },
+      "variables": {
+        "deptht": {
+          "shape": [
+            75
+          ],
+          "units": "m"
+        },
+        "lat": {
+          "shape": [
+            180
+          ],
+          "units": "degrees_north"
+        },
+        "lon": {
+          "shape": [
+            360
+          ],
+          "units": "degrees_east"
+        },
+        "time_counter": {
+          "shape": [
+            1
+          ],
+          "units": "seconds since 2014-07-16 00:00:00 UTC"
+        },
+        "vosaline": {
+          "shape": [
+            1,
+            75,
+            180,
+            360
+          ],
+          "units": "PSU"
+        }
+      },
+      "decoded_time": [
+        "2014-07-16 00:00:00"
+      ],
+      "depth_m": [
+        0.5057600140571594,
+        1.5558552742004395,
+        2.6676816940307617,
+        3.8562798500061035,
+        5.140361309051514,
+        6.543033599853516,
+        8.09251880645752,
+        9.822750091552734,
+        11.773679733276367,
+        13.99103832244873,
+        16.52532196044922,
+        19.42980194091797,
+        22.75761604309082,
+        26.558300018310547,
+        30.874561309814453,
+        35.740203857421875,
+        41.180023193359375,
+        47.21189498901367,
+        53.85063552856445,
+        61.11283874511719,
+        69.02168273925781,
+        77.61116027832031,
+        86.92942810058594,
+        97.04131317138672,
+        108.03028106689453,
+        120.0,
+        133.07582092285156,
+        147.40625,
+        163.16445922851562,
+        180.5499267578125,
+        199.7899627685547,
+        221.14117431640625,
+        244.890625,
+        271.35638427734375,
+        300.88751220703125,
+        333.8628234863281,
+        370.6884765625,
+        411.7938537597656,
+        457.6256103515625,
+        508.639892578125,
+        565.2922973632812,
+        628.0260009765625,
+        697.2586669921875,
+        773.3682861328125,
+        856.678955078125,
+        947.4478759765625,
+        1045.854248046875,
+        1151.9912109375,
+        1265.8614501953125,
+        1387.376953125,
+        1516.3636474609375,
+        1652.5684814453125,
+        1795.6707763671875,
+        1945.2955322265625,
+        2101.026611328125,
+        2262.421630859375,
+        2429.025146484375,
+        2600.38037109375,
+        2776.039306640625,
+        2955.5703125,
+        3138.56494140625,
+        3324.640869140625,
+        3513.445556640625,
+        3704.65673828125,
+        3897.98193359375,
+        4093.15869140625,
+        4289.95263671875,
+        4488.15478515625,
+        4687.5810546875,
+        4888.06982421875,
+        5089.478515625,
+        5291.68310546875,
+        5494.5751953125,
+        5698.060546875,
+        5902.0576171875
+      ],
+      "mask_applied": "tmask_r1x1.nc:tmask",
+      "vosaline": {
+        "valid_values": 2484952,
+        "min": 1.6446210145950317,
+        "max": 40.46036148071289
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\vosaline_ORAS5_1m_201410_r1x1.nc",
+      "dimensions": {
+        "deptht": 75,
+        "lat": 180,
+        "lon": 360,
+        "time_counter": 1
+      },
+      "variables": {
+        "deptht": {
+          "shape": [
+            75
+          ],
+          "units": "m"
+        },
+        "lat": {
+          "shape": [
+            180
+          ],
+          "units": "degrees_north"
+        },
+        "lon": {
+          "shape": [
+            360
+          ],
+          "units": "degrees_east"
+        },
+        "time_counter": {
+          "shape": [
+            1
+          ],
+          "units": "seconds since 2014-10-16 00:00:00 UTC"
+        },
+        "vosaline": {
+          "shape": [
+            1,
+            75,
+            180,
+            360
+          ],
+          "units": "PSU"
+        }
+      },
+      "decoded_time": [
+        "2014-10-16 00:00:00"
+      ],
+      "depth_m": [
+        0.5057600140571594,
+        1.5558552742004395,
+        2.6676816940307617,
+        3.8562798500061035,
+        5.140361309051514,
+        6.543033599853516,
+        8.09251880645752,
+        9.822750091552734,
+        11.773679733276367,
+        13.99103832244873,
+        16.52532196044922,
+        19.42980194091797,
+        22.75761604309082,
+        26.558300018310547,
+        30.874561309814453,
+        35.740203857421875,
+        41.180023193359375,
+        47.21189498901367,
+        53.85063552856445,
+        61.11283874511719,
+        69.02168273925781,
+        77.61116027832031,
+        86.92942810058594,
+        97.04131317138672,
+        108.03028106689453,
+        120.0,
+        133.07582092285156,
+        147.40625,
+        163.16445922851562,
+        180.5499267578125,
+        199.7899627685547,
+        221.14117431640625,
+        244.890625,
+        271.35638427734375,
+        300.88751220703125,
+        333.8628234863281,
+        370.6884765625,
+        411.7938537597656,
+        457.6256103515625,
+        508.639892578125,
+        565.2922973632812,
+        628.0260009765625,
+        697.2586669921875,
+        773.3682861328125,
+        856.678955078125,
+        947.4478759765625,
+        1045.854248046875,
+        1151.9912109375,
+        1265.8614501953125,
+        1387.376953125,
+        1516.3636474609375,
+        1652.5684814453125,
+        1795.6707763671875,
+        1945.2955322265625,
+        2101.026611328125,
+        2262.421630859375,
+        2429.025146484375,
+        2600.38037109375,
+        2776.039306640625,
+        2955.5703125,
+        3138.56494140625,
+        3324.640869140625,
+        3513.445556640625,
+        3704.65673828125,
+        3897.98193359375,
+        4093.15869140625,
+        4289.95263671875,
+        4488.15478515625,
+        4687.5810546875,
+        4888.06982421875,
+        5089.478515625,
+        5291.68310546875,
+        5494.5751953125,
+        5698.060546875,
+        5902.0576171875
+      ],
+      "mask_applied": "tmask_r1x1.nc:tmask",
+      "vosaline": {
+        "valid_values": 2484952,
+        "min": 2.705848217010498,
+        "max": 40.70714569091797
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\votemper_ORAS5_1m_201401_r1x1.nc",
+      "dimensions": {
+        "deptht": 75,
+        "lat": 180,
+        "lon": 360,
+        "time_counter": 1
+      },
+      "variables": {
+        "deptht": {
+          "shape": [
+            75
+          ],
+          "units": "m"
+        },
+        "lat": {
+          "shape": [
+            180
+          ],
+          "units": "degrees_north"
+        },
+        "lon": {
+          "shape": [
+            360
+          ],
+          "units": "degrees_east"
+        },
+        "time_counter": {
+          "shape": [
+            1
+          ],
+          "units": "seconds since 2014-01-16 00:00:00 UTC"
+        },
+        "votemper": {
+          "shape": [
+            1,
+            75,
+            180,
+            360
+          ],
+          "units": "C"
+        }
+      },
+      "decoded_time": [
+        "2014-01-16 00:00:00"
+      ],
+      "depth_m": [
+        0.5057600140571594,
+        1.5558552742004395,
+        2.6676816940307617,
+        3.8562798500061035,
+        5.140361309051514,
+        6.543033599853516,
+        8.09251880645752,
+        9.822750091552734,
+        11.773679733276367,
+        13.99103832244873,
+        16.52532196044922,
+        19.42980194091797,
+        22.75761604309082,
+        26.558300018310547,
+        30.874561309814453,
+        35.740203857421875,
+        41.180023193359375,
+        47.21189498901367,
+        53.85063552856445,
+        61.11283874511719,
+        69.02168273925781,
+        77.61116027832031,
+        86.92942810058594,
+        97.04131317138672,
+        108.03028106689453,
+        120.0,
+        133.07582092285156,
+        147.40625,
+        163.16445922851562,
+        180.5499267578125,
+        199.7899627685547,
+        221.14117431640625,
+        244.890625,
+        271.35638427734375,
+        300.88751220703125,
+        333.8628234863281,
+        370.6884765625,
+        411.7938537597656,
+        457.6256103515625,
+        508.639892578125,
+        565.2922973632812,
+        628.0260009765625,
+        697.2586669921875,
+        773.3682861328125,
+        856.678955078125,
+        947.4478759765625,
+        1045.854248046875,
+        1151.9912109375,
+        1265.8614501953125,
+        1387.376953125,
+        1516.3636474609375,
+        1652.5684814453125,
+        1795.6707763671875,
+        1945.2955322265625,
+        2101.026611328125,
+        2262.421630859375,
+        2429.025146484375,
+        2600.38037109375,
+        2776.039306640625,
+        2955.5703125,
+        3138.56494140625,
+        3324.640869140625,
+        3513.445556640625,
+        3704.65673828125,
+        3897.98193359375,
+        4093.15869140625,
+        4289.95263671875,
+        4488.15478515625,
+        4687.5810546875,
+        4888.06982421875,
+        5089.478515625,
+        5291.68310546875,
+        5494.5751953125,
+        5698.060546875,
+        5902.0576171875
+      ],
+      "mask_applied": "tmask_r1x1.nc:tmask",
+      "votemper": {
+        "valid_values": 2484952,
+        "min": -1.9800677299499512,
+        "max": 30.82979965209961
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\votemper_ORAS5_1m_201404_r1x1.nc",
+      "dimensions": {
+        "deptht": 75,
+        "lat": 180,
+        "lon": 360,
+        "time_counter": 1
+      },
+      "variables": {
+        "deptht": {
+          "shape": [
+            75
+          ],
+          "units": "m"
+        },
+        "lat": {
+          "shape": [
+            180
+          ],
+          "units": "degrees_north"
+        },
+        "lon": {
+          "shape": [
+            360
+          ],
+          "units": "degrees_east"
+        },
+        "time_counter": {
+          "shape": [
+            1
+          ],
+          "units": "seconds since 2014-04-16 00:00:00 UTC"
+        },
+        "votemper": {
+          "shape": [
+            1,
+            75,
+            180,
+            360
+          ],
+          "units": "C"
+        }
+      },
+      "decoded_time": [
+        "2014-04-16 00:00:00"
+      ],
+      "depth_m": [
+        0.5057600140571594,
+        1.5558552742004395,
+        2.6676816940307617,
+        3.8562798500061035,
+        5.140361309051514,
+        6.543033599853516,
+        8.09251880645752,
+        9.822750091552734,
+        11.773679733276367,
+        13.99103832244873,
+        16.52532196044922,
+        19.42980194091797,
+        22.75761604309082,
+        26.558300018310547,
+        30.874561309814453,
+        35.740203857421875,
+        41.180023193359375,
+        47.21189498901367,
+        53.85063552856445,
+        61.11283874511719,
+        69.02168273925781,
+        77.61116027832031,
+        86.92942810058594,
+        97.04131317138672,
+        108.03028106689453,
+        120.0,
+        133.07582092285156,
+        147.40625,
+        163.16445922851562,
+        180.5499267578125,
+        199.7899627685547,
+        221.14117431640625,
+        244.890625,
+        271.35638427734375,
+        300.88751220703125,
+        333.8628234863281,
+        370.6884765625,
+        411.7938537597656,
+        457.6256103515625,
+        508.639892578125,
+        565.2922973632812,
+        628.0260009765625,
+        697.2586669921875,
+        773.3682861328125,
+        856.678955078125,
+        947.4478759765625,
+        1045.854248046875,
+        1151.9912109375,
+        1265.8614501953125,
+        1387.376953125,
+        1516.3636474609375,
+        1652.5684814453125,
+        1795.6707763671875,
+        1945.2955322265625,
+        2101.026611328125,
+        2262.421630859375,
+        2429.025146484375,
+        2600.38037109375,
+        2776.039306640625,
+        2955.5703125,
+        3138.56494140625,
+        3324.640869140625,
+        3513.445556640625,
+        3704.65673828125,
+        3897.98193359375,
+        4093.15869140625,
+        4289.95263671875,
+        4488.15478515625,
+        4687.5810546875,
+        4888.06982421875,
+        5089.478515625,
+        5291.68310546875,
+        5494.5751953125,
+        5698.060546875,
+        5902.0576171875
+      ],
+      "mask_applied": "tmask_r1x1.nc:tmask",
+      "votemper": {
+        "valid_values": 2484952,
+        "min": -1.9361265897750854,
+        "max": 31.41240692138672
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\votemper_ORAS5_1m_201407_r1x1.nc",
+      "dimensions": {
+        "deptht": 75,
+        "lat": 180,
+        "lon": 360,
+        "time_counter": 1
+      },
+      "variables": {
+        "deptht": {
+          "shape": [
+            75
+          ],
+          "units": "m"
+        },
+        "lat": {
+          "shape": [
+            180
+          ],
+          "units": "degrees_north"
+        },
+        "lon": {
+          "shape": [
+            360
+          ],
+          "units": "degrees_east"
+        },
+        "time_counter": {
+          "shape": [
+            1
+          ],
+          "units": "seconds since 2014-07-16 00:00:00 UTC"
+        },
+        "votemper": {
+          "shape": [
+            1,
+            75,
+            180,
+            360
+          ],
+          "units": "C"
+        }
+      },
+      "decoded_time": [
+        "2014-07-16 00:00:00"
+      ],
+      "depth_m": [
+        0.5057600140571594,
+        1.5558552742004395,
+        2.6676816940307617,
+        3.8562798500061035,
+        5.140361309051514,
+        6.543033599853516,
+        8.09251880645752,
+        9.822750091552734,
+        11.773679733276367,
+        13.99103832244873,
+        16.52532196044922,
+        19.42980194091797,
+        22.75761604309082,
+        26.558300018310547,
+        30.874561309814453,
+        35.740203857421875,
+        41.180023193359375,
+        47.21189498901367,
+        53.85063552856445,
+        61.11283874511719,
+        69.02168273925781,
+        77.61116027832031,
+        86.92942810058594,
+        97.04131317138672,
+        108.03028106689453,
+        120.0,
+        133.07582092285156,
+        147.40625,
+        163.16445922851562,
+        180.5499267578125,
+        199.7899627685547,
+        221.14117431640625,
+        244.890625,
+        271.35638427734375,
+        300.88751220703125,
+        333.8628234863281,
+        370.6884765625,
+        411.7938537597656,
+        457.6256103515625,
+        508.639892578125,
+        565.2922973632812,
+        628.0260009765625,
+        697.2586669921875,
+        773.3682861328125,
+        856.678955078125,
+        947.4478759765625,
+        1045.854248046875,
+        1151.9912109375,
+        1265.8614501953125,
+        1387.376953125,
+        1516.3636474609375,
+        1652.5684814453125,
+        1795.6707763671875,
+        1945.2955322265625,
+        2101.026611328125,
+        2262.421630859375,
+        2429.025146484375,
+        2600.38037109375,
+        2776.039306640625,
+        2955.5703125,
+        3138.56494140625,
+        3324.640869140625,
+        3513.445556640625,
+        3704.65673828125,
+        3897.98193359375,
+        4093.15869140625,
+        4289.95263671875,
+        4488.15478515625,
+        4687.5810546875,
+        4888.06982421875,
+        5089.478515625,
+        5291.68310546875,
+        5494.5751953125,
+        5698.060546875,
+        5902.0576171875
+      ],
+      "mask_applied": "tmask_r1x1.nc:tmask",
+      "votemper": {
+        "valid_values": 2484952,
+        "min": -1.900617003440857,
+        "max": 33.42470932006836
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\votemper_ORAS5_1m_201410_r1x1.nc",
+      "dimensions": {
+        "deptht": 75,
+        "lat": 180,
+        "lon": 360,
+        "time_counter": 1
+      },
+      "variables": {
+        "deptht": {
+          "shape": [
+            75
+          ],
+          "units": "m"
+        },
+        "lat": {
+          "shape": [
+            180
+          ],
+          "units": "degrees_north"
+        },
+        "lon": {
+          "shape": [
+            360
+          ],
+          "units": "degrees_east"
+        },
+        "time_counter": {
+          "shape": [
+            1
+          ],
+          "units": "seconds since 2014-10-16 00:00:00 UTC"
+        },
+        "votemper": {
+          "shape": [
+            1,
+            75,
+            180,
+            360
+          ],
+          "units": "C"
+        }
+      },
+      "decoded_time": [
+        "2014-10-16 00:00:00"
+      ],
+      "depth_m": [
+        0.5057600140571594,
+        1.5558552742004395,
+        2.6676816940307617,
+        3.8562798500061035,
+        5.140361309051514,
+        6.543033599853516,
+        8.09251880645752,
+        9.822750091552734,
+        11.773679733276367,
+        13.99103832244873,
+        16.52532196044922,
+        19.42980194091797,
+        22.75761604309082,
+        26.558300018310547,
+        30.874561309814453,
+        35.740203857421875,
+        41.180023193359375,
+        47.21189498901367,
+        53.85063552856445,
+        61.11283874511719,
+        69.02168273925781,
+        77.61116027832031,
+        86.92942810058594,
+        97.04131317138672,
+        108.03028106689453,
+        120.0,
+        133.07582092285156,
+        147.40625,
+        163.16445922851562,
+        180.5499267578125,
+        199.7899627685547,
+        221.14117431640625,
+        244.890625,
+        271.35638427734375,
+        300.88751220703125,
+        333.8628234863281,
+        370.6884765625,
+        411.7938537597656,
+        457.6256103515625,
+        508.639892578125,
+        565.2922973632812,
+        628.0260009765625,
+        697.2586669921875,
+        773.3682861328125,
+        856.678955078125,
+        947.4478759765625,
+        1045.854248046875,
+        1151.9912109375,
+        1265.8614501953125,
+        1387.376953125,
+        1516.3636474609375,
+        1652.5684814453125,
+        1795.6707763671875,
+        1945.2955322265625,
+        2101.026611328125,
+        2262.421630859375,
+        2429.025146484375,
+        2600.38037109375,
+        2776.039306640625,
+        2955.5703125,
+        3138.56494140625,
+        3324.640869140625,
+        3513.445556640625,
+        3704.65673828125,
+        3897.98193359375,
+        4093.15869140625,
+        4289.95263671875,
+        4488.15478515625,
+        4687.5810546875,
+        4888.06982421875,
+        5089.478515625,
+        5291.68310546875,
+        5494.5751953125,
+        5698.060546875,
+        5902.0576171875
+      ],
+      "mask_applied": "tmask_r1x1.nc:tmask",
+      "votemper": {
+        "valid_values": 2484952,
+        "min": -1.8869102001190186,
+        "max": 32.93360137939453
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\ice\\G02202-ancillary-psn25-v06r00.nc",
+      "dimensions": {
+        "y": 448,
+        "x": 304,
+        "month": 12,
+        "doy": 366
+      },
+      "variables": {
+        "adj123": {
+          "shape": [
+            448,
+            304
+          ],
+          "units": ""
+        },
+        "crs": {
+          "shape": [],
+          "units": "meters"
+        },
+        "invalid_ice_mask": {
+          "shape": [
+            12,
+            448,
+            304
+          ],
+          "units": "1"
+        },
+        "l90c": {
+          "shape": [
+            448,
+            304
+          ],
+          "units": ""
+        },
+        "latitude": {
+          "shape": [
+            448,
+            304
+          ],
+          "units": "degrees_north"
+        },
+        "longitude": {
+          "shape": [
+            448,
+            304
+          ],
+          "units": "degrees_east"
+        },
+        "month": {
+          "shape": [
+            12
+          ],
+          "units": ""
+        },
+        "polehole_bitmask": {
+          "shape": [
+            448,
+            304
+          ],
+          "units": ""
+        },
+        "surface_type": {
+          "shape": [
+            448,
+            304
+          ],
+          "units": ""
+        },
+        "x": {
+          "shape": [
+            304
+          ],
+          "units": "meters"
+        },
+        "y": {
+          "shape": [
+            448
+          ],
+          "units": "meters"
+        },
+        "doy": {
+          "shape": [
+            366
+          ],
+          "units": ""
+        },
+        "am2_cdr_seaice_conc_threshold": {
+          "shape": [
+            366
+          ],
+          "units": "1"
+        }
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\ice\\sic_psn25_201401_F17_v06r00.nc",
+      "dimensions": {
+        "time": 1,
+        "y": 448,
+        "x": 304
+      },
+      "variables": {
+        "cdr_seaice_conc_monthly": {
+          "shape": [
+            1,
+            448,
+            304
+          ],
+          "units": "1"
+        },
+        "cdr_seaice_conc_monthly_stdev": {
+          "shape": [
+            1,
+            448,
+            304
+          ],
+          "units": "1"
+        },
+        "cdr_seaice_conc_monthly_qa_flag": {
+          "shape": [
+            1,
+            448,
+            304
+          ],
+          "units": "1"
+        },
+        "crs": {
+          "shape": [],
+          "units": "meters"
+        },
+        "time": {
+          "shape": [
+            1
+          ],
+          "units": "days since 1970-01-01"
+        },
+        "x": {
+          "shape": [
+            304
+          ],
+          "units": "meters"
+        },
+        "y": {
+          "shape": [
+            448
+          ],
+          "units": "meters"
+        }
+      },
+      "decoded_time": [
+        "2014-01-01 00:00:00"
+      ],
+      "cdr_seaice_conc_monthly": {
+        "valid_values": 67403,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\ice\\sic_psn25_201404_F17_v06r00.nc",
+      "dimensions": {
+        "time": 1,
+        "y": 448,
+        "x": 304
+      },
+      "variables": {
+        "cdr_seaice_conc_monthly": {
+          "shape": [
+            1,
+            448,
+            304
+          ],
+          "units": "1"
+        },
+        "cdr_seaice_conc_monthly_stdev": {
+          "shape": [
+            1,
+            448,
+            304
+          ],
+          "units": "1"
+        },
+        "cdr_seaice_conc_monthly_qa_flag": {
+          "shape": [
+            1,
+            448,
+            304
+          ],
+          "units": "1"
+        },
+        "crs": {
+          "shape": [],
+          "units": "meters"
+        },
+        "time": {
+          "shape": [
+            1
+          ],
+          "units": "days since 1970-01-01"
+        },
+        "x": {
+          "shape": [
+            304
+          ],
+          "units": "meters"
+        },
+        "y": {
+          "shape": [
+            448
+          ],
+          "units": "meters"
+        }
+      },
+      "decoded_time": [
+        "2014-04-01 00:00:00"
+      ],
+      "cdr_seaice_conc_monthly": {
+        "valid_values": 67403,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\ice\\sic_psn25_201407_F17_v06r00.nc",
+      "dimensions": {
+        "time": 1,
+        "y": 448,
+        "x": 304
+      },
+      "variables": {
+        "cdr_seaice_conc_monthly": {
+          "shape": [
+            1,
+            448,
+            304
+          ],
+          "units": "1"
+        },
+        "cdr_seaice_conc_monthly_stdev": {
+          "shape": [
+            1,
+            448,
+            304
+          ],
+          "units": "1"
+        },
+        "cdr_seaice_conc_monthly_qa_flag": {
+          "shape": [
+            1,
+            448,
+            304
+          ],
+          "units": "1"
+        },
+        "crs": {
+          "shape": [],
+          "units": "meters"
+        },
+        "time": {
+          "shape": [
+            1
+          ],
+          "units": "days since 1970-01-01"
+        },
+        "x": {
+          "shape": [
+            304
+          ],
+          "units": "meters"
+        },
+        "y": {
+          "shape": [
+            448
+          ],
+          "units": "meters"
+        }
+      },
+      "decoded_time": [
+        "2014-07-01 00:00:00"
+      ],
+      "cdr_seaice_conc_monthly": {
+        "valid_values": 67403,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    {
+      "file": "D:\\Dataset\\RBMF-CS_polar_sample\\ice\\sic_psn25_201410_F17_v06r00.nc",
+      "dimensions": {
+        "time": 1,
+        "y": 448,
+        "x": 304
+      },
+      "variables": {
+        "cdr_seaice_conc_monthly": {
+          "shape": [
+            1,
+            448,
+            304
+          ],
+          "units": "1"
+        },
+        "cdr_seaice_conc_monthly_stdev": {
+          "shape": [
+            1,
+            448,
+            304
+          ],
+          "units": "1"
+        },
+        "cdr_seaice_conc_monthly_qa_flag": {
+          "shape": [
+            1,
+            448,
+            304
+          ],
+          "units": "1"
+        },
+        "crs": {
+          "shape": [],
+          "units": "meters"
+        },
+        "time": {
+          "shape": [
+            1
+          ],
+          "units": "days since 1970-01-01"
+        },
+        "x": {
+          "shape": [
+            304
+          ],
+          "units": "meters"
+        },
+        "y": {
+          "shape": [
+            448
+          ],
+          "units": "meters"
+        }
+      },
+      "decoded_time": [
+        "2014-10-01 00:00:00"
+      ],
+      "cdr_seaice_conc_monthly": {
+        "valid_values": 67403,
+        "min": 0.0,
+        "max": 1.0
+      }
+    }
+  ],
+  "argo_counting": "one GDAC file/float cycle, union of QC-valid vertical sampling segments",
+  "itp_selected": [
+    {
+      "system": 48,
+      "track_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 54,
+      "track_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 58,
+      "track_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 59,
+      "track_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 61,
+      "track_months": [
+        1
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 66,
+      "track_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 67,
+      "track_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "level3_available": false
+    },
+    {
+      "system": 68,
+      "track_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 69,
+      "track_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 70,
+      "track_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": false
+    },
+    {
+      "system": 71,
+      "track_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 72,
+      "track_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 74,
+      "track_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 75,
+      "track_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 76,
+      "track_months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 77,
+      "track_months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "level3_available": false
+    },
+    {
+      "system": 78,
+      "track_months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": false
+    },
+    {
+      "system": 79,
+      "track_months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "level3_available": false
+    },
+    {
+      "system": 80,
+      "track_months": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": false
+    },
+    {
+      "system": 81,
+      "track_months": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 82,
+      "track_months": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 84,
+      "track_months": [
+        10,
+        11,
+        12
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 85,
+      "track_months": [
+        10,
+        11,
+        12
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 86,
+      "track_months": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": true
+    },
+    {
+      "system": 87,
+      "track_months": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level3_available": true
+    }
+  ],
+  "limitations": [
+    "ITP counts include only available Level III archives, not all systems with trajectories",
+    "Argo depth counts require temperature and pressure QC=1; strict counts also require delayed mode and position/time QC 1 or 2",
+    "Vertical bracketing is not proof of monthly representativeness, independent validation or deployment feasibility"
+  ]
+}

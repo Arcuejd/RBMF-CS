@@ -1,0 +1,87 @@
+{
+  "label": "synthetic demo only; stages 1 and 2; not MC-EIR deployment",
+  "status": "completed_with_nonconvergence",
+  "utc_started": "2026-10-08T02:00:12.399291+00:00",
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "D:\\python\\python.exe",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "threads": {
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null
+  },
+  "configuration_sha256": "901e04ef56b8b9a263196f4423d0490bd062ea06eb7f4d731130695d219d2ebf",
+  "source_hashes": {
+    "src\\rbmf_cs\\__init__.py": "34090b64ab14d8f73f3f53bc1c92b9102deefdb2dd5d8b3c9dce01287658ef26",
+    "src\\rbmf_cs\\basis.py": "8d9fc4315e18b401ab85609d016c1f3f061395ea9ba84311de34ecaec0397bf2",
+    "src\\rbmf_cs\\model.py": "8eeeb7abcec96c678796725ece97a9f9d80e12db5cf85e23fc624abda7dadbaa",
+    "src\\rbmf_cs\\numerics.py": "263a6414f31847e1534094afbef6ce2cdd3e94c1f119804cc90149e242ceb7ae",
+    "src\\rbmf_cs\\synthetic.py": "8b8892c007e5139f8baf4d95c34515d0a7d361b369d56b488f8a0dd2d0ce566a",
+    "scripts\\extract_manuscript.py": "a576f950e8f59f510b0b991e3c0262ace31b3803ba33e49cc38805bc56d61ba3",
+    "scripts\\run_synthetic_demo.py": "be2127d4512031838f124b62d978b4167b1327f5079e66aac7f644496c77fcb8",
+    "scripts\\run_tests.py": "4ba385ec87745623e049d23d7040d374cd9b64fafbf0d2c51c10bb04ce1788f9",
+    "tests\\test_inference.py": "0d05c0b58bf980727c08f3a345d1bccf7a9a622b896a221af7b84d32e20079e2",
+    "tests\\test_training.py": "945170921912dc74d8f47c662d98c1adb810509ecb4ef824e18fac7329557321"
+  },
+  "paper": {
+    "source": "C:/Users/LENOVO/Desktop/Robust_Bayesian_Multifidelity_Polar_Sensing_Manuscript_Filled_Sections4_5.docx",
+    "sha256": "b3926695b7d9e3e3034326021a2a31327acf9a76c67c818e50b0654e921eb790",
+    "native_equation_count": 157,
+    "paragraph_count": 551
+  },
+  "runtime_seconds": 3.038556999999855,
+  "pod_training_energy_fraction": 1.0,
+  "trajectory": [
+    {
+      "step": 0,
+      "acquired_node": null,
+      "observed_count": 11,
+      "rmse_physical": 0.17638398254639429,
+      "total_latent_variance_physical": 0.0019470401478928652,
+      "converged": false,
+      "iterations": 2000,
+      "fit_count": 1,
+      "runtime_seconds": 0.7259447000001273
+    },
+    {
+      "step": 1,
+      "acquired_node": 87,
+      "observed_count": 12,
+      "rmse_physical": 0.16538087812011862,
+      "total_latent_variance_physical": 0.001954730874202894,
+      "converged": false,
+      "iterations": 2000,
+      "fit_count": 2,
+      "runtime_seconds": 0.7312815000000228
+    },
+    {
+      "step": 2,
+      "acquired_node": 113,
+      "observed_count": 13,
+      "rmse_physical": 0.14888225147759584,
+      "total_latent_variance_physical": 0.001966804325406319,
+      "converged": false,
+      "iterations": 2000,
+      "fit_count": 3,
+      "runtime_seconds": 0.7465039000003344
+    },
+    {
+      "step": 3,
+      "acquired_node": 20,
+      "observed_count": 14,
+      "rmse_physical": 0.12891312551825432,
+      "total_latent_variance_physical": 0.0019822595893532495,
+      "converged": false,
+      "iterations": 2000,
+      "fit_count": 4,
+      "runtime_seconds": 0.7362412000002223
+    }
+  ],
+  "limitations": [
+    "synthetic only",
+    "predeclared random acquisition order, no MC-EIR or engineering feasibility",
+    "latent mean-field uncertainty excludes basis/truncation/measurement uncertainty"
+  ]
+}

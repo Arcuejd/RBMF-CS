@@ -1,0 +1,42 @@
+[
+  {
+    "date": 201301,
+    "rank": 4,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.35294580496364203
+  },
+  {
+    "date": 201301,
+    "rank": 16,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.3115102698212437
+  },
+  {
+    "date": 201301,
+    "rank": 32,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.18590183256406217
+  },
+  {
+    "date": 201301,
+    "rank": 70,
+    "offline_evaluation_projection_lower_bound_rmse_c": 8.510931975846375e-16
+  },
+  {
+    "date": 201307,
+    "rank": 4,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.3233892931733973
+  },
+  {
+    "date": 201307,
+    "rank": 16,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.21289365446918124
+  },
+  {
+    "date": 201307,
+    "rank": 32,
+    "offline_evaluation_projection_lower_bound_rmse_c": 0.14043750703947544
+  },
+  {
+    "date": 201307,
+    "rank": 70,
+    "offline_evaluation_projection_lower_bound_rmse_c": 8.027522555748794e-16
+  }
+]

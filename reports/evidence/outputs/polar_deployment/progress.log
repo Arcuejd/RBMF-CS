@@ -1,0 +1,25 @@
+201401 mc_eir: fitting seed and selecting up to 12 sensors
+201401 mc_eir: 12 sensors; stop=sensor_budget_reached; unseen RMSE=0.7751 C; converged=True
+201401 random: fitting seed and selecting up to 12 sensors
+201401 random: 12 sensors; stop=sensor_budget_reached; unseen RMSE=0.8060 C; converged=True
+201401 space_filling: fitting seed and selecting up to 12 sensors
+201401 space_filling: 12 sensors; stop=sensor_budget_reached; unseen RMSE=0.7912 C; converged=True
+201404 mc_eir: fitting seed and selecting up to 12 sensors
+201404 mc_eir: 12 sensors; stop=sensor_budget_reached; unseen RMSE=0.4644 C; converged=True
+201404 random: fitting seed and selecting up to 12 sensors
+201404 random: 12 sensors; stop=sensor_budget_reached; unseen RMSE=0.4638 C; converged=True
+201404 space_filling: fitting seed and selecting up to 12 sensors
+201404 space_filling: 12 sensors; stop=sensor_budget_reached; unseen RMSE=0.4650 C; converged=True
+201407 mc_eir: fitting seed and selecting up to 12 sensors
+201407 mc_eir: 12 sensors; stop=sensor_budget_reached; unseen RMSE=0.4322 C; converged=True
+201407 random: fitting seed and selecting up to 12 sensors
+201407 random: 12 sensors; stop=sensor_budget_reached; unseen RMSE=0.4355 C; converged=True
+201407 space_filling: fitting seed and selecting up to 12 sensors
+201407 space_filling: 12 sensors; stop=sensor_budget_reached; unseen RMSE=0.4364 C; converged=True
+201410 mc_eir: fitting seed and selecting up to 12 sensors
+201410 mc_eir: 12 sensors; stop=sensor_budget_reached; unseen RMSE=0.4534 C; converged=True
+201410 random: fitting seed and selecting up to 12 sensors
+201410 random: 12 sensors; stop=sensor_budget_reached; unseen RMSE=0.4574 C; converged=True
+201410 space_filling: fitting seed and selecting up to 12 sensors
+201410 space_filling: 12 sensors; stop=sensor_budget_reached; unseen RMSE=0.4564 C; converged=True
+Finished. All fits converged and deployments feasible: True; dashboard: D:\project\RBMF-CS\outputs\polar_deployment\index.html

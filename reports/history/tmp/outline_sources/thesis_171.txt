@@ -1,0 +1,35 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+156 
+ 
+[75] Jung B K, Cho J R, Jeong W B. Sensor placement optimization for structural modal 
+identification of flexible structures using genetic algorithm[J]. Journal of Mechanical 
+Science and Technology, 2015, 29(7): 2775-2783. 
+[76] Dai L, Wang B. Sensor Placement Based on an Improved Genetic Algorithm for 
+Connected Confident Information Coverage in an Area with Obstacles [C]//2017 
+IEEE 42nd Conference on Local Computer Networks (LCN), Singapore, 2017: 595 -
+598.  
+[77] Shi Q, Wang H, Wang L, et al. A bilayer optimization strategy of optimal sensor 
+placement for parameter identification under uncertainty[J]. Structural and 
+Multidisciplinary Optimization, 2022, 65(9): 264. 
+[78] 石东森, 田峰. 基于多目标粒子群算法的无人机通信三维位置部署及优化研究[J]. 
+南京邮电大学学报(自然科学版), 2022, 42(4): 45-55. 
+[79] Soubhia A L, Serpa A L. Discrete optimization for positioning of actuators and 
+sensors in vibration control using the simulated annealing method[J]. Journal of the 
+Brazilian Society of Mechanical Sciences and Engineering, 2020, 42(2): 101. 
+[80] 李明, 胡江平, 曹晓莉. 异构传感网成本优化的节点部署策略[J]. 西安电子科技大
+学学报, 2021, 48(4): 11-19+49. 
+[81] Neshat M, Alexander B, Wagner M, et al. A detailed comparison of meta -heuristic 
+methods for optimising wave energy converter placements [C]//Genetic and 
+Evolutionary Computation Conference. Kyoto, Japan; Association for Computing 
+Machinery. 2018: 1318–1325.  
+[82] Neshat M, Alexander B, Sergiienko N Y , et al. Optimisation of large wave farms 
+using a multi -strategy evolutionary framework[ C]//2020 Genetic and Evolutionary 
+Computation Conference. Cancú n, Mexico; Association for Computing Machinery. 
+2020: 1150–1158.  
+[83] Shewry M C, Wynn H P. Maximum entropy sampling[J]. Journal of Applied 
+Statistics, 1987, 14(2): 165-170. 
+[84] Ramakrishnan N, Bailey-Kellogg C, Tadepalli S, et al. Gaussian Processes for Active 
+Data Mining of Spatial Aggregates[C]//2005 SIAM International Conference on Data 
+Mining, 2005: 427-438.  
+[85] Khorshidi M S, Nikoo M R, Taravatrooy N, et al. Pressure sensor placement in water 
+distribution networks for leak detection using a hybrid information -entropy 

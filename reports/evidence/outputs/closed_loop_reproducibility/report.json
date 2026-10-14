@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "fresh_processes": 2,
+  "array_comparisons": 52,
+  "json_comparisons": 8,
+  "selected": [
+    0,
+    1,
+    12,
+    13,
+    3,
+    5,
+    7,
+    31,
+    18
+  ],
+  "ignored": "runtime_seconds fields; timestamp-bearing run manifest not compared"
+}

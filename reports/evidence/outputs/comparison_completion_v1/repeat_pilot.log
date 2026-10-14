@@ -1,0 +1,22 @@
+Failed to find real location of D:\python\python.exe
+Running 201401_clean_s000
+Running 201401_clean_s001
+Running 201401_gaussian_s000
+Running 201401_gaussian_s001
+Running 201401_student_s000
+Running 201401_student_s001
+Running 201401_outlier_s000
+Running 201401_outlier_s001
+Running 201401_missing_s000
+Running 201401_missing_s001
+Running 201401_lf_bias_s000
+Running 201401_lf_bias_s001
+Running 201401_train_gaussian_s000
+Running 201401_train_gaussian_s001
+Running 201401_train_student_s000
+Running 201401_train_student_s001
+Running 201401_train_outlier_s000
+Running 201401_train_outlier_s001
+Running 201401_train_missing_s000
+Running 201401_train_missing_s001
+D:\project\RBMF-CS\outputs\comparison_selected_repeat_v1

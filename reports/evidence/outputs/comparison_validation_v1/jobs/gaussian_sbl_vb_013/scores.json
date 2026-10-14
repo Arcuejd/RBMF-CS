@@ -1,0 +1,17 @@
+[
+  {
+    "method": "gaussian_sbl_vb",
+    "index": 13,
+    "parameters": {
+      "rank": 70,
+      "regularization": 0.1,
+      "inference": {
+        "a_gamma": 0.01,
+        "b_gamma": 0.01
+      }
+    },
+    "score": 0.5014233121216815,
+    "valid": true,
+    "seconds": 10.309994000002916
+  }
+]

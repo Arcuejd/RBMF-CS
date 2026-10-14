@@ -1,0 +1,18 @@
+[
+  {
+    "method": "rbmf",
+    "index": 22,
+    "parameters": {
+      "rank": 16,
+      "regularization": 0.1,
+      "inference": {
+        "a_delta": 2.0,
+        "b_delta": 2.0,
+        "nu": 4.0
+      }
+    },
+    "score": 0.4571815269331229,
+    "valid": true,
+    "seconds": 1.4014180999947712
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "formal_ready": true,
+  "blocking_issues": [],
+  "schema": {
+    "coordinates_latlon": [
+      346,
+      2
+    ],
+    "node_ids": [
+      346
+    ],
+    "original_grid_flat_ids": [
+      346
+    ],
+    "valid_domain_mask": [
+      180,
+      360
+    ],
+    "train_dates": [
+      156
+    ],
+    "validation_dates": [
+      12
+    ],
+    "train_hf_insitu_c": [
+      156,
+      346
+    ],
+    "train_hf_anomaly_c": [
+      156,
+      346
+    ],
+    "train_hf_model": [
+      156,
+      346
+    ],
+    "validation_hf_insitu_c": [
+      12,
+      346
+    ],
+    "validation_hf_anomaly_c": [
+      12,
+      346
+    ],
+    "validation_hf_model": [
+      12,
+      346
+    ],
+    "ice_qa_flags": [
+      4,
+      346
+    ],
+    "ice_source_flat_ids": [
+      346
+    ],
+    "ice_distance_km": [
+      346
+    ],
+    "lf_source_flat_ids": [
+      346,
+      4
+    ],
+    "lf_source_weights": [
+      346,
+      4
+    ],
+    "validation_lf_model": [
+      12,
+      346
+    ],
+    "validation_lf_insitu_c": [
+      12,
+      346
+    ],
+    "validation_lf_anomaly_c": [
+      12,
+      346
+    ],
+    "validation_ice_fraction": [
+      12,
+      346
+    ],
+    "validation_ice_qa_flags": [
+      12,
+      346
+    ],
+    "validation_ice_source_flat_ids": [
+      346
+    ],
+    "validation_ice_distance_km": [
+      346
+    ],
+    "test_dates": [
+      0
+    ]
+  },
+  "evaluation_label": "exploratory_2014_no_unseen_paired_test_data",
+  "unchanged_split": {
+    "train": "2000-2012",
+    "validation": "2013",
+    "exploratory": "2014"
+  }
+}

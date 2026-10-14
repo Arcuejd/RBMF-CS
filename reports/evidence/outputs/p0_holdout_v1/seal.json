@@ -1,0 +1,6 @@
+{
+  "manifest_sha256": "da0c19d4d15c9532ab722d4b0df43c07b0c3f2c555375024a19557f89ca2cb5e",
+  "sealed_sha256": "3015ce44e91624a942c098237fb54edde4a91f54daf3e657ae01eb20c2319bcf",
+  "release_authorized": false,
+  "required": "final method hash, protocol hash, complete pairing and explicit evaluation release"
+}

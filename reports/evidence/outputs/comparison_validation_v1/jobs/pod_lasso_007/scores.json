@@ -1,0 +1,14 @@
+[
+  {
+    "method": "pod_lasso",
+    "index": 7,
+    "parameters": {
+      "rank": 8,
+      "regularization": 0.001,
+      "inference": {}
+    },
+    "score": null,
+    "valid": false,
+    "seconds": 11.379669800000556
+  }
+]

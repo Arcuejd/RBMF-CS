@@ -1,0 +1,50 @@
+{
+  "status": "completed",
+  "output": "D:\\project\\RBMF-CS\\outputs\\reproducibility\\run_a",
+  "trajectory": [
+    {
+      "step": 0,
+      "acquired_node": null,
+      "observed_count": 11,
+      "rmse_physical": 0.05701613390946113,
+      "total_latent_variance_physical": 0.2310149977346044,
+      "converged": true,
+      "iterations": 73,
+      "fit_count": 1,
+      "runtime_seconds": 0.02641840000069351
+    },
+    {
+      "step": 1,
+      "acquired_node": 87,
+      "observed_count": 12,
+      "rmse_physical": 0.05679736486277807,
+      "total_latent_variance_physical": 0.2184242776210233,
+      "converged": true,
+      "iterations": 16,
+      "fit_count": 2,
+      "runtime_seconds": 0.005890999997063773
+    },
+    {
+      "step": 2,
+      "acquired_node": 113,
+      "observed_count": 13,
+      "rmse_physical": 0.060070522023759836,
+      "total_latent_variance_physical": 0.22000994089022802,
+      "converged": true,
+      "iterations": 30,
+      "fit_count": 3,
+      "runtime_seconds": 0.012363100002403371
+    },
+    {
+      "step": 3,
+      "acquired_node": 20,
+      "observed_count": 14,
+      "rmse_physical": 0.0577675690109777,
+      "total_latent_variance_physical": 0.2088137067628168,
+      "converged": true,
+      "iterations": 22,
+      "fit_count": 4,
+      "runtime_seconds": 0.008421300000918563
+    }
+  ]
+}

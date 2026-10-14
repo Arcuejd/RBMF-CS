@@ -1,0 +1,3187 @@
+[
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\tmask2D_r1x1.nc",
+    "bytes": 68308
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\tmask_r1x1.nc",
+    "bytes": 4863428
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\umask2D_r1x1.nc",
+    "bytes": 68308
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\umask_r1x1.nc",
+    "bytes": 4863428
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\vmask2D_r1x1.nc",
+    "bytes": 68308
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\vmask_r1x1.nc",
+    "bytes": 4863428
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\vosaline_ORAS5_1m_201401_r1x1.nc",
+    "bytes": 19450756
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\vosaline_ORAS5_1m_201404_r1x1.nc",
+    "bytes": 19450756
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\vosaline_ORAS5_1m_201407_r1x1.nc",
+    "bytes": 19450756
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\vosaline_ORAS5_1m_201410_r1x1.nc",
+    "bytes": 19450760
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\votemper_ORAS5_1m_201401_r1x1.nc",
+    "bytes": 19450764
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\votemper_ORAS5_1m_201404_r1x1.nc",
+    "bytes": 19450764
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\votemper_ORAS5_1m_201407_r1x1.nc",
+    "bytes": 19450764
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\oras5\\votemper_ORAS5_1m_201410_r1x1.nc",
+    "bytes": 19450768
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\ice\\G02202-ancillary-psn25-v06r00.nc",
+    "bytes": 3891495
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\ice\\sic_psn25_201401_F17_v06r00.nc",
+    "bytes": 411376
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\ice\\sic_psn25_201404_F17_v06r00.nc",
+    "bytes": 428882
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\ice\\sic_psn25_201407_F17_v06r00.nc",
+    "bytes": 384667
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\ice\\sic_psn25_201410_F17_v06r00.nc",
+    "bytes": 355767
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_010.nc",
+    "bytes": 160288
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_011.nc",
+    "bytes": 187972
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_012.nc",
+    "bytes": 172420
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_013.nc",
+    "bytes": 191608
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_014.nc",
+    "bytes": 185284
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_015.nc",
+    "bytes": 174868
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_016.nc",
+    "bytes": 203764
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_017.nc",
+    "bytes": 165292
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_018.nc",
+    "bytes": 160696
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_019.nc",
+    "bytes": 124408
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_020.nc",
+    "bytes": 195064
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_021.nc",
+    "bytes": 69400
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_022.nc",
+    "bytes": 210724
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_023.nc",
+    "bytes": 92284
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_024.nc",
+    "bytes": 19672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_025.nc",
+    "bytes": 101560
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\meds\\4901770\\profiles\\R4901770_026.nc",
+    "bytes": 26296
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\7900177\\profiles\\D7900177_251.nc",
+    "bytes": 21492
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\7900177\\profiles\\D7900177_252.nc",
+    "bytes": 21744
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\7900177\\profiles\\D7900177_253.nc",
+    "bytes": 21492
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\7900177\\profiles\\D7900177_261.nc",
+    "bytes": 21456
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902550\\profiles\\D6902550_007.nc",
+    "bytes": 105460
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902549\\profiles\\D6902549_001.nc",
+    "bytes": 105056
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902549\\profiles\\D6902549_008.nc",
+    "bytes": 105296
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902549\\profiles\\D6902549_009.nc",
+    "bytes": 104720
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902549\\profiles\\D6902549_010.nc",
+    "bytes": 105056
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902547\\profiles\\D6902547_005.nc",
+    "bytes": 441440
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902547\\profiles\\D6902547_021.nc",
+    "bytes": 437248
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902547\\profiles\\D6902547_022.nc",
+    "bytes": 438032
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902547\\profiles\\D6902547_023.nc",
+    "bytes": 440656
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902547\\profiles\\D6902547_041.nc",
+    "bytes": 464976
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902547\\profiles\\D6902547_054.nc",
+    "bytes": 441072
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902547\\profiles\\D6902547_055.nc",
+    "bytes": 436512
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902547\\profiles\\D6902547_055D.nc",
+    "bytes": 248696
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902547\\profiles\\D6902547_056.nc",
+    "bytes": 437248
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902547\\profiles\\D6902547_056D.nc",
+    "bytes": 297252
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902547\\profiles\\D6902547_057D.nc",
+    "bytes": 240320
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902545\\profiles\\D6902545_008.nc",
+    "bytes": 105588
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902545\\profiles\\D6902545_009.nc",
+    "bytes": 105324
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902545\\profiles\\D6902545_010.nc",
+    "bytes": 105588
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902545\\profiles\\D6902545_017.nc",
+    "bytes": 104652
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902545\\profiles\\D6902545_018.nc",
+    "bytes": 105420
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902545\\profiles\\D6902545_019.nc",
+    "bytes": 104652
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902545\\profiles\\D6902545_026.nc",
+    "bytes": 105324
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902545\\profiles\\D6902545_027.nc",
+    "bytes": 104748
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902545\\profiles\\D6902545_028.nc",
+    "bytes": 105492
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902545\\profiles\\D6902545_029.nc",
+    "bytes": 105324
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902544\\profiles\\D6902544_016.nc",
+    "bytes": 105056
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902544\\profiles\\D6902544_024.nc",
+    "bytes": 104960
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902544\\profiles\\D6902544_025.nc",
+    "bytes": 104960
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902544\\profiles\\D6902544_026.nc",
+    "bytes": 105128
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902544\\profiles\\D6902544_033.nc",
+    "bytes": 104888
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902544\\profiles\\D6902544_034.nc",
+    "bytes": 104624
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_001.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_002.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_003.nc",
+    "bytes": 22084
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_004.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_005.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_006.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_007.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_008.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_009.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_010.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_011.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_012.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_013.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_014.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_015.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_016.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_030.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_031.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_032.nc",
+    "bytes": 21940
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_033.nc",
+    "bytes": 21796
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_034.nc",
+    "bytes": 22228
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6902042\\profiles\\D6902042_035.nc",
+    "bytes": 22516
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901910\\profiles\\D6901910_009.nc",
+    "bytes": 21236
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901910\\profiles\\D6901910_010.nc",
+    "bytes": 21296
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901910\\profiles\\D6901910_011.nc",
+    "bytes": 21236
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901908\\profiles\\D6901908_013.nc",
+    "bytes": 20852
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901908\\profiles\\D6901908_014.nc",
+    "bytes": 20852
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901908\\profiles\\D6901908_015.nc",
+    "bytes": 20852
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901906\\profiles\\D6901906_018.nc",
+    "bytes": 22524
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901906\\profiles\\D6901906_019.nc",
+    "bytes": 22560
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901906\\profiles\\D6901906_020.nc",
+    "bytes": 22524
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901905\\profiles\\D6901905_018.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901905\\profiles\\D6901905_019.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901905\\profiles\\D6901905_020.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901905\\profiles\\D6901905_027.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901905\\profiles\\D6901905_028.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901905\\profiles\\D6901905_029.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901905\\profiles\\D6901905_036.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901905\\profiles\\D6901905_037.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901905\\profiles\\D6901905_038.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901905\\profiles\\D6901905_045.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901905\\profiles\\D6901905_046.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901905\\profiles\\D6901905_047.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901903\\profiles\\D6901903_050.nc",
+    "bytes": 21204
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901903\\profiles\\D6901903_051.nc",
+    "bytes": 21240
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901903\\profiles\\D6901903_052.nc",
+    "bytes": 21204
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901903\\profiles\\D6901903_059.nc",
+    "bytes": 21240
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901903\\profiles\\D6901903_060.nc",
+    "bytes": 21204
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901903\\profiles\\D6901903_061.nc",
+    "bytes": 21240
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901236\\profiles\\D6901236_003.nc",
+    "bytes": 20936
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901236\\profiles\\D6901236_004.nc",
+    "bytes": 20936
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901236\\profiles\\D6901236_005.nc",
+    "bytes": 20936
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901236\\profiles\\D6901236_012.nc",
+    "bytes": 20936
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901236\\profiles\\D6901236_013.nc",
+    "bytes": 20936
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901236\\profiles\\D6901236_014.nc",
+    "bytes": 20936
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901236\\profiles\\D6901236_015.nc",
+    "bytes": 20936
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901235\\profiles\\D6901235_003.nc",
+    "bytes": 20852
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901235\\profiles\\D6901235_004.nc",
+    "bytes": 20852
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901235\\profiles\\D6901235_005.nc",
+    "bytes": 20852
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901235\\profiles\\D6901235_012.nc",
+    "bytes": 20852
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901235\\profiles\\D6901235_013.nc",
+    "bytes": 20852
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901235\\profiles\\D6901235_014.nc",
+    "bytes": 20852
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901235\\profiles\\D6901235_015.nc",
+    "bytes": 20852
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901230\\profiles\\D6901230_026.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901230\\profiles\\D6901230_027.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901230\\profiles\\D6901230_028.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901230\\profiles\\D6901230_035.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901230\\profiles\\D6901230_036.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901230\\profiles\\D6901230_037.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901230\\profiles\\D6901230_044.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901230\\profiles\\D6901230_045.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901230\\profiles\\D6901230_046.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901226\\profiles\\D6901226_017.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901226\\profiles\\D6901226_018.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901226\\profiles\\D6901226_019.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901226\\profiles\\D6901226_035.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901226\\profiles\\D6901226_036.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901226\\profiles\\D6901226_037.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901226\\profiles\\D6901226_044.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901226\\profiles\\D6901226_045.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901226\\profiles\\D6901226_046.nc",
+    "bytes": 20636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901081\\profiles\\D6901081_059.nc",
+    "bytes": 20576
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901081\\profiles\\D6901081_060.nc",
+    "bytes": 20636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901081\\profiles\\D6901081_061.nc",
+    "bytes": 20576
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901081\\profiles\\D6901081_068.nc",
+    "bytes": 20636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901081\\profiles\\D6901081_069.nc",
+    "bytes": 20540
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901080\\profiles\\D6901080_050.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901080\\profiles\\D6901080_051.nc",
+    "bytes": 20708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901080\\profiles\\D6901080_052.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901080\\profiles\\D6901080_070.nc",
+    "bytes": 20672
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901067\\profiles\\D6901067_089.nc",
+    "bytes": 21084
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901059\\profiles\\D6901059_090.nc",
+    "bytes": 21280
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901059\\profiles\\D6901059_091.nc",
+    "bytes": 21280
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6901059\\profiles\\D6901059_092.nc",
+    "bytes": 21280
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900884\\profiles\\D6900884_059.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900884\\profiles\\D6900884_060.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900884\\profiles\\D6900884_061.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900884\\profiles\\D6900884_068.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900884\\profiles\\D6900884_069.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900884\\profiles\\D6900884_070.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900884\\profiles\\D6900884_077.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900884\\profiles\\D6900884_078.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900884\\profiles\\D6900884_079.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900884\\profiles\\D6900884_086.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900884\\profiles\\D6900884_087.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900884\\profiles\\D6900884_088.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900883\\profiles\\D6900883_059.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900883\\profiles\\D6900883_060.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900883\\profiles\\D6900883_061.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900883\\profiles\\D6900883_068.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900883\\profiles\\D6900883_069.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900883\\profiles\\D6900883_070.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900883\\profiles\\D6900883_077.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900883\\profiles\\D6900883_078.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900883\\profiles\\D6900883_079.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900883\\profiles\\D6900883_086.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900883\\profiles\\D6900883_087.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900883\\profiles\\D6900883_088.nc",
+    "bytes": 24036
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_198.nc",
+    "bytes": 71596
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_199.nc",
+    "bytes": 71860
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_200.nc",
+    "bytes": 67396
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_201.nc",
+    "bytes": 71764
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_202.nc",
+    "bytes": 72100
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_203.nc",
+    "bytes": 71764
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_215.nc",
+    "bytes": 71764
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_216.nc",
+    "bytes": 71764
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_217.nc",
+    "bytes": 71860
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_218.nc",
+    "bytes": 71596
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_219.nc",
+    "bytes": 71860
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_220.nc",
+    "bytes": 71932
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_234.nc",
+    "bytes": 71764
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_235.nc",
+    "bytes": 71932
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_236.nc",
+    "bytes": 71428
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_237.nc",
+    "bytes": 71860
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_238.nc",
+    "bytes": 71860
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_239.nc",
+    "bytes": 71932
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_252.nc",
+    "bytes": 71932
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_253.nc",
+    "bytes": 71860
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_254.nc",
+    "bytes": 71860
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_255.nc",
+    "bytes": 71860
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_256.nc",
+    "bytes": 71764
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900798\\profiles\\D6900798_257.nc",
+    "bytes": 71860
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900563\\profiles\\D6900563_144.nc",
+    "bytes": 19028
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900560\\profiles\\D6900560_132.nc",
+    "bytes": 18524
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\coriolis\\6900560\\profiles\\D6900560_133.nc",
+    "bytes": 18284
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901159\\profiles\\R6901159_002.nc",
+    "bytes": 42716
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901159\\profiles\\R6901159_015.nc",
+    "bytes": 42920
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901159\\profiles\\R6901159_016.nc",
+    "bytes": 42956
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901159\\profiles\\R6901159_017.nc",
+    "bytes": 42920
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901159\\profiles\\R6901159_018.nc",
+    "bytes": 42920
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901159\\profiles\\R6901159_033.nc",
+    "bytes": 42920
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901141\\profiles\\D6901141_052.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901141\\profiles\\D6901141_053.nc",
+    "bytes": 63668
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901141\\profiles\\D6901141_054.nc",
+    "bytes": 63776
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901141\\profiles\\D6901141_061.nc",
+    "bytes": 63668
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901141\\profiles\\D6901141_062.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901141\\profiles\\D6901141_063.nc",
+    "bytes": 63872
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901141\\profiles\\D6901141_070.nc",
+    "bytes": 63872
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901141\\profiles\\D6901141_071.nc",
+    "bytes": 63608
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901141\\profiles\\D6901141_072.nc",
+    "bytes": 63908
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901141\\profiles\\D6901141_079.nc",
+    "bytes": 63908
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901141\\profiles\\D6901141_080.nc",
+    "bytes": 63668
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901141\\profiles\\D6901141_081.nc",
+    "bytes": 61220
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901141\\profiles\\D6901141_082.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901140\\profiles\\R6901140_050.nc",
+    "bytes": 19456
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901140\\profiles\\R6901140_051.nc",
+    "bytes": 19492
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901140\\profiles\\R6901140_052.nc",
+    "bytes": 19456
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901140\\profiles\\R6901140_053.nc",
+    "bytes": 19492
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901140\\profiles\\R6901140_069.nc",
+    "bytes": 19600
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901140\\profiles\\R6901140_070.nc",
+    "bytes": 19636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901140\\profiles\\R6901140_086.nc",
+    "bytes": 19636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901140\\profiles\\R6901140_088.nc",
+    "bytes": 19636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901140\\profiles\\R6901140_102.nc",
+    "bytes": 19636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901139\\profiles\\R6901139_050.nc",
+    "bytes": 19456
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901139\\profiles\\R6901139_051.nc",
+    "bytes": 19456
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901139\\profiles\\R6901139_052.nc",
+    "bytes": 19456
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901139\\profiles\\R6901139_053.nc",
+    "bytes": 19492
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901139\\profiles\\R6901139_068.nc",
+    "bytes": 19600
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901139\\profiles\\R6901139_069.nc",
+    "bytes": 19636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901139\\profiles\\R6901139_070.nc",
+    "bytes": 19600
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901137\\profiles\\D6901137_052.nc",
+    "bytes": 63704
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901137\\profiles\\D6901137_053.nc",
+    "bytes": 63704
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901137\\profiles\\D6901137_054.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901137\\profiles\\D6901137_061.nc",
+    "bytes": 63872
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901137\\profiles\\D6901137_062.nc",
+    "bytes": 63500
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901137\\profiles\\D6901137_070.nc",
+    "bytes": 63608
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901137\\profiles\\D6901137_071.nc",
+    "bytes": 63776
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901137\\profiles\\D6901137_072.nc",
+    "bytes": 63668
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901137\\profiles\\D6901137_079.nc",
+    "bytes": 63872
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901137\\profiles\\D6901137_080.nc",
+    "bytes": 63536
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901137\\profiles\\D6901137_081.nc",
+    "bytes": 63872
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901137\\profiles\\D6901137_082.nc",
+    "bytes": 63572
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901137\\profiles\\R6901137_063.nc",
+    "bytes": 61188
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901132\\profiles\\D6901132_055.nc",
+    "bytes": 63572
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901132\\profiles\\D6901132_056.nc",
+    "bytes": 63872
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901132\\profiles\\D6901132_057.nc",
+    "bytes": 63440
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901132\\profiles\\D6901132_058.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901132\\profiles\\D6901132_065.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901132\\profiles\\D6901132_066.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901132\\profiles\\D6901132_067.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901132\\profiles\\D6901132_074.nc",
+    "bytes": 63572
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901132\\profiles\\D6901132_075.nc",
+    "bytes": 61424
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901132\\profiles\\D6901132_076.nc",
+    "bytes": 63776
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901132\\profiles\\D6901132_083.nc",
+    "bytes": 63608
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901132\\profiles\\D6901132_084.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901132\\profiles\\D6901132_085.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901132\\profiles\\D6901132_086.nc",
+    "bytes": 63944
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901131\\profiles\\D6901131_055.nc",
+    "bytes": 63572
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901131\\profiles\\D6901131_056.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901131\\profiles\\D6901131_057.nc",
+    "bytes": 63608
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901131\\profiles\\D6901131_058.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901131\\profiles\\D6901131_065.nc",
+    "bytes": 63572
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901131\\profiles\\D6901131_066.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901131\\profiles\\D6901131_067.nc",
+    "bytes": 63536
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901131\\profiles\\D6901131_074.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901131\\profiles\\D6901131_075.nc",
+    "bytes": 59372
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901131\\profiles\\D6901131_076.nc",
+    "bytes": 63776
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901131\\profiles\\D6901131_083.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901131\\profiles\\D6901131_084.nc",
+    "bytes": 63608
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901131\\profiles\\D6901131_085.nc",
+    "bytes": 63908
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901130\\profiles\\D6901130_055.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901130\\profiles\\D6901130_056.nc",
+    "bytes": 63608
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901130\\profiles\\D6901130_057.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901130\\profiles\\D6901130_058.nc",
+    "bytes": 63608
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901130\\profiles\\D6901130_065.nc",
+    "bytes": 63776
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901130\\profiles\\D6901130_066.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901130\\profiles\\D6901130_067.nc",
+    "bytes": 63776
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901130\\profiles\\D6901130_074.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901130\\profiles\\D6901130_075.nc",
+    "bytes": 63608
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901130\\profiles\\D6901130_076.nc",
+    "bytes": 63776
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901130\\profiles\\D6901130_083.nc",
+    "bytes": 63776
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901130\\profiles\\D6901130_084.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901130\\profiles\\D6901130_085.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901129\\profiles\\D6901129_056.nc",
+    "bytes": 63572
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901129\\profiles\\D6901129_057.nc",
+    "bytes": 63908
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901129\\profiles\\D6901129_058.nc",
+    "bytes": 63608
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901129\\profiles\\D6901129_065.nc",
+    "bytes": 63776
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901129\\profiles\\D6901129_066.nc",
+    "bytes": 63776
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901129\\profiles\\D6901129_067.nc",
+    "bytes": 63944
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901129\\profiles\\D6901129_074.nc",
+    "bytes": 63704
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901129\\profiles\\D6901129_075.nc",
+    "bytes": 63536
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901129\\profiles\\D6901129_076.nc",
+    "bytes": 63776
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901129\\profiles\\D6901129_083.nc",
+    "bytes": 55940
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901129\\profiles\\D6901129_084.nc",
+    "bytes": 61760
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901129\\profiles\\D6901129_085.nc",
+    "bytes": 61052
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901128\\profiles\\D6901128_055.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901128\\profiles\\D6901128_056.nc",
+    "bytes": 63668
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901128\\profiles\\D6901128_057.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901128\\profiles\\D6901128_058.nc",
+    "bytes": 63668
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901128\\profiles\\D6901128_065.nc",
+    "bytes": 63776
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901128\\profiles\\D6901128_066.nc",
+    "bytes": 63668
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901128\\profiles\\D6901128_067.nc",
+    "bytes": 63776
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901128\\profiles\\D6901128_074.nc",
+    "bytes": 63332
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901128\\profiles\\D6901128_075.nc",
+    "bytes": 63944
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901128\\profiles\\D6901128_083.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901128\\profiles\\D6901128_084.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901128\\profiles\\D6901128_085.nc",
+    "bytes": 63872
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901128\\profiles\\D6901128_086.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901127\\profiles\\D6901127_057.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901127\\profiles\\D6901127_058.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901127\\profiles\\D6901127_059.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901127\\profiles\\D6901127_066.nc",
+    "bytes": 63776
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901127\\profiles\\D6901127_067.nc",
+    "bytes": 63536
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901127\\profiles\\D6901127_068.nc",
+    "bytes": 63836
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901127\\profiles\\D6901127_075.nc",
+    "bytes": 63908
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901127\\profiles\\D6901127_076.nc",
+    "bytes": 63608
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901127\\profiles\\D6901127_077.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901127\\profiles\\D6901127_084.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901127\\profiles\\D6901127_085.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901127\\profiles\\D6901127_086.nc",
+    "bytes": 63740
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901127\\profiles\\D6901127_087.nc",
+    "bytes": 78720
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901126\\profiles\\R6901126_058.nc",
+    "bytes": 19360
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901126\\profiles\\R6901126_059.nc",
+    "bytes": 19360
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901126\\profiles\\R6901126_060.nc",
+    "bytes": 19360
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901126\\profiles\\R6901126_073.nc",
+    "bytes": 19504
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901125\\profiles\\R6901125_058.nc",
+    "bytes": 19492
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901125\\profiles\\R6901125_059.nc",
+    "bytes": 19420
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901125\\profiles\\R6901125_060.nc",
+    "bytes": 19492
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901125\\profiles\\R6901125_074.nc",
+    "bytes": 19600
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901125\\profiles\\R6901125_091.nc",
+    "bytes": 19600
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901125\\profiles\\R6901125_094.nc",
+    "bytes": 19636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\bodc\\6901125\\profiles\\R6901125_112.nc",
+    "bytes": 19636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_064.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_065.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_066.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_067.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_106.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_107.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_108.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_109.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_110.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_111.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_112.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_129.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_130.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_131.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_132.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_133.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_134.nc",
+    "bytes": 19268
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900319\\profiles\\D6900319_135.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_083.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_084.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_085.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_086.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_087.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_088.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_089.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_090.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_106.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_107.nc",
+    "bytes": 19124
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_108.nc",
+    "bytes": 19268
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_109.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_110.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_111.nc",
+    "bytes": 19160
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_112.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_113.nc",
+    "bytes": 19304
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_129.nc",
+    "bytes": 19268
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_130.nc",
+    "bytes": 19268
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_131.nc",
+    "bytes": 19268
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_132.nc",
+    "bytes": 19268
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_133.nc",
+    "bytes": 19268
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_134.nc",
+    "bytes": 19268
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_135.nc",
+    "bytes": 19268
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\6900318\\profiles\\D6900318_136.nc",
+    "bytes": 19268
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_098.nc",
+    "bytes": 62424
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_099.nc",
+    "bytes": 62708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_100.nc",
+    "bytes": 62636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_101.nc",
+    "bytes": 62636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_102.nc",
+    "bytes": 62636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_103.nc",
+    "bytes": 62636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_115.nc",
+    "bytes": 61752
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_116.nc",
+    "bytes": 61848
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_117.nc",
+    "bytes": 62016
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_118.nc",
+    "bytes": 61848
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_119.nc",
+    "bytes": 61752
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_120.nc",
+    "bytes": 61752
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_133.nc",
+    "bytes": 62424
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_134.nc",
+    "bytes": 62424
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_135.nc",
+    "bytes": 62636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_136.nc",
+    "bytes": 62708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_137.nc",
+    "bytes": 62708
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_138.nc",
+    "bytes": 62636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_151.nc",
+    "bytes": 62636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_152.nc",
+    "bytes": 62636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_153.nc",
+    "bytes": 62804
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_154.nc",
+    "bytes": 62636
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903887\\profiles\\D5903887_155.nc",
+    "bytes": 62804
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_072.nc",
+    "bytes": 64220
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_073.nc",
+    "bytes": 64316
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_074.nc",
+    "bytes": 64148
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_075.nc",
+    "bytes": 64220
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_076.nc",
+    "bytes": 64220
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_085.nc",
+    "bytes": 64052
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_086.nc",
+    "bytes": 64148
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_087.nc",
+    "bytes": 64052
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_088.nc",
+    "bytes": 64316
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_089.nc",
+    "bytes": 64220
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_098.nc",
+    "bytes": 64148
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_099.nc",
+    "bytes": 64220
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_100.nc",
+    "bytes": 64148
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_101.nc",
+    "bytes": 64220
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_102.nc",
+    "bytes": 64148
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_111.nc",
+    "bytes": 64220
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_112.nc",
+    "bytes": 64148
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_113.nc",
+    "bytes": 64220
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_114.nc",
+    "bytes": 64052
+  },
+  {
+    "category": "argo",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\argo\\profiles\\aoml\\5903724\\profiles\\D5903724_115.nc",
+    "bytes": 64148
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp48final.zip",
+    "bytes": 9042902
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp54final.zip",
+    "bytes": 1512191
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp58final.zip",
+    "bytes": 7014998
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp59final.zip",
+    "bytes": 127072
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp61final.zip",
+    "bytes": 5517215
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp66final.zip",
+    "bytes": 1117089
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp68final.zip",
+    "bytes": 4172803
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp69final.zip",
+    "bytes": 3017074
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp71final.zip",
+    "bytes": 411077
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp72final.zip",
+    "bytes": 2054108
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp74final.zip",
+    "bytes": 4141957
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp75final.zip",
+    "bytes": 929485
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp76final.zip",
+    "bytes": 5246828
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp81final.zip",
+    "bytes": 4231984
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp82final.zip",
+    "bytes": 6730150
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp84final.zip",
+    "bytes": 1621039
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp85final.zip",
+    "bytes": 6299975
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp86final.zip",
+    "bytes": 4641153
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\final\\itp87final.zip",
+    "bytes": 4090321
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp100rawlocs.dat",
+    "bytes": 398459
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp101rawlocs.dat",
+    "bytes": 315911
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp102rawlocs.dat",
+    "bytes": 528167
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp103rawlocs.dat",
+    "bytes": 1905203
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp104rawlocs.dat",
+    "bytes": 1241867
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp105rawlocs.dat",
+    "bytes": 1330247
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp106rawlocs.dat",
+    "bytes": 1280127
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp107rawlocs.dat",
+    "bytes": 643835
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp108rawlocs.dat",
+    "bytes": 309251
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp109rawlocs.dat",
+    "bytes": 544871
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp10rawlocs.dat",
+    "bytes": 222023
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp110rawlocs.dat",
+    "bytes": 3756396
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp111rawlocs.dat",
+    "bytes": 213995
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp112rawlocs.dat",
+    "bytes": 1285967
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp113rawlocs.dat",
+    "bytes": 2654327
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp114rawlocs.dat",
+    "bytes": 686099
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp115rawlocs.dat",
+    "bytes": 3012943
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp116rawlocs.dat",
+    "bytes": 1557155
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp117rawlocs.dat",
+    "bytes": 699095
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp118rawlocs.dat",
+    "bytes": 679655
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp119rawlocs.dat",
+    "bytes": 1285967
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp11rawlocs.dat",
+    "bytes": 646643
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp120rawlocs.dat",
+    "bytes": 2660003
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp121rawlocs.dat",
+    "bytes": 2931286
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp122rawlocs.dat",
+    "bytes": 1969513
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp123rawlocs.dat",
+    "bytes": 1293276
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp124rawlocs.dat",
+    "bytes": 1418879
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp125rawlocs.dat",
+    "bytes": 1365419
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp126rawlocs.dat",
+    "bytes": 1842764
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp127rawlocs.dat",
+    "bytes": 3148602
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp128rawlocs.dat",
+    "bytes": 1373229
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp129rawlocs.dat",
+    "bytes": 802990
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp12rawlocs.dat",
+    "bytes": 330347
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp130rawlocs.dat",
+    "bytes": 622490
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp131rawlocs.dat",
+    "bytes": 2359270
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp133rawlocs.dat",
+    "bytes": 1287554
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp135rawlocs.dat",
+    "bytes": 445500
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp136rawlocs.dat",
+    "bytes": 1221778
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp137rawlocs.dat",
+    "bytes": 2365043
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp138rawlocs.dat",
+    "bytes": 1288987
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp139rawlocs.dat",
+    "bytes": 1871014
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp13rawlocs.dat",
+    "bytes": 334235
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp140rawlocs.dat",
+    "bytes": 584131
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp141rawlocs.dat",
+    "bytes": 1514572
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp142rawlocs.dat",
+    "bytes": 654274
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp143rawlocs.dat",
+    "bytes": 613666
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp14rawlocs.dat",
+    "bytes": 343415
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp15rawlocs.dat",
+    "bytes": 93827
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp16rawlocs.dat",
+    "bytes": 602651
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp17rawlocs.dat",
+    "bytes": 372611
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp18rawlocs.dat",
+    "bytes": 345755
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp19rawlocs.dat",
+    "bytes": 194879
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp1rawlocs.dat",
+    "bytes": 207587
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp20rawlocs.dat",
+    "bytes": 160463
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp21rawlocs.dat",
+    "bytes": 356159
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp22rawlocs.dat",
+    "bytes": 250355
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp23rawlocs.dat",
+    "bytes": 858179
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp24rawlocs.dat",
+    "bytes": 414659
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp25rawlocs.dat",
+    "bytes": 249635
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp26rawlocs.dat",
+    "bytes": 201323
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp27rawlocs.dat",
+    "bytes": 482231
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp28rawlocs.dat",
+    "bytes": 464087
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp29rawlocs.dat",
+    "bytes": 903503
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp2rawlocs.dat",
+    "bytes": 5195
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp30rawlocs.dat",
+    "bytes": 221699
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp31rawlocs.dat",
+    "bytes": 126335
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp32rawlocs.dat",
+    "bytes": 50411
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp33rawlocs.dat",
+    "bytes": 572951
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp34rawlocs.dat",
+    "bytes": 856523
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp35rawlocs.dat",
+    "bytes": 287183
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp36rawlocs.dat",
+    "bytes": 39323
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp37rawlocs.dat",
+    "bytes": 485327
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp38rawlocs.dat",
+    "bytes": 280127
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp39rawlocs.dat",
+    "bytes": 23771
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp3rawlocs.dat",
+    "bytes": 146207
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp40rawlocs.dat",
+    "bytes": 267563
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp41rawlocs.dat",
+    "bytes": 952031
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp42rawlocs.dat",
+    "bytes": 257843
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp43rawlocs.dat",
+    "bytes": 108983
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp44rawlocs.dat",
+    "bytes": 274727
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp45rawlocs.dat",
+    "bytes": 604019
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp46rawlocs.dat",
+    "bytes": 661583
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp47rawlocs.dat",
+    "bytes": 338159
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp48rawlocs.dat",
+    "bytes": 949295
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp49rawlocs.dat",
+    "bytes": 718967
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp4rawlocs.dat",
+    "bytes": 299207
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp50rawlocs.dat",
+    "bytes": 296507
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp51rawlocs.dat",
+    "bytes": 410195
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp52rawlocs.dat",
+    "bytes": 144407
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp53rawlocs.dat",
+    "bytes": 322175
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp54rawlocs.dat",
+    "bytes": 963479
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp55rawlocs.dat",
+    "bytes": 411563
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp56rawlocs.dat",
+    "bytes": 280883
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp57rawlocs.dat",
+    "bytes": 408251
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp58rawlocs.dat",
+    "bytes": 830135
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp59rawlocs.dat",
+    "bytes": 677459
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp5rawlocs.dat",
+    "bytes": 385391
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp60rawlocs.dat",
+    "bytes": 394895
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp61rawlocs.dat",
+    "bytes": 1028999
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp62rawlocs.dat",
+    "bytes": 279191
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp63rawlocs.dat",
+    "bytes": 471251
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp64rawlocs.dat",
+    "bytes": 318143
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp65rawlocs.dat",
+    "bytes": 323903
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp66rawlocs.dat",
+    "bytes": 942563
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp67rawlocs.dat",
+    "bytes": 407315
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp68rawlocs.dat",
+    "bytes": 325127
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp69rawlocs.dat",
+    "bytes": 1005383
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp6rawlocs.dat",
+    "bytes": 357671
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp70rawlocs.dat",
+    "bytes": 654311
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp71rawlocs.dat",
+    "bytes": 359255
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp72rawlocs.dat",
+    "bytes": 272099
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp73rawlocs.dat",
+    "bytes": 24671
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp74rawlocs.dat",
+    "bytes": 703955
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp75rawlocs.dat",
+    "bytes": 651791
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp76rawlocs.dat",
+    "bytes": 278219
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp77rawlocs.dat",
+    "bytes": 176699
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp78rawlocs.dat",
+    "bytes": 1122527
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp79rawlocs.dat",
+    "bytes": 166511
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp7rawlocs.dat",
+    "bytes": 244919
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp80rawlocs.dat",
+    "bytes": 242219
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp81rawlocs.dat",
+    "bytes": 256943
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp82rawlocs.dat",
+    "bytes": 642755
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp83rawlocs.dat",
+    "bytes": 400907
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp84rawlocs.dat",
+    "bytes": 275627
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp85rawlocs.dat",
+    "bytes": 293555
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp86rawlocs.dat",
+    "bytes": 375527
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp87rawlocs.dat",
+    "bytes": 279407
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp88rawlocs.dat",
+    "bytes": 19307
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp89rawlocs.dat",
+    "bytes": 2580023
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp8rawlocs.dat",
+    "bytes": 676271
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp90rawlocs.dat",
+    "bytes": 20963
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp91rawlocs.dat",
+    "bytes": 277103
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp92rawlocs.dat",
+    "bytes": 170183
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp93rawlocs.dat",
+    "bytes": 533063
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp94rawlocs.dat",
+    "bytes": 273251
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp95rawlocs.dat",
+    "bytes": 919055
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp96rawlocs.dat",
+    "bytes": 203609
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp97rawlocs.dat",
+    "bytes": 585731
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp98rawlocs.dat",
+    "bytes": 395975
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp99rawlocs.dat",
+    "bytes": 500159
+  },
+  {
+    "category": "itp",
+    "path": "D:\\Dataset\\RBMF-CS_polar_sample\\itp\\tracks\\itp9rawlocs.dat",
+    "bytes": 888995
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\tmask_r1x1.nc",
+    "bytes": 4863428
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\vosaline_ORAS5_1m_201301_r1x1.nc",
+    "bytes": 19450756
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\vosaline_ORAS5_1m_201302_r1x1.nc",
+    "bytes": 19450756
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\vosaline_ORAS5_1m_201303_r1x1.nc",
+    "bytes": 19450756
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\vosaline_ORAS5_1m_201304_r1x1.nc",
+    "bytes": 19450756
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\vosaline_ORAS5_1m_201305_r1x1.nc",
+    "bytes": 19450756
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\vosaline_ORAS5_1m_201306_r1x1.nc",
+    "bytes": 19450756
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\vosaline_ORAS5_1m_201307_r1x1.nc",
+    "bytes": 19450756
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\vosaline_ORAS5_1m_201308_r1x1.nc",
+    "bytes": 19450756
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\vosaline_ORAS5_1m_201309_r1x1.nc",
+    "bytes": 19450756
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\vosaline_ORAS5_1m_201310_r1x1.nc",
+    "bytes": 19450760
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\vosaline_ORAS5_1m_201311_r1x1.nc",
+    "bytes": 19450760
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\vosaline_ORAS5_1m_201312_r1x1.nc",
+    "bytes": 19450760
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\votemper_ORAS5_1m_201301_r1x1.nc",
+    "bytes": 19450764
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\votemper_ORAS5_1m_201302_r1x1.nc",
+    "bytes": 19450764
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\votemper_ORAS5_1m_201303_r1x1.nc",
+    "bytes": 19450764
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\votemper_ORAS5_1m_201304_r1x1.nc",
+    "bytes": 19450764
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\votemper_ORAS5_1m_201305_r1x1.nc",
+    "bytes": 19450764
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\votemper_ORAS5_1m_201306_r1x1.nc",
+    "bytes": 19450764
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\votemper_ORAS5_1m_201307_r1x1.nc",
+    "bytes": 19450764
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\votemper_ORAS5_1m_201308_r1x1.nc",
+    "bytes": 19450764
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\votemper_ORAS5_1m_201309_r1x1.nc",
+    "bytes": 19450764
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\votemper_ORAS5_1m_201310_r1x1.nc",
+    "bytes": 19450768
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\votemper_ORAS5_1m_201311_r1x1.nc",
+    "bytes": 19450768
+  },
+  {
+    "category": "oras5",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\oras5\\votemper_ORAS5_1m_201312_r1x1.nc",
+    "bytes": 19450768
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\ice\\G02202-ancillary-psn25-v06r00.nc",
+    "bytes": 3891495
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\ice\\sic_psn25_201301_F17_v06r00.nc",
+    "bytes": 423785
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\ice\\sic_psn25_201302_F17_v06r00.nc",
+    "bytes": 416273
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\ice\\sic_psn25_201303_F17_v06r00.nc",
+    "bytes": 447460
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\ice\\sic_psn25_201304_F17_v06r00.nc",
+    "bytes": 442130
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\ice\\sic_psn25_201305_F17_v06r00.nc",
+    "bytes": 424491
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\ice\\sic_psn25_201306_F17_v06r00.nc",
+    "bytes": 419950
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\ice\\sic_psn25_201307_F17_v06r00.nc",
+    "bytes": 389861
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\ice\\sic_psn25_201308_F17_v06r00.nc",
+    "bytes": 352322
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\ice\\sic_psn25_201309_F17_v06r00.nc",
+    "bytes": 336583
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\ice\\sic_psn25_201310_F17_v06r00.nc",
+    "bytes": 354228
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\ice\\sic_psn25_201311_F17_v06r00.nc",
+    "bytes": 382401
+  },
+  {
+    "category": "ice",
+    "path": "D:\\Dataset\\RBMF-CS_polar_validation_2013_20261011\\ice\\sic_psn25_201312_F17_v06r00.nc",
+    "bytes": 396984
+  }
+]

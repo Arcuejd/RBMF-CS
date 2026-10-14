@@ -1,0 +1,82 @@
+Failed to find real location of D:\python\python.exe
+clean 1001 201301 finished
+clean 1002 201301 finished
+clean 1003 201301 finished
+clean 1001 201302 finished
+clean 1002 201302 finished
+clean 1003 201302 finished
+clean 1001 201303 finished
+clean 1002 201303 finished
+clean 1003 201303 finished
+clean 1001 201304 finished
+clean 1002 201304 finished
+clean 1003 201304 finished
+clean 1001 201305 finished
+clean 1002 201305 finished
+clean 1003 201305 finished
+clean 1001 201306 finished
+clean 1002 201306 finished
+clean 1003 201306 finished
+clean 1001 201307 finished
+clean 1002 201307 finished
+clean 1003 201307 finished
+clean 1001 201308 finished
+clean 1002 201308 finished
+clean 1003 201308 finished
+clean 1001 201309 finished
+clean 1002 201309 finished
+clean 1003 201309 finished
+clean 1001 201310 finished
+clean 1002 201310 finished
+clean 1003 201310 finished
+clean 1001 201311 finished
+clean 1002 201311 finished
+clean 1003 201311 finished
+clean 1001 201312 finished
+clean 1002 201312 finished
+clean 1003 201312 finished
+gaussian 1001 201301 finished
+gaussian 1002 201301 finished
+gaussian 1003 201301 finished
+gaussian 1001 201302 finished
+gaussian 1002 201302 finished
+gaussian 1003 201302 finished
+gaussian 1001 201303 finished
+gaussian 1002 201303 finished
+gaussian 1003 201303 finished
+gaussian 1001 201304 finished
+gaussian 1002 201304 finished
+gaussian 1003 201304 finished
+gaussian 1001 201305 finished
+gaussian 1002 201305 finished
+gaussian 1003 201305 finished
+gaussian 1001 201306 finished
+gaussian 1002 201306 finished
+gaussian 1003 201306 finished
+gaussian 1001 201307 finished
+gaussian 1002 201307 finished
+gaussian 1003 201307 finished
+gaussian 1001 201308 finished
+gaussian 1002 201308 finished
+gaussian 1003 201308 finished
+gaussian 1001 201309 finished
+gaussian 1002 201309 finished
+gaussian 1003 201309 finished
+gaussian 1001 201310 finished
+gaussian 1002 201310 finished
+gaussian 1003 201310 finished
+gaussian 1001 201311 finished
+gaussian 1002 201311 finished
+gaussian 1003 201311 finished
+gaussian 1001 201312 finished
+gaussian 1002 201312 finished
+gaussian 1003 201312 finished
+resources {
+  "wall_seconds": 55.86746510000012,
+  "fit_calls": 1920,
+  "metric_rows": 3960,
+  "peak_working_set_bytes": 70184960,
+  "output_bytes": 62387011,
+  "failure_count": 0,
+  "single_thread": true
+}

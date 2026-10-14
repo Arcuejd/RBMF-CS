@@ -1,0 +1,16 @@
+{
+  "wall_seconds": 1.372105600003124,
+  "peak_working_set_bytes": 99651584,
+  "work_units": 408,
+  "point_rows": 120,
+  "interval_rows": 288,
+  "output_bytes": 3931823,
+  "single_thread": true,
+  "full_estimate": {
+    "work_multiplier": 30,
+    "conservative_wall_seconds": 82.32633600018744,
+    "conservative_disk_bytes": 235909380,
+    "conservative_peak_bytes": 298954752,
+    "status": "estimate_only_user_confirmation_required"
+  }
+}

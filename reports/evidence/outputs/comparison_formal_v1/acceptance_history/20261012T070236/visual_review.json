@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "review_method": "each actual PDF rendered and visually inspected",
+  "checks": [
+    "titles/labels readable",
+    "no clipped legends",
+    "shared spatial field color limits",
+    "shared symmetric spatial error limits",
+    "prespecified spatial sample",
+    "node markers readable"
+  ],
+  "interpretation": "zoomed deployment axes show tiny differences; not a practical superiority claim",
+  "figures": [
+    {
+      "figure": "ablations",
+      "pdf_sha256": "1d3c5d85b738e85e20978cf93068bbef96fea55878f126fc5ab8aa3e77d18d38",
+      "rendered_png_sha256": "c27a1ba8397aca5a8b7711b72363ef75a11a8d4e51a205eb12def7617dbc18aa"
+    },
+    {
+      "figure": "accuracy_cost",
+      "pdf_sha256": "358ad1f5a32380d2da69949d9442ecbba534805ef28396adfc4a3dbdc398ee59",
+      "rendered_png_sha256": "a09d3fca507d83f716b9673e92d4aa311fce86789c0d95717b9fcfc2a7fb40a8"
+    },
+    {
+      "figure": "calibration",
+      "pdf_sha256": "d8623af5e4f0de8a3a8f83c83e6260a70ceec9593f3c987dd20dd45c2d1a8898",
+      "rendered_png_sha256": "ec07b5673061f2696d1b600c89227d23ed5a464abf31da1f7a310626ce434ee2"
+    },
+    {
+      "figure": "error_nodes_deployment",
+      "pdf_sha256": "52a5d056d9481f0c18f3b315df3fb9880e48baa547e281d49b5ecc2363accedd",
+      "rendered_png_sha256": "5a5514fd2fd071441f7e21efde5156a17c61a68f6eec5581f609e236fd19bda6"
+    },
+    {
+      "figure": "error_nodes_reconstruction",
+      "pdf_sha256": "bf56116a93dec75d3ec9d1a307da57879fdf05113e246ad1c49785c492d5940f",
+      "rendered_png_sha256": "3b6815e4f29fe78f87b0ed1bbef4adf3c6410cb02c3beceb5807be0a74285f35"
+    },
+    {
+      "figure": "robustness_deployment",
+      "pdf_sha256": "910b96d5cfb07f3ecc12d08f649bf958bf1dcf6b345844ec9ce49d28928a80e3",
+      "rendered_png_sha256": "8811041fae11a30b40156a218856f2b105e143fdbc2a659332850611eba188b7"
+    },
+    {
+      "figure": "robustness_reconstruction",
+      "pdf_sha256": "f6f95c5ee914c0f9b7da317b265d255092a93378e662216dc3bfd3f34ae4d120",
+      "rendered_png_sha256": "bf799f36345402c9f48d0a4aaf6948881a7209e2fae33f8d222171fce11e19e3"
+    },
+    {
+      "figure": "spatial_common_scale",
+      "pdf_sha256": "6078e449d8c63dc1aff3a835f2a03dd979a731e5ac96f6876d8a992507c858ec",
+      "rendered_png_sha256": "84c1bc146e6d6ac5e887711a90e4c11eac5daa324a7c6a6e7e8922743be0d031"
+    },
+    {
+      "figure": "spatial_error_common_scale",
+      "pdf_sha256": "0b3c49176c966534728ea260a52b068735fcaab358ee55af19a1b8ad8b829ff7",
+      "rendered_png_sha256": "4e857e3006e892aaf4216315c71367502f8232be72132a31d76e5c45dec259cd"
+    }
+  ]
+}

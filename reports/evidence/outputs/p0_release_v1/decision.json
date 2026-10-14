@@ -1,0 +1,11 @@
+{
+  "successful_rbmf_revision": null,
+  "independent_test_recommended_now": false,
+  "reasons": [
+    "No deployable RBMF single-mechanism candidate meets preregistered improvement and budget thresholds",
+    "Paired test LF/ice, version baseline audit and final method freeze incomplete"
+  ],
+  "retained_numerical_variant": "factor_stop; stricter convergence reporting, no accuracy claim",
+  "retained_prior_candidate": "ard_b1; negative practical-effect result; not promoted",
+  "no_combined_model_search": true
+}

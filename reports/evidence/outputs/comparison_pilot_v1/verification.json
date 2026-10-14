@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": 9250,
+  "recomputed_predictions": 1160,
+  "repeated_arrays": 0,
+  "errors": [],
+  "warnings": [],
+  "root_config_sha256": "7023febc375da2cdeea4b745691022d4921ea11a15b3457d7585330e58754ece",
+  "source_sha256": "5c322a4af79ccda5eba24cfaa160ef0d6e56d7b8c22b4a5a35f24c5e8a8978aa",
+  "scope": "artifact integrity; algorithm unit tests are separate",
+  "repeat": null
+}

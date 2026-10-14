@@ -1,0 +1,18 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+167 
+ 
+2 已投稿论文 
+ Qiannan Zhang , Huafeng Wu*, Li’nian Liang, Yuxuan Zhang, Feng Wang , Kuan -
+Ching Li. Joint Sparse Sensor Selection for Reconstruction of Oceanic Multi-Physical 
+Quantities Using Autoencoders. 第五章相关  
+3 参与的科研项目 
+（1） 极地态势感知集群系统最优动态部署理论与关键技术 ，国家自然科学基
+金委员会，重点项目，52331012。 
+（2） 基于动态自适应成簇的海洋传感网智能数据预测与重构，国家自然科学
+基金委员会，面上项目，52071200。 
+（3） 基于浮标物联网的沿海气象监测预警系统及其船舶助航应用 ，上海市科
+学技术委员会重点项目，18040501700。 
+4 博士期间获奖情况 
+（1） 研究生优秀成果一等奖，上海海事大学，2024 年。 
+（2） 高等院校发明选拔赛优秀奖，上海发明协会，2023 年。 
+ 

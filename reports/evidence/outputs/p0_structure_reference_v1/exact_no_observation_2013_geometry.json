@@ -1,0 +1,110 @@
+[
+  {
+    "date": 201301,
+    "fixed_gamma": 1.0,
+    "fixed_delta": 1.0,
+    "rho_mean": 0.002277792799756291,
+    "rho_variance": 0.002277792799756291,
+    "extra_rho_precision": 438.0214948905772,
+    "orthogonal_lf_energy": 199.77263340834855
+  },
+  {
+    "date": 201302,
+    "fixed_gamma": 1.0,
+    "fixed_delta": 1.0,
+    "rho_mean": 0.0020417910102482474,
+    "rho_variance": 0.0020417910102482474,
+    "extra_rho_precision": 488.766090153574,
+    "orthogonal_lf_energy": 237.9696323449078
+  },
+  {
+    "date": 201303,
+    "fixed_gamma": 1.0,
+    "fixed_delta": 1.0,
+    "rho_mean": 0.0024686534404209522,
+    "rho_variance": 0.0024686534404209522,
+    "extra_rho_precision": 404.0791348944796,
+    "orthogonal_lf_energy": 141.54180101604848
+  },
+  {
+    "date": 201304,
+    "fixed_gamma": 1.0,
+    "fixed_delta": 1.0,
+    "rho_mean": 0.002149760619368422,
+    "rho_variance": 0.002149760619368422,
+    "extra_rho_precision": 464.1680708030599,
+    "orthogonal_lf_energy": 137.7095566085595
+  },
+  {
+    "date": 201305,
+    "fixed_gamma": 1.0,
+    "fixed_delta": 1.0,
+    "rho_mean": 0.0027275229369988795,
+    "rho_variance": 0.0027275229369988795,
+    "extra_rho_precision": 365.6330304449465,
+    "orthogonal_lf_energy": 156.39538148434536
+  },
+  {
+    "date": 201306,
+    "fixed_gamma": 1.0,
+    "fixed_delta": 1.0,
+    "rho_mean": 0.002615587433092087,
+    "rho_variance": 0.002615587433092087,
+    "extra_rho_precision": 381.3232927900342,
+    "orthogonal_lf_energy": 186.40238996829297
+  },
+  {
+    "date": 201307,
+    "fixed_gamma": 1.0,
+    "fixed_delta": 1.0,
+    "rho_mean": 0.001868415822564353,
+    "rho_variance": 0.001868415822564353,
+    "extra_rho_precision": 534.2127657683425,
+    "orthogonal_lf_energy": 244.01124578185477
+  },
+  {
+    "date": 201308,
+    "fixed_gamma": 1.0,
+    "fixed_delta": 1.0,
+    "rho_mean": 0.0013206528529346154,
+    "rho_variance": 0.0013206528529346154,
+    "extra_rho_precision": 756.2012567707749,
+    "orthogonal_lf_energy": 309.46234371511326
+  },
+  {
+    "date": 201309,
+    "fixed_gamma": 1.0,
+    "fixed_delta": 1.0,
+    "rho_mean": 0.0010351424613052607,
+    "rho_variance": 0.0010351424613052607,
+    "extra_rho_precision": 965.0506040289876,
+    "orthogonal_lf_energy": 369.47615221764767
+  },
+  {
+    "date": 201310,
+    "fixed_gamma": 1.0,
+    "fixed_delta": 1.0,
+    "rho_mean": 0.0013381534435145742,
+    "rho_variance": 0.0013381534435145742,
+    "extra_rho_precision": 746.2984543338798,
+    "orthogonal_lf_energy": 259.44119245521415
+  },
+  {
+    "date": 201311,
+    "fixed_gamma": 1.0,
+    "fixed_delta": 1.0,
+    "rho_mean": 0.0011119862848988625,
+    "rho_variance": 0.0011119862848988625,
+    "extra_rho_precision": 898.2916671548265,
+    "orthogonal_lf_energy": 194.28369002046307
+  },
+  {
+    "date": 201312,
+    "fixed_gamma": 1.0,
+    "fixed_delta": 1.0,
+    "rho_mean": 0.0011154125715606116,
+    "rho_variance": 0.0011154125715606116,
+    "extra_rho_precision": 895.5292533872611,
+    "orthogonal_lf_energy": 167.2326970886137
+  }
+]

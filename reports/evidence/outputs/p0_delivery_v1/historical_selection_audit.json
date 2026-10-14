@@ -1,0 +1,47 @@
+[
+  {
+    "method": "pod_ridge",
+    "candidates": 30,
+    "invalid": 0,
+    "selected_index": 14,
+    "selected_score": 0.3910034547747002,
+    "matches_archived_selection": true,
+    "total_historical_seconds": 0.5181445999987773
+  },
+  {
+    "method": "pod_lasso",
+    "candidates": 30,
+    "invalid": 10,
+    "selected_index": 15,
+    "selected_score": 0.40650206260000815,
+    "matches_archived_selection": true,
+    "total_historical_seconds": 1433.4362208999664
+  },
+  {
+    "method": "deterministic_mf",
+    "candidates": 30,
+    "invalid": 0,
+    "selected_index": 2,
+    "selected_score": 0.6857564724383157,
+    "matches_archived_selection": true,
+    "total_historical_seconds": 0.5242216999758966
+  },
+  {
+    "method": "gaussian_sbl_vb",
+    "candidates": 15,
+    "invalid": 0,
+    "selected_index": 0,
+    "selected_score": 0.4199206996343193,
+    "matches_archived_selection": true,
+    "total_historical_seconds": 91.97519700000703
+  },
+  {
+    "method": "rbmf",
+    "candidates": 45,
+    "invalid": 0,
+    "selected_index": 33,
+    "selected_score": 0.45678469097639,
+    "matches_archived_selection": true,
+    "total_historical_seconds": 91.94391010002437
+  }
+]

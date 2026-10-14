@@ -1,0 +1,5 @@
+Failed to find real location of D:\python\python.exe
+----------------------------------------------------------------------
+Ran 69 tests in 3.131s
+
+OK

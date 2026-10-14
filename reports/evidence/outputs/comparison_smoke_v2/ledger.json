@@ -1,0 +1,14 @@
+[
+  {
+    "id": "201401_clean_s000",
+    "date": 201401,
+    "scenario": "clean",
+    "seed": 0,
+    "status": "completed",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "Failed to find real location of D:\\python\\python.exe\n",
+    "method_failures": 0,
+    "wall_seconds": 9.711701300000641
+  }
+]

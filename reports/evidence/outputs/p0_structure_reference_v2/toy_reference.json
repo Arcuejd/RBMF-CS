@@ -1,0 +1,649 @@
+[
+  {
+    "perpendicular_norm": 0.0,
+    "observations": 0,
+    "quadrature": [
+      {
+        "nodes": 512,
+        "alpha_limit": null,
+        "rho_limit": null,
+        "unbounded": true,
+        "log_evidence": -48.064269710250045,
+        "moments": [
+          1.132412724889491,
+          0.33339032982683614,
+          8.046955000494265,
+          0.546956899244859,
+          1.9498242299865471
+        ],
+        "mean_alpha": 1.132412724889491,
+        "mean_rho": 0.33339032982683614,
+        "cov_alpha_rho": 1.5722887781355335,
+        "prob_abs_alpha_below_0p5": 0.4335245805125932
+      },
+      {
+        "nodes": 1024,
+        "alpha_limit": null,
+        "rho_limit": null,
+        "unbounded": true,
+        "log_evidence": -48.06426971025008,
+        "moments": [
+          1.132412724889464,
+          0.33339032982683026,
+          8.046955000494009,
+          0.5469568992448444,
+          1.9498242299864854
+        ],
+        "mean_alpha": 1.132412724889464,
+        "mean_rho": 0.33339032982683026,
+        "cov_alpha_rho": 1.5722887781354875,
+        "prob_abs_alpha_below_0p5": 0.4336364029953918
+      }
+    ],
+    "expanded": {
+      "moments": [
+        1.1324127313586045,
+        0.33339033146526714,
+        8.046954873922436,
+        0.5469568913264726,
+        1.9498241983283682
+      ],
+      "log_evidence": -48.064269710574486,
+      "outer_error_estimate": 6.550030594145938e-09
+    },
+    "reference_passed": true,
+    "max_node_moment_change": 2.5579538487363607e-13,
+    "max_boundary_moment_change": 1.26571572778289e-07,
+    "fits": [
+      {
+        "family": "mf",
+        "init": "default",
+        "mean_alpha": 0.03555851990533083,
+        "mean_rho": 0.0751628216348475,
+        "elbo": -49.004782464739705,
+        "converged": true,
+        "elbo_gap_to_reference": 0.9405127544896246,
+        "coefficient_mean_error_to_reference": 1.0968542049841332,
+        "cross_covariance": 0.0
+      },
+      {
+        "family": "mf",
+        "init": "alternate",
+        "mean_alpha": 0.03555847042570563,
+        "mean_rho": 0.0751628097728803,
+        "elbo": -49.00478246473683,
+        "converged": true,
+        "elbo_gap_to_reference": 0.9405127544867469,
+        "coefficient_mean_error_to_reference": 1.0968542544637583,
+        "cross_covariance": 0.0
+      },
+      {
+        "family": "joint",
+        "init": "default",
+        "mean_alpha": 0.17929443588145713,
+        "mean_rho": 0.10849030810353766,
+        "elbo": -48.91186203045779,
+        "converged": true,
+        "elbo_gap_to_reference": 0.8475923202077098,
+        "coefficient_mean_error_to_reference": 0.9531182890080069,
+        "cross_covariance": 0.17929443588145713
+      },
+      {
+        "family": "joint",
+        "init": "alternate",
+        "mean_alpha": 0.17929452213741823,
+        "mean_rho": 0.10849032822822124,
+        "elbo": -48.9118620304581,
+        "converged": true,
+        "elbo_gap_to_reference": 0.8475923202080224,
+        "coefficient_mean_error_to_reference": 0.9531182027520457,
+        "cross_covariance": 0.17929452213741823
+      }
+    ]
+  },
+  {
+    "perpendicular_norm": 0.0,
+    "observations": 4,
+    "quadrature": [
+      {
+        "nodes": 512,
+        "alpha_limit": null,
+        "rho_limit": null,
+        "unbounded": true,
+        "log_evidence": -48.130832633540486,
+        "moments": [
+          3.916466522852069,
+          0.9805783497333198,
+          15.660029655409707,
+          1.0488978361781895,
+          3.9151095428872886
+        ],
+        "mean_alpha": 3.916466522852069,
+        "mean_rho": 0.9805783497333198,
+        "cov_alpha_rho": 0.07470726312321352,
+        "prob_abs_alpha_below_0p5": 2.097421546977956e-09
+      },
+      {
+        "nodes": 1024,
+        "alpha_limit": null,
+        "rho_limit": null,
+        "unbounded": true,
+        "log_evidence": -48.13083263354053,
+        "moments": [
+          3.916466522852093,
+          0.9805783497333261,
+          15.660029655409806,
+          1.048897836178197,
+          3.915109542887315
+        ],
+        "mean_alpha": 3.916466522852093,
+        "mean_rho": 0.9805783497333261,
+        "cov_alpha_rho": 0.07470726312319131,
+        "prob_abs_alpha_below_0p5": 2.1035365651072475e-09
+      }
+    ],
+    "expanded": {
+      "nodes": 1024,
+      "alpha_limit": null,
+      "rho_limit": null,
+      "unbounded": true,
+      "log_evidence": -48.13083263354053,
+      "moments": [
+        3.916466522852093,
+        0.9805783497333261,
+        15.660029655409806,
+        1.048897836178197,
+        3.915109542887315
+      ],
+      "mean_alpha": 3.916466522852093,
+      "mean_rho": 0.9805783497333261,
+      "cov_alpha_rho": 0.07470726312319131,
+      "prob_abs_alpha_below_0p5": 2.1035365651072475e-09
+    },
+    "reference_passed": true,
+    "max_node_moment_change": 9.947598300641403e-14,
+    "max_boundary_moment_change": 0.0,
+    "fits": [
+      {
+        "family": "mf",
+        "init": "default",
+        "mean_alpha": 3.919644675287874,
+        "mean_rho": 0.9812557171065691,
+        "elbo": -48.27623979042768,
+        "converged": true,
+        "elbo_gap_to_reference": 0.14540715688715267,
+        "coefficient_mean_error_to_reference": 0.003178152435781012,
+        "cross_covariance": 0.0
+      },
+      {
+        "family": "mf",
+        "init": "alternate",
+        "mean_alpha": 3.9196451479970693,
+        "mean_rho": 0.9812558273747911,
+        "elbo": -48.27623979042754,
+        "converged": true,
+        "elbo_gap_to_reference": 0.14540715688701056,
+        "coefficient_mean_error_to_reference": 0.0031786251449763547,
+        "cross_covariance": 0.0
+      },
+      {
+        "family": "joint",
+        "init": "default",
+        "mean_alpha": 3.919967564662134,
+        "mean_rho": 0.9813234453217925,
+        "elbo": -48.164234245496395,
+        "converged": true,
+        "elbo_gap_to_reference": 0.03340161195586688,
+        "coefficient_mean_error_to_reference": 0.0035010418100411833,
+        "cross_covariance": 0.07184062599155745
+      },
+      {
+        "family": "joint",
+        "init": "alternate",
+        "mean_alpha": 3.9199675770055964,
+        "mean_rho": 0.9813234483559102,
+        "elbo": -48.16423424549639,
+        "converged": true,
+        "elbo_gap_to_reference": 0.03340161195585978,
+        "coefficient_mean_error_to_reference": 0.0035010541535034356,
+        "cross_covariance": 0.07184062563769855
+      }
+    ]
+  },
+  {
+    "perpendicular_norm": 4.0,
+    "observations": 0,
+    "quadrature": [
+      {
+        "nodes": 512,
+        "alpha_limit": null,
+        "rho_limit": null,
+        "unbounded": true,
+        "log_evidence": -48.79453488766023,
+        "moments": [
+          0.08687183777559775,
+          0.04717619928251912,
+          0.7400393608619316,
+          0.04965461694895561,
+          0.09227444709169677
+        ],
+        "mean_alpha": 0.08687183777559775,
+        "mean_rho": 0.04717619928251912,
+        "cov_alpha_rho": 0.0881761639607565,
+        "prob_abs_alpha_below_0p5": 0.629366446814885
+      },
+      {
+        "nodes": 1024,
+        "alpha_limit": null,
+        "rho_limit": null,
+        "unbounded": true,
+        "log_evidence": -48.794534887660255,
+        "moments": [
+          0.0868718377755977,
+          0.04717619928251935,
+          0.7400393608619309,
+          0.04965461694895581,
+          0.0922744470916967
+        ],
+        "mean_alpha": 0.0868718377755977,
+        "mean_rho": 0.04717619928251935,
+        "cov_alpha_rho": 0.0881761639607564,
+        "prob_abs_alpha_below_0p5": 0.6295215056012526
+      }
+    ],
+    "expanded": {
+      "nodes": 1024,
+      "alpha_limit": null,
+      "rho_limit": null,
+      "unbounded": true,
+      "log_evidence": -48.794534887660255,
+      "moments": [
+        0.0868718377755977,
+        0.04717619928251935,
+        0.7400393608619309,
+        0.04965461694895581,
+        0.0922744470916967
+      ],
+      "mean_alpha": 0.0868718377755977,
+      "mean_rho": 0.04717619928251935,
+      "cov_alpha_rho": 0.0881761639607564,
+      "prob_abs_alpha_below_0p5": 0.6295215056012526
+    },
+    "reference_passed": true,
+    "max_node_moment_change": 6.661338147750939e-16,
+    "max_boundary_moment_change": 0.0,
+    "fits": [
+      {
+        "family": "mf",
+        "init": "default",
+        "mean_alpha": 0.016924817838977434,
+        "mean_rho": 0.03663423708151078,
+        "elbo": -49.35355023499899,
+        "converged": true,
+        "elbo_gap_to_reference": 0.559015347338736,
+        "coefficient_mean_error_to_reference": 0.06994701993662027,
+        "cross_covariance": 0.0
+      },
+      {
+        "family": "mf",
+        "init": "alternate",
+        "mean_alpha": 0.01692486505780511,
+        "mean_rho": 0.03663424315206059,
+        "elbo": -49.353550235006146,
+        "converged": true,
+        "elbo_gap_to_reference": 0.5590153473458912,
+        "coefficient_mean_error_to_reference": 0.0699469727177926,
+        "cross_covariance": 0.0
+      },
+      {
+        "family": "joint",
+        "init": "default",
+        "mean_alpha": 0.022091992200533903,
+        "mean_rho": 0.03722398581695107,
+        "elbo": -49.321161406680396,
+        "converged": true,
+        "elbo_gap_to_reference": 0.5266265190201409,
+        "coefficient_mean_error_to_reference": 0.0647798455750638,
+        "cross_covariance": 0.022091992200533903
+      },
+      {
+        "family": "joint",
+        "init": "alternate",
+        "mean_alpha": 0.022091971842313374,
+        "mean_rho": 0.03722398327487922,
+        "elbo": -49.32116140667851,
+        "converged": true,
+        "elbo_gap_to_reference": 0.526626519018258,
+        "coefficient_mean_error_to_reference": 0.06477986593328433,
+        "cross_covariance": 0.022091971842313374
+      }
+    ]
+  },
+  {
+    "perpendicular_norm": 4.0,
+    "observations": 4,
+    "quadrature": [
+      {
+        "nodes": 512,
+        "alpha_limit": null,
+        "rho_limit": null,
+        "unbounded": true,
+        "log_evidence": -51.406147439185055,
+        "moments": [
+          3.503846815983168,
+          0.4613852071014892,
+          12.577318023772206,
+          0.25918254057649875,
+          1.6530984267234978
+        ],
+        "mean_alpha": 3.503846815983168,
+        "mean_rho": 0.4613852071014892,
+        "cov_alpha_rho": 0.0364753378792102,
+        "prob_abs_alpha_below_0p5": 3.6380281696764755e-08
+      },
+      {
+        "nodes": 1024,
+        "alpha_limit": null,
+        "rho_limit": null,
+        "unbounded": true,
+        "log_evidence": -51.406147439185084,
+        "moments": [
+          3.503846815983165,
+          0.4613852071014888,
+          12.577318023772182,
+          0.2591825405764983,
+          1.6530984267234947
+        ],
+        "mean_alpha": 3.503846815983165,
+        "mean_rho": 0.4613852071014888,
+        "cov_alpha_rho": 0.0364753378792102,
+        "prob_abs_alpha_below_0p5": 3.648287351193047e-08
+      }
+    ],
+    "expanded": {
+      "nodes": 1024,
+      "alpha_limit": null,
+      "rho_limit": null,
+      "unbounded": true,
+      "log_evidence": -51.406147439185084,
+      "moments": [
+        3.503846815983165,
+        0.4613852071014888,
+        12.577318023772182,
+        0.2591825405764983,
+        1.6530984267234947
+      ],
+      "mean_alpha": 3.503846815983165,
+      "mean_rho": 0.4613852071014888,
+      "cov_alpha_rho": 0.0364753378792102,
+      "prob_abs_alpha_below_0p5": 3.648287351193047e-08
+    },
+    "reference_passed": true,
+    "max_node_moment_change": 2.3092638912203256e-14,
+    "max_boundary_moment_change": 0.0,
+    "fits": [
+      {
+        "family": "mf",
+        "init": "default",
+        "mean_alpha": 3.5069459661724816,
+        "mean_rho": 0.46069410453157317,
+        "elbo": -51.506251935152505,
+        "converged": true,
+        "elbo_gap_to_reference": 0.10010449596742177,
+        "coefficient_mean_error_to_reference": 0.003099150189316724,
+        "cross_covariance": 0.0
+      },
+      {
+        "family": "mf",
+        "init": "alternate",
+        "mean_alpha": 3.5069464785565767,
+        "mean_rho": 0.4606941717783254,
+        "elbo": -51.50625193515259,
+        "converged": true,
+        "elbo_gap_to_reference": 0.10010449596750703,
+        "coefficient_mean_error_to_reference": 0.0030996625734118766,
+        "cross_covariance": 0.0
+      },
+      {
+        "family": "joint",
+        "init": "default",
+        "mean_alpha": 3.50615038960055,
+        "mean_rho": 0.46054499197268145,
+        "elbo": -51.45821706144366,
+        "converged": true,
+        "elbo_gap_to_reference": 0.05206962225857836,
+        "coefficient_mean_error_to_reference": 0.0023035736173850907,
+        "cross_covariance": 0.0333508112083406
+      },
+      {
+        "family": "joint",
+        "init": "alternate",
+        "mean_alpha": 3.5061505075380004,
+        "mean_rho": 0.46054500936937487,
+        "elbo": -51.458217061443676,
+        "converged": true,
+        "elbo_gap_to_reference": 0.052069622258592574,
+        "coefficient_mean_error_to_reference": 0.002303691554835563,
+        "cross_covariance": 0.03335081213182342
+      }
+    ]
+  },
+  {
+    "perpendicular_norm": 8.0,
+    "observations": 0,
+    "quadrature": [
+      {
+        "nodes": 512,
+        "alpha_limit": null,
+        "rho_limit": null,
+        "unbounded": true,
+        "log_evidence": -49.32670462577093,
+        "moments": [
+          0.024497234229942363,
+          0.016262948190130192,
+          0.49913031701018384,
+          0.016545169166275697,
+          0.02494875330054842
+        ],
+        "mean_alpha": 0.024497234229942363,
+        "mean_rho": 0.016262948190130192,
+        "cov_alpha_rho": 0.024550356049465382,
+        "prob_abs_alpha_below_0p5": 0.6731311224909329
+      },
+      {
+        "nodes": 1024,
+        "alpha_limit": null,
+        "rho_limit": null,
+        "unbounded": true,
+        "log_evidence": -49.326704625770944,
+        "moments": [
+          0.024497234229942037,
+          0.01626294819013008,
+          0.49913031701017746,
+          0.016545169166275558,
+          0.02494875330054807
+        ],
+        "mean_alpha": 0.024497234229942037,
+        "mean_rho": 0.01626294819013008,
+        "cov_alpha_rho": 0.024550356049465042,
+        "prob_abs_alpha_below_0p5": 0.6732924303721423
+      }
+    ],
+    "expanded": {
+      "nodes": 1024,
+      "alpha_limit": null,
+      "rho_limit": null,
+      "unbounded": true,
+      "log_evidence": -49.326704625770944,
+      "moments": [
+        0.024497234229942037,
+        0.01626294819013008,
+        0.49913031701017746,
+        0.016545169166275558,
+        0.02494875330054807
+      ],
+      "mean_alpha": 0.024497234229942037,
+      "mean_rho": 0.01626294819013008,
+      "cov_alpha_rho": 0.024550356049465042,
+      "prob_abs_alpha_below_0p5": 0.6732924303721423
+    },
+    "reference_passed": true,
+    "max_node_moment_change": 6.38378239159465e-15,
+    "max_boundary_moment_change": 0.0,
+    "fits": [
+      {
+        "family": "mf",
+        "init": "default",
+        "mean_alpha": 0.006638817392153324,
+        "mean_rho": 0.014457380916801819,
+        "elbo": -49.81229353633033,
+        "converged": true,
+        "elbo_gap_to_reference": 0.485588910559386,
+        "coefficient_mean_error_to_reference": 0.017858416837788715,
+        "cross_covariance": 0.0
+      },
+      {
+        "family": "mf",
+        "init": "alternate",
+        "mean_alpha": 0.006638814158995555,
+        "mean_rho": 0.014457380729132285,
+        "elbo": -49.812293536329115,
+        "converged": true,
+        "elbo_gap_to_reference": 0.485588910558171,
+        "coefficient_mean_error_to_reference": 0.01785842007094648,
+        "cross_covariance": 0.0
+      },
+      {
+        "family": "joint",
+        "init": "default",
+        "mean_alpha": 0.0072283130013864145,
+        "mean_rho": 0.014481473959447327,
+        "elbo": -49.800362316940834,
+        "converged": true,
+        "elbo_gap_to_reference": 0.4736576911698904,
+        "coefficient_mean_error_to_reference": 0.017268921228555622,
+        "cross_covariance": 0.007228313001386415
+      },
+      {
+        "family": "joint",
+        "init": "alternate",
+        "mean_alpha": 0.007228314767266715,
+        "mean_rho": 0.01448147405918395,
+        "elbo": -49.8003623169415,
+        "converged": true,
+        "elbo_gap_to_reference": 0.47365769117055834,
+        "coefficient_mean_error_to_reference": 0.017268919462675322,
+        "cross_covariance": 0.007228314767266715
+      }
+    ]
+  },
+  {
+    "perpendicular_norm": 8.0,
+    "observations": 4,
+    "quadrature": [
+      {
+        "nodes": 512,
+        "alpha_limit": null,
+        "rho_limit": null,
+        "unbounded": true,
+        "log_evidence": -53.32269105708807,
+        "moments": [
+          3.310151013925907,
+          0.18066470031627893,
+          11.251614445652223,
+          0.05160803817708512,
+          0.6129565784884726
+        ],
+        "mean_alpha": 3.310151013925907,
+        "mean_rho": 0.18066470031627893,
+        "cov_alpha_rho": 0.014929137555921845,
+        "prob_abs_alpha_below_0p5": 1.4909435043557817e-07
+      },
+      {
+        "nodes": 1024,
+        "alpha_limit": null,
+        "rho_limit": null,
+        "unbounded": true,
+        "log_evidence": -53.32269105708809,
+        "moments": [
+          3.3101510139258856,
+          0.18066470031627765,
+          11.251614445652145,
+          0.05160803817708476,
+          0.612956578488468
+        ],
+        "mean_alpha": 3.3101510139258856,
+        "mean_rho": 0.18066470031627765,
+        "cov_alpha_rho": 0.014929137555925176,
+        "prob_abs_alpha_below_0p5": 1.4950589211583567e-07
+      }
+    ],
+    "expanded": {
+      "nodes": 1024,
+      "alpha_limit": null,
+      "rho_limit": null,
+      "unbounded": true,
+      "log_evidence": -53.32269105708809,
+      "moments": [
+        3.3101510139258856,
+        0.18066470031627765,
+        11.251614445652145,
+        0.05160803817708476,
+        0.612956578488468
+      ],
+      "mean_alpha": 3.3101510139258856,
+      "mean_rho": 0.18066470031627765,
+      "cov_alpha_rho": 0.014929137555925176,
+      "prob_abs_alpha_below_0p5": 1.4950589211583567e-07
+    },
+    "reference_passed": true,
+    "max_node_moment_change": 7.815970093361102e-14,
+    "max_boundary_moment_change": 0.0,
+    "fits": [
+      {
+        "family": "mf",
+        "init": "default",
+        "mean_alpha": 3.3116593457167434,
+        "mean_rho": 0.17994002771020182,
+        "elbo": -53.409613643303935,
+        "converged": true,
+        "elbo_gap_to_reference": 0.08692258621584159,
+        "coefficient_mean_error_to_reference": 0.001508331790857742,
+        "cross_covariance": 0.0
+      },
+      {
+        "family": "mf",
+        "init": "alternate",
+        "mean_alpha": 3.3116598087434785,
+        "mean_rho": 0.1799400560771251,
+        "elbo": -53.40961364330391,
+        "converged": true,
+        "elbo_gap_to_reference": 0.08692258621582027,
+        "coefficient_mean_error_to_reference": 0.0015087948175929178,
+        "cross_covariance": 0.0
+      },
+      {
+        "family": "joint",
+        "init": "default",
+        "mean_alpha": 3.3112421015008238,
+        "mean_rho": 0.1799064117345565,
+        "elbo": -53.391423407146554,
+        "converged": true,
+        "elbo_gap_to_reference": 0.06873235005846112,
+        "coefficient_mean_error_to_reference": 0.0010910875749381432,
+        "cross_covariance": 0.0129663086802477
+      },
+      {
+        "family": "joint",
+        "init": "alternate",
+        "mean_alpha": 3.3112423105973785,
+        "mean_rho": 0.1799064255249364,
+        "elbo": -53.39142340714663,
+        "converged": true,
+        "elbo_gap_to_reference": 0.06873235005853928,
+        "coefficient_mean_error_to_reference": 0.0010912966714928807,
+        "cross_covariance": 0.01296630944367571
+      }
+    ]
+  }
+]

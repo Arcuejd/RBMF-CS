@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "accepted_utc": "2026-10-12T07:02:37.863353+00:00",
+  "planned_cases": 1200,
+  "recorded_cases": 1200,
+  "numerical_verification_checks": 1558811,
+  "recomputed_predictions": 199200,
+  "artifact_verification_checks": 18370,
+  "visual_review_passed": true,
+  "figures": 9,
+  "evaluation_label": "exploratory_2014_no_unseen_paired_test_data",
+  "reference_field": "IAP gridded temperature; simulated sensor acquisitions",
+  "validation_verification_sha256": "d6c06d45c97e52d940f44c3dd15d587646459690181b9db2ab611f04c272e579",
+  "pilot_repeat_verification_sha256": "668e454704bd86e38c2c0d72d5963c525d651419b18ed3d181de4d0a5ba6c65d",
+  "source_archive_sha256": "dc6a48faa2f223a575bf4f84e7a22da69749287884fa2b914af1620e042660b8",
+  "final_analysis_sources": {
+    "scripts/report_comparison_formal.py": "3e7f81ee44de080cea522fb0e314e7795d7287b63c62345259f67fab67aa7f3e",
+    "scripts/plot_comparison.py": "843b71c4ce4d8a883b2f63bf831b9d281f48abe017f25d00e325a0eb78d58de2",
+    "scripts/diagnose_saved_comparison.py": "6a66366621f5f7f2860cf297f4dfb98ef09a1a0d0ace946a8372c00f53bd99f8",
+    "scripts/audit_comparison_artifacts.py": "243276ed0a9b50a5a32b3fa410b002a14e465683f9b8cddc3ae913a9e55955e1",
+    "scripts/record_comparison_acceptance.py": "c0bbddbacf7718940177d87e55fe2de1d2eb9aecb9523b6767d3efe2ecf08bc7",
+    "src/rbmf_cs/comparison_statistics.py": "bf2999fed2d975eee43079261f13340b1ddcaff4a7d97ca71ec915eeb30e7937"
+  },
+  "report_sha256": "211ba0579da1cf121b8b5bd670a1075723229faa1ea783dac631bab0b5ef4318",
+  "visual_review_sha256": "3bb4a6f8bb42881f411c1b3619595ecc122832aa721f3f4ef88321ba0bec205d",
+  "artifact_verification_sha256": "a858303471bf74bc8353f5d3134e07e390683b50822677b61e3d11849674124c",
+  "figures_bundle_sha256": "97f93b277a39f770eda4b7df32b610cadb153d5b63a84330128e4a9c2c0c14b8",
+  "note": "all completed cases reused; no experiments rerun during final review"
+}

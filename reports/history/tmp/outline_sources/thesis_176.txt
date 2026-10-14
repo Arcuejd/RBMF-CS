@@ -1,0 +1,36 @@
+上海海事大学博士学位论文                                                   鲁棒熵权驱动的海洋感知节点稀疏部署优化与极地应用 
+161 
+ 
+[134] Candè s E J, Li X, Ma Y , et al. Robust principal component analysis?[J]. Journal of 
+the ACM, 2011, 58(3): Article 11. 
+[135] Cai D, He X, Han J. Spectral Regression: A Unified Approach for Sparse Subspace 
+Learning[C]. Seventh IEEE International Conference on Data Mining (ICDM 2007), 
+Omaha, NE, USA, 2007: 73-82.  
+[136] Zhou N, Xu Y , Cheng H, et al. Global and local structure preserving sparse subspace 
+learning: An iterative approach to unsupervised feature selection[J]. Pattern 
+Recognition, 2016, 53: 87-101. 
+[137] Wang S, Pedrycz W, Zhu Q, et al. Subspace learning for unsupervised feature 
+selection via matrix factorization[J]. Pattern Recognition, 2015, 48(1): 10-19. 
+[138] Ching W -K, Chu D, Liao L -Z, et al. Regularized orthogonal linear discriminant 
+analysis[J]. Pattern Recognition, 2012, 45(7): 2719-2732. 
+[139] Zhang L, Qiao L, Chen S. Graph-optimized locality preserving projections[J]. Pattern 
+Recognition, 2010, 43(6): 1993-2002. 
+[140] He X, Cai D, Yan S, et al. Neighborhood preserving embedding[ C]//Tenth IEEE 
+International Conference on Computer Vision (ICCV'05) V olume 1, Beijing, China, 
+2005, 2: 1208-1213.   
+[141] Luo J, Jiao L, Liu F, et al. A Pareto -Based Sparse Subspace Learning Framework[J]. 
+IEEE Transactions on Cybernetics, 2019, 49(11): 3859-3872. 
+[142] Peherstorfer B, Drmaˇ Z, Gugercin S. Stability of discrete empirical interpolation and 
+gappy proper orthogonal decomposition with randomized and deterministic sampling 
+points[J]. SIAM Journal on Scientific Computing, 2020, 42(5): A2837-A2864. 
+[143] Emily Clark, Steven L. Brunton, Kutz J N. Multi -fidelity sensor selection -Greedy 
+algorithms to place cheap and expensive sensors with cost constraints[J]. IEEE 
+Sensors Journal, 2020, 21(1): 600-611. 
+[144] Ghayem F, Rivet B, Farias R C, et al. Robust Sensor Placement for Signal 
+Extraction[J]. IEEE Transactions on Signal Processing, 2021, 69: 4513-4528. 
+[145] Guo X, Lin Z. Low -Rank Matrix Recovery Via Robust Outlier Estimation[J]. IEEE 
+Transactions on Image Processing, 2018, 27(11): 5316 - 5327. 
+[146] Xu Y , Yin W. A Block Coordinate Descent Method for Regularized Multiconvex 
+Optimization with Applications to Nonnegative Tensor Factorization and 
+Completion[J]. SIAM Journal on Imaging Sciences, 2013, 6(3): 1758-1789. 
+[147] Xu Y . Alternating proximal gradient method for sparse nonnegative Tucker 
